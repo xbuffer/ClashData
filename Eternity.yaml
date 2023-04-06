@@ -12,6 +12,7 @@ proxies:
   - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港, server: hk1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk}
   - {name: 🇭🇰 _HK_香港 2 2, server: hksk2.edgehelper.com, port: 33980, type: vmess, uuid: 2b917127-3c16-431d-8196-5406d4386b46, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hksk2.edgehelper.com}}}
   - {name: 🇭🇰 _HK_香港 3 2, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: jpgithub.edgehelper.com, port: 53900, type: vmess, uuid: 2b917127-3c16-431d-8196-5406d4386b46, alterId: 2, cipher: auto, tls: true}
   - {name: 🇺🇸 _US_美国 7 2, server: 23.247.137.71, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv}
   - {name: 🇺🇸 _US_美国 8 2, server: 23.224.191.5, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 _US_美国 9 2, server: 158.101.7.8, port: 80, type: vmess, uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -45,6 +46,7 @@ proxy-groups:
       - 🇭🇰 _US_美国->🇭🇰_HK_香港
       - 🇭🇰 _HK_香港 2 2
       - 🇭🇰 _HK_香港 3 2
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇺🇸 _US_美国 7 2
       - 🇺🇸 _US_美国 8 2
       - 🇺🇸 _US_美国 9 2
@@ -113,6 +115,7 @@ proxy-groups:
       - 🇭🇰 _US_美国->🇭🇰_HK_香港
       - 🇭🇰 _HK_香港 2 2
       - 🇭🇰 _HK_香港 3 2
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇺🇸 _US_美国 7 2
       - 🇺🇸 _US_美国 8 2
       - 🇺🇸 _US_美国 9 2
@@ -137,6 +140,7 @@ proxy-groups:
       - 🇭🇰 _US_美国->🇭🇰_HK_香港
       - 🇭🇰 _HK_香港 2 2
       - 🇭🇰 _HK_香港 3 2
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇺🇸 _US_美国 7 2
       - 🇺🇸 _US_美国 8 2
       - 🇺🇸 _US_美国 9 2
@@ -177,6 +181,7 @@ proxy-groups:
       - 🇭🇰 _US_美国->🇭🇰_HK_香港
       - 🇭🇰 _HK_香港 2 2
       - 🇭🇰 _HK_香港 3 2
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇭🇰 _US_美国->🇭🇰_HK_香港 2
   - name: 🌍 其它地区
     type: url-test
@@ -227,7 +232,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
