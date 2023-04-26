@@ -1,0 +1,291 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies: ~
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🤘 手动选择
+      - ⚡ 故障转移
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🤘 手动选择
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🏳️‍🌈 国家选择
+    type: select
+    proxies:
+      - 美国
+      - 香港
+      - 狮城
+      - 日本
+      - 台湾
+      - 韩国
+  - name: 📺 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🧱 国内网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: ⚡ 故障转移
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🌎 北美地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 🌏 东亚地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 🌍 其它地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 美国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 香港
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 狮城
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 日本
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 台湾
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 韩国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+rules:
+ - DOMAIN,asusrouter.com,DIRECT
+ - DOMAIN,instant.arubanetworks.com,DIRECT
+ - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,setmeup.arubanetworks.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
+ - DOMAIN,www.mifiwi.com,DIRECT
+ - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,0.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,10.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.51.198.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,101.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,102.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,103.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,104.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,105.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,106.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,107.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,108.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,109.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,110.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,111.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,112.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.0.203.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,114.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,115.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,116.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,117.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,118.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,119.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,120.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,121.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,122.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,123.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,124.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,125.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,126.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,16.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,168.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,17.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,18.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,19.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,2.0.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,20.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,21.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,22.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,23.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,24.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,25.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,254.169.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,255.255.255.255.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,26.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,27.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,28.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,29.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,30.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,31.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,64.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,65.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,66.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,67.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,68.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,69.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,70.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,71.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,72.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,73.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,74.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,75.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,76.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,77.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,78.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,79.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.b.d.0.1.0.0.2.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,80.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,81.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,82.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,83.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,84.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,85.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,86.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,87.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,88.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,89.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,9.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,90.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,91.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,92.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,93.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,94.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,95.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,96.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,97.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,98.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,99.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,a.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,acl4.ssr,DIRECT
+ - DOMAIN-SUFFIX,b.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,captive.apple.com,DIRECT
+ - DOMAIN-SUFFIX,connectivitycheck.gstatic.com,DIRECT
+ - DOMAIN-SUFFIX,d.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,hiwifi.com,DIRECT
+ - DOMAIN-SUFFIX,home.arpa,DIRECT
+ - DOMAIN-SUFFIX,leike.cc,DIRECT
+ - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT
+ - DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
+ - DOMAIN-SUFFIX,miwifi.com,DIRECT
+ - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+ - DOMAIN-SUFFIX,msftncsi.com,DIRECT
+ - DOMAIN-SUFFIX,my.router,DIRECT
+ - DOMAIN-SUFFIX,networkcheck.kde.org,DIRECT
+ - DOMAIN-SUFFIX,p.to,DIRECT
+ - DOMAIN-SUFFIX,peiluyou.com,DIRECT
+ - DOMAIN-SUFFIX,phicomm.me,DIRECT
+ - DOMAIN-SUFFIX,plex.direct,DIRECT
+ - DOMAIN-SUFFIX,router.ctc,DIRECT
+ - DOMAIN-SUFFIX,routerlogin.com,DIRECT
+ - DOMAIN-SUFFIX,tendawifi.com,DIRECT
+ - DOMAIN-SUFFIX,tplinkwifi.net,DIRECT
+ - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
+ - DOMAIN-SUFFIX,zte.home,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.0.2.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,192.88.99.0/24,DIRECT,no-resolve
+ - IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
+ - IP-CIDR,198.51.100.0/24,DIRECT,no-resolve
+ - IP-CIDR,203.0.113.0/24,DIRECT,no-resolve
+ - IP-CIDR,224.0.0.0/3,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - GEOIP,CN,🧱 国内网站
+ - MATCH,🐟 漏网之鱼
