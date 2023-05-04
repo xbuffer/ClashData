@@ -1,0 +1,252 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇰🇷 _KR_韩国 4, server: 43.201.31.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 _SG_新加坡 4 2, server: 174.138.25.187, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hkaa0}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: free.say-her-name.xyz, port: 443, type: vmess, uuid: 8a287e0c-8bcf-4ac6-af2e-f70670448850, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /graphql, headers: {Host: free.say-her-name.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 172.67.68.134, port: 80, type: vmess, uuid: db167cd0-5a73-4f11-803a-a975554f0a28, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: gheychi2.betterthanunix.ml}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2, server: 141.101.114.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 3, server: 141.101.115.111, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 🇨🇦 _CA_加拿大->🇫🇷_FR_法国, server: 23.227.38.39, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇺🇸 _US_美国 2 2, server: 162.159.135.42, port: 80, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shares, headers: {Host: la.awsbest.com}}}
+  - {name: 🇨🇦 _CA_加拿大, server: 159.203.18.119, port: 80, type: vmess, uuid: af3e47fc-f817-4845-822c-1f35ecf90b31, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇺🇸 _US_美国 3 2, server: 141.193.213.10, port: 443, type: vmess, uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /share, headers: {Host: us.awsbest.com}}}
+  - {name: 🇺🇸 _US_美国 4 2, server: 162.251.61.47, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: v12a.toddns.tk}}}
+  - {name: 🇺🇸 _US_美国 5 2, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}}
+  - {name: 🇺🇸 _US_美国 6 2, server: 141.101.114.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
+  - {name: 🇺🇸 _US_美国 7 2, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
+  - {name: 🇺🇸 _US_美国 8 2, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇫🇷 _BZ_伯利兹->🇫🇷_FR_法国, server: 203.30.190.192, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇫🇷 _NL_荷兰->🇫🇷_FR_法国, server: 188.114.99.11, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 🇲🇴 _MO_澳门->🇨🇳_CN_中国, server: 45.64.22.22, port: 443, type: vmess, uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /OB7jTM5cTTrL, headers: {Host: hkbn.pgypgykmoljklj.xyz}}}
+  - {name: _BZ_伯利兹, server: 203.30.191.191, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🤘 手动选择
+      - ⚡ 故障转移
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🤘 手动选择
+    type: select
+    proxies:
+      - 🇰🇷 _KR_韩国 4
+      - 🇸🇬 _SG_新加坡 4 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 2 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇫🇷 _BZ_伯利兹->🇫🇷_FR_法国
+      - 🇫🇷 _NL_荷兰->🇫🇷_FR_法国
+      - 🇲🇴 _MO_澳门->🇨🇳_CN_中国
+      - _BZ_伯利兹
+  - name: 🏳️‍🌈 国家选择
+    type: select
+    proxies:
+      - 美国
+      - 香港
+      - 狮城
+      - 日本
+      - 台湾
+      - 韩国
+  - name: 📺 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🧱 国内网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇰🇷 _KR_韩国 4
+      - 🇸🇬 _SG_新加坡 4 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 2 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇫🇷 _BZ_伯利兹->🇫🇷_FR_法国
+      - 🇫🇷 _NL_荷兰->🇫🇷_FR_法国
+      - 🇲🇴 _MO_澳门->🇨🇳_CN_中国
+      - _BZ_伯利兹
+  - name: ⚡ 故障转移
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇰🇷 _KR_韩国 4
+      - 🇸🇬 _SG_新加坡 4 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 2 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇫🇷 _BZ_伯利兹->🇫🇷_FR_法国
+      - 🇫🇷 _NL_荷兰->🇫🇷_FR_法国
+      - 🇲🇴 _MO_澳门->🇨🇳_CN_中国
+      - _BZ_伯利兹
+  - name: 🌎 北美地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇨🇦 _CA_加拿大->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 2 2
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 8 2
+  - name: 🌏 东亚地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇰🇷 _KR_韩国 4
+      - 🇸🇬 _SG_新加坡 4 2
+  - name: 🌍 其它地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇫🇷 _BZ_伯利兹->🇫🇷_FR_法国
+      - 🇫🇷 _NL_荷兰->🇫🇷_FR_法国
+      - 🇲🇴 _MO_澳门->🇨🇳_CN_中国
+      - _BZ_伯利兹
+  - name: 美国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国 3
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 8 2
+  - name: 香港
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 狮城
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇸🇬 _SG_新加坡 4 2
+  - name: 日本
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 台湾
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 韩国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇰🇷 _KR_韩国 4
+rules:
+ - GEOIP,CN,🧱 国内网站
+ - MATCH,🐟 漏网之鱼
