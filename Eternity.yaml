@@ -4,7 +4,53 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-proxies: ~
+proxies:
+  - {name: 🇸🇬 _SG_新加坡 2 2, server: 13.229.105.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 _JP_日本 2, server: 43.206.240.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国 3, server: 3.39.229.56, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: layercm05.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 48530:LLLiuiuiu787878, obfs-param: ""}
+  - {name: 🇸🇬 _SG_新加坡 6, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 6 2, server: 38.54.250.57, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 28 2, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 25 2, server: 198.2.208.181, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 4 2, server: 38.63.17.180, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 8 2, server: 137.175.9.194, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 23 2, server: 137.175.9.194, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国 10 2, server: 192.74.237.51, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 11 2, server: 192.74.255.21, port: 59322, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 12 2, server: 38.40.158.249, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国 15 2, server: 107.167.29.142, port: 41032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 16 2, server: 64.32.20.42, port: 54042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 18 2, server: 45.88.176.22, port: 41092, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 21 2, server: 137.175.1.8, port: 53403, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 22 2, server: 142.4.126.66, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 3 2, server: 171.22.134.4, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 2 2, server: 198.2.206.39, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国 29, server: 199.180.103.20, port: 49988, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.31Mb", server: 198.2.205.74, port: 30406, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.64Mb", server: 192.74.231.172, port: 49202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|24.02Mb", server: 67.229.48.248, port: 28738, type: vmess, uuid: 4f6bba56-ae17-409a-a751-f6a020a7393d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /us4/getData}}
+  - {name: "|13.75Mb", server: 142.4.126.71, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|27.29Mb", server: 198.2.192.239, port: 46680, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.69Mb", server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.07Mb", server: 198.2.203.57, port: 44502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "| 9.86Mb", server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.81Mb", server: 142.4.106.246, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.87Mb", server: 192.74.228.176, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: "|17.10Mb", server: 142.4.119.202, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|10.36Mb", server: 47.74.89.109, port: 28056, type: vmess, uuid: e2111758-b370-4c0e-8061-0269741a39ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /aus/getData}}
+  - {name: "|20.49Mb", server: 45.12.144.80, port: 47127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|26.08Mb", server: 198.2.208.185, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|10.98Mb", server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false}
+  - {name: "|19.62Mb", server: 137.175.18.89, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.52Mb", server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|19.41Mb", server: 142.0.132.42, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|19.03Mb", server: 142.4.126.75, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.20Mb", server: 198.2.208.184, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|21.61Mb", server: 38.54.250.55, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|20.56Mb", server: 142.4.118.253, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.01Mb", server: 38.63.17.179, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|25.57Mb", server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,7 +66,52 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡 2 2
+      - 🇯🇵 _JP_日本 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _SG_新加坡 6
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇺🇸 _US_美国 23 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 15 2
+      - 🇺🇸 _US_美国 16 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 22 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 29
+      - "|23.31Mb"
+      - "|22.64Mb"
+      - "|24.02Mb"
+      - "|13.75Mb"
+      - "|27.29Mb"
+      - "|22.69Mb"
+      - "|25.07Mb"
+      - "| 9.86Mb"
+      - "|22.81Mb"
+      - "|25.87Mb"
+      - "|17.10Mb"
+      - "|10.36Mb"
+      - "|20.49Mb"
+      - "|26.08Mb"
+      - "|10.98Mb"
+      - "|19.62Mb"
+      - "|25.52Mb"
+      - "|19.41Mb"
+      - "|19.03Mb"
+      - "|22.20Mb"
+      - "|21.61Mb"
+      - "|20.56Mb"
+      - "|25.01Mb"
+      - "|25.57Mb"
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -71,63 +162,213 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡 2 2
+      - 🇯🇵 _JP_日本 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _SG_新加坡 6
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇺🇸 _US_美国 23 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 15 2
+      - 🇺🇸 _US_美国 16 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 22 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 29
+      - "|23.31Mb"
+      - "|22.64Mb"
+      - "|24.02Mb"
+      - "|13.75Mb"
+      - "|27.29Mb"
+      - "|22.69Mb"
+      - "|25.07Mb"
+      - "| 9.86Mb"
+      - "|22.81Mb"
+      - "|25.87Mb"
+      - "|17.10Mb"
+      - "|10.36Mb"
+      - "|20.49Mb"
+      - "|26.08Mb"
+      - "|10.98Mb"
+      - "|19.62Mb"
+      - "|25.52Mb"
+      - "|19.41Mb"
+      - "|19.03Mb"
+      - "|22.20Mb"
+      - "|21.61Mb"
+      - "|20.56Mb"
+      - "|25.01Mb"
+      - "|25.57Mb"
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡 2 2
+      - 🇯🇵 _JP_日本 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _SG_新加坡 6
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇺🇸 _US_美国 23 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 15 2
+      - 🇺🇸 _US_美国 16 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 22 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 29
+      - "|23.31Mb"
+      - "|22.64Mb"
+      - "|24.02Mb"
+      - "|13.75Mb"
+      - "|27.29Mb"
+      - "|22.69Mb"
+      - "|25.07Mb"
+      - "| 9.86Mb"
+      - "|22.81Mb"
+      - "|25.87Mb"
+      - "|17.10Mb"
+      - "|10.36Mb"
+      - "|20.49Mb"
+      - "|26.08Mb"
+      - "|10.98Mb"
+      - "|19.62Mb"
+      - "|25.52Mb"
+      - "|19.41Mb"
+      - "|19.03Mb"
+      - "|22.20Mb"
+      - "|21.61Mb"
+      - "|20.56Mb"
+      - "|25.01Mb"
+      - "|25.57Mb"
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇺🇸 _US_美国 23 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 15 2
+      - 🇺🇸 _US_美国 16 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 22 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 29
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡 2 2
+      - 🇯🇵 _JP_日本 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _SG_新加坡 6
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - "|23.31Mb"
+      - "|22.64Mb"
+      - "|24.02Mb"
+      - "|13.75Mb"
+      - "|27.29Mb"
+      - "|22.69Mb"
+      - "|25.07Mb"
+      - "| 9.86Mb"
+      - "|22.81Mb"
+      - "|25.87Mb"
+      - "|17.10Mb"
+      - "|10.36Mb"
+      - "|20.49Mb"
+      - "|26.08Mb"
+      - "|10.98Mb"
+      - "|19.62Mb"
+      - "|25.52Mb"
+      - "|19.41Mb"
+      - "|19.03Mb"
+      - "|22.20Mb"
+      - "|21.61Mb"
+      - "|20.56Mb"
+      - "|25.01Mb"
+      - "|25.57Mb"
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇺🇸 _US_美国 6 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 8 2
+      - 🇺🇸 _US_美国 23 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 15 2
+      - 🇺🇸 _US_美国 16 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 22 2
+      - 🇺🇸 _US_美国 3 2
+      - 🇺🇸 _US_美国 2 2
+      - 🇺🇸 _US_美国 29
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇸🇬 _SG_新加坡 2 2
+      - 🇸🇬 _SG_新加坡 6
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇯🇵 _JP_日本 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -141,7 +382,274 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇰🇷 _KR_韩国 3
 rules:
  - GEOIP,CN,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,112-81-125-43.dhost.00cdn.com,🧱 国内网站
+ - DOMAIN,113-219-145-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,114-236-92-129.ksyungslb.com,🧱 国内网站
+ - DOMAIN,180-101-74-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,218-91-225-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,219-155-150-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,222-188-6-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-104-134-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-25-252-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🧱 国内网站
+ - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🧱 国内网站
+ - DOMAIN,p-bstarstatic.akamaized.net,🧱 国内网站
+ - DOMAIN,p.bstarstatic.com,🧱 国内网站
+ - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,api.iplay.163.com,🧱 国内网站
+ - DOMAIN,aqqmusic.tc.qq.com,🧱 国内网站
+ - DOMAIN,mam.netease.com,🧱 国内网站
+ - DOMAIN,moo.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acg.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,acgvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.net,🧱 国内网站
+ - DOMAIN-SUFFIX,b23.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,baka.im,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfunapp.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili22.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili2233.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili23.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili33.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cc,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn1.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn2.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn3.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn4.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn5.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,biligo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliintl.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.net,🧱 国内网站
+ - DOMAIN-SUFFIX,corari.com,🧱 国内网站
+ - DOMAIN-SUFFIX,dreamcast.hk,🧱 国内网站
+ - DOMAIN-SUFFIX,dyhgames.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.net,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.org,🧱 国内网站
+ - DOMAIN-SUFFIX,im9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,maoercdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mcbbs.net,🧱 国内网站
+ - DOMAIN-SUFFIX,mincdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sharejoytech.com,🧱 国内网站
+ - DOMAIN-SUFFIX,smtcdns.net,🧱 国内网站
+ - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🧱 国内网站
+ - DOMAIN-SUFFIX,yo9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinaepg.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinalive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,citv.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cnms.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntvwb.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.net,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.com,🧱 国内网站
+ - DOMAIN-SUFFIX,olympicchannelchina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zygbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,1.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,2.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71edge.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,ad.api.3g.tudou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ads1.lfengmobile.com,🧱 国内网站
+ - DOMAIN-SUFFIX,afp.pplive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ai.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,aixifan.com,🧱 国内网站
+ - DOMAIN-SUFFIX,androidgo.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.cupid.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.game.letvstore.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cdn.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cm.fancyapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cmvideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,dmhmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,game.pps.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,gitv.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,hitv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hunantv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,i.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,itc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ixigua.com,🧱 国内网站
+ - DOMAIN-SUFFIX,jstucdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,koowo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kugou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kuwo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,le.com,🧱 国内网站
+ - DOMAIN-SUFFIX,letv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mgtv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,migu.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,miguvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg2.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.126.net,🧱 国内网站
+ - DOMAIN-SUFFIX,music.163.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.tc.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,noxagile.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,pplive.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,pptv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qianqian.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qqmusic.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qy.net,🧱 国内网站
+ - DOMAIN-SUFFIX,s.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,snssdk.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,soku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,static.g.ppstream.com,🧱 国内网站
+ - DOMAIN-SUFFIX,taihe.com,🧱 国内网站
+ - DOMAIN-SUFFIX,tencentmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v-56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.smtcdns.com,🧱 国内网站
+ - DOMAIN-SUFFIX,video.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,videojj.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.net,🧱 国内网站
+ - DOMAIN-SUFFIX,y.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ykimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,youku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zamplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.io,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,zmz2019.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzfile.com,🧱 国内网站
+ - DOMAIN-KEYWORD,bilibili,🧱 国内网站
+ - DOMAIN-KEYWORD,qiyi,🧱 国内网站
+ - IP-CIDR,101.224.0.0/13,🧱 国内网站,no-resolve
+ - IP-CIDR,101.71.154.241/32,🧱 国内网站,no-resolve
+ - IP-CIDR,103.126.92.132/31,🧱 国内网站,no-resolve
+ - IP-CIDR,106.11.0.0/16,🧱 国内网站,no-resolve
+ - IP-CIDR,106.75.74.76/32,🧱 国内网站,no-resolve
+ - IP-CIDR,111.206.25.147/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.119.17/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.122.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.118.33/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.121.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,118.24.63.156/32,🧱 国内网站,no-resolve
+ - IP-CIDR,119.176.0.0/12,🧱 国内网站,no-resolve
+ - IP-CIDR,119.3.238.64/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.108.182/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.113.99/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.153.217/32,🧱 国内网站,no-resolve
+ - IP-CIDR,134.175.207.130/32,🧱 国内网站,no-resolve
+ - IP-CIDR,193.112.159.225/32,🧱 国内网站,no-resolve
+ - IP-CIDR,203.107.1.0/24,🧱 国内网站,no-resolve
+ - IP-CIDR,223.252.199.66/31,🧱 国内网站,no-resolve
+ - IP-CIDR,39.105.63.80/32,🧱 国内网站,no-resolve
+ - IP-CIDR,45.254.48.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,47.100.127.239/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.195/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.197/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.35/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.38/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.60/32,🧱 国内网站,no-resolve
+ - PROCESS-NAME,com.bilibili.app.blue,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.app.in,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic.intl,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bili,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bilibilihd,🧱 国内网站
  - MATCH,🐟 漏网之鱼
