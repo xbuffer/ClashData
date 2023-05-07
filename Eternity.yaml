@@ -1,0 +1,366 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇭🇰 _HK_香港, server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com, port: 80, type: vmess, uuid: ca099159-d67c-4918-9741-82a28c802234, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com}}}
+  - {name: 🇭🇰 _HK_香港 2, server: hkt2.amazonwebservicess.com, port: 80, type: vmess, uuid: 6a3aa35d-27c9-42de-bd4c-f0fcd8b9d822, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt2.amazonwebservicess.com}}}
+  - {name: 🇰🇷 _KR_韩国 2 2, server: 43.200.252.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 _KR_韩国 3, server: 43.201.85.49, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 _US_美国 4 2, server: 172.67.147.152, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cutino, headers: {Host: chat.samrg.buzz}}}
+  - {name: 🇺🇸 _US_美国 5 2, server: 142.4.118.250, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 7 2, server: 142.4.114.25, port: 55502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 9 2, server: 192.74.228.179, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 10 2, server: 192.74.249.147, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 11 2, server: 45.136.235.11, port: 41632, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 12 2, server: 45.86.11.189, port: 59442, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 17 2, server: 198.2.206.37, port: 33012, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 18 2, server: 38.54.250.57, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 20 2, server: 38.40.219.182, port: 53362, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 21 2, server: 142.4.97.76, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 25 2, server: 137.175.41.197, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 28 2, server: 107.148.194.233, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 29 2, server: 107.167.29.93, port: 45585, type: vmess, uuid: 465dec1a-e09b-4bb6-9905-70f75d6035c8, alterId: 64, cipher: auto, tls: false}
+  - {name: "|27.39Mb", server: 64.32.4.35, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: "|74.47Mb", server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
+  - {name: "|29.94Mb", server: 104.26.1.48, port: 2095, type: vmess, uuid: 19350d64-6868-4a64-e501-9c0df903d788, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: h3.mamadcucu.com}}}
+  - {name: "|10.51Mb", server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: namer-us-sea-01-edgecast.qdns.live}}}
+  - {name: "|25.73Mb", server: 64.32.4.34, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false}
+  - {name: "|27.45Mb", server: 140.99.48.24, port: 57102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.83Mb", server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: www.48816626.xyz}}}
+  - {name: "|29.42Mb", server: 140.99.48.38, port: 56102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|26.02Mb", server: 45.83.117.170, port: 40002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: "|25.87Mb", server: 108.166.203.181, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false}
+  - {name: "|26.09Mb", server: 192.74.228.176, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false}
+  - {name: "|10.36Mb", server: 47.74.89.109, port: 28056, type: vmess, uuid: e2111758-b370-4c0e-8061-0269741a39ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /aus/getData}}
+  - {name: "|13.82Mb", server: 198.2.208.185, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|22.66Mb", server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/173418141123, headers: {Host: www.17080100.xyz}}}
+  - {name: "|13.68Mb", server: 142.0.132.42, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|18.77Mb", server: 198.2.208.184, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "| 6.21Mb", server: 38.54.250.55, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|13.88Mb", server: 142.4.118.253, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|23.67Mb", server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|10.12Mb", server: 142.4.127.4, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|13.11Mb", server: 142.0.132.38, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|26.80Mb", server: 172.247.67.22, port: 42940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "|24.32Mb", server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🤘 手动选择
+      - ⚡ 故障转移
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🤘 手动选择
+    type: select
+    proxies:
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 _KR_韩国 2 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 9 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 17 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 20 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 29 2
+      - "|27.39Mb"
+      - "|74.47Mb"
+      - "|29.94Mb"
+      - "|10.51Mb"
+      - "|25.73Mb"
+      - "|27.45Mb"
+      - "|23.83Mb"
+      - "|29.42Mb"
+      - "|26.02Mb"
+      - GB_07
+      - "|25.87Mb"
+      - "|26.09Mb"
+      - "|10.36Mb"
+      - "|13.82Mb"
+      - "|22.66Mb"
+      - "|13.68Mb"
+      - "|18.77Mb"
+      - "| 6.21Mb"
+      - "|13.88Mb"
+      - "|23.67Mb"
+      - "|10.12Mb"
+      - "|13.11Mb"
+      - "|26.80Mb"
+      - "|24.32Mb"
+  - name: 🏳️‍🌈 国家选择
+    type: select
+    proxies:
+      - 美国
+      - 香港
+      - 狮城
+      - 日本
+      - 台湾
+      - 韩国
+  - name: 📺 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🧱 国内网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 _KR_韩国 2 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 9 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 17 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 20 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 29 2
+      - "|27.39Mb"
+      - "|74.47Mb"
+      - "|29.94Mb"
+      - "|10.51Mb"
+      - "|25.73Mb"
+      - "|27.45Mb"
+      - "|23.83Mb"
+      - "|29.42Mb"
+      - "|26.02Mb"
+      - GB_07
+      - "|25.87Mb"
+      - "|26.09Mb"
+      - "|10.36Mb"
+      - "|13.82Mb"
+      - "|22.66Mb"
+      - "|13.68Mb"
+      - "|18.77Mb"
+      - "| 6.21Mb"
+      - "|13.88Mb"
+      - "|23.67Mb"
+      - "|10.12Mb"
+      - "|13.11Mb"
+      - "|26.80Mb"
+      - "|24.32Mb"
+  - name: ⚡ 故障转移
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 _KR_韩国 2 2
+      - 🇰🇷 _KR_韩国 3
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 9 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 17 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 20 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 29 2
+      - "|27.39Mb"
+      - "|74.47Mb"
+      - "|29.94Mb"
+      - "|10.51Mb"
+      - "|25.73Mb"
+      - "|27.45Mb"
+      - "|23.83Mb"
+      - "|29.42Mb"
+      - "|26.02Mb"
+      - GB_07
+      - "|25.87Mb"
+      - "|26.09Mb"
+      - "|10.36Mb"
+      - "|13.82Mb"
+      - "|22.66Mb"
+      - "|13.68Mb"
+      - "|18.77Mb"
+      - "| 6.21Mb"
+      - "|13.88Mb"
+      - "|23.67Mb"
+      - "|10.12Mb"
+      - "|13.11Mb"
+      - "|26.80Mb"
+      - "|24.32Mb"
+  - name: 🌎 北美地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 9 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 17 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 20 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 29 2
+  - name: 🌏 东亚地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 2
+      - 🇰🇷 _KR_韩国 2 2
+      - 🇰🇷 _KR_韩国 3
+  - name: 🌍 其它地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - "|27.39Mb"
+      - "|74.47Mb"
+      - "|29.94Mb"
+      - "|10.51Mb"
+      - "|25.73Mb"
+      - "|27.45Mb"
+      - "|23.83Mb"
+      - "|29.42Mb"
+      - "|26.02Mb"
+      - GB_07
+      - "|25.87Mb"
+      - "|26.09Mb"
+      - "|10.36Mb"
+      - "|13.82Mb"
+      - "|22.66Mb"
+      - "|13.68Mb"
+      - "|18.77Mb"
+      - "| 6.21Mb"
+      - "|13.88Mb"
+      - "|23.67Mb"
+      - "|10.12Mb"
+      - "|13.11Mb"
+      - "|26.80Mb"
+      - "|24.32Mb"
+  - name: 美国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇺🇸 _US_美国 4 2
+      - 🇺🇸 _US_美国 5 2
+      - 🇺🇸 _US_美国 7 2
+      - 🇺🇸 _US_美国 9 2
+      - 🇺🇸 _US_美国 10 2
+      - 🇺🇸 _US_美国 11 2
+      - 🇺🇸 _US_美国 12 2
+      - 🇺🇸 _US_美国 17 2
+      - 🇺🇸 _US_美国 18 2
+      - 🇺🇸 _US_美国 20 2
+      - 🇺🇸 _US_美国 21 2
+      - 🇺🇸 _US_美国 25 2
+      - 🇺🇸 _US_美国 28 2
+      - 🇺🇸 _US_美国 29 2
+  - name: 香港
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 2
+  - name: 狮城
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 日本
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 台湾
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 韩国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇰🇷 _KR_韩国 2 2
+      - 🇰🇷 _KR_韩国 3
+rules:
+ - GEOIP,CN,🧱 国内网站
+ - MATCH,🐟 漏网之鱼
