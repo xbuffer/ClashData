@@ -1,0 +1,147 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies: ~
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🤘 手动选择
+      - ⚡ 故障转移
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🤘 手动选择
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🏳️‍🌈 国家选择
+    type: select
+    proxies:
+      - 美国
+      - 香港
+      - 狮城
+      - 日本
+      - 台湾
+      - 韩国
+  - name: 📺 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🧱 国内网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: ⚡ 故障转移
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🌎 北美地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 🌏 东亚地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 🌍 其它地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 美国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 香港
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 狮城
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 日本
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 台湾
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+  - name: 韩国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - DIRECT
+rules:
+ - GEOIP,CN,🧱 国内网站
+ - MATCH,🐟 漏网之鱼
