@@ -6,12 +6,12 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇸🇬 _SG_新加坡 2 2, server: uk.stablize.top, port: 443, type: trojan, password: 9014ea56-3fec-43d8-bed6-af7bcb5e2cb3, sni: uk.stablize.top, skip-cert-verify: true}
-  - {name: 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚, server: ap.stablize.top, port: 443, type: trojan, password: 10f94506-9bf9-4dbb-9542-3ff13893b190, sni: ap.stablize.top, skip-cert-verify: true}
-  - {name: 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7, server: jp01.studentplanner.uk, port: 443, type: trojan, password: c2e0cb10-3c0f-4b41-8939-af235800cf07, skip-cert-verify: false}
-  - {name: 🇯🇵 github.com/freefq - 日本  11, server: 43.206.157.32, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本 009, server: 43.206.157.32, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 github.com/freefq - 日本  1, server: 43.154.122.126, port: 48122, type: vmess, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk1/getData}}
+  - {name: 🇭🇰 香港 040, server: 43.154.122.126, port: 48122, type: vmess, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /hk1/getData}}
+  - {name: 🇯🇵 github.com/freefq - 日本  1 2, server: 43.154.122.126, port: 48122, type: vmess, uuid: 82adc998-88ab-4c87-8b86-5bc39e80f5b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /hk1/getData}}
+  - {name: 🇯🇵 github.com/freefq - 日本  7, server: 43.206.157.32, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇯🇵 日本 010, server: 43.206.157.32, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 v2rayfree.eu.org - 日本  8, server: 43.206.157.32, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /52566/}}
-  - {name: 🇯🇵 github.com/freefq - 日本阿里云 13, server: cdn.chigua.tk, port: 443, type: vmess, uuid: ecbeaa2d-7748-42b1-a603-9d5402d3effe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /waugfuiawfwafgvhwoa, headers: {Host: hax_eu5.v50.one}}}
   - {name: "🇸🇬 [05-11]-🇸🇬-新加坡-8360-172.104.61.211", server: 172.104.61.211, port: 8080, type: ss, cipher: aes-128-gcm, password: bDqZ3kf6ft59}
   - {name: 🇭🇰 -香港-119.237.195.230, server: 119.237.195.230, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: 🇭🇰 -香港-42.98.27.183, server: 42.98.27.183, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51361:67mfIToL84PnZq0d, obfs-param: ""}
@@ -40,51 +40,48 @@ proxies:
   - {name: 🇯🇵 日本 - 2, server: jp-2.vuex.eu.org, port: 8890, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp-2.vuex.eu.org}}}
   - {name: 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true}
   - {name: 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2, server: jp01-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 014, server: jp01-alt-vm0.entry.srthdw.art, port: 21585, type: vmess, uuid: 1bc52308-0bd9-30d0-90fd-cef337875d10, alterId: 1, cipher: auto, tls: true}
   - {name: 🇭🇰 -香港-n1682393185.edpmvga.cn, server: n1682393185.edpmvga.cn, port: 443, type: vmess, uuid: 8ee9fa88-29b9-4f66-a044-611a091e24ff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1682393185.edpmvga.cn}}}
   - {name: 🇭🇰 -香港-n1682393185.edpmvga.cn 2, server: n1682393185.edpmvga.cn, port: 443, type: vmess, uuid: 8ee9fa88-29b9-4f66-a044-611a091e24ff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1682393185.edpmvga.cn}}}
   - {name: 🇸🇬 新加坡_0511095, server: sg.musekidan.com, port: 16627, type: vmess, uuid: 96fc111a-0bdc-4563-bb26-6ea3b86d9326, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sg, headers: {Host: sg.musekidan.com}}}
   - {name: 🇸🇬 新加坡_0511897, server: sg.musekidan.com, port: 16627, type: vmess, uuid: fb9ea4cd-e61c-4d4c-9d04-d60cfa5c77e4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sg, headers: {Host: sg.musekidan.com}}}
   - {name: 🇸🇬 -新加坡-sing2.tltvpn.xyz, server: sing2.tltvpn.xyz, port: 80, type: vmess, uuid: 022e3c2a-f4bf-423e-8c05-7f26fff93674, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇸🇬 新加坡 006, server: sing2.tltvpn.xyz, port: 80, type: vmess, uuid: 022e3c2a-f4bf-423e-8c05-7f26fff93674, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇸🇬 新加坡 005, server: sing2.tltvpn.xyz, port: 80, type: vmess, uuid: 022e3c2a-f4bf-423e-8c05-7f26fff93674, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
   - {name: 🇸🇬 Singapore(ChatGPT) ..., server: sing2.tltvpn.xyz, port: 80, type: vmess, uuid: 022e3c2a-f4bf-423e-8c05-7f26fff93674, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
   - {name: 🇰🇷 -韩国首尔-3.35.168.220, server: 3.35.168.220, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇰🇷 韩国 003, server: 3.35.168.220, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aws-china-media/a9__D53WsUs.mp4}}
-  - {name: 🇰🇷 South Korea(ChatGPT..., server: 3.35.168.220, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aws-china-media/a9__D53WsUs.mp4}}
-  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/..._______, server: 104.25.252.135, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/...___, server: 103.21.244.178, port: 443, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qazxcv, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
-  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
-  - {name: 🇺🇸 美国(油管破解资源君) 77, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 韩国 004, server: 3.35.168.220, port: 80, type: vmess, uuid: 12b6c675-edc3-4da8-b3e2-525f4ccdd3f3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aws-china-media/a9__D53WsUs.mp4}}
+  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/vip】181, server: tech.noaries.de, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}}
+  - {name: 🇺🇸 -美国-192.203.230.86, server: 192.203.230.86, port: 80, type: vmess, uuid: a442dacf-cbb3-488a-9744-61494ea38630, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 75, server: 198.2.204.251, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05114343, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0511676, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管破解资源君) 78, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0511445, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_0511722, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国(油管破解资源君) 79, server: cf.noaries.de, port: 2082, type: vmess, uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ir2.nmsl.ninja}}}
   - {name: 🇺🇸 v2rayfree.eu.org - 美国C..._, server: cf.noaries.de, port: 2082, type: vmess, uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ir2.nmsl.ninja}}}
-  - {name: 🇺🇸 美国(油管破解资源君) 80, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 81, server: 137.175.9.194, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-scaleway.696960.xyz, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: scaleway.696960.xyz}}}
   - {name: 🇺🇸 -美国-scaleway.696960.xyz 2, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: scaleway.696960.xyz}}}
   - {name: 🇺🇸 美国(油管破解资源君) 82, server: www.udemy.com, port: 443, type: vmess, uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}}
   - {name: 🇺🇸 美国(油管破解资源君) 83, server: uk.stablize.top, port: 443, type: trojan, password: 9478e27c-6bdd-4f0e-ba46-90d9739e1e34, skip-cert-verify: true}
-  - {name: 🇺🇸 US 1023 → tg@nicevp..., server: uk.stablize.top, port: 443, type: trojan, password: 9014ea56-3fec-43d8-bed6-af7bcb5e2cb3, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(油管破解资源君) 72, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-142.4.119.198 2, server: 142.4.119.198, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb, server: uk.stablize.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false}
+  - {name: 🇺🇸 美国(油管破解资源君) 25, server: 137.175.9.194, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 -美国-cf.yxjnode.com, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: buyvm2.yxjnode.com}}}
-  - {name: 🇺🇸 -美国-142.4.119.198, server: 142.4.119.198, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管破解资源君) 29, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
   - {name: 🇺🇸 -美国-104.22.59.195, server: 104.22.59.195, port: 443, type: vmess, uuid: a1560b52-b580-4aad-b8cd-9cd2ec5264b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 216 → tg@nicevpn123, server: 104.22.59.195, port: 443, type: vmess, uuid: a1560b52-b580-4aad-b8cd-9cd2ec5264b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws}}
+  - {name: 🇺🇸 US 318 → tg@nicevpn123, server: 104.22.59.195, port: 443, type: vmess, uuid: a1560b52-b580-4aad-b8cd-9cd2ec5264b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws}}
   - {name: 🇺🇸 美国(油管破解资源君) 89, server: tempest-us.aikun.online, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: tempest-us.aikun.online, skip-cert-verify: true}
   - {name: 🇺🇸 美国(油管破解资源君) 94, server: tempest-us.aikun.online, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, skip-cert-verify: true}
-  - {name: 🇺🇸 美国(油管破解资源君) 70, server: 142.4.119.198, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 -美国-170.114.45.122, server: 170.114.45.122, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 -美国-170.114.45.122 2, server: 170.114.45.122, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
-  - {name: 🇷🇴 罗马尼亚【付费推荐：https//v1.m..., server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】80, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: github.com/freefq - 欧盟  12, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇷🇴 罗马尼亚_0511038, server: 45.85.118.165, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: github.com/freefq - 亚太地区  3, server: 103.179.189.89, port: 80, type: vmess, uuid: bb0e4c40-7a25-45ef-a00e-cdf179ef3149, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 -英国-171.22.134.3, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 -英国-171.22.134.3 2, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇬🇧 github.com/freefq - 英国  6, server: 171.22.134.3, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: github.com/freefq - 欧盟  5 2, server: 45.94.42.160, port: 48059, type: vmess, uuid: 85572cdd-aaf5-487b-a1f5-2f9e4a94d919, alterId: 0, cipher: auto, tls: false}
-  - {name: github.com/freefq - 欧盟  5, server: 45.94.42.160, port: 48059, type: vmess, uuid: 85572cdd-aaf5-487b-a1f5-2f9e4a94d919, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇬🇧 英国 008, server: 141.101.123.147, port: 443, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv}}
+  - {name: 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】322, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇩🇪 德国_0511101, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
+  - {name: 未知_0510166, server: 141.101.114.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
+  - {name: github.com/freefq - 欧盟  11, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇬🇧 英国 013, server: mcix.ipcf.cloud, port: 443, type: vmess, uuid: CBDB1902-6B9B-4872-B20C-E94A3BD2F63D, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: mcix.ipcf.cloud}}}
+  - {name: 未知_0511166, server: 141.101.114.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray20.xyz}}}
+  - {name: 🇨🇳 github.com/freefq - 中国阿里云 12, server: cdn.chigua.tk, port: 443, type: vmess, uuid: ecbeaa2d-7748-42b1-a603-9d5402d3effe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /waugfuiawfwafgvhwoa, headers: {Host: hax_eu5.v50.one}}}
+  - {name: "|21.28Mb", server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
+  - {name: 🇬🇧 英国 009, server: 141.101.123.147, port: 443, type: vmess, uuid: 9588cb0f-5102-4e66-d5fb-f96cba9acdda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv}}
   - {name: 🇪🇺 欧洲 001, server: 154.40.63.58, port: 1314, type: ss, cipher: aes-256-gcm, password: HKDOLL}
   - {name: 🇪🇺 欧洲 001 2, server: 154.40.63.58, port: 1314, type: ss, cipher: aes-256-gcm, password: HKDOLL}
   - {name: 🇨🇳 -北京市-116.129.253.6, server: 116.129.253.6, port: 39439, type: ssr, cipher: chacha20-ietf, password: GhQrDS, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 71002:ob1Kh6, obfs-param: t.me/vpnhat}
@@ -98,6 +95,8 @@ proxies:
   - {name: 广东省湛江市-shcuzxhk.eucdurl.me, server: shcuzxhk.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 63809:SVIPTIZ8, obfs-param: TWpObVptUTNNVEV1YldsamNtOXpiMlowTG1OdmJR}
   - {name: 山东省济宁市-rs-2.gito.cc, server: rs-2.gito.cc, port: 33411, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 30855:0FvZRy, obfs-param: 940c230855.download.windowsupdate.com}
   - {name: 🇨🇳 广东省广州市-tw-2.gito.cc, server: tw-2.gito.cc, port: 33405, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 🇺🇸 江苏省宿迁市-us-5.gito.cc, server: us-5.gito.cc, port: 651, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: �۹��z�\x1a���, obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
+  - {name: 广东省佛山市-vphk-8.gito.cc, server: vphk-8.gito.cc, port: 761, type: ssr, cipher: aes-256-cfb, password: 9ifast, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "�۹��z�\x1a���", obfs-param: �k��75��0�j�wnlog�winj�wy�r�v��om}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -114,12 +113,12 @@ proxy-groups:
     type: select
     proxies:
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚
-      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 日本 009
+      - 🇯🇵 github.com/freefq - 日本  1
+      - 🇭🇰 香港 040
+      - 🇯🇵 github.com/freefq - 日本  1 2
+      - 🇯🇵 github.com/freefq - 日本  7
+      - 🇯🇵 日本 010
       - 🇯🇵 v2rayfree.eu.org - 日本  8
-      - 🇯🇵 github.com/freefq - 日本阿里云 13
       - 🇸🇬 [05-11]-🇸🇬-新加坡-8360-172.104.61.211
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
@@ -148,51 +147,48 @@ proxy-groups:
       - 🇯🇵 日本 - 2
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2
+      - 🇯🇵 日本 014
       - 🇭🇰 -香港-n1682393185.edpmvga.cn
       - 🇭🇰 -香港-n1682393185.edpmvga.cn 2
       - 🇸🇬 新加坡_0511095
       - 🇸🇬 新加坡_0511897
       - 🇸🇬 -新加坡-sing2.tltvpn.xyz
-      - 🇸🇬 新加坡 006
+      - 🇸🇬 新加坡 005
       - 🇸🇬 Singapore(ChatGPT) ...
       - 🇰🇷 -韩国首尔-3.35.168.220
-      - 🇰🇷 韩国 003
-      - 🇰🇷 South Korea(ChatGPT...
-      - 🇺🇸 美国【付费推荐：https//v1.mk/..._______
-      - 🇺🇸 美国【付费推荐：https//v1.mk/...___
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇰🇷 韩国 004
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】181
+      - 🇺🇸 -美国-192.203.230.86
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国_05114343
+      - 🇺🇸 美国_0511676
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国_0511445
+      - 🇺🇸 美国_0511722
       - 🇺🇸 美国(油管破解资源君) 79
       - 🇺🇸 v2rayfree.eu.org - 美国C..._
-      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 81
       - 🇺🇸 -美国-scaleway.696960.xyz
       - 🇺🇸 -美国-scaleway.696960.xyz 2
       - 🇺🇸 美国(油管破解资源君) 82
       - 🇺🇸 美国(油管破解资源君) 83
-      - 🇺🇸 US 1023 → tg@nicevp...
-      - 🇺🇸 美国(油管破解资源君) 72
-      - 🇺🇸 -美国-142.4.119.198 2
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb
+      - 🇺🇸 美国(油管破解资源君) 25
       - 🇺🇸 -美国-cf.yxjnode.com
-      - 🇺🇸 -美国-142.4.119.198
+      - 🇺🇸 美国(油管破解资源君) 29
       - 🇺🇸 -美国-104.22.59.195
-      - 🇺🇸 US 216 → tg@nicevpn123
+      - 🇺🇸 US 318 → tg@nicevpn123
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 94
-      - 🇺🇸 美国(油管破解资源君) 70
-      - 🇺🇸 -美国-170.114.45.122
-      - 🇺🇸 -美国-170.114.45.122 2
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.m...
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】80
-      - github.com/freefq - 欧盟  12
-      - 🇷🇴 罗马尼亚_0511038
-      - github.com/freefq - 亚太地区  3
-      - 🇬🇧 -英国-171.22.134.3
-      - 🇬🇧 -英国-171.22.134.3 2
-      - 🇬🇧 github.com/freefq - 英国  6
-      - github.com/freefq - 欧盟  5 2
-      - github.com/freefq - 欧盟  5
-      - 🇬🇧 英国 008
+      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】322
+      - 🇩🇪 德国_0511101
+      - 未知_0510166
+      - github.com/freefq - 欧盟  11
+      - 🇬🇧 英国 013
+      - 未知_0511166
+      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - "|21.28Mb"
+      - 🇬🇧 英国 009
       - 🇪🇺 欧洲 001
       - 🇪🇺 欧洲 001 2
       - 🇨🇳 -北京市-116.129.253.6
@@ -206,6 +202,8 @@ proxy-groups:
       - 广东省湛江市-shcuzxhk.eucdurl.me
       - 山东省济宁市-rs-2.gito.cc
       - 🇨🇳 广东省广州市-tw-2.gito.cc
+      - 🇺🇸 江苏省宿迁市-us-5.gito.cc
+      - 广东省佛山市-vphk-8.gito.cc
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -257,12 +255,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚
-      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 日本 009
+      - 🇯🇵 github.com/freefq - 日本  1
+      - 🇭🇰 香港 040
+      - 🇯🇵 github.com/freefq - 日本  1 2
+      - 🇯🇵 github.com/freefq - 日本  7
+      - 🇯🇵 日本 010
       - 🇯🇵 v2rayfree.eu.org - 日本  8
-      - 🇯🇵 github.com/freefq - 日本阿里云 13
       - 🇸🇬 [05-11]-🇸🇬-新加坡-8360-172.104.61.211
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
@@ -291,51 +289,48 @@ proxy-groups:
       - 🇯🇵 日本 - 2
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2
+      - 🇯🇵 日本 014
       - 🇭🇰 -香港-n1682393185.edpmvga.cn
       - 🇭🇰 -香港-n1682393185.edpmvga.cn 2
       - 🇸🇬 新加坡_0511095
       - 🇸🇬 新加坡_0511897
       - 🇸🇬 -新加坡-sing2.tltvpn.xyz
-      - 🇸🇬 新加坡 006
+      - 🇸🇬 新加坡 005
       - 🇸🇬 Singapore(ChatGPT) ...
       - 🇰🇷 -韩国首尔-3.35.168.220
-      - 🇰🇷 韩国 003
-      - 🇰🇷 South Korea(ChatGPT...
-      - 🇺🇸 美国【付费推荐：https//v1.mk/..._______
-      - 🇺🇸 美国【付费推荐：https//v1.mk/...___
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇰🇷 韩国 004
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】181
+      - 🇺🇸 -美国-192.203.230.86
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国_05114343
+      - 🇺🇸 美国_0511676
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国_0511445
+      - 🇺🇸 美国_0511722
       - 🇺🇸 美国(油管破解资源君) 79
       - 🇺🇸 v2rayfree.eu.org - 美国C..._
-      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 81
       - 🇺🇸 -美国-scaleway.696960.xyz
       - 🇺🇸 -美国-scaleway.696960.xyz 2
       - 🇺🇸 美国(油管破解资源君) 82
       - 🇺🇸 美国(油管破解资源君) 83
-      - 🇺🇸 US 1023 → tg@nicevp...
-      - 🇺🇸 美国(油管破解资源君) 72
-      - 🇺🇸 -美国-142.4.119.198 2
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb
+      - 🇺🇸 美国(油管破解资源君) 25
       - 🇺🇸 -美国-cf.yxjnode.com
-      - 🇺🇸 -美国-142.4.119.198
+      - 🇺🇸 美国(油管破解资源君) 29
       - 🇺🇸 -美国-104.22.59.195
-      - 🇺🇸 US 216 → tg@nicevpn123
+      - 🇺🇸 US 318 → tg@nicevpn123
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 94
-      - 🇺🇸 美国(油管破解资源君) 70
-      - 🇺🇸 -美国-170.114.45.122
-      - 🇺🇸 -美国-170.114.45.122 2
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.m...
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】80
-      - github.com/freefq - 欧盟  12
-      - 🇷🇴 罗马尼亚_0511038
-      - github.com/freefq - 亚太地区  3
-      - 🇬🇧 -英国-171.22.134.3
-      - 🇬🇧 -英国-171.22.134.3 2
-      - 🇬🇧 github.com/freefq - 英国  6
-      - github.com/freefq - 欧盟  5 2
-      - github.com/freefq - 欧盟  5
-      - 🇬🇧 英国 008
+      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】322
+      - 🇩🇪 德国_0511101
+      - 未知_0510166
+      - github.com/freefq - 欧盟  11
+      - 🇬🇧 英国 013
+      - 未知_0511166
+      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - "|21.28Mb"
+      - 🇬🇧 英国 009
       - 🇪🇺 欧洲 001
       - 🇪🇺 欧洲 001 2
       - 🇨🇳 -北京市-116.129.253.6
@@ -349,6 +344,8 @@ proxy-groups:
       - 广东省湛江市-shcuzxhk.eucdurl.me
       - 山东省济宁市-rs-2.gito.cc
       - 🇨🇳 广东省广州市-tw-2.gito.cc
+      - 🇺🇸 江苏省宿迁市-us-5.gito.cc
+      - 广东省佛山市-vphk-8.gito.cc
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -356,12 +353,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚
-      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 日本 009
+      - 🇯🇵 github.com/freefq - 日本  1
+      - 🇭🇰 香港 040
+      - 🇯🇵 github.com/freefq - 日本  1 2
+      - 🇯🇵 github.com/freefq - 日本  7
+      - 🇯🇵 日本 010
       - 🇯🇵 v2rayfree.eu.org - 日本  8
-      - 🇯🇵 github.com/freefq - 日本阿里云 13
       - 🇸🇬 [05-11]-🇸🇬-新加坡-8360-172.104.61.211
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
@@ -390,51 +387,48 @@ proxy-groups:
       - 🇯🇵 日本 - 2
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2
+      - 🇯🇵 日本 014
       - 🇭🇰 -香港-n1682393185.edpmvga.cn
       - 🇭🇰 -香港-n1682393185.edpmvga.cn 2
       - 🇸🇬 新加坡_0511095
       - 🇸🇬 新加坡_0511897
       - 🇸🇬 -新加坡-sing2.tltvpn.xyz
-      - 🇸🇬 新加坡 006
+      - 🇸🇬 新加坡 005
       - 🇸🇬 Singapore(ChatGPT) ...
       - 🇰🇷 -韩国首尔-3.35.168.220
-      - 🇰🇷 韩国 003
-      - 🇰🇷 South Korea(ChatGPT...
-      - 🇺🇸 美国【付费推荐：https//v1.mk/..._______
-      - 🇺🇸 美国【付费推荐：https//v1.mk/...___
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇰🇷 韩国 004
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】181
+      - 🇺🇸 -美国-192.203.230.86
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国_05114343
+      - 🇺🇸 美国_0511676
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国_0511445
+      - 🇺🇸 美国_0511722
       - 🇺🇸 美国(油管破解资源君) 79
       - 🇺🇸 v2rayfree.eu.org - 美国C..._
-      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 81
       - 🇺🇸 -美国-scaleway.696960.xyz
       - 🇺🇸 -美国-scaleway.696960.xyz 2
       - 🇺🇸 美国(油管破解资源君) 82
       - 🇺🇸 美国(油管破解资源君) 83
-      - 🇺🇸 US 1023 → tg@nicevp...
-      - 🇺🇸 美国(油管破解资源君) 72
-      - 🇺🇸 -美国-142.4.119.198 2
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb
+      - 🇺🇸 美国(油管破解资源君) 25
       - 🇺🇸 -美国-cf.yxjnode.com
-      - 🇺🇸 -美国-142.4.119.198
+      - 🇺🇸 美国(油管破解资源君) 29
       - 🇺🇸 -美国-104.22.59.195
-      - 🇺🇸 US 216 → tg@nicevpn123
+      - 🇺🇸 US 318 → tg@nicevpn123
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 94
-      - 🇺🇸 美国(油管破解资源君) 70
-      - 🇺🇸 -美国-170.114.45.122
-      - 🇺🇸 -美国-170.114.45.122 2
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.m...
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】80
-      - github.com/freefq - 欧盟  12
-      - 🇷🇴 罗马尼亚_0511038
-      - github.com/freefq - 亚太地区  3
-      - 🇬🇧 -英国-171.22.134.3
-      - 🇬🇧 -英国-171.22.134.3 2
-      - 🇬🇧 github.com/freefq - 英国  6
-      - github.com/freefq - 欧盟  5 2
-      - github.com/freefq - 欧盟  5
-      - 🇬🇧 英国 008
+      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】322
+      - 🇩🇪 德国_0511101
+      - 未知_0510166
+      - github.com/freefq - 欧盟  11
+      - 🇬🇧 英国 013
+      - 未知_0511166
+      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - "|21.28Mb"
+      - 🇬🇧 英国 009
       - 🇪🇺 欧洲 001
       - 🇪🇺 欧洲 001 2
       - 🇨🇳 -北京市-116.129.253.6
@@ -448,36 +442,37 @@ proxy-groups:
       - 广东省湛江市-shcuzxhk.eucdurl.me
       - 山东省济宁市-rs-2.gito.cc
       - 🇨🇳 广东省广州市-tw-2.gito.cc
+      - 🇺🇸 江苏省宿迁市-us-5.gito.cc
+      - 广东省佛山市-vphk-8.gito.cc
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国【付费推荐：https//v1.mk/..._______
-      - 🇺🇸 美国【付费推荐：https//v1.mk/...___
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】181
+      - 🇺🇸 -美国-192.203.230.86
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国_05114343
+      - 🇺🇸 美国_0511676
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国_0511445
+      - 🇺🇸 美国_0511722
       - 🇺🇸 美国(油管破解资源君) 79
       - 🇺🇸 v2rayfree.eu.org - 美国C..._
-      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 81
       - 🇺🇸 -美国-scaleway.696960.xyz
       - 🇺🇸 -美国-scaleway.696960.xyz 2
       - 🇺🇸 美国(油管破解资源君) 82
       - 🇺🇸 美国(油管破解资源君) 83
-      - 🇺🇸 US 1023 → tg@nicevp...
-      - 🇺🇸 美国(油管破解资源君) 72
-      - 🇺🇸 -美国-142.4.119.198 2
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb
+      - 🇺🇸 美国(油管破解资源君) 25
       - 🇺🇸 -美国-cf.yxjnode.com
-      - 🇺🇸 -美国-142.4.119.198
+      - 🇺🇸 美国(油管破解资源君) 29
       - 🇺🇸 -美国-104.22.59.195
-      - 🇺🇸 US 216 → tg@nicevpn123
+      - 🇺🇸 US 318 → tg@nicevpn123
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 94
-      - 🇺🇸 美国(油管破解资源君) 70
-      - 🇺🇸 -美国-170.114.45.122
-      - 🇺🇸 -美国-170.114.45.122 2
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -485,12 +480,12 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚
-      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 日本 009
+      - 🇯🇵 github.com/freefq - 日本  1
+      - 🇭🇰 香港 040
+      - 🇯🇵 github.com/freefq - 日本  1 2
+      - 🇯🇵 github.com/freefq - 日本  7
+      - 🇯🇵 日本 010
       - 🇯🇵 v2rayfree.eu.org - 日本  8
-      - 🇯🇵 github.com/freefq - 日本阿里云 13
       - 🇸🇬 [05-11]-🇸🇬-新加坡-8360-172.104.61.211
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
@@ -519,16 +514,16 @@ proxy-groups:
       - 🇯🇵 日本 - 2
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2
+      - 🇯🇵 日本 014
       - 🇭🇰 -香港-n1682393185.edpmvga.cn
       - 🇭🇰 -香港-n1682393185.edpmvga.cn 2
       - 🇸🇬 新加坡_0511095
       - 🇸🇬 新加坡_0511897
       - 🇸🇬 -新加坡-sing2.tltvpn.xyz
-      - 🇸🇬 新加坡 006
+      - 🇸🇬 新加坡 005
       - 🇸🇬 Singapore(ChatGPT) ...
       - 🇰🇷 -韩国首尔-3.35.168.220
-      - 🇰🇷 韩国 003
-      - 🇰🇷 South Korea(ChatGPT...
+      - 🇰🇷 韩国 004
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -536,18 +531,15 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 Singapore(ChatGPT) ...
-      - 🇰🇷 South Korea(ChatGPT...
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.m...
-      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】80
-      - github.com/freefq - 欧盟  12
-      - 🇷🇴 罗马尼亚_0511038
-      - github.com/freefq - 亚太地区  3
-      - 🇬🇧 -英国-171.22.134.3
-      - 🇬🇧 -英国-171.22.134.3 2
-      - 🇬🇧 github.com/freefq - 英国  6
-      - github.com/freefq - 欧盟  5 2
-      - github.com/freefq - 欧盟  5
-      - 🇬🇧 英国 008
+      - 🇷🇴 罗马尼亚【付费推荐：https//v1.mk/vip】322
+      - 🇩🇪 德国_0511101
+      - 未知_0510166
+      - github.com/freefq - 欧盟  11
+      - 🇬🇧 英国 013
+      - 未知_0511166
+      - 🇨🇳 github.com/freefq - 中国阿里云 12
+      - "|21.28Mb"
+      - 🇬🇧 英国 009
       - 🇪🇺 欧洲 001
       - 🇪🇺 欧洲 001 2
       - 🇨🇳 -北京市-116.129.253.6
@@ -561,42 +553,44 @@ proxy-groups:
       - 广东省湛江市-shcuzxhk.eucdurl.me
       - 山东省济宁市-rs-2.gito.cc
       - 🇨🇳 广东省广州市-tw-2.gito.cc
+      - 🇺🇸 江苏省宿迁市-us-5.gito.cc
+      - 广东省佛山市-vphk-8.gito.cc
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国【付费推荐：https//v1.mk/..._______
-      - 🇺🇸 美国【付费推荐：https//v1.mk/...___
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 3
-      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】181
+      - 🇺🇸 -美国-192.203.230.86
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国_05114343
+      - 🇺🇸 美国_0511676
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国_0511445
+      - 🇺🇸 美国_0511722
       - 🇺🇸 美国(油管破解资源君) 79
       - 🇺🇸 v2rayfree.eu.org - 美国C..._
-      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 81
       - 🇺🇸 -美国-scaleway.696960.xyz
       - 🇺🇸 -美国-scaleway.696960.xyz 2
       - 🇺🇸 美国(油管破解资源君) 82
       - 🇺🇸 美国(油管破解资源君) 83
-      - 🇺🇸 US 1023 → tg@nicevp...
-      - 🇺🇸 美国(油管破解资源君) 72
-      - 🇺🇸 -美国-142.4.119.198 2
+      - 🇺🇸 Relay_🇺🇸US-🇬🇧GB_656 |11.54Mb
+      - 🇺🇸 美国(油管破解资源君) 25
       - 🇺🇸 -美国-cf.yxjnode.com
-      - 🇺🇸 -美国-142.4.119.198
+      - 🇺🇸 美国(油管破解资源君) 29
       - 🇺🇸 -美国-104.22.59.195
-      - 🇺🇸 US 216 → tg@nicevpn123
+      - 🇺🇸 US 318 → tg@nicevpn123
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 94
-      - 🇺🇸 美国(油管破解资源君) 70
-      - 🇺🇸 -美国-170.114.45.122
-      - 🇺🇸 -美国-170.114.45.122 2
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 香港 040
       - 🇭🇰 -香港-119.237.195.230
       - 🇭🇰 -香港-42.98.27.183
       - 🇭🇰 -香港-42.98.27.183 2
@@ -624,7 +618,7 @@ proxy-groups:
       - 🇸🇬 新加坡_0511095
       - 🇸🇬 新加坡_0511897
       - 🇸🇬 -新加坡-sing2.tltvpn.xyz
-      - 🇸🇬 新加坡 006
+      - 🇸🇬 新加坡 005
       - 🇸🇬 Singapore(ChatGPT) ...
   - name: 日本
     type: url-test
@@ -632,12 +626,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 _JP_日本->🇦🇺_AU_澳大利亚
-      - 🇯🇵 github.com/freefq - 日本东京都亚马逊(Amazon)公司数据中心 7
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇯🇵 日本 009
+      - 🇯🇵 github.com/freefq - 日本  1
+      - 🇯🇵 github.com/freefq - 日本  1 2
+      - 🇯🇵 github.com/freefq - 日本  7
+      - 🇯🇵 日本 010
       - 🇯🇵 v2rayfree.eu.org - 日本  8
-      - 🇯🇵 github.com/freefq - 日本阿里云 13
       - 🇯🇵 -日本-45.88.43.136
       - 🇯🇵 -日本-45.88.43.136 2
       - 🇯🇵 日本_0511076
@@ -647,6 +640,7 @@ proxy-groups:
       - 🇯🇵 日本 - 2
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art
       - 🇯🇵 -日本-jp01-alt-vm0.entry.srthdw.art 2
+      - 🇯🇵 日本 014
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -664,8 +658,7 @@ proxy-groups:
     proxies:
       - 🇰🇷 韩国 - 3
       - 🇰🇷 -韩国首尔-3.35.168.220
-      - 🇰🇷 韩国 003
-      - 🇰🇷 South Korea(ChatGPT...
+      - 🇰🇷 韩国 004
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -8777,6 +8770,273 @@ rules:
  - IP-CIDR6,2a0b:b581::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b582::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b583::/48,🧱 国内网站,no-resolve
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,112-81-125-43.dhost.00cdn.com,🧱 国内网站
+ - DOMAIN,113-219-145-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,114-236-92-129.ksyungslb.com,🧱 国内网站
+ - DOMAIN,180-101-74-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,218-91-225-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,219-155-150-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,222-188-6-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-104-134-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-25-252-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🧱 国内网站
+ - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🧱 国内网站
+ - DOMAIN,p-bstarstatic.akamaized.net,🧱 国内网站
+ - DOMAIN,p.bstarstatic.com,🧱 国内网站
+ - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,api.iplay.163.com,🧱 国内网站
+ - DOMAIN,aqqmusic.tc.qq.com,🧱 国内网站
+ - DOMAIN,mam.netease.com,🧱 国内网站
+ - DOMAIN,moo.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acg.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,acgvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.net,🧱 国内网站
+ - DOMAIN-SUFFIX,b23.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,baka.im,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfunapp.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili22.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili2233.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili23.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili33.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cc,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn1.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn2.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn3.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn4.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn5.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,biligo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliintl.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.net,🧱 国内网站
+ - DOMAIN-SUFFIX,corari.com,🧱 国内网站
+ - DOMAIN-SUFFIX,dreamcast.hk,🧱 国内网站
+ - DOMAIN-SUFFIX,dyhgames.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.net,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.org,🧱 国内网站
+ - DOMAIN-SUFFIX,im9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,maoercdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mcbbs.net,🧱 国内网站
+ - DOMAIN-SUFFIX,mincdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sharejoytech.com,🧱 国内网站
+ - DOMAIN-SUFFIX,smtcdns.net,🧱 国内网站
+ - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🧱 国内网站
+ - DOMAIN-SUFFIX,yo9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinaepg.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinalive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,citv.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cnms.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntvwb.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.net,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.com,🧱 国内网站
+ - DOMAIN-SUFFIX,olympicchannelchina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zygbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,1.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,2.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71edge.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,ad.api.3g.tudou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ads1.lfengmobile.com,🧱 国内网站
+ - DOMAIN-SUFFIX,afp.pplive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ai.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,aixifan.com,🧱 国内网站
+ - DOMAIN-SUFFIX,androidgo.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.cupid.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.game.letvstore.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cdn.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cm.fancyapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cmvideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,dmhmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,game.pps.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,gitv.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,hitv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hunantv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,i.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,itc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ixigua.com,🧱 国内网站
+ - DOMAIN-SUFFIX,jstucdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,koowo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kugou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kuwo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,le.com,🧱 国内网站
+ - DOMAIN-SUFFIX,letv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mgtv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,migu.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,miguvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg2.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.126.net,🧱 国内网站
+ - DOMAIN-SUFFIX,music.163.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.tc.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,noxagile.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,pplive.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,pptv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qianqian.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qqmusic.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qy.net,🧱 国内网站
+ - DOMAIN-SUFFIX,s.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,snssdk.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,soku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,static.g.ppstream.com,🧱 国内网站
+ - DOMAIN-SUFFIX,taihe.com,🧱 国内网站
+ - DOMAIN-SUFFIX,tencentmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v-56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.smtcdns.com,🧱 国内网站
+ - DOMAIN-SUFFIX,video.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,videojj.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.net,🧱 国内网站
+ - DOMAIN-SUFFIX,y.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ykimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,youku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zamplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.io,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,zmz2019.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzfile.com,🧱 国内网站
+ - DOMAIN-KEYWORD,bilibili,🧱 国内网站
+ - DOMAIN-KEYWORD,qiyi,🧱 国内网站
+ - IP-CIDR,101.224.0.0/13,🧱 国内网站,no-resolve
+ - IP-CIDR,101.71.154.241/32,🧱 国内网站,no-resolve
+ - IP-CIDR,103.126.92.132/31,🧱 国内网站,no-resolve
+ - IP-CIDR,106.11.0.0/16,🧱 国内网站,no-resolve
+ - IP-CIDR,106.75.74.76/32,🧱 国内网站,no-resolve
+ - IP-CIDR,111.206.25.147/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.119.17/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.122.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.118.33/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.121.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,118.24.63.156/32,🧱 国内网站,no-resolve
+ - IP-CIDR,119.176.0.0/12,🧱 国内网站,no-resolve
+ - IP-CIDR,119.3.238.64/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.108.182/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.113.99/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.153.217/32,🧱 国内网站,no-resolve
+ - IP-CIDR,134.175.207.130/32,🧱 国内网站,no-resolve
+ - IP-CIDR,193.112.159.225/32,🧱 国内网站,no-resolve
+ - IP-CIDR,203.107.1.0/24,🧱 国内网站,no-resolve
+ - IP-CIDR,223.252.199.66/31,🧱 国内网站,no-resolve
+ - IP-CIDR,39.105.63.80/32,🧱 国内网站,no-resolve
+ - IP-CIDR,45.254.48.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,47.100.127.239/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.195/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.197/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.35/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.38/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.60/32,🧱 国内网站,no-resolve
+ - PROCESS-NAME,com.bilibili.app.blue,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.app.in,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic.intl,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bili,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bilibilihd,🧱 国内网站
  - DOMAIN,api.waqi.info,🚀 节点选择
  - DOMAIN,aqi.aqicn.org,🚀 节点选择
  - DOMAIN,assets-priconne-redive-us.akamaized.net,🚀 节点选择
