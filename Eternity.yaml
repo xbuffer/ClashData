@@ -5,15 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 _TW_台湾 2, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
-  - {name: 🇯🇵 日本 016, server: 104.233.173.236, port: 43679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 _HK_香港 2, server: hgchk.457843.xyz, port: 9998, type: trojan, password: 88fa7209-5ce8-4fc4-a379-c02b546cf3f2, skip-cert-verify: false}
-  - {name: "🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本", server: 43.207.57.168, port: 80, type: vmess, uuid: 4062b33c-be7a-4b69-94f5-4c738a4def8f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 _SG_新加坡 3, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇯🇵 日本 007, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_0521053, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_0521137, server: 45.88.43.136, port: 50801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 _SG_新加坡 5, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: "🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7", server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB, server: sz.cny.page, port: 11536, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB, server: sz.cny.page, port: 25984, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
+  - {name: 🇸🇬 _SG_新加坡 3, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
+  - {name: 🇯🇵 日本 016, server: 104.233.173.236, port: 43679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本, server: 43.207.57.168, port: 80, type: vmess, uuid: 4062b33c-be7a-4b69-94f5-4c738a4def8f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB, server: sz.cny.page, port: 20957, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB, server: assets.flareai.site, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB, server: assets.flareai.site, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
@@ -48,54 +47,56 @@ proxies:
   - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB, server: jp1.linghun3.xyz, port: 40010, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB, server: kr1.linghun3.xyz, port: 40058, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB, server: piniasg01.abbblog.xyz, port: 37908, type: ss, cipher: aes-128-gcm, password: 6652a517-36da-4db4-9607-326c2db9aa70}
-  - {name: 🇯🇵 _JP_日本 3, server: 43.207.57.168, port: 80, type: vmess, uuid: 4062b33c-be7a-4b69-94f5-4c738a4def8f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 084, server: 104.22.22.237, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB, server: sg2.linghun3.xyz, port: 40009, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB, server: sg1.linghun3.xyz, port: 40008, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}}
+  - {name: "🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15", server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}}
+  - {name: 🇺🇸 V006--US-付费推荐suo.yt/ssrsub, server: cdncf.scyu.app, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}}
   - {name: "🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...", server: 120.226.50.68, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_0521261, server: hwb.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇨🇦 加拿大_0521101, server: 23.227.60.146, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/vip】16, server: 104.18.23.26, port: 8080, type: vmess, uuid: dcafb669-fefc-4994-e3a9-5f40ed6aa7cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshtproject, headers: {Host: v2free.sshtproect.shop}}}
+  - {name: 🇺🇸 美国_05211433, server: 141.193.213.20, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/vip】13, server: 104.17.20.55, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13", server: 104.17.20.55, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇺🇸 美国 079, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
+  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 01925169-e2ff-483c-89f2-6e778dcdd450, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.cf}}}
   - {name: 🇺🇸 美国_0521007, server: 104.233.173.236, port: 43679, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国 20, server: 205.185.126.20, port: 80, type: vmess, uuid: 2cfc4c58-88cb-4e00-9977-ef0a37559a22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_0521469, server: 107.173.84.58, port: 48531, type: vmess, uuid: b7883f85-b042-4c0f-a28a-492504ec0be5, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 _US_美国 24, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_0521037, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 V002--US-付费推荐suo.yt/ssrsub, server: cdncf.scyu.app, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}}
+  - {name: 🇺🇸 V004--US-付费推荐suo.yt/ssrsub, server: cdncf.scyu.app, port: 80, type: vmess, uuid: f809b651-3924-4a80-abde-6c8536fbb229, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}}
+  - {name: 🇺🇸 _US_美国 19 2, server: 163.123.192.152, port: 443, type: trojan, password: 7f4e8527-79da-49c3-8ca8-64eef120882f, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国 078, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: cb452f3a-f6c2-11ed-bba8-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
+  - {name: 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._, server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
   - {name: 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}}
+  - {name: 🇨🇦 加拿大_0521103, server: 23.227.38.99, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
   - {name: 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93 2, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}}
-  - {name: 🇺🇸 美国_0521275, server: 107.173.84.58, port: 48531, type: vmess, uuid: b7883f85-b042-4c0f-a28a-492504ec0be5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 095, server: 163.123.192.152, port: 443, type: trojan, password: 7f4e8527-79da-49c3-8ca8-64eef120882f, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114, server: 142.4.106.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683881458407, headers: {Host: www.44716766.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2, server: 142.4.106.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1683881458407, headers: {Host: www.44716766.xyz}}}
-  - {name: 🇺🇸 美国 53, server: 142.4.106.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.44716766.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117, server: 23.224.110.184, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2, server: 23.224.110.184, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
-  - {name: 🇺🇸 美国 020, server: 23.224.110.184, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080712342310}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168, server: 137.175.63.135, port: 59009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0521063, server: 137.175.63.135, port: 59009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: Hyderabad-1959-330, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true}
-  - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2, server: 120.226.50.68, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇾 16|塞浦路斯 001, server: 203.22.223.204, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
   - {name: 🇸🇬 sg-am3.eqsunshine.com32001, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇳🇱 _NL_荷兰 2 2, server: 154.85.1.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇦🇺 澳大利亚_0521022, server: 139.99.162.120, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 _NL_荷兰 2, server: 154.85.1.3, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: "🇳🇱 -1,0,1,7,8,9,10,16,27,28,29,30|🇳🇱 _NL_荷兰", server: 154.85.1.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇳🇱 _NL_荷兰 3, server: 154.85.1.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇫🇷 _FR_法国, server: uk-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 35caae60-f273-11ed-a05b-0242ac120003, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uk-v2ray.freevmess.com]}}}
-  - {name: 🇫🇷 _FR_法国 2, server: uk-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 35caae60-f273-11ed-a05b-0242ac120003, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uk-v2ray.freevmess.com]}}}
-  - {name: "🇫🇷 0,1,7,8,9,10,27,28,29,30|🇫🇷 _FR_法国", server: uk-v2ray.freevmess.com, port: 8442, type: vmess, uuid: 35caae60-f273-11ed-a05b-0242ac120003, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [uk-v2ray.freevmess.com]}}}
-  - {name: 公益机场https//bit.ly/3BPeo5G, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 公益机场https//bit.ly/3BPeo5G 3, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: "@SSRSUB-V19-付费推荐suo.yt/ssrsub", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: cb452f3a-f6c2-11ed-bba8-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: cb452f3a-f6c2-11ed-bba8-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39, server: 120.226.50.68, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇦🇺 澳大利亚_0521005, server: 139.99.162.120, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2, server: 120.226.50.68, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 未知_0521179, server: 104.17.20.55, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇱🇺 卢森堡_0521089, server: ztl.ircf.space, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇮🇷 _IR_伊朗_1, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇮🇷 伊朗 001, server: de63.thugiping.cloud, port: 443, type: vmess, uuid: c9a22360-3f66-48c8-89ab-13799b05a730, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇦🇺 澳大利亚_0521022, server: 139.99.162.120, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "@SSRSUB-V26-付费推荐suo.yt/ssrsub 2", server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
+  - {name: "@SSRSUB-V26-付费推荐suo.yt/ssrsub", server: 103.21.244.37, port: 80, type: vmess, uuid: 53ae65be-81ee-4766-8a09-da43c44c4d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qwer11, headers: {Host: uyaa.vtcss.top}}}
+  - {name: "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: cb452f3a-f6c2-11ed-bba8-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
   - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}}
   - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72 2, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: 16925dca-05be-4d7c-b469-6bcbd8a227ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}}
   - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8 2, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 11|🇨🇳_CN_中国_, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false}
   - {name: 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60, server: 188.114.99.190, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}}
+  - {name: 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60 2, server: 188.114.99.190, port: 2095, type: vmess, uuid: 67597b31-fba2-42ba-b3df-b7264d346235, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: jp.wyhkaa0.ga}}}
+  - {name: 🇹🇷 土耳其【付费推荐：suo.yt/ssrsub】51, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇹🇷 土耳其_0521001, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇹🇷 土耳其_0521004, server: 185.40.86.195, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇳🇱 -1,0,1,7,8,9,10,27,28,29,30|🇳🇱 _NL_荷兰", server: 154.85.1.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: "@SSRSUB-V19-付费推荐suo.yt/ssrsub", server: aaaa.wxx.gay, port: 443, type: vmess, uuid: cb452f3a-f6c2-11ed-bba8-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,15 +112,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 _TW_台湾 2
-      - 🇯🇵 日本 016
-      - 🇭🇰 _HK_香港 2
-      - 🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 007
+      - 🇯🇵 日本_0521053
+      - 🇯🇵 日本_0521137
       - 🇸🇬 _SG_新加坡 5
-      - 🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇸🇬 _SG_新加坡 3
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇯🇵 日本 016
+      - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
@@ -154,54 +154,56 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇯🇵 _JP_日本 3
-      - 🇺🇸 美国 084
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15
+      - 🇺🇸 V006--US-付费推荐suo.yt/ssrsub
       - 🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...
-      - 🇨🇦 加拿大_0521261
-      - 🇨🇦 加拿大_0521101
-      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】16
+      - 🇺🇸 美国_05211433
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2
       - 🇺🇸 美国_0521007
       - 🇺🇸 _US_美国 20
-      - 🇺🇸 美国_0521469
       - 🇺🇸 _US_美国 24
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37
       - 🇺🇸 美国_0521037
+      - 🇺🇸 V002--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 V004--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 _US_美国 19 2
       - 🇺🇸 美国 078
+      - 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93
+      - 🇨🇦 加拿大_0521103
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93 2
-      - 🇺🇸 美国_0521275
+      - 🇺🇸 美国 095
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168
-      - 🇺🇸 美国_0521063
-      - Hyderabad-1959-330
-      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 🇨🇾 16|塞浦路斯 001
       - 🇸🇬 sg-am3.eqsunshine.com32001
-      - 🇳🇱 _NL_荷兰 2 2
-      - 🇦🇺 澳大利亚_0521022
-      - 🇳🇱 _NL_荷兰 2
-      - 🇳🇱 -1,0,1,7,8,9,10,16,27,28,29,30|🇳🇱 _NL_荷兰
-      - 🇳🇱 _NL_荷兰 3
-      - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
-      - 🇫🇷 0,1,7,8,9,10,27,28,29,30|🇫🇷 _FR_法国
-      - 公益机场https//bit.ly/3BPeo5G
-      - 公益机场https//bit.ly/3BPeo5G 3
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
-      - 🇳🇱 _NL_荷兰
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39
-      - 🇦🇺 澳大利亚_0521005
+      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 未知_0521179
+      - 🇱🇺 卢森堡_0521089
+      - 🇮🇷 _IR_伊朗_1
+      - 🇮🇷 伊朗 001
+      - 🇦🇺 澳大利亚_0521022
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub 2"
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72 2
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8 2
       - 🇨🇳 11|🇨🇳_CN_中国_
       - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60
+      - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60 2
+      - 🇹🇷 土耳其【付费推荐：suo.yt/ssrsub】51
+      - 🇹🇷 土耳其_0521001
+      - 🇹🇷 土耳其_0521004
+      - 🇳🇱 -1,0,1,7,8,9,10,27,28,29,30|🇳🇱 _NL_荷兰
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,15 +254,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _TW_台湾 2
-      - 🇯🇵 日本 016
-      - 🇭🇰 _HK_香港 2
-      - 🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 007
+      - 🇯🇵 日本_0521053
+      - 🇯🇵 日本_0521137
       - 🇸🇬 _SG_新加坡 5
-      - 🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇸🇬 _SG_新加坡 3
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇯🇵 日本 016
+      - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
@@ -295,69 +296,70 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇯🇵 _JP_日本 3
-      - 🇺🇸 美国 084
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15
+      - 🇺🇸 V006--US-付费推荐suo.yt/ssrsub
       - 🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...
-      - 🇨🇦 加拿大_0521261
-      - 🇨🇦 加拿大_0521101
-      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】16
+      - 🇺🇸 美国_05211433
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2
       - 🇺🇸 美国_0521007
       - 🇺🇸 _US_美国 20
-      - 🇺🇸 美国_0521469
       - 🇺🇸 _US_美国 24
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37
       - 🇺🇸 美国_0521037
+      - 🇺🇸 V002--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 V004--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 _US_美国 19 2
       - 🇺🇸 美国 078
+      - 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93
+      - 🇨🇦 加拿大_0521103
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93 2
-      - 🇺🇸 美国_0521275
+      - 🇺🇸 美国 095
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168
-      - 🇺🇸 美国_0521063
-      - Hyderabad-1959-330
-      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 🇨🇾 16|塞浦路斯 001
       - 🇸🇬 sg-am3.eqsunshine.com32001
-      - 🇳🇱 _NL_荷兰 2 2
-      - 🇦🇺 澳大利亚_0521022
-      - 🇳🇱 _NL_荷兰 2
-      - 🇳🇱 -1,0,1,7,8,9,10,16,27,28,29,30|🇳🇱 _NL_荷兰
-      - 🇳🇱 _NL_荷兰 3
-      - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
-      - 🇫🇷 0,1,7,8,9,10,27,28,29,30|🇫🇷 _FR_法国
-      - 公益机场https//bit.ly/3BPeo5G
-      - 公益机场https//bit.ly/3BPeo5G 3
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
-      - 🇳🇱 _NL_荷兰
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39
-      - 🇦🇺 澳大利亚_0521005
+      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 未知_0521179
+      - 🇱🇺 卢森堡_0521089
+      - 🇮🇷 _IR_伊朗_1
+      - 🇮🇷 伊朗 001
+      - 🇦🇺 澳大利亚_0521022
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub 2"
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72 2
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8 2
       - 🇨🇳 11|🇨🇳_CN_中国_
       - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60
+      - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60 2
+      - 🇹🇷 土耳其【付费推荐：suo.yt/ssrsub】51
+      - 🇹🇷 土耳其_0521001
+      - 🇹🇷 土耳其_0521004
+      - 🇳🇱 -1,0,1,7,8,9,10,27,28,29,30|🇳🇱 _NL_荷兰
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 _TW_台湾 2
-      - 🇯🇵 日本 016
-      - 🇭🇰 _HK_香港 2
-      - 🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 007
+      - 🇯🇵 日本_0521053
+      - 🇯🇵 日本_0521137
       - 🇸🇬 _SG_新加坡 5
-      - 🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇸🇬 _SG_新加坡 3
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇯🇵 日本 016
+      - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
@@ -392,98 +394,100 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇯🇵 _JP_日本 3
-      - 🇺🇸 美国 084
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15
+      - 🇺🇸 V006--US-付费推荐suo.yt/ssrsub
       - 🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...
-      - 🇨🇦 加拿大_0521261
-      - 🇨🇦 加拿大_0521101
-      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】16
+      - 🇺🇸 美国_05211433
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2
       - 🇺🇸 美国_0521007
       - 🇺🇸 _US_美国 20
-      - 🇺🇸 美国_0521469
       - 🇺🇸 _US_美国 24
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37
       - 🇺🇸 美国_0521037
+      - 🇺🇸 V002--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 V004--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 _US_美国 19 2
       - 🇺🇸 美国 078
+      - 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93
+      - 🇨🇦 加拿大_0521103
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93 2
-      - 🇺🇸 美国_0521275
+      - 🇺🇸 美国 095
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168
-      - 🇺🇸 美国_0521063
-      - Hyderabad-1959-330
-      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 🇨🇾 16|塞浦路斯 001
       - 🇸🇬 sg-am3.eqsunshine.com32001
-      - 🇳🇱 _NL_荷兰 2 2
-      - 🇦🇺 澳大利亚_0521022
-      - 🇳🇱 _NL_荷兰 2
-      - 🇳🇱 -1,0,1,7,8,9,10,16,27,28,29,30|🇳🇱 _NL_荷兰
-      - 🇳🇱 _NL_荷兰 3
-      - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
-      - 🇫🇷 0,1,7,8,9,10,27,28,29,30|🇫🇷 _FR_法国
-      - 公益机场https//bit.ly/3BPeo5G
-      - 公益机场https//bit.ly/3BPeo5G 3
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
-      - 🇳🇱 _NL_荷兰
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39
-      - 🇦🇺 澳大利亚_0521005
+      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 未知_0521179
+      - 🇱🇺 卢森堡_0521089
+      - 🇮🇷 _IR_伊朗_1
+      - 🇮🇷 伊朗 001
+      - 🇦🇺 澳大利亚_0521022
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub 2"
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72 2
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8 2
       - 🇨🇳 11|🇨🇳_CN_中国_
       - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60
+      - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60 2
+      - 🇹🇷 土耳其【付费推荐：suo.yt/ssrsub】51
+      - 🇹🇷 土耳其_0521001
+      - 🇹🇷 土耳其_0521004
+      - 🇳🇱 -1,0,1,7,8,9,10,27,28,29,30|🇳🇱 _NL_荷兰
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 084
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15
+      - 🇺🇸 V006--US-付费推荐suo.yt/ssrsub
       - 🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...
-      - 🇨🇦 加拿大_0521261
-      - 🇨🇦 加拿大_0521101
-      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】16
+      - 🇺🇸 美国_05211433
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2
       - 🇺🇸 美国_0521007
       - 🇺🇸 _US_美国 20
-      - 🇺🇸 美国_0521469
       - 🇺🇸 _US_美国 24
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37
       - 🇺🇸 美国_0521037
+      - 🇺🇸 V002--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 V004--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 _US_美国 19 2
       - 🇺🇸 美国 078
+      - 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93
+      - 🇨🇦 加拿大_0521103
       - 🇨🇦 加拿大【付费推荐：suo.yt/ssrsub】93 2
-      - 🇺🇸 美国_0521275
+      - 🇺🇸 美国 095
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168
-      - 🇺🇸 美国_0521063
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _TW_台湾 2
-      - 🇯🇵 日本 016
-      - 🇭🇰 _HK_香港 2
-      - 🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本
-      - 🇸🇬 _SG_新加坡 3
+      - 🇯🇵 日本 007
+      - 🇯🇵 日本_0521053
+      - 🇯🇵 日本_0521137
       - 🇸🇬 _SG_新加坡 5
-      - 🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇸🇬 _SG_新加坡 3
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
+      - 🇯🇵 日本 016
+      - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
@@ -518,15 +522,14 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - 🇯🇵 _JP_日本 3
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
@@ -561,63 +564,65 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
-      - Hyderabad-1959-330
-      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
+      - 🇨🇾 16|塞浦路斯 001
       - 🇸🇬 sg-am3.eqsunshine.com32001
-      - 🇳🇱 _NL_荷兰 2 2
-      - 🇦🇺 澳大利亚_0521022
-      - 🇳🇱 _NL_荷兰 2
-      - 🇳🇱 -1,0,1,7,8,9,10,16,27,28,29,30|🇳🇱 _NL_荷兰
-      - 🇳🇱 _NL_荷兰 3
-      - 🇫🇷 _FR_法国
-      - 🇫🇷 _FR_法国 2
-      - 🇫🇷 0,1,7,8,9,10,27,28,29,30|🇫🇷 _FR_法国
-      - 公益机场https//bit.ly/3BPeo5G
-      - 公益机场https//bit.ly/3BPeo5G 3
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
-      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
-      - 🇳🇱 _NL_荷兰
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39
-      - 🇦🇺 澳大利亚_0521005
+      - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】39 2
+      - 未知_0521179
+      - 🇱🇺 卢森堡_0521089
+      - 🇮🇷 _IR_伊朗_1
+      - 🇮🇷 伊朗 001
+      - 🇦🇺 澳大利亚_0521022
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub 2"
+      - "@SSRSUB-V26-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub 2"
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】72 2
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8
       - 🇨🇳 中国【付费推荐：suo.yt/ssrsub】8 2
       - 🇨🇳 11|🇨🇳_CN_中国_
       - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60
+      - 🇳🇱 荷兰【付费推荐：suo.yt/ssrsub】60 2
+      - 🇹🇷 土耳其【付费推荐：suo.yt/ssrsub】51
+      - 🇹🇷 土耳其_0521001
+      - 🇹🇷 土耳其_0521004
+      - 🇳🇱 -1,0,1,7,8,9,10,27,28,29,30|🇳🇱 _NL_荷兰
+      - "@SSRSUB-V19-付费推荐suo.yt/ssrsub"
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 084
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 4,5,19|美国【付费推荐：https//v1.mk/vip】15
+      - 🇺🇸 V006--US-付费推荐suo.yt/ssrsub
       - 🇺🇸 25,26|🇨🇳_CN_中国->🇺🇸_US_美国_2_4由快嘴科技提供：...
-      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】16
+      - 🇺🇸 美国_05211433
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 4,5|美国【付费推荐：https//v1.mk/vip】13
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】172 2
       - 🇺🇸 美国_0521007
       - 🇺🇸 _US_美国 20
-      - 🇺🇸 美国_0521469
       - 🇺🇸 _US_美国 24
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】37
       - 🇺🇸 美国_0521037
+      - 🇺🇸 V002--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 V004--US-付费推荐suo.yt/ssrsub
+      - 🇺🇸 _US_美国 19 2
       - 🇺🇸 美国 078
-      - 🇺🇸 美国_0521275
+      - 🇺🇸 15|v2rayfree.eu.org - 美国加利福尼亚州圣何塞..._
+      - 🇺🇸 美国 095
       - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】114 2
-      - 🇺🇸 美国 53
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】117 2
-      - 🇺🇸 美国 020
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】168
-      - 🇺🇸 美国_0521063
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _HK_香港 2
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
@@ -637,18 +642,22 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡 3
       - 🇸🇬 _SG_新加坡 5
-      - 🇸🇬 19,25,26|_🇸🇬_SG_新加坡_顺丰_7
+      - 🇸🇬 _SG_新加坡 3
       - 🇸🇬 Relay 🇸🇬 Singapore 01 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 19 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 45 TG@SSRSUB
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 日本 007
+      - 🇯🇵 日本_0521053
+      - 🇯🇵 日本_0521137
       - 🇯🇵 日本 016
-      - 🇯🇵 0,1,7,8,9,10,11,27,28,29,30|🇯🇵 _JP_日本
+      - 🇯🇵 _JP_日本
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
@@ -659,15 +668,13 @@ proxy-groups:
       - 🇯🇵 Relay 🇯🇵 Japan 19 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 28 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 51 TG@SSRSUB
-      - 🇯🇵 _JP_日本 3
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _TW_台湾 2
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
@@ -685,6 +692,150 @@ proxy-groups:
       - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea(ChatGPT) 11 TG@SSRSUB
 rules:
+ - DOMAIN,asusrouter.com,DIRECT
+ - DOMAIN,instant.arubanetworks.com,DIRECT
+ - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,setmeup.arubanetworks.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
+ - DOMAIN,www.mifiwi.com,DIRECT
+ - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,0.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,10.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.51.198.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,101.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,102.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,103.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,104.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,105.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,106.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,107.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,108.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,109.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,110.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,111.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,112.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.0.203.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,114.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,115.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,116.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,117.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,118.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,119.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,120.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,121.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,122.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,123.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,124.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,125.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,126.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,16.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,168.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,17.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,18.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,19.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,2.0.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,20.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,21.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,22.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,23.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,24.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,25.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,254.169.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,255.255.255.255.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,26.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,27.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,28.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,29.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,30.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,31.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,64.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,65.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,66.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,67.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,68.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,69.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,70.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,71.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,72.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,73.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,74.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,75.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,76.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,77.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,78.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,79.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.b.d.0.1.0.0.2.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,80.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,81.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,82.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,83.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,84.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,85.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,86.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,87.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,88.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,89.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,9.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,90.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,91.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,92.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,93.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,94.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,95.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,96.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,97.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,98.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,99.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,a.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,acl4.ssr,DIRECT
+ - DOMAIN-SUFFIX,b.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,captive.apple.com,DIRECT
+ - DOMAIN-SUFFIX,connectivitycheck.gstatic.com,DIRECT
+ - DOMAIN-SUFFIX,d.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,hiwifi.com,DIRECT
+ - DOMAIN-SUFFIX,home.arpa,DIRECT
+ - DOMAIN-SUFFIX,leike.cc,DIRECT
+ - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT
+ - DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
+ - DOMAIN-SUFFIX,miwifi.com,DIRECT
+ - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+ - DOMAIN-SUFFIX,msftncsi.com,DIRECT
+ - DOMAIN-SUFFIX,my.router,DIRECT
+ - DOMAIN-SUFFIX,networkcheck.kde.org,DIRECT
+ - DOMAIN-SUFFIX,p.to,DIRECT
+ - DOMAIN-SUFFIX,peiluyou.com,DIRECT
+ - DOMAIN-SUFFIX,phicomm.me,DIRECT
+ - DOMAIN-SUFFIX,plex.direct,DIRECT
+ - DOMAIN-SUFFIX,router.ctc,DIRECT
+ - DOMAIN-SUFFIX,routerlogin.com,DIRECT
+ - DOMAIN-SUFFIX,tendawifi.com,DIRECT
+ - DOMAIN-SUFFIX,tplinkwifi.net,DIRECT
+ - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
+ - DOMAIN-SUFFIX,zte.home,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.0.2.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,192.88.99.0/24,DIRECT,no-resolve
+ - IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
+ - IP-CIDR,198.51.100.0/24,DIRECT,no-resolve
+ - IP-CIDR,203.0.113.0/24,DIRECT,no-resolve
+ - IP-CIDR,224.0.0.0/3,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
  - DOMAIN,appldnld.apple.com.edgesuite.net,🍎 苹果服务
  - DOMAIN,apple-events.akamaized.net,🍎 苹果服务
  - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net,🍎 苹果服务
@@ -8653,6 +8804,273 @@ rules:
  - IP-CIDR6,2a0b:b581::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b582::/48,🧱 国内网站,no-resolve
  - IP-CIDR6,2a0b:b583::/48,🧱 国内网站,no-resolve
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com,🧱 国内网站
+ - DOMAIN,0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com,🧱 国内网站
+ - DOMAIN,112-81-125-43.dhost.00cdn.com,🧱 国内网站
+ - DOMAIN,113-219-145-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,114-236-92-129.ksyungslb.com,🧱 国内网站
+ - DOMAIN,180-101-74-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgazdope.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1geadrmttge3nhcjwgwzdqqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr3uomttgr31hcjtgezdkcy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdcco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkca.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkco.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com,🧱 国内网站
+ - DOMAIN,1graukmttga4nhcjtgozdgce.ourdvsss.com,🧱 国内网站
+ - DOMAIN,218-91-225-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,219-155-150-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,222-188-6-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-104-134-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,36-25-252-1.ksyungslb.com,🧱 国内网站
+ - DOMAIN,3ge3drmttga5nhcbqge3ur.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5do.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdnqbofa5dy.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahue.ourdvsss.com,🧱 国内网站
+ - DOMAIN,3geauymtsgrzdrcbzfahuk.ourdvsss.com,🧱 国内网站
+ - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com,🧱 国内网站
+ - DOMAIN,p-bstarstatic.akamaized.net,🧱 国内网站
+ - DOMAIN,p.bstarstatic.com,🧱 国内网站
+ - DOMAIN,upos-bstar-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN,api.iplay.163.com,🧱 国内网站
+ - DOMAIN,aqqmusic.tc.qq.com,🧱 国内网站
+ - DOMAIN,mam.netease.com,🧱 国内网站
+ - DOMAIN,moo.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acg.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,acgvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,animetamashi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,anitama.net,🧱 国内网站
+ - DOMAIN-SUFFIX,b23.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,baka.im,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bigfunapp.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili22.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili2233.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili23.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bili33.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cc,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibili.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibiligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilibilipay.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn1.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn2.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn3.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn4.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilicdn5.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.co,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biligame.net,🧱 国内网站
+ - DOMAIN-SUFFIX,biligo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliintl.com,🧱 国内网站
+ - DOMAIN-SUFFIX,biliplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,bilivideo.net,🧱 国内网站
+ - DOMAIN-SUFFIX,corari.com,🧱 国内网站
+ - DOMAIN-SUFFIX,dreamcast.hk,🧱 国内网站
+ - DOMAIN-SUFFIX,dyhgames.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunhuf.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.com.w.kunlunpi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.net,🧱 国内网站
+ - DOMAIN-SUFFIX,hdslb.org,🧱 国内网站
+ - DOMAIN-SUFFIX,im9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,maoercdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mcbbs.net,🧱 国内网站
+ - DOMAIN-SUFFIX,mincdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sharejoytech.com,🧱 国内网站
+ - DOMAIN-SUFFIX,smtcdns.net,🧱 国内网站
+ - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,🧱 国内网站
+ - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net,🧱 国内网站
+ - DOMAIN-SUFFIX,yo9.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlib.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvlibrary.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cctvpro.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinaepg.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,chinalive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,citv.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cnms.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntv.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,cntvwb.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,gjgbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ipanda.net,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,livechina.com,🧱 国内网站
+ - DOMAIN-SUFFIX,olympicchannelchina.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,tvcc.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l6wcx3kp9bc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--fiq53l90et9fpncc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,xn--kprv4ewxfr9cpxcc7joo6apn8a.xn--fiqs8s,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zggbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,zygbdszt.net.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,1.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,2.letvlive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am,🧱 国内网站
+ - DOMAIN-SUFFIX,71.am.com,🧱 国内网站
+ - DOMAIN-SUFFIX,71edge.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.com,🧱 国内网站
+ - DOMAIN-SUFFIX,acfun.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,ad.api.3g.tudou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ads1.lfengmobile.com,🧱 国内网站
+ - DOMAIN-SUFFIX,afp.pplive.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ai.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,aixifan.com,🧱 国内网站
+ - DOMAIN-SUFFIX,androidgo.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.cupid.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,api.game.letvstore.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cdn.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cm.fancyapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,cmvideo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,dmhmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,game.pps.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,gitv.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,hitv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,hunantv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,i.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,iqiyipic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,itc.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,ixigua.com,🧱 国内网站
+ - DOMAIN-SUFFIX,jstucdn.com,🧱 国内网站
+ - DOMAIN-SUFFIX,koowo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kugou.com,🧱 国内网站
+ - DOMAIN-SUFFIX,kuwo.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,le.com,🧱 国内网站
+ - DOMAIN-SUFFIX,letv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,mgtv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,migu.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,miguvideo.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,msg2.video.qiyi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.126.net,🧱 国内网站
+ - DOMAIN-SUFFIX,music.163.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.tc.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,music.xiaomi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,noxagile.duapp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,pplive.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,pptv.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qianqian.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qqmusic.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,qy.net,🧱 国内网站
+ - DOMAIN-SUFFIX,s.zampdsp.com,🧱 国内网站
+ - DOMAIN-SUFFIX,snssdk.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com,🧱 国内网站
+ - DOMAIN-SUFFIX,sohu.com.cn,🧱 国内网站
+ - DOMAIN-SUFFIX,soku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,static.g.ppstream.com,🧱 国内网站
+ - DOMAIN-SUFFIX,taihe.com,🧱 国内网站
+ - DOMAIN-SUFFIX,tencentmusic.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v-56.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,v.smtcdns.com,🧱 国内网站
+ - DOMAIN-SUFFIX,video.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,videojj.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.com,🧱 国内网站
+ - DOMAIN-SUFFIX,xiami.net,🧱 国内网站
+ - DOMAIN-SUFFIX,y.qq.com,🧱 国内网站
+ - DOMAIN-SUFFIX,ykimg.com,🧱 国内网站
+ - DOMAIN-SUFFIX,youku.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zamplus.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.io,🧱 国内网站
+ - DOMAIN-SUFFIX,zimuzu.tv,🧱 国内网站
+ - DOMAIN-SUFFIX,zmz2019.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.com,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzapi.net,🧱 国内网站
+ - DOMAIN-SUFFIX,zmzfile.com,🧱 国内网站
+ - DOMAIN-KEYWORD,bilibili,🧱 国内网站
+ - DOMAIN-KEYWORD,qiyi,🧱 国内网站
+ - IP-CIDR,101.224.0.0/13,🧱 国内网站,no-resolve
+ - IP-CIDR,101.71.154.241/32,🧱 国内网站,no-resolve
+ - IP-CIDR,103.126.92.132/31,🧱 国内网站,no-resolve
+ - IP-CIDR,106.11.0.0/16,🧱 国内网站,no-resolve
+ - IP-CIDR,106.75.74.76/32,🧱 国内网站,no-resolve
+ - IP-CIDR,111.206.25.147/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.119.17/32,🧱 国内网站,no-resolve
+ - IP-CIDR,112.13.122.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.118.33/32,🧱 国内网站,no-resolve
+ - IP-CIDR,115.236.121.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,118.24.63.156/32,🧱 国内网站,no-resolve
+ - IP-CIDR,119.176.0.0/12,🧱 国内网站,no-resolve
+ - IP-CIDR,119.3.238.64/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.108.182/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.113.99/32,🧱 国内网站,no-resolve
+ - IP-CIDR,120.92.153.217/32,🧱 国内网站,no-resolve
+ - IP-CIDR,134.175.207.130/32,🧱 国内网站,no-resolve
+ - IP-CIDR,193.112.159.225/32,🧱 国内网站,no-resolve
+ - IP-CIDR,203.107.1.0/24,🧱 国内网站,no-resolve
+ - IP-CIDR,223.252.199.66/31,🧱 国内网站,no-resolve
+ - IP-CIDR,39.105.63.80/32,🧱 国内网站,no-resolve
+ - IP-CIDR,45.254.48.1/32,🧱 国内网站,no-resolve
+ - IP-CIDR,47.100.127.239/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.195/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.160.197/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.35/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.38/32,🧱 国内网站,no-resolve
+ - IP-CIDR,59.111.181.60/32,🧱 国内网站,no-resolve
+ - PROCESS-NAME,com.bilibili.app.blue,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.app.in,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic,🧱 国内网站
+ - PROCESS-NAME,com.bilibili.comic.intl,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bili,🧱 国内网站
+ - PROCESS-NAME,tv.danmaku.bilibilihd,🧱 国内网站
  - DOMAIN,api.waqi.info,🚀 节点选择
  - DOMAIN,aqi.aqicn.org,🚀 节点选择
  - DOMAIN,assets-priconne-redive-us.akamaized.net,🚀 节点选择
