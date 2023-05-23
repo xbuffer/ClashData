@@ -5,12 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡_0523085, server: 8.222.192.30, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.freeiq.cf}}}
-  - {name: 🇯🇵 日本 009, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._, server: ukjs.stablize.top, port: 443, type: trojan, password: 82a2d844-89b2-4ebd-aa18-0bd2feef9da2, skip-cert-verify: false}
-  - {name: 🇨🇳 _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG..., server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*}
-  - {name: 🇰🇷 韩国 002, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 _JP_日本 2 2, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: "🇨🇳 8,10,13,28,30|_TW_台湾 2", server: 165.154.227.191, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇨🇳 _TW_台湾 2, server: 165.154.227.191, port: 443, type: trojan, password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e, skip-cert-verify: true}
+  - {name: 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai, server: kr.stablize.top, port: 443, type: trojan, password: 6191d59d-021c-4af1-8197-85d52c564ac4, skip-cert-verify: true}
+  - {name: 🇰🇷 韩国 001, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡【付费推荐：v1.mk/vip】2, server: hk.nutcloud.de, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: od176M3UVTFsyZAYYkT8Xe/Ip2V69M5Ml2q00slKFak=}
+  - {name: 🇨🇳 台湾_0523009, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_0523084, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore 48 TG@SSRSUB, server: 330sg01.ljydw.top, port: 14439, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 330sg01.ljydw.top, skip-cert-verify: false}
+  - {name: 🇸🇬 Singapore 06 TG@SSRSUB, server: 330hk02.ljydw.top, port: 14433, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 330hk02.ljydw.top, skip-cert-verify: false}
+  - {name: 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB, server: a003.zhuan99.men, port: 10003, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡_0523009, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_0523109, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 010, server: jp03-alt-vm0.entry.srthdw.art, port: 21583, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 1, cipher: auto, tls: true}
   - {name: 🇸🇬 新加坡_0523058, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0523124, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇭🇰 香港 009, server: 27.124.47.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -21,13 +29,12 @@ proxies:
   - {name: 🇸🇬 新加坡_0523125, server: 8.219.154.85, port: 20542, type: vmess, uuid: c78d61b0-00a6-4c2e-fa3c-8b02d0df24c7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_0523081, server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡 011, server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇸🇬 16,18|新加坡 011", server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 16|新加坡 011, server: 138.2.71.111, port: 80, type: vmess, uuid: b2947942-701b-4de2-91cd-f6810d5d03bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_0523083, server: 8.210.171.1, port: 30143, type: vmess, uuid: 54d5fa20-99c9-49ec-d2ae-7c662aa7a27d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0523022, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0523051, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 002, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0523109, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0523009, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本 003, server: 131.186.41.192, port: 26297, type: vmess, uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB, server: a002.zhuan99.men, port: 10002, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
   - {name: 🇯🇵 日本_0523059, server: 45.88.43.237, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0523093, server: 45.88.43.237, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本 017, server: 45.88.43.237, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
@@ -42,61 +49,53 @@ proxies:
   - {name: 🇯🇵 日本 020, server: 45.88.43.235, port: 46002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_0523072, server: 172.105.217.55, port: 80, type: vmess, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/fuzzyng?ed=2048"}}
   - {name: 🇯🇵 日本 021, server: 172.105.217.55, port: 80, type: vmess, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/fuzzyng?ed=2048"}}
-  - {name: "🇯🇵 16,18|日本 021", server: 172.105.217.55, port: 80, type: vmess, uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本_0523084, server: v7.583181.xyz, port: 443, type: vmess, uuid: c59ffd70-a414-4d7d-a061-a2621349fa69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v7.583181.xyz}}}
-  - {name: 🇯🇵 日本 022, server: v7.583181.xyz, port: 443, type: vmess, uuid: c59ffd70-a414-4d7d-a061-a2621349fa69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v7.583181.xyz}}}
-  - {name: 🇯🇵 16|日本 022, server: v7.583181.xyz, port: 443, type: vmess, uuid: c59ffd70-a414-4d7d-a061-a2621349fa69, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v7.583181.xyz}}}
-  - {name: 🇯🇵 日本 023, server: oracle02.jiting.space, port: 25494, type: vmess, uuid: 960040e9-ad9b-4e39-fb90-f9ba90c4b7a2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 16|日本 023, server: oracle02.jiting.space, port: 25494, type: vmess, uuid: 960040e9-ad9b-4e39-fb90-f9ba90c4b7a2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0523084, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0523009, server: 61.220.198.102, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46", server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】46, server: 192.74.234.82, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_05231394, server: 137.175.41.193, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 2, server: 172.67.138.19, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__", server: 104.17.231.144, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
   - {name: 🇺🇸 美国_0523316, server: 137.175.41.193, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________", server: 104.22.1.95, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________", server: 104.19.229.127, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 6, server: 172.67.138.19, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____", server: 104.18.254.154, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 美国_0523338, server: 172.67.36.244, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________", server: 172.67.36.244, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: hn.xiaohouzi.club, port: 48734, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: ajpn04.xiaohouzi.club, skip-cert-verify: false}
-  - {name: "🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______", server: 141.101.113.192, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3, server: 104.21.53.35, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}}
-  - {name: "🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国", server: 172.67.138.19, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: "🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________", server: 104.20.77.201, port: 80, type: vmess, uuid: cb8cbbc3-137a-4064-8d02-b0ee3ca2c18c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /qazxcv655, headers: {Host: tou.vtcss.top}}}
-  - {name: 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
-  - {name: 🇨🇦 加拿大【付费推荐：https//v1.mk/vip】44, server: mbt.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
-  - {name: "🇨🇦 4,5|加拿大【付费推荐：https//v1.mk/vip】44", server: mbt.ircf.space, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
-  - {name: "-1,20|US_107.167.29.37_05222023bad1-...", server: 107.167.29.37, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0523008, server: 107.167.29.37, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 11|🇺🇸_US_美国___, server: laroza.one, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
-  - {name: 🇺🇸 美国_0523961, server: 172.67.179.157, port: 443, type: vmess, uuid: e883ff76-3bb4-4008-c068-6b5b1d960ea7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer09, headers: {Host: uyaa.vtcss.top}}}
-  - {name: 🇺🇸 美国_0523725, server: 107.167.29.37, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇱🇹 立陶宛 001, server: 89.116.250.218, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
-  - {name: 未知_0523109, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
-  - {name: github.com/freefq - 欧盟  12, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 🇬🇧 英国 003, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: "@SSRSUB-V18-付费推荐suo.yt/ssrsub", server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 🇬🇧 英国 005, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: "🇩🇪 12,12,12,12,13,13,13,13,15,17|🇩🇪 Germany 02 TG@nodpai", server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 87283fe7-08e5-403b-a0aa-add7cd68a23e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: eu3.twittei.me}}}
-  - {name: 🇨🇭 瑞士_0523002, server: 185.18.250.217, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: "-1,20|US_107.167.29.37_05232023812b-...", server: 107.167.29.37, port: 52303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_05233506, server: 142.0.133.37, port: 51412, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 20|US_140.99.59.228_05232023812b-..., server: 140.99.59.228, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42", server: 104.16.15.109, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: 🇺🇸 _US_美国 7, server: cheatsheet.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】5, server: 104.26.14.137, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132", server: javatpoint.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇺🇸 美国_0523463, server: 104.26.14.137, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5", server: 104.26.14.137, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇨🇦 加拿大_0523055, server: 23.227.60.146, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】31, server: cheatsheet.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】132, server: javatpoint.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28", server: 104.22.22.237, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8", server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103", server: honeygain.com, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇺🇸 美国【付费推荐：v1.mk/vip】8, server: cfyd.starsea.vip, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  20, server: 23.227.60.184, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇺🇸 美国 083, server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: "🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121", server: invideo.io, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "| 6.72Mb", server: 137.175.41.193, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: github.com/freefq - 乌克兰  6, server: mg01.pmssr.xyz, port: 443, type: vmess, uuid: 95b2dc83-a476-4a82-93b2-0d77b4c30c18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: mg01.pmssr.xyz}}}
   - {name: 🇪🇸 西班牙 001, server: 185.18.250.217, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇬🇧 英国 004, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 🇬🇧 英国 002, server: 45.85.119.44, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇨🇴 哥伦比亚 001, server: 91.195.110.38, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇨🇴 哥伦比亚【付费推荐：v1.mk/vip】75, server: 91.195.110.38, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 乌克兰 001, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: "🇻🇳 5,13,16|🇻🇳 越南【付费推荐：v1.mk/vip】15", server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: aef8d2c4-6ff7-4cc1-8d14-8596d3426223, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
+  - {name: "@SSRSUB-V22-付费推荐suo.yt/ssrsub", server: 170.114.45.224, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 乌克兰_0523001, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇨🇾 塞浦路斯_0523012, server: 203.23.106.148, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇷🇴 罗马尼亚【付费推荐：v1.mk/vip】150, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
+  - {name: 未知_0523108, server: 104.22.22.237, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
   - {name: 🇷🇴 罗马尼亚_0523003, server: 45.85.119.135, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇪🇸 16|西班牙 001, server: 185.18.250.217, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇨🇾 _CY_塞浦路斯, server: 203.22.223.204, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: "@SSRSUB-V24-付费推荐suo.yt/ssrsub", server: 104.18.21.81, port: 443, type: vmess, uuid: 3E271C5F-28FF-4704-B8E5-CC2B39AB7F60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}}
-  - {name: 🇨🇾 塞浦路斯 004, server: 203.29.53.179, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
   - {name: 未知_0523103, server: delivery.cvs.com, port: 443, type: vmess, uuid: DC615FCF-98B5-4D06-AA18-A6A1F65FF6D3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: github.com/freefq - 欧盟  23, server: 45.14.174.57, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 未知_0523183, server: 104.16.40.227, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 🇨🇾 塞浦路斯 002, server: 203.22.223.51, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: 乌克兰【付费推荐：https//v1.mk/vip】29, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
-  - {name: 🇨🇾 塞浦路斯_0523014, server: mkh3.blanku.me, port: 443, type: vmess, uuid: 245e7c23-0057-47a4-f2f0-07772e3338fa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/wss26268?ed=2048", headers: {Host: freeservice.blanku.me}}}
-  - {name: 🇨🇾 16|塞浦路斯 004, server: 203.29.53.179, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
-  - {name: "15,17|v2rayfree.eu.org - 欧盟  28", server: 45.14.174.57, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}}
+  - {name: 🇨🇾 塞浦路斯 003, server: 203.23.106.148, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 乌克兰【付费推荐：v1.mk/vip】53, server: 195.137.167.29, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
+  - {name: 🇱🇹 立陶宛 001, server: 89.116.250.218, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: 🇻🇳 越南【付费推荐：v1.mk/vip】15, server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: aef8d2c4-6ff7-4cc1-8d14-8596d3426223, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
+  - {name: 🇱🇹 立陶宛【付费推荐：v1.mk/vip】111, server: 89.116.250.218, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
+  - {name: 🇱🇹 立陶宛_0523003, server: 89.116.250.218, port: 443, type: vmess, uuid: 7757E99E-75C9-46D5-854D-4065BF372100, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}}
   - {name: 🇷🇺 俄罗斯联邦_0523002, server: 185.133.40.192, port: 35059, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国【付费推荐：https//v1.mk/vip】55, server: gzdx.jcnode.top, port: 23001, type: ss, cipher: aes-256-gcm, password: 052bc769-0489-49c7-97f2-51b3bb8e5486}
+  - {name: 🇻🇳 越南 001, server: vn1.microsoft-orgwly.vip, port: 443, type: trojan, password: aef8d2c4-6ff7-4cc1-8d14-8596d3426223, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,12 +111,20 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 新加坡_0523085
-      - 🇯🇵 日本 009
-      - 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇰🇷 韩国 002
+      - 🇯🇵 _JP_日本 2 2
+      - 🇨🇳 8,10,13,28,30|_TW_台湾 2
+      - 🇨🇳 _TW_台湾 2
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇰🇷 韩国 001
+      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】2
+      - 🇨🇳 台湾_0523009
+      - 🇨🇳 台湾_0523084
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇸🇬 新加坡_0523009
+      - 🇸🇬 新加坡_0523109
+      - 🇯🇵 日本 010
       - 🇸🇬 新加坡_0523058
       - 🇸🇬 新加坡_0523124
       - 🇭🇰 香港 009
@@ -128,13 +135,12 @@ proxy-groups:
       - 🇸🇬 新加坡_0523125
       - 🇸🇬 新加坡_0523081
       - 🇸🇬 新加坡 011
-      - 🇸🇬 16,18|新加坡 011
+      - 🇸🇬 16|新加坡 011
       - 🇸🇬 新加坡_0523083
       - 🇯🇵 日本_0523022
       - 🇯🇵 日本_0523051
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡_0523109
-      - 🇸🇬 新加坡_0523009
+      - 🇯🇵 日本 003
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_0523059
       - 🇯🇵 日本_0523093
       - 🇯🇵 日本 017
@@ -149,61 +155,53 @@ proxy-groups:
       - 🇯🇵 日本 020
       - 🇯🇵 日本_0523072
       - 🇯🇵 日本 021
-      - 🇯🇵 16,18|日本 021
-      - 🇯🇵 日本_0523084
-      - 🇯🇵 日本 022
-      - 🇯🇵 16|日本 022
-      - 🇯🇵 日本 023
-      - 🇯🇵 16|日本 023
-      - 🇨🇳 台湾_0523084
-      - 🇨🇳 台湾_0523009
+      - 🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】46
       - 🇺🇸 美国_05231394
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__
       - 🇺🇸 美国_0523316
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 6
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____
-      - 🇺🇸 美国_0523338
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3
-      - 🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199
-      - 🇨🇦 加拿大【付费推荐：https//v1.mk/vip】44
-      - 🇨🇦 4,5|加拿大【付费推荐：https//v1.mk/vip】44
-      - -1,20|US_107.167.29.37_05222023bad1-...
-      - 🇺🇸 美国_0523008
-      - 🇺🇸 11|🇺🇸_US_美国___
-      - 🇺🇸 美国_0523961
-      - 🇺🇸 美国_0523725
-      - 🇱🇹 立陶宛 001
-      - 未知_0523109
-      - github.com/freefq - 欧盟  12
-      - 🇬🇧 英国 003
-      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
-      - 🇬🇧 英国 005
-      - 🇩🇪 12,12,12,12,13,13,13,13,15,17|🇩🇪 Germany 02 TG@nodpai
-      - 🇨🇭 瑞士_0523002
+      - -1,20|US_107.167.29.37_05232023812b-...
+      - 🇺🇸 美国_05233506
+      - 20|US_140.99.59.228_05232023812b-...
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 美国_0523463
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5
+      - 🇨🇦 加拿大_0523055
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】31
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】8
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇺🇸 美国 083
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121
+      - "| 6.72Mb"
+      - github.com/freefq - 乌克兰  6
       - 🇪🇸 西班牙 001
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 002
+      - 🇨🇴 哥伦比亚 001
+      - 🇨🇴 哥伦比亚【付费推荐：v1.mk/vip】75
+      - 乌克兰 001
+      - 🇻🇳 5,13,16|🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - "@SSRSUB-V22-付费推荐suo.yt/ssrsub"
+      - 乌克兰_0523001
+      - 🇨🇾 塞浦路斯_0523012
+      - 🇷🇴 罗马尼亚【付费推荐：v1.mk/vip】150
+      - 未知_0523108
       - 🇷🇴 罗马尼亚_0523003
-      - 🇪🇸 16|西班牙 001
-      - 🇨🇾 _CY_塞浦路斯
-      - "@SSRSUB-V24-付费推荐suo.yt/ssrsub"
-      - 🇨🇾 塞浦路斯 004
       - 未知_0523103
-      - github.com/freefq - 欧盟  23
-      - 未知_0523183
-      - 🇨🇾 塞浦路斯 002
-      - 乌克兰【付费推荐：https//v1.mk/vip】29
-      - 🇨🇾 塞浦路斯_0523014
-      - 🇨🇾 16|塞浦路斯 004
-      - 15,17|v2rayfree.eu.org - 欧盟  28
+      - 🇨🇾 塞浦路斯 003
+      - 乌克兰【付费推荐：v1.mk/vip】53
+      - 🇱🇹 立陶宛 001
+      - 🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - 🇱🇹 立陶宛【付费推荐：v1.mk/vip】111
+      - 🇱🇹 立陶宛_0523003
       - 🇷🇺 俄罗斯联邦_0523002
-      - 🇨🇳 中国【付费推荐：https//v1.mk/vip】55
+      - 🇻🇳 越南 001
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,12 +252,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡_0523085
-      - 🇯🇵 日本 009
-      - 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇰🇷 韩国 002
+      - 🇯🇵 _JP_日本 2 2
+      - 🇨🇳 8,10,13,28,30|_TW_台湾 2
+      - 🇨🇳 _TW_台湾 2
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇰🇷 韩国 001
+      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】2
+      - 🇨🇳 台湾_0523009
+      - 🇨🇳 台湾_0523084
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇸🇬 新加坡_0523009
+      - 🇸🇬 新加坡_0523109
+      - 🇯🇵 日本 010
       - 🇸🇬 新加坡_0523058
       - 🇸🇬 新加坡_0523124
       - 🇭🇰 香港 009
@@ -270,13 +276,12 @@ proxy-groups:
       - 🇸🇬 新加坡_0523125
       - 🇸🇬 新加坡_0523081
       - 🇸🇬 新加坡 011
-      - 🇸🇬 16,18|新加坡 011
+      - 🇸🇬 16|新加坡 011
       - 🇸🇬 新加坡_0523083
       - 🇯🇵 日本_0523022
       - 🇯🇵 日本_0523051
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡_0523109
-      - 🇸🇬 新加坡_0523009
+      - 🇯🇵 日本 003
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_0523059
       - 🇯🇵 日本_0523093
       - 🇯🇵 日本 017
@@ -291,73 +296,73 @@ proxy-groups:
       - 🇯🇵 日本 020
       - 🇯🇵 日本_0523072
       - 🇯🇵 日本 021
-      - 🇯🇵 16,18|日本 021
-      - 🇯🇵 日本_0523084
-      - 🇯🇵 日本 022
-      - 🇯🇵 16|日本 022
-      - 🇯🇵 日本 023
-      - 🇯🇵 16|日本 023
-      - 🇨🇳 台湾_0523084
-      - 🇨🇳 台湾_0523009
+      - 🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】46
       - 🇺🇸 美国_05231394
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__
       - 🇺🇸 美国_0523316
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 6
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____
-      - 🇺🇸 美国_0523338
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3
-      - 🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199
-      - 🇨🇦 加拿大【付费推荐：https//v1.mk/vip】44
-      - 🇨🇦 4,5|加拿大【付费推荐：https//v1.mk/vip】44
-      - -1,20|US_107.167.29.37_05222023bad1-...
-      - 🇺🇸 美国_0523008
-      - 🇺🇸 11|🇺🇸_US_美国___
-      - 🇺🇸 美国_0523961
-      - 🇺🇸 美国_0523725
-      - 🇱🇹 立陶宛 001
-      - 未知_0523109
-      - github.com/freefq - 欧盟  12
-      - 🇬🇧 英国 003
-      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
-      - 🇬🇧 英国 005
-      - 🇩🇪 12,12,12,12,13,13,13,13,15,17|🇩🇪 Germany 02 TG@nodpai
-      - 🇨🇭 瑞士_0523002
+      - -1,20|US_107.167.29.37_05232023812b-...
+      - 🇺🇸 美国_05233506
+      - 20|US_140.99.59.228_05232023812b-...
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 美国_0523463
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5
+      - 🇨🇦 加拿大_0523055
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】31
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】8
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇺🇸 美国 083
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121
+      - "| 6.72Mb"
+      - github.com/freefq - 乌克兰  6
       - 🇪🇸 西班牙 001
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 002
+      - 🇨🇴 哥伦比亚 001
+      - 🇨🇴 哥伦比亚【付费推荐：v1.mk/vip】75
+      - 乌克兰 001
+      - 🇻🇳 5,13,16|🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - "@SSRSUB-V22-付费推荐suo.yt/ssrsub"
+      - 乌克兰_0523001
+      - 🇨🇾 塞浦路斯_0523012
+      - 🇷🇴 罗马尼亚【付费推荐：v1.mk/vip】150
+      - 未知_0523108
       - 🇷🇴 罗马尼亚_0523003
-      - 🇪🇸 16|西班牙 001
-      - 🇨🇾 _CY_塞浦路斯
-      - "@SSRSUB-V24-付费推荐suo.yt/ssrsub"
-      - 🇨🇾 塞浦路斯 004
       - 未知_0523103
-      - github.com/freefq - 欧盟  23
-      - 未知_0523183
-      - 🇨🇾 塞浦路斯 002
-      - 乌克兰【付费推荐：https//v1.mk/vip】29
-      - 🇨🇾 塞浦路斯_0523014
-      - 🇨🇾 16|塞浦路斯 004
-      - 15,17|v2rayfree.eu.org - 欧盟  28
+      - 🇨🇾 塞浦路斯 003
+      - 乌克兰【付费推荐：v1.mk/vip】53
+      - 🇱🇹 立陶宛 001
+      - 🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - 🇱🇹 立陶宛【付费推荐：v1.mk/vip】111
+      - 🇱🇹 立陶宛_0523003
       - 🇷🇺 俄罗斯联邦_0523002
-      - 🇨🇳 中国【付费推荐：https//v1.mk/vip】55
+      - 🇻🇳 越南 001
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡_0523085
-      - 🇯🇵 日本 009
-      - 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇰🇷 韩国 002
+      - 🇯🇵 _JP_日本 2 2
+      - 🇨🇳 8,10,13,28,30|_TW_台湾 2
+      - 🇨🇳 _TW_台湾 2
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇰🇷 韩国 001
+      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】2
+      - 🇨🇳 台湾_0523009
+      - 🇨🇳 台湾_0523084
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇸🇬 新加坡_0523009
+      - 🇸🇬 新加坡_0523109
+      - 🇯🇵 日本 010
       - 🇸🇬 新加坡_0523058
       - 🇸🇬 新加坡_0523124
       - 🇭🇰 香港 009
@@ -368,13 +373,12 @@ proxy-groups:
       - 🇸🇬 新加坡_0523125
       - 🇸🇬 新加坡_0523081
       - 🇸🇬 新加坡 011
-      - 🇸🇬 16,18|新加坡 011
+      - 🇸🇬 16|新加坡 011
       - 🇸🇬 新加坡_0523083
       - 🇯🇵 日本_0523022
       - 🇯🇵 日本_0523051
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡_0523109
-      - 🇸🇬 新加坡_0523009
+      - 🇯🇵 日本 003
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_0523059
       - 🇯🇵 日本_0523093
       - 🇯🇵 日本 017
@@ -389,102 +393,102 @@ proxy-groups:
       - 🇯🇵 日本 020
       - 🇯🇵 日本_0523072
       - 🇯🇵 日本 021
-      - 🇯🇵 16,18|日本 021
-      - 🇯🇵 日本_0523084
-      - 🇯🇵 日本 022
-      - 🇯🇵 16|日本 022
-      - 🇯🇵 日本 023
-      - 🇯🇵 16|日本 023
-      - 🇨🇳 台湾_0523084
-      - 🇨🇳 台湾_0523009
+      - 🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】46
       - 🇺🇸 美国_05231394
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__
       - 🇺🇸 美国_0523316
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 6
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____
-      - 🇺🇸 美国_0523338
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3
-      - 🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199
-      - 🇨🇦 加拿大【付费推荐：https//v1.mk/vip】44
-      - 🇨🇦 4,5|加拿大【付费推荐：https//v1.mk/vip】44
-      - -1,20|US_107.167.29.37_05222023bad1-...
-      - 🇺🇸 美国_0523008
-      - 🇺🇸 11|🇺🇸_US_美国___
-      - 🇺🇸 美国_0523961
-      - 🇺🇸 美国_0523725
-      - 🇱🇹 立陶宛 001
-      - 未知_0523109
-      - github.com/freefq - 欧盟  12
-      - 🇬🇧 英国 003
-      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
-      - 🇬🇧 英国 005
-      - 🇩🇪 12,12,12,12,13,13,13,13,15,17|🇩🇪 Germany 02 TG@nodpai
-      - 🇨🇭 瑞士_0523002
+      - -1,20|US_107.167.29.37_05232023812b-...
+      - 🇺🇸 美国_05233506
+      - 20|US_140.99.59.228_05232023812b-...
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 美国_0523463
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5
+      - 🇨🇦 加拿大_0523055
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】31
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】8
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇺🇸 美国 083
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121
+      - "| 6.72Mb"
+      - github.com/freefq - 乌克兰  6
       - 🇪🇸 西班牙 001
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 002
+      - 🇨🇴 哥伦比亚 001
+      - 🇨🇴 哥伦比亚【付费推荐：v1.mk/vip】75
+      - 乌克兰 001
+      - 🇻🇳 5,13,16|🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - "@SSRSUB-V22-付费推荐suo.yt/ssrsub"
+      - 乌克兰_0523001
+      - 🇨🇾 塞浦路斯_0523012
+      - 🇷🇴 罗马尼亚【付费推荐：v1.mk/vip】150
+      - 未知_0523108
       - 🇷🇴 罗马尼亚_0523003
-      - 🇪🇸 16|西班牙 001
-      - 🇨🇾 _CY_塞浦路斯
-      - "@SSRSUB-V24-付费推荐suo.yt/ssrsub"
-      - 🇨🇾 塞浦路斯 004
       - 未知_0523103
-      - github.com/freefq - 欧盟  23
-      - 未知_0523183
-      - 🇨🇾 塞浦路斯 002
-      - 乌克兰【付费推荐：https//v1.mk/vip】29
-      - 🇨🇾 塞浦路斯_0523014
-      - 🇨🇾 16|塞浦路斯 004
-      - 15,17|v2rayfree.eu.org - 欧盟  28
+      - 🇨🇾 塞浦路斯 003
+      - 乌克兰【付费推荐：v1.mk/vip】53
+      - 🇱🇹 立陶宛 001
+      - 🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - 🇱🇹 立陶宛【付费推荐：v1.mk/vip】111
+      - 🇱🇹 立陶宛_0523003
       - 🇷🇺 俄罗斯联邦_0523002
-      - 🇨🇳 中国【付费推荐：https//v1.mk/vip】55
+      - 🇻🇳 越南 001
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】46
       - 🇺🇸 美国_05231394
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__
       - 🇺🇸 美国_0523316
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 6
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____
-      - 🇺🇸 美国_0523338
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3
-      - 🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199
-      - 🇨🇦 加拿大【付费推荐：https//v1.mk/vip】44
-      - 🇨🇦 4,5|加拿大【付费推荐：https//v1.mk/vip】44
-      - -1,20|US_107.167.29.37_05222023bad1-...
-      - 🇺🇸 美国_0523008
-      - 🇺🇸 11|🇺🇸_US_美国___
-      - 🇺🇸 美国_0523961
-      - 🇺🇸 美国_0523725
+      - -1,20|US_107.167.29.37_05232023812b-...
+      - 🇺🇸 美国_05233506
+      - 20|US_140.99.59.228_05232023812b-...
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 美国_0523463
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5
+      - 🇨🇦 加拿大_0523055
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】31
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】8
+      - 🇨🇦 github.com/freefq - 加拿大  20
+      - 🇺🇸 美国 083
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_0523085
-      - 🇯🇵 日本 009
-      - 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇰🇷 韩国 002
+      - 🇯🇵 _JP_日本 2 2
+      - 🇨🇳 8,10,13,28,30|_TW_台湾 2
+      - 🇨🇳 _TW_台湾 2
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇰🇷 韩国 001
+      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】2
+      - 🇨🇳 台湾_0523009
+      - 🇨🇳 台湾_0523084
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇸🇬 新加坡_0523009
+      - 🇸🇬 新加坡_0523109
+      - 🇯🇵 日本 010
       - 🇸🇬 新加坡_0523058
       - 🇸🇬 新加坡_0523124
       - 🇭🇰 香港 009
@@ -495,13 +499,12 @@ proxy-groups:
       - 🇸🇬 新加坡_0523125
       - 🇸🇬 新加坡_0523081
       - 🇸🇬 新加坡 011
-      - 🇸🇬 16,18|新加坡 011
+      - 🇸🇬 16|新加坡 011
       - 🇸🇬 新加坡_0523083
       - 🇯🇵 日本_0523022
       - 🇯🇵 日本_0523051
-      - 🇯🇵 日本 002
-      - 🇸🇬 新加坡_0523109
-      - 🇸🇬 新加坡_0523009
+      - 🇯🇵 日本 003
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_0523059
       - 🇯🇵 日本_0523093
       - 🇯🇵 日本 017
@@ -516,72 +519,68 @@ proxy-groups:
       - 🇯🇵 日本 020
       - 🇯🇵 日本_0523072
       - 🇯🇵 日本 021
-      - 🇯🇵 16,18|日本 021
-      - 🇯🇵 日本_0523084
-      - 🇯🇵 日本 022
-      - 🇯🇵 16|日本 022
-      - 🇯🇵 日本 023
-      - 🇯🇵 16|日本 023
-      - 🇨🇳 台湾_0523084
-      - 🇨🇳 台湾_0523009
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇱🇹 立陶宛 001
-      - 未知_0523109
-      - github.com/freefq - 欧盟  12
-      - 🇬🇧 英国 003
-      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
-      - 🇬🇧 英国 005
-      - 🇩🇪 12,12,12,12,13,13,13,13,15,17|🇩🇪 Germany 02 TG@nodpai
-      - 🇨🇭 瑞士_0523002
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
+      - "| 6.72Mb"
+      - github.com/freefq - 乌克兰  6
       - 🇪🇸 西班牙 001
+      - 🇬🇧 英国 004
+      - 🇬🇧 英国 002
+      - 🇨🇴 哥伦比亚 001
+      - 🇨🇴 哥伦比亚【付费推荐：v1.mk/vip】75
+      - 乌克兰 001
+      - 🇻🇳 5,13,16|🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - "@SSRSUB-V22-付费推荐suo.yt/ssrsub"
+      - 乌克兰_0523001
+      - 🇨🇾 塞浦路斯_0523012
+      - 🇷🇴 罗马尼亚【付费推荐：v1.mk/vip】150
+      - 未知_0523108
       - 🇷🇴 罗马尼亚_0523003
-      - 🇪🇸 16|西班牙 001
-      - 🇨🇾 _CY_塞浦路斯
-      - "@SSRSUB-V24-付费推荐suo.yt/ssrsub"
-      - 🇨🇾 塞浦路斯 004
       - 未知_0523103
-      - github.com/freefq - 欧盟  23
-      - 未知_0523183
-      - 🇨🇾 塞浦路斯 002
-      - 乌克兰【付费推荐：https//v1.mk/vip】29
-      - 🇨🇾 塞浦路斯_0523014
-      - 🇨🇾 16|塞浦路斯 004
-      - 15,17|v2rayfree.eu.org - 欧盟  28
+      - 🇨🇾 塞浦路斯 003
+      - 乌克兰【付费推荐：v1.mk/vip】53
+      - 🇱🇹 立陶宛 001
+      - 🇻🇳 越南【付费推荐：v1.mk/vip】15
+      - 🇱🇹 立陶宛【付费推荐：v1.mk/vip】111
+      - 🇱🇹 立陶宛_0523003
       - 🇷🇺 俄罗斯联邦_0523002
-      - 🇨🇳 中国【付费推荐：https//v1.mk/vip】55
+      - 🇻🇳 越南 001
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 4,5,11|美国【付费推荐：v1.mk/vip】46
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】46
       - 🇺🇸 美国_05231394
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__
       - 🇺🇸 美国_0523316
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22____________
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________________
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 6
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_____
-      - 🇺🇸 美国_0523338
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22_________________
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 7,8,9,10,20,27,28,29,30|_US_美国_______
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】3
-      - 🇺🇸 7,8,9,10,17,19,20,27,28,29,30|_US_美国
-      - 🇺🇸 19,20|_🇺🇸_US_美国_由零開始_22__________
-      - 🇺🇸 美国【付费推荐：suo.yt/ssrsub】199
-      - -1,20|US_107.167.29.37_05222023bad1-...
-      - 🇺🇸 美国_0523008
-      - 🇺🇸 11|🇺🇸_US_美国___
-      - 🇺🇸 美国_0523961
-      - 🇺🇸 美国_0523725
+      - -1,20|US_107.167.29.37_05232023812b-...
+      - 🇺🇸 美国_05233506
+      - 20|US_140.99.59.228_05232023812b-...
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】42
+      - 🇺🇸 _US_美国 7
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 美国_0523463
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】5
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】31
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】132
+      - 🇺🇸 4,5,25,26|美国【付费推荐：v1.mk/vip】28
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】103
+      - 🇺🇸 美国【付费推荐：v1.mk/vip】8
+      - 🇺🇸 美国 083
+      - 🇺🇸 4,5|美国【付费推荐：v1.mk/vip】121
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -596,8 +595,12 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_0523085
-      - 🇸🇬 5|🇸🇬 新加坡【付费推荐：https//v1.mk/vip】..._
+      - 🇸🇬 新加坡【付费推荐：v1.mk/vip】2
+      - 🇸🇬 Singapore 48 TG@SSRSUB
+      - 🇸🇬 Singapore 06 TG@SSRSUB
+      - 🇸🇬 Relay 🇸🇬 Singapore(ChatGPT) 15 TG@SSRSUB
+      - 🇸🇬 新加坡_0523009
+      - 🇸🇬 新加坡_0523109
       - 🇸🇬 新加坡_0523058
       - 🇸🇬 新加坡_0523124
       - 🇸🇬 新加坡_0523059
@@ -606,20 +609,20 @@ proxy-groups:
       - 🇸🇬 新加坡_0523125
       - 🇸🇬 新加坡_0523081
       - 🇸🇬 新加坡 011
-      - 🇸🇬 16,18|新加坡 011
+      - 🇸🇬 16|新加坡 011
       - 🇸🇬 新加坡_0523083
-      - 🇸🇬 新加坡_0523109
-      - 🇸🇬 新加坡_0523009
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本 009
+      - 🇯🇵 _JP_日本 2 2
+      - 🇯🇵 日本 010
       - 🇯🇵 日本_0523022
       - 🇯🇵 日本_0523051
-      - 🇯🇵 日本 002
+      - 🇯🇵 日本 003
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
       - 🇯🇵 日本_0523059
       - 🇯🇵 日本_0523093
       - 🇯🇵 日本 017
@@ -634,29 +637,24 @@ proxy-groups:
       - 🇯🇵 日本 020
       - 🇯🇵 日本_0523072
       - 🇯🇵 日本 021
-      - 🇯🇵 16,18|日本 021
-      - 🇯🇵 日本_0523084
-      - 🇯🇵 日本 022
-      - 🇯🇵 16|日本 022
-      - 🇯🇵 日本 023
-      - 🇯🇵 16|日本 023
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _CN_中国->🇹🇼_TW_台湾
-      - 🇨🇳 13|Relay 🇹🇼 Taiwan(ChatGPT) 19 TG...
-      - 🇨🇳 台湾_0523084
+      - 🇨🇳 8,10,13,28,30|_TW_台湾 2
+      - 🇨🇳 _TW_台湾 2
       - 🇨🇳 台湾_0523009
+      - 🇨🇳 台湾_0523084
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国 002
+      - 🇰🇷 13|🇰🇷 South Korea 10 TG@nodpai
+      - 🇰🇷 韩国 001
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,instant.arubanetworks.com,DIRECT
@@ -2374,6 +2372,674 @@ rules:
  - PROCESS-NAME,News,🍎 苹果服务
  - PROCESS-NAME,LookupViewService,🍎 苹果服务
  - PROCESS-NAME,TV,🍎 苹果服务
+ - DOMAIN,github-cloud.s3.amazonaws.com,Ⓜ️ 微软服务
+ - DOMAIN,vsmarketplacebadge.apphb.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,21vbc.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,21vbluecloud.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,21vbluecloud.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,a-msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,a1158.g.akamai.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,a122.dscg3.akamai.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,a767.dscg3.akamai.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aadrm.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,adaptivecards.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aggresmart.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aicscience.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aka.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,akadns.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ankarazirvesi2018.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,api-extractor.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,apihub-internal.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,apisof.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,appcenter.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,applicationinsights.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,applicationinsights.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,appserviceenvironment.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aria.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,asp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aspnetcdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,assets-yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azcrmc-test.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azcrmc.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azk8s.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aznbcontent.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,aztask.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-api.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-apihub.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-apim.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-automation.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-connectedvehicles-stage.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-connectedvehicles.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-devices-int.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-devices-provisioning.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-devices.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-devices.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-dns.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-dns.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-dns.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-dns.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-dns.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-mobile.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-sphere.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure-test.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecomcdn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecomm.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecontainer.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecosmos.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecosmosdb.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecosmosdb.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecosmosdb.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecr-test.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurecr.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredatabricks.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredevopslaunch.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredigitaltwin.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredigitaltwins.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredigitaltwins.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredns-prd.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuredns-prd.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureedge-test.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurefd.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurefd.us,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurehdinsight.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureiotsolutions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureiotsuite.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureiotsuite.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuremresolver.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureplanetscale.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureplanetscale.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureprivatedns.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurerms.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuresandbox.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azureserviceprofiler.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azuresmartspaces.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurestackvalidation.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,azurewebsites.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,b.akamaiedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,b2clogin.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,b3itech.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bbing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,beth.games,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bethesda.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bethesdagamestudios.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bethsoft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bibg.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,biing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,binads.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,binb.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,binf.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing123.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing135.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bing4.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingads.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingagencyawards.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingapistatistics.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,binginternal.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingit.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingiton.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingj.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingpix.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingpk.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bings.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingsandbox.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingtoolbar.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingtranslator.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingvisualsearch.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bingworld.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,biying.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,biying.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,biying.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,blazor.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,blueaggrestore.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bluecloudprod.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bluehatil.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,bluehatnights.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,boswp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,botframework.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,brazilpartneruniversity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,breakdown.me,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,c-msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,callersbane.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cegid-cloud.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,centralvalidation.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ch9.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,charticulator.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,chinacloud-mobile.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,chinacloudapi.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,chinacloudapp.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,chinacloudsites.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,codethemicrobit.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cortana.ai,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cortanaanalytics.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cortanaskills.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cosmosdb.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cosmosdb.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,crmdynint-gcc.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,crmdynint.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,crossborderexpansion.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cs11.wpc.v0cdn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,cs9.wac.phicdn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,devopsassessment.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,devopsms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,dictate.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,discoverbing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,docs.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,doom.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,dot.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,dwh5.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,dynamics.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,dynamics.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,e-msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,efproject.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,elderscrolls.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,engkoo.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,evoke-windowsservices-tas.msedge,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,exp-tas.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,explorebing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,fabric.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,fasttrackreadysupport.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,femalefounderscomp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,flipwithsurface.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,fluidpreview.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,footprintdns.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,forzamotorsport.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,forzaracingchampionship.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,forzarc.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,g.akamaiedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gamepass.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gamesstack.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gameuxmasterguide.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gears5.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gearspop.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gearstactics.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,getmicrosoftkey.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gigjam.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,gotcosmos.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,graphengine.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,groupme.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hdinsightservices.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,helpshift.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,here.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,here.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,heremaps.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hockeyapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hololens.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hotmail.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,hummingbird.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ie10.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ie11.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ie8.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ie9.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,imaginecup.pl,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,img-prod-cms-rt-microsoft-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ingads.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,insiderdevtour.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,internetexplorer.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,internetexplorer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,intunewiki.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,iotinactionevents.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,joinms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,joinms.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,joinmva.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,jwt.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,kidgrid.tv,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,kumo.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,latampartneruniversity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.com.au,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,live.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,livetileedge.dsx.mp.microsoft.com.edgekey.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,livingyourambition.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,localytics.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,lync.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,lync.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,m12.vc,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,makecode.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,managedmeetingrooms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,management-azure-devices-int.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,management-azure-devices-provisioning.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,management-azure-devices.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,management-azure-devices.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mapblast.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mappoint.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,masalladeloslimites.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mcchcdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,meetfasttrack.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,meetyourdevices.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mepn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mesh.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mgmt-azure-api.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microbit.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-falcon.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-give.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-int.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-online.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-online.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-ppe.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-sap-events.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-sbs-domains.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-smb.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft-tst.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.az,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.be,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.by,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ca,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.cat,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ch,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.cl,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.com.nsatc.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.cz,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.de,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.dk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ee,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.es,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.fi,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ge,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.hu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.is,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.it,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.jp,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.lt,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.lu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.lv,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.md,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.pl,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.pt,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.red,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ro,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.rs,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ru,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.se,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.si,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.tv,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.ua,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.uz,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft.vn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoft365.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftaccountguard.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftadc.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftads.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftadvertising.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftaffiliates.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftazuread-sso.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftazuresponsorships.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftazurestatus.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftcloud.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftcloudsummit.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftcloudworkshop.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftcommunitytraining.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftdiplomados.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofteca.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftedge.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftedgeinsider.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftemail.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftestore.com.hk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftgamestack.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofthouse.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofthouse.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftinternetsafety.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftiotcentral.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftiotinsiderlabs.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftlatamaitour.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftlatamholiday.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftlinc.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftmetrics.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftmxfilantropia.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnews.cc,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnews.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnews.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnews.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnews.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewsforkids.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewsforkids.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewsforkids.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewskids.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewskids.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftnewskids.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftol.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftol.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-i.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-m-i.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-m.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p-i.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p-i.net.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline-p.net.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftonline.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftpartnercommunity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftpartnersolutions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftreactor.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftreactor.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftreactor.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftreactor.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftreactor.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftready.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftsilverlight.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftsilverlight.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftsilverlight.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftsiteselection.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftsqlserver.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftstore.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftstore.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftstore.com.hk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftstream.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftteams.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofttradein.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofttranslator-int.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsofttranslator.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,microsoftuwp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,minecraft.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,minecraftshop.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mmais.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mmdnn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mncmsidlab1.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mojang.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,momentumms.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mono-project.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,morphcharts.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mpnevolution.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ms-studiosmedia.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ms365surfaceoffer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msa.akadns6.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msads.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msappproxy.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msappproxy.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauth.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauthimages.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mschallenge2018.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mschcdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msecnd.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msft.info,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msft.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauth.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauthimages.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftcenterone.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftcloudes.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftconnecttest.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msfteducation.ca,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msftnet.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msgamesresearch.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msgamestudios.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msidentity.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msidlabpbmc.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msignitechina.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msinnovationchallenge.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msminico.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msminico.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com.nsatc.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.com.tw,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msnewskids.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msnewskids.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msnewskids.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msnkids.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msnmaps.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msopentech.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mspairlift.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mspil.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msra.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msropendata.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mstea.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msturing.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msudalosti.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msvevent.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msxiaobing.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msxiaoice.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,msxiaona.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mwf-service.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,myhomemsn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,mymicrosoft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,nextechafrica.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,nuget.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,nugettest.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,nxta.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365cn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365files.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365weve-dev.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365weve-ppe.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,o365weve.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,oaspapps.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365-net.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365love.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,office365tw.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officedev.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officeplus.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officeppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,officewebapps.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,omniroot.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onecollector.cloudapp.aria,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onenote.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onestore.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onmicrosoft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onmschina.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,opentranslatorstothings.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,opticsforthecloud.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,optimizely.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,orithegame.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,osdinfra.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outingsapp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlook.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlook.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlookgroups.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,outlookmobile.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,ovi.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,passport.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,pbiwebcontent.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,phonefactor.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,pixapp.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,playfabapi.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,playfabcn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,poshtestgallery.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerapps.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerappscdn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerappsportals.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerautomate.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerautomate.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerbi.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powerbi.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,powershellgallery.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,prod-video-cms-rt-microsoft-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,projectmurphy.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,projectsangam.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,public-trust.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,pwabuilder.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,pxt.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,reactorms.com.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,renlifang.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,renovacionoffice.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,renovacionxboxlive.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,s-microsoft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,s-msedge.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,s-msft.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,s-msn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sankie.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sclive.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,serverlesslibrary.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfbassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfbassets.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sfx.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepoint.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,signalr.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skype,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skype.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skype.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeassets.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeassets.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,skypeforbusiness.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sprinklesapp.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sqlserveronlinux.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,staffhub.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,statics-marketingsites-eas-ms-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,statics-marketingsites-eus-ms-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,statics-marketingsites-neu-ms-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,statics-marketingsites-wcus-ms-com.akamaized.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,successwithteams.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,surface.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,svc.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-cdn.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway-extensions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sway.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,syncshop.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sysinternals.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,tailwindtraders.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,techhub.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,tellmewhygame.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,tenor.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,tfsallin.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,timelinestoryteller.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,trafficmanager.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,trafficmanager.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,translatetheweb.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,trustcenter.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,tryfunctions.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,unity3dcloud.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,unlocklimitlesslearning.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,userpxt.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,uservoice.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,uwpcommunitytoolkit.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vfsforgit.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vfsforgit.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,videobreakdown.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,videoindexer.ai,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vip5.afdorigin-prod-am02.afdogw.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,virtualearth.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio-staging.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.co.uk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,visualstudio.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vsallin.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vsassets.io,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vscode-cdn.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vscode-unpkg.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vscode-webview.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,vscode.dev,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,wbd.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,what-fan.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows-int.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows-ppe.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows.nl,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windows8.hk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsazure.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsazure.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsazurestatus.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowscommunity.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowslive.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsmarketplace.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsphone-int.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsphone.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowssearch.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,windowsupdate.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,winhec.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,winhec.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,winmp.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,wlxrs.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,working-bing-int.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xamarin.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox360.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox360.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox360.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbox360.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxab.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxgamepass.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxgamestudios.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxlive.cn,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxlive.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxone.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxone.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxone.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxplayanywhere.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxservices.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xboxstudios.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,xbx.lv,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,1drv.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,1drv.ms,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,livefilestore.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.co,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.co.uk,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.eu,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.net,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,onedrive.org,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepoint.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,sharepointonline.com,Ⓜ️ 微软服务
+ - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,onedrive,Ⓜ️ 微软服务
+ - DOMAIN-KEYWORD,skydrive,Ⓜ️ 微软服务
+ - PROCESS-NAME,OneDrive,Ⓜ️ 微软服务
+ - PROCESS-NAME,OneDriveUpdater,Ⓜ️ 微软服务
  - DOMAIN,api.okzy.tv,📺 国外媒体
  - DOMAIN,apm-misaka.biliapi.net,📺 国外媒体
  - DOMAIN,apple.comscoreresearch.com,📺 国外媒体
