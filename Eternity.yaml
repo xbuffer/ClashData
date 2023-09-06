@@ -1,0 +1,720 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian, server: 18.140.61.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 _HK_香港->🇸🇬_SG_新加坡, server: a6.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
+  - {name: "🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡", server: a6.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2, server: 120.233.43.62, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港 3, server: a12.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 6.wuxianliulianng.xyz}}}
+  - {name: "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1", server: 120.233.43.62, port: 51904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1", server: word.18.fuckword.club, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港, server: 219.76.13.183, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4}}
+  - {name: "🇭🇰 1,3,4,7,8,17|_HK_香港", server: 219.76.13.183, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4}}
+  - {name: 🇭🇰 _HK_香港 2, server: 103.160.204.36, port: 80, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1", server: 103.160.204.36, port: 80, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港 2 2, server: 103.160.204.36, port: 80, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港->🇬🇧_GB_英国, server: a10.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}}
+  - {name: "🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国", server: a10.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 5.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: hk2.v3.zz.cn.fuckword.club, port: 47835, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港", server: hk2.v3.zz.cn.fuckword.club, port: 47835, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大", server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港", server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 5, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2, server: 103.160.204.97, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: "🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2", server: 103.160.204.97, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港", server: a12.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 6.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 _HK_香港 4, server: a12.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 6.wuxianliulianng.xyz}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3, server: a5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
+  - {name: "🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3", server: a5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
+  - {name: "🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai", server: a5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: a5.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3, server: 103.160.204.72, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大", server: 103.160.204.72, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4, server: 103.160.204.72, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇰🇷 _KR_韩国->🇺🇸_US_美国, server: 130.162.157.253, port: 80, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: "🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国", server: 130.162.157.253, port: 80, type: vmess, uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
+  - {name: "🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港", server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
+  - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: "🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai", server: a6.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: a6.wuxianliulianng.xyz}}}
+  - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港, server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
+  - {name: 🇯🇵 7|🇯🇵 Japan 73 @nodpai, server: jp01-alt-vm0.entry.srthdw.art, port: 21584, type: vmess, uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 4, server: 2.8.1.fuckppppp.today, port: 20000, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2", server: 2.8.1.fuckppppp.today, port: 20000, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2, server: 2.8.1.fuckppppp.today, port: 20000, type: vmess, uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡", server: 120.226.50.93, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国, server: a8.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 4.wuxianliulianng.xyz}}}
+  - {name: 🇺🇸 United States 573 @nodpai, server: fschk.1234567890spcloud.com, port: 20006, type: trojan, password: 48680461-8b29-4042-9dea-bff2a361b3c9, sni: ceshii.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2, server: a5.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: 3.wuxianliulianng.xyz}}}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai, server: 31.kccic2pa.xyz, port: 50031, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai, server: 25.kccic2pa.xyz, port: 50025, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2, server: a2.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: 1.wuxianliulianng.xyz}}}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai, server: 26.kccic2pa.xyz, port: 50026, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  37, server: 64.110.90.208, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇺🇸 美国-0-0-v2ray-51.158.98.130443, server: 51.158.98.130, port: 443, type: vmess, uuid: 8ec62dcf-9ead-48d6-afec-4aa4ed264a95, alterId: 4, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443, server: jp1.quickerlink.xyz, port: 443, type: vmess, uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /pxqdjmdjm74qrnwo, headers: {Host: jp1.quickerlink.xyz}}}
+  - {name: US_09, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: US_10, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false}
+  - {name: US_11, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: Pool_🇺🇸US_12, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws}}
+  - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
+  - {name: US_14, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
+  - {name: US_15, server: 159.223.32.230, port: 8080, type: vmess, uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
+  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: US_18, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: US_19, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
+  - {name: 🇺🇸 美国 001, server: 158.178.229.189, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0}}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa..., server: omortiner.gstaxic.xyz, port: 558, type: vmess, uuid: d7e3e68a-4f48-37e2-a389-986646376f07, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2, server: 31.kccic2pa.xyz, port: 50031, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 _DE_德国, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}}
+  - {name: 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai, server: 08.kccic2pa.xyz, port: 50008, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2, server: 25.kccic2pa.xyz, port: 50025, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa..., server: 12.kccic2pa.xyz, port: 50012, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 Russia 01 @nodpai, server: ru1.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: 12078dc2-69a3-4e56-9250-70c346bcf16e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: ru1.mianfenyun012.eu.org}}}
+  - {name: 🇹🇷 8|🇹🇷 Turkey 01 @nodpai, server: xiongda006.daxiongda.top, port: 23334, type: ss, cipher: chacha20-ietf-poly1305, password: 54ed5ad0-1d84-4dd2-9dc8-1c6ad9269132}
+  - {name: github.com/freefq - 亚太地区  35, server: 103.160.204.63, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
+  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
+  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: _03, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false}
+  - {name: _04, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true}
+  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_-🇬🇧GB_06, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2, server: jp01-alt-vm0.entry.srthdw.art, port: 21584, type: vmess, uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1, alterId: 0, cipher: auto, tls: true}
+  - {name: "🇺🇸 7,8|🇺🇸 United States 257 @nodpai", server: 172.64.175.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: "🇺🇸 7,8|🇺🇸 United States 569 @nodpai", server: a1.wuxianliulianng.xyz, port: 443, type: vmess, uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /mp4, headers: {Host: a1.wuxianliulianng.xyz}}}
+  - {name: "🇺🇸 7,8|🇺🇸 United States 558 @nodpai", server: 172.64.169.211, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🤘 手动选择
+      - ⚡ 故障转移
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🤘 手动选择
+    type: select
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2
+      - 🇭🇰 _HK_香港 3
+      - "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
+      - "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1"
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 1,3,4,7,8,17|_HK_香港
+      - 🇭🇰 _HK_香港 2
+      - "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1"
+      - 🇭🇰 _HK_香港 2 2
+      - 🇭🇰 _HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 4
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+      - "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2
+      - 🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 github.com/freefq - 美国  37
+      - 🇺🇸 美国-0-0-v2ray-51.158.98.130443
+      - 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443
+      - US_09
+      - US_10
+      - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_15
+      - US_16
+      - US_17
+      - US_18
+      - US_19
+      - 🇺🇸 美国 001
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇷🇺 Russia 01 @nodpai
+      - 🇹🇷 8|🇹🇷 Turkey 01 @nodpai
+      - github.com/freefq - 亚太地区  35
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+      - GB_07
+  - name: 🏳️‍🌈 国家选择
+    type: select
+    proxies:
+      - 美国
+      - 香港
+      - 狮城
+      - 日本
+      - 台湾
+      - 韩国
+  - name: 📺 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🌎 北美地区
+      - 🌏 东亚地区
+      - 🌍 其它地区
+      - DIRECT
+  - name: 🧱 国内网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🏳️‍🌈 国家选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2
+      - 🇭🇰 _HK_香港 3
+      - "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
+      - "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1"
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 1,3,4,7,8,17|_HK_香港
+      - 🇭🇰 _HK_香港 2
+      - "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1"
+      - 🇭🇰 _HK_香港 2 2
+      - 🇭🇰 _HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 4
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+      - "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2
+      - 🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 github.com/freefq - 美国  37
+      - 🇺🇸 美国-0-0-v2ray-51.158.98.130443
+      - 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443
+      - US_09
+      - US_10
+      - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_15
+      - US_16
+      - US_17
+      - US_18
+      - US_19
+      - 🇺🇸 美国 001
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇷🇺 Russia 01 @nodpai
+      - 🇹🇷 8|🇹🇷 Turkey 01 @nodpai
+      - github.com/freefq - 亚太地区  35
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+      - GB_07
+  - name: ⚡ 故障转移
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2
+      - 🇭🇰 _HK_香港 3
+      - "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
+      - "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1"
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 1,3,4,7,8,17|_HK_香港
+      - 🇭🇰 _HK_香港 2
+      - "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1"
+      - 🇭🇰 _HK_香港 2 2
+      - 🇭🇰 _HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 4
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+      - "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2
+      - 🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 github.com/freefq - 美国  37
+      - 🇺🇸 美国-0-0-v2ray-51.158.98.130443
+      - 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443
+      - US_09
+      - US_10
+      - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_15
+      - US_16
+      - US_17
+      - US_18
+      - US_19
+      - 🇺🇸 美国 001
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇷🇺 Russia 01 @nodpai
+      - 🇹🇷 8|🇹🇷 Turkey 01 @nodpai
+      - github.com/freefq - 亚太地区  35
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+      - GB_07
+  - name: 🌎 北美地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 github.com/freefq - 美国  37
+      - 🇺🇸 美国-0-0-v2ray-51.158.98.130443
+      - 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443
+      - US_09
+      - US_10
+      - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_15
+      - US_16
+      - US_17
+      - US_18
+      - US_19
+      - 🇺🇸 美国 001
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+  - name: 🌏 东亚地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2
+      - 🇭🇰 _HK_香港 3
+      - "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
+      - "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1"
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 1,3,4,7,8,17|_HK_香港
+      - 🇭🇰 _HK_香港 2
+      - "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1"
+      - 🇭🇰 _HK_香港 2 2
+      - 🇭🇰 _HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 4
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+      - "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2
+      - 🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+  - name: 🌍 其它地区
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇩🇪 _DE_德国
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇷🇺 Russia 01 @nodpai
+      - 🇹🇷 8|🇹🇷 Turkey 01 @nodpai
+      - github.com/freefq - 亚太地区  35
+      - RO_08
+      - ZZ_20
+      - ZZ_21
+      - _02
+      - _03
+      - _04
+      - _05
+      - Relay_-🇬🇧GB_06
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+      - GB_07
+  - name: 美国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇺🇸 United States 573 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+      - 🇺🇸 7|中转 🇺🇸 United States 22 @nodpai
+      - "🇺🇸 0,2|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 github.com/freefq - 美国  37
+      - 🇺🇸 美国-0-0-v2ray-51.158.98.130443
+      - 🇺🇸 美国-0-0-v2ray-jp1.quickerlink.xyz443
+      - US_09
+      - US_10
+      - US_11
+      - Pool_🇺🇸US_12
+      - US_13
+      - US_14
+      - US_15
+      - US_16
+      - US_17
+      - US_18
+      - US_19
+      - 🇺🇸 美国 001
+      - 🇺🇸 7|中转 🇺🇸 United States 233 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 21 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 10 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 23 @nodpai 2
+      - 🇺🇸 7|中转 🇺🇸 United States 130 @nodpa...
+      - 🇺🇸 7|中转 🇺🇸 United States 20 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 257 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 569 @nodpai
+      - 🇺🇸 7,8|🇺🇸 United States 558 @nodpai
+  - name: 香港
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2 2
+      - 🇭🇰 _HK_香港 3
+      - "🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1"
+      - 🇭🇰 _HK_香港
+      - 🇭🇰 1,3,4,7,8,17|_HK_香港
+      - 🇭🇰 _HK_香港 2
+      - "🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港 #1"
+      - 🇭🇰 _HK_香港 2 2
+      - 🇭🇰 _HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 1,3,4,17|_HK_香港->🇬🇧_GB_英国
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 3,4|_CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 1,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇭🇰 0,2,3,4,7,15|🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 5
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 1,3,4|_HK_香港->🇨🇦_CA_加拿大 2
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港
+      - 🇭🇰 _HK_香港 4
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 3
+      - 🇭🇰 0,1,2,3,4|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
+      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大 4
+      - 🇭🇰 1,3,4|_US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 4
+      - "🇭🇰 0,2,3,4|🇭🇰 _CN_中国->🇭🇰_HK_香港 #2"
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 3 2
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国
+      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2 2
+  - name: 狮城
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇸🇬 14|🇸🇬 新加坡特殊|@ripaojiedian
+      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
+      - 🇭🇰 1,3,4,17|_HK_香港->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 1,3,4|_US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 7,8|🇸🇬 Singapore 05 @nodpai
+      - 🇸🇬 7,8|🇸🇬 Singapore 12 @nodpai
+      - 🇸🇬 3,4,7,15|_CN_中国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3 2
+  - name: 日本
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - "🇯🇵 0,2,3,4,7,12,17|🇯🇵 _CN_中国->🇯🇵_JP_日本 #1"
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai
+      - 🇯🇵 7|🇯🇵 Japan 73 @nodpai 2
+  - name: 台湾
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇨🇳 7|中转 🇹🇼 Taiwan 02 @nodpai
+  - name: 韩国
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇰🇷 _KR_韩国->🇺🇸_US_美国
+      - 🇰🇷 1,3,4,17|_KR_韩国->🇺🇸_US_美国
+rules:
+ - GEOIP,CN,🧱 国内网站
+ - MATCH,🐟 漏网之鱼
