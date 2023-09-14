@@ -5,98 +5,97 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 30105, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 _JP_日本, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 CA_分享日记 3, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇸🇬 _SG_新加坡_2, server: 18.136.126.26, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: dtpjx-1082-tr-8.r-kcd-a.tuil.xyz, port: 39909, type: trojan, password: PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg, sni: s3.cjhh.beauty, skip-cert-verify: true}
-  - {name: 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai, server: 112.26.46.24, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
-  - {name: 🇸🇬 Singapore 48 TG@SSRSUB, server: 330sg01.ljydw.top, port: 14439, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 330sg01.ljydw.top, skip-cert-verify: false}
-  - {name: 🇸🇬 Singapore 06 TG@SSRSUB, server: 330hk02.ljydw.top, port: 14433, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 330hk02.ljydw.top, skip-cert-verify: false}
-  - {name: 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体, server: tg_mfbpn_g1.52vpn.eu.org, port: 10005, type: vmess, uuid: 20f38c81-43b2-3060-94ee-c76be65cfc1f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB, server: a002.zhuan99.men, port: 10002, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾_0913004, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0913038, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141, server: gamespeed-gateway-1.numastergame.com, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0913006, server: 61.219.15.81, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0913037, server: 61.219.15.81, port: 11872, type: vmess, uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾_0913016, server: tw98-1g-hinet.mytls888.com, port: 443, type: vmess, uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tw98-1g-hinet.mytls888.com}}}
-  - {name: 🇸🇬 新加坡_0913008, server: 18.143.75.80, port: 443, type: vmess, uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡_0913009, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0913071, server: 202.79.174.157, port: 55264, type: vmess, uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_0913010, server: 146.190.96.205, port: 44806, type: vmess, uuid: 6ee11f3a-01c2-4267-fc1b-a7d4f63f8207, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ojithsunera}}
-  - {name: 🇸🇬 新加坡_0913054, server: 146.190.96.205, port: 30448, type: vmess, uuid: 61f0212b-f601-4221-9f0c-db2dde0788e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ojithsunera}}
-  - {name: 🇸🇬 新加坡_0913040, server: 8.222.138.164, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇸🇬 新加坡_0913041, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇯🇵 日本_0913033, server: 172.105.206.236, port: 80, type: vmess, uuid: ad2114aa-c20b-4810-8f53-a451536b078f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /videos}}
-  - {name: 🇯🇵 日本_0913033 2, server: 172.105.206.236, port: 80, type: vmess, uuid: ad2114aa-c20b-4810-8f53-a451536b078f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 12|🇯🇵 日本_0913033, server: 172.105.206.236, port: 80, type: vmess, uuid: ad2114aa-c20b-4810-8f53-a451536b078f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /videos}}
-  - {name: 🇯🇵 日本_0913034, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0913106, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 350, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0913035, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0913105, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP(AzadNet.t.me)_023, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本_0913249, server: 192.243.126.47, port: 19218, type: vmess, uuid: b822b863-cde1-422d-8f76-22adf87c8399, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB, server: a015.zhuan99.men, port: 10015, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB, server: a001.zhuan99.men, port: 10001, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB, server: a017.zhuan99.men, port: 10017, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 05 TG@SSRSUB, server: 16.162.44.241, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇭🇰 Hong Kong 01 TG@SSRSUB, server: hk19.microsoftjs.top, port: 443, type: trojan, password: a21e5380-7711-4c6d-af44-e6210e5436af, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB, server: 625tw.ljydw.top, port: 80, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 625tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB, server: 419tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 419tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB, server: 0309tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 0309tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB, server: 805tw.ljydw.top, port: 443, type: trojan, password: 6d9d7c53-3dcd-43bf-b60c-cac077817077, sni: 805tw.ljydw.top, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB, server: a006.zhuan99.men, port: 10006, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB, server: gg.xn--gmqa02ag57d.com, port: 21247, type: trojan, password: bd1f1b56-631b-308e-9f48-ec4a1d97aeaf, sni: x91.flybar.work, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 156, server: 198.2.202.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694516064215, headers: {Host: www.49746402.xyz}}}
-  - {name: 🇺🇸 16|JCBB_ 美国02_1【vip1】, server: gzdx01.jcnode.top, port: 20153, type: vmess, uuid: 590c6c6d-ccc3-4b9c-be7f-d06de2be33ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx01.jcnode.top}}}
-  - {name: 🇺🇸 美国 142, server: 192.74.234.217, port: 41015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0913649, server: 142.4.115.171, port: 46900, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国_欢迎订阅yui科技_81, server: 107.148.195.27, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694516064215, headers: {Host: www.19401390.xyz}}}
-  - {name: 🇨🇦 加拿大 133, server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: 🇺🇸 美国 091, server: dashboard.autoly.ir, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vsg1.0bad.com/chat, headers: {Host: panel2.hodorauth.com}}}
-  - {name: "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4", server: 172.64.90.186, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3", server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2, server: v101.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /frfrxxx0fk832v101N, headers: {Host: v101.runba.gq}}}
-  - {name: 🇨🇦 加拿大 128, server: v101.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /frfrxxx0fk832v101N, headers: {Host: v101.runba.gq}}}
-  - {name: 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国, server: v101.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /frfrxxx0fk832v101N, headers: {Host: v101.runba.gq}}}
-  - {name: 🇨🇦 加拿大 139, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: f1865e50-2510-46d1-bcb2-e00b4b656305, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2, server: 183.232.249.107, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 140, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: "🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2", server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1", server: 172.67.1.123, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: "🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}}
-  - {name: "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1", server: 183.232.249.107, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 180, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
+  - {name: 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cross-tropical-sandra-cole.trycloudflare.com}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
+  - {name: "🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡", server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
+  - {name: 🇯🇵 CA_分享日记 2, server: 23.227.39.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇯🇵 _JP_日本 2, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
+  - {name: 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai, server: 112.26.46.24, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
+  - {name: 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian, server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: 🇸🇬 新加坡_0914007, server: 194.233.95.180, port: 80, type: vmess, uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/}}
+  - {name: 🇸🇬 _SG_新加坡 4, server: 5.44.249.44, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 _SG_新加坡 5, server: 5.44.249.44, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 3, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 4, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡-0-0-ss-54.251.168.143443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
+  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cross-tropical-sandra-cole.trycloudflare.com}}}
+  - {name: 🇸🇬 _SG_新加坡_5 2, server: 5.44.249.53, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB, server: sz.cny.page, port: 11536, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB, server: sz.cny.page, port: 25984, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
+  - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB, server: sz.cny.page, port: 20957, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB, server: assets.flareai.site, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB, server: assets.flareai.site, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB, server: assets.flareai.site, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10010, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14107, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
+  - {name: 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14113, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB, server: api-wx-4.rancho.gay, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB, server: api-a-asia-2.mcqqn.com, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB, server: node02.gde52px1vwf5q6301fxn.catapi.management, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB, server: catlog.flareai.science, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB, server: catlog.flareai.science, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB, server: 03.xn--8fr22cd4k1m9c.cn, port: 44521, type: ss, cipher: aes-128-gcm, password: de467768-8540-43de-88a4-7299a2bbeaec}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB, server: api-wx-1.rancho.gay, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: bb0f1568-4cb3-490d-82c4-f654455cd07c}
+  - {name: 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB, server: gzdx.jcnode.top, port: 22000, type: ss, cipher: aes-256-gcm, password: 89a2662f-1030-412f-bc31-7022d6aec338}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB, server: zjcu.lele233.top, port: 26111, type: ss, cipher: chacha20-ietf-poly1305, password: fd6b031e-7b35-4716-8e53-060c755b5259}
+  - {name: 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cross-tropical-sandra-cole.trycloudflare.com}}}
+  - {name: "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2", server: 162.159.253.16, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 172.67.10.151, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国(玉豆免费节点 yudou66.com) 13, server: sg1.wyhkaa0.cf, port: 80, type: vmess, uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg1.wyhkaa0.cf}}}
+  - {name: 🇨🇦 加拿大 101, server: v157.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /frfrfffvmn01N, headers: {Host: v157.runba.gq}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 17, server: sg1.wyhkaa0.cf, port: 80, type: vmess, uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg1.wyhkaa0.cf}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10, server: 104.25.227.40, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vus3.0bad.com/chat, headers: {Host: sub.saintink.eu.org}}}
+  - {name: "🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2", server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 7 2, server: 104.25.227.40, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vus3.0bad.com/chat, headers: {Host: sub.saintink.eu.org}}}
+  - {name: 🇨🇦 加拿大 097, server: 23.227.38.80, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇺🇸 美国_09141393, server: 137.175.86.147, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694516064215, headers: {Host: www.71453877.xyz}}}
+  - {name: 🇺🇸 美国 174, server: 192.74.238.228, port: 41772, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_欢迎订阅yui科技_128, server: 192.74.238.228, port: 41772, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国, server: 172.67.1.123, port: 80, type: vmess, uuid: 392053a2-c18f-4914-890c-fd326ee27b4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 28, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 27998387-fc3b-4237-9ac9-aba5d00bbd6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: haxus3.vpn66.eu.org}}}
+  - {name: 🇺🇸 美国_0914024, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: 27998387-fc3b-4237-9ac9-aba5d00bbd6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: haxus3.vpn66.eu.org}}}
+  - {name: 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k..., server: 172.67.149.100, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国_0914303, server: ml3.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml3.shabijichang.com}}}
+  - {name: 🇨🇦 加拿大 073, server: us2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}}
   - {name: 🇺🇸 美国 177, server: db.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
-  - {name: 🇺🇸 美国 165, server: amstd.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 🇺🇸 美国 176, server: zjg.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: zjg.shabijichang.com}}}
-  - {name: 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
-  - {name: "🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai", server: xn4.shabijichang.com, port: 80, type: vmess, uuid: f1865e50-2510-46d1-bcb2-e00b4b656305, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: 🇦🇺 Australia 11 @nodpai, server: xn4.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn4.shabijichang.com}}}
-  - {name: "🇧🇷 12|🇧🇷 Brazil 08 @nodpai #1", server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: 🇧🇷 Brazil 08 @nodpai, server: sbl4.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl4.shabijichang.com}}}
-  - {name: 🇨🇳 中国_0913203, server: 183.232.249.107, port: 59902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 254254.xyz👈购买地址 6, server: yjxbu-1087-tr-1.d-kcd.tuil.xyz, port: 889, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
-  - {name: "🇮🇳 7,8|🇮🇳 India 12 @nodpai", server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
-  - {name: "🇦🇺 7,8,12|🇦🇺 Australia 04 @nodpai", server: xn.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
-  - {name: 🇫🇷 France 01 @nodpai, server: bl.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bl.shabijichang.com}}}
-  - {name: "🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai", server: ld.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
-  - {name: "🇧🇷 7,8|🇧🇷 Brazil 05 @nodpai", server: sbl.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sbl.shabijichang.com}}}
-  - {name: United Arab Emirates 01 @nodpai, server: db.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
-  - {name: 🇮🇹 Italy 04 @nodpai, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
-  - {name: 🇨🇦 Canada 01 @nodpai, server: dld.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dld.shabijichang.com}}}
-  - {name: "🇸🇦 7,8|🇸🇦 Saudi Arabia 01 @nodpai", server: jd.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd.shabijichang.com}}}
-  - {name: "🇫🇷 7,8,12|🇫🇷 France 01 @nodpai", server: bl.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bl.shabijichang.com}}}
-  - {name: "🇮🇹 7,8,12|🇮🇹 Italy 04 @nodpai", server: ml.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
-  - {name: 频道08@wxgqlfx, server: qmyuj-1087-tr-0.d-kcd.tuil.xyz, port: 889, type: trojan, password: PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg, sni: cdn.cjhh.lol, skip-cert-verify: false}
-  - {name: 未知_0913015, server: bl.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bl.shabijichang.com}}}
-  - {name: "7,8,12|🇦🇪 United Arab Emirates 01 @no...", server: db.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
-  - {name: 🇦🇺 Australia 07 @nodpai, server: xn.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
-  - {name: 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2, server: 112.26.46.24, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
-  - {name: 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai, server: jh.xianyuwangluo.cyou, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
+  - {name: 🇮🇹 8|中转 🇮🇹 Italy 04 @nodpai, server: foshan.chiguayun.cc, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
+  - {name: 未知_0914014, server: sg1.wyhkaa0.cf, port: 80, type: vmess, uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg1.wyhkaa0.cf}}}
+  - {name: 🇩🇪 _CN_中国->🇩🇪_DE_德国, server: hefei.chiguayun.cc, port: 27108, type: ss, cipher: chacha20-ietf-poly1305, password: 788c06bf-83b0-4186-b45d-8966efc7c3fc}
+  - {name: 未知_0914020, server: shs.shabijichang.com, port: 80, type: vmess, uuid: 553128fc-df6d-4ff0-b608-67e4c625abcc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.shabijichang.com}}}
+  - {name: 未知_0914033, server: db.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
+  - {name: 未知_0914057, server: ld.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: 未知_0914018, server: mtlr.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mtlr.shabijichang.com}}}
+  - {name: 未知_0914021, server: shs.shabijichang.com, port: 80, type: vmess, uuid: 52cce261-ff53-439a-b97d-f36201842cdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: shs.shabijichang.com}}}
+  - {name: 未知_0914448, server: ml.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
+  - {name: 未知_0914012, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇮🇹 _CN_中国->🇮🇹_IT_意大利, server: yidong.liulangdiqiu.cyou, port: 10718, type: ss, cipher: chacha20-ietf-poly1305, password: 51239bce-01ab-454d-baa5-c0940c9f1751}
+  - {name: 未知_0914007, server: 162.159.60.89, port: 80, type: vmess, uuid: 7a60c15e-cbcd-486d-aee6-07a494f403e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xby.daozhang.link}}}
+  - {name: 未知_0914424, server: ml.shabijichang.com, port: 80, type: vmess, uuid: f1865e50-2510-46d1-bcb2-e00b4b656305, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ml.shabijichang.com}}}
+  - {name: 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2, server: 112.26.46.24, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
+  - {name: 🇨🇳 github.com/freefq - 广东省深圳市移动 29, server: rbaun-1079-v2-1.r-kcd-c.iote.bond, port: 29938, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.cjhh.lol}}}
+  - {name: _02, server: 23.91.100.243, port: 30862, type: vmess, uuid: 3b0f44e4-dd11-429d-c80f-615b10595db9, alterId: 0, cipher: auto, tls: false}
+  - {name: ZZ_21, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_20, server: 169.197.141.14, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇸🇬 8|🇸🇬 Singapore 34 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇸🇬 8|🇸🇬 Singapore 09 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: RO_08, server: 185.126.116.125, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk}
+  - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: ZZ_141, server: 5.44.249.44, port: 3306, type: trojan, password: d02058f4f819dced, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,98 +111,97 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 CA_分享日记 3
-      - 🇸🇬 _SG_新加坡_2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇨🇳 台湾_0913004
-      - 🇨🇳 台湾_0913038
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇨🇳 台湾_0913006
-      - 🇨🇳 台湾_0913037
-      - 🇨🇳 台湾_0913016
-      - 🇸🇬 新加坡_0913008
-      - 🇸🇬 新加坡_0913009
-      - 🇸🇬 新加坡_0913071
-      - 🇸🇬 新加坡_0913010
-      - 🇸🇬 新加坡_0913054
-      - 🇸🇬 新加坡_0913040
-      - 🇸🇬 新加坡_0913041
-      - 🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913033 2
-      - 🇯🇵 12|🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913034
-      - 🇯🇵 日本_0913106
-      - 🇯🇵 日本 350
-      - 🇯🇵 日本_0913035
-      - 🇯🇵 日本_0913105
-      - 🇯🇵 JP(AzadNet.t.me)_023
-      - 🇯🇵 日本_0913249
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
-      - 🇺🇸 美国 156
-      - 🇺🇸 16|JCBB_ 美国02_1【vip1】
-      - 🇺🇸 美国 142
-      - 🇺🇸 美国_0913649
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_81
-      - 🇨🇦 加拿大 133
-      - 🇺🇸 美国 091
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇨🇦 加拿大 128
-      - 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇨🇦 加拿大 139
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2
-      - 🇨🇦 加拿大 140
-      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国
-      - "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1"
-      - 🇺🇸 美国 180
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇯🇵 CA_分享日记 2
+      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇸🇬 新加坡_0914007
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡 5
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 4
+      - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡_5 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 美国(玉豆免费节点 yudou66.com) 13
+      - 🇨🇦 加拿大 101
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - 🇺🇸 _US_美国 7 2
+      - 🇨🇦 加拿大 097
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇺🇸 美国_09141393
+      - 🇺🇸 美国 174
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_128
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇺🇸 美国_0914024
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k...
+      - 🇺🇸 美国_0914303
+      - 🇨🇦 加拿大 073
       - 🇺🇸 美国 177
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 176
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 Australia 11 @nodpai
-      - "🇧🇷 12|🇧🇷 Brazil 08 @nodpai #1"
-      - 🇧🇷 Brazil 08 @nodpai
-      - 🇨🇳 中国_0913203
       - 254254.xyz👈购买地址 6
-      - 🇮🇳 7,8|🇮🇳 India 12 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 04 @nodpai
-      - 🇫🇷 France 01 @nodpai
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai
-      - 🇧🇷 7,8|🇧🇷 Brazil 05 @nodpai
-      - United Arab Emirates 01 @nodpai
-      - 🇮🇹 Italy 04 @nodpai
-      - 🇨🇦 Canada 01 @nodpai
-      - 🇸🇦 7,8|🇸🇦 Saudi Arabia 01 @nodpai
-      - 🇫🇷 7,8,12|🇫🇷 France 01 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 04 @nodpai
-      - 频道08@wxgqlfx
-      - 未知_0913015
-      - 7,8,12|🇦🇪 United Arab Emirates 01 @no...
-      - 🇦🇺 Australia 07 @nodpai
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 04 @nodpai
+      - 未知_0914014
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 未知_0914020
+      - 未知_0914033
+      - 未知_0914057
+      - 未知_0914018
+      - 未知_0914021
+      - 未知_0914448
+      - 未知_0914012
+      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
+      - 未知_0914007
+      - 未知_0914424
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
+      - 🇨🇳 github.com/freefq - 广东省深圳市移动 29
+      - _02
+      - ZZ_21
+      - ZZ_20
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
+      - RO_08
+      - GB_07
+      - ZZ_141
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,428 +252,454 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 CA_分享日记 3
-      - 🇸🇬 _SG_新加坡_2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇨🇳 台湾_0913004
-      - 🇨🇳 台湾_0913038
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇨🇳 台湾_0913006
-      - 🇨🇳 台湾_0913037
-      - 🇨🇳 台湾_0913016
-      - 🇸🇬 新加坡_0913008
-      - 🇸🇬 新加坡_0913009
-      - 🇸🇬 新加坡_0913071
-      - 🇸🇬 新加坡_0913010
-      - 🇸🇬 新加坡_0913054
-      - 🇸🇬 新加坡_0913040
-      - 🇸🇬 新加坡_0913041
-      - 🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913033 2
-      - 🇯🇵 12|🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913034
-      - 🇯🇵 日本_0913106
-      - 🇯🇵 日本 350
-      - 🇯🇵 日本_0913035
-      - 🇯🇵 日本_0913105
-      - 🇯🇵 JP(AzadNet.t.me)_023
-      - 🇯🇵 日本_0913249
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
-      - 🇺🇸 美国 156
-      - 🇺🇸 16|JCBB_ 美国02_1【vip1】
-      - 🇺🇸 美国 142
-      - 🇺🇸 美国_0913649
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_81
-      - 🇨🇦 加拿大 133
-      - 🇺🇸 美国 091
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇨🇦 加拿大 128
-      - 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇨🇦 加拿大 139
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2
-      - 🇨🇦 加拿大 140
-      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国
-      - "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1"
-      - 🇺🇸 美国 180
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇯🇵 CA_分享日记 2
+      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇸🇬 新加坡_0914007
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡 5
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 4
+      - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡_5 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 美国(玉豆免费节点 yudou66.com) 13
+      - 🇨🇦 加拿大 101
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - 🇺🇸 _US_美国 7 2
+      - 🇨🇦 加拿大 097
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇺🇸 美国_09141393
+      - 🇺🇸 美国 174
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_128
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇺🇸 美国_0914024
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k...
+      - 🇺🇸 美国_0914303
+      - 🇨🇦 加拿大 073
       - 🇺🇸 美国 177
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 176
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 Australia 11 @nodpai
-      - "🇧🇷 12|🇧🇷 Brazil 08 @nodpai #1"
-      - 🇧🇷 Brazil 08 @nodpai
-      - 🇨🇳 中国_0913203
       - 254254.xyz👈购买地址 6
-      - 🇮🇳 7,8|🇮🇳 India 12 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 04 @nodpai
-      - 🇫🇷 France 01 @nodpai
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai
-      - 🇧🇷 7,8|🇧🇷 Brazil 05 @nodpai
-      - United Arab Emirates 01 @nodpai
-      - 🇮🇹 Italy 04 @nodpai
-      - 🇨🇦 Canada 01 @nodpai
-      - 🇸🇦 7,8|🇸🇦 Saudi Arabia 01 @nodpai
-      - 🇫🇷 7,8,12|🇫🇷 France 01 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 04 @nodpai
-      - 频道08@wxgqlfx
-      - 未知_0913015
-      - 7,8,12|🇦🇪 United Arab Emirates 01 @no...
-      - 🇦🇺 Australia 07 @nodpai
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 04 @nodpai
+      - 未知_0914014
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 未知_0914020
+      - 未知_0914033
+      - 未知_0914057
+      - 未知_0914018
+      - 未知_0914021
+      - 未知_0914448
+      - 未知_0914012
+      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
+      - 未知_0914007
+      - 未知_0914424
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
+      - 🇨🇳 github.com/freefq - 广东省深圳市移动 29
+      - _02
+      - ZZ_21
+      - ZZ_20
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
+      - RO_08
+      - GB_07
+      - ZZ_141
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 CA_分享日记 3
-      - 🇸🇬 _SG_新加坡_2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇨🇳 台湾_0913004
-      - 🇨🇳 台湾_0913038
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇨🇳 台湾_0913006
-      - 🇨🇳 台湾_0913037
-      - 🇨🇳 台湾_0913016
-      - 🇸🇬 新加坡_0913008
-      - 🇸🇬 新加坡_0913009
-      - 🇸🇬 新加坡_0913071
-      - 🇸🇬 新加坡_0913010
-      - 🇸🇬 新加坡_0913054
-      - 🇸🇬 新加坡_0913040
-      - 🇸🇬 新加坡_0913041
-      - 🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913033 2
-      - 🇯🇵 12|🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913034
-      - 🇯🇵 日本_0913106
-      - 🇯🇵 日本 350
-      - 🇯🇵 日本_0913035
-      - 🇯🇵 日本_0913105
-      - 🇯🇵 JP(AzadNet.t.me)_023
-      - 🇯🇵 日本_0913249
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
-      - 🇺🇸 美国 156
-      - 🇺🇸 16|JCBB_ 美国02_1【vip1】
-      - 🇺🇸 美国 142
-      - 🇺🇸 美国_0913649
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_81
-      - 🇨🇦 加拿大 133
-      - 🇺🇸 美国 091
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇨🇦 加拿大 128
-      - 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇨🇦 加拿大 139
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2
-      - 🇨🇦 加拿大 140
-      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国
-      - "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1"
-      - 🇺🇸 美国 180
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇯🇵 CA_分享日记 2
+      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇸🇬 新加坡_0914007
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡 5
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 4
+      - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡_5 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 美国(玉豆免费节点 yudou66.com) 13
+      - 🇨🇦 加拿大 101
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - 🇺🇸 _US_美国 7 2
+      - 🇨🇦 加拿大 097
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇺🇸 美国_09141393
+      - 🇺🇸 美国 174
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_128
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇺🇸 美国_0914024
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k...
+      - 🇺🇸 美国_0914303
+      - 🇨🇦 加拿大 073
       - 🇺🇸 美国 177
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 176
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 Australia 11 @nodpai
-      - "🇧🇷 12|🇧🇷 Brazil 08 @nodpai #1"
-      - 🇧🇷 Brazil 08 @nodpai
-      - 🇨🇳 中国_0913203
       - 254254.xyz👈购买地址 6
-      - 🇮🇳 7,8|🇮🇳 India 12 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 04 @nodpai
-      - 🇫🇷 France 01 @nodpai
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai
-      - 🇧🇷 7,8|🇧🇷 Brazil 05 @nodpai
-      - United Arab Emirates 01 @nodpai
-      - 🇮🇹 Italy 04 @nodpai
-      - 🇨🇦 Canada 01 @nodpai
-      - 🇸🇦 7,8|🇸🇦 Saudi Arabia 01 @nodpai
-      - 🇫🇷 7,8,12|🇫🇷 France 01 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 04 @nodpai
-      - 频道08@wxgqlfx
-      - 未知_0913015
-      - 7,8,12|🇦🇪 United Arab Emirates 01 @no...
-      - 🇦🇺 Australia 07 @nodpai
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 04 @nodpai
+      - 未知_0914014
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 未知_0914020
+      - 未知_0914033
+      - 未知_0914057
+      - 未知_0914018
+      - 未知_0914021
+      - 未知_0914448
+      - 未知_0914012
+      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
+      - 未知_0914007
+      - 未知_0914424
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
+      - 🇨🇳 github.com/freefq - 广东省深圳市移动 29
+      - _02
+      - ZZ_21
+      - ZZ_20
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
+      - RO_08
+      - GB_07
+      - ZZ_141
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 CA_分享日记 3
-      - 🇺🇸 美国 156
-      - 🇺🇸 16|JCBB_ 美国02_1【vip1】
-      - 🇺🇸 美国 142
-      - 🇺🇸 美国_0913649
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_81
-      - 🇨🇦 加拿大 133
-      - 🇺🇸 美国 091
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇨🇦 加拿大 128
-      - 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇨🇦 加拿大 139
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2
-      - 🇨🇦 加拿大 140
-      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国
-      - "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1"
-      - 🇺🇸 美国 180
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇯🇵 CA_分享日记 2
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 美国(玉豆免费节点 yudou66.com) 13
+      - 🇨🇦 加拿大 101
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - 🇺🇸 _US_美国 7 2
+      - 🇨🇦 加拿大 097
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇺🇸 美国_09141393
+      - 🇺🇸 美国 174
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_128
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇺🇸 美国_0914024
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k...
+      - 🇺🇸 美国_0914303
+      - 🇨🇦 加拿大 073
       - 🇺🇸 美国 177
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 176
-      - 🇨🇦 Canada 01 @nodpai
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 CA_分享日记 3
-      - 🇸🇬 _SG_新加坡_2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇨🇳 台湾_0913004
-      - 🇨🇳 台湾_0913038
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇨🇳 台湾_0913006
-      - 🇨🇳 台湾_0913037
-      - 🇨🇳 台湾_0913016
-      - 🇸🇬 新加坡_0913008
-      - 🇸🇬 新加坡_0913009
-      - 🇸🇬 新加坡_0913071
-      - 🇸🇬 新加坡_0913010
-      - 🇸🇬 新加坡_0913054
-      - 🇸🇬 新加坡_0913040
-      - 🇸🇬 新加坡_0913041
-      - 🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913033 2
-      - 🇯🇵 12|🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913034
-      - 🇯🇵 日本_0913106
-      - 🇯🇵 日本 350
-      - 🇯🇵 日本_0913035
-      - 🇯🇵 日本_0913105
-      - 🇯🇵 JP(AzadNet.t.me)_023
-      - 🇯🇵 日本_0913249
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇯🇵 CA_分享日记 2
+      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇸🇬 新加坡_0914007
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡 5
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 4
+      - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡_5 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
-      - 🇨🇾 _CY_塞浦路斯->🇬🇧_GB_英国
-      - 🇦🇺 7,8,12|🇦🇺 Australia 02 @nodpai
-      - 🇦🇺 Australia 11 @nodpai
-      - "🇧🇷 12|🇧🇷 Brazil 08 @nodpai #1"
-      - 🇧🇷 Brazil 08 @nodpai
-      - 🇨🇳 中国_0913203
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
       - 254254.xyz👈购买地址 6
-      - 🇮🇳 7,8|🇮🇳 India 12 @nodpai
-      - 🇦🇺 7,8,12|🇦🇺 Australia 04 @nodpai
-      - 🇫🇷 France 01 @nodpai
-      - 🇬🇧 7,8|🇬🇧 United Kingdom 01 @nodpai
-      - 🇧🇷 7,8|🇧🇷 Brazil 05 @nodpai
-      - United Arab Emirates 01 @nodpai
-      - 🇮🇹 Italy 04 @nodpai
-      - 🇨🇦 Canada 01 @nodpai
-      - 🇸🇦 7,8|🇸🇦 Saudi Arabia 01 @nodpai
-      - 🇫🇷 7,8,12|🇫🇷 France 01 @nodpai
-      - 🇮🇹 7,8,12|🇮🇹 Italy 04 @nodpai
-      - 频道08@wxgqlfx
-      - 未知_0913015
-      - 7,8,12|🇦🇪 United Arab Emirates 01 @no...
-      - 🇦🇺 Australia 07 @nodpai
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇮🇹 8|中转 🇮🇹 Italy 04 @nodpai
+      - 未知_0914014
+      - 🇩🇪 _CN_中国->🇩🇪_DE_德国
+      - 未知_0914020
+      - 未知_0914033
+      - 未知_0914057
+      - 未知_0914018
+      - 未知_0914021
+      - 未知_0914448
+      - 未知_0914012
+      - 🇮🇹 _CN_中国->🇮🇹_IT_意大利
+      - 未知_0914007
+      - 未知_0914424
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
+      - 🇨🇳 github.com/freefq - 广东省深圳市移动 29
+      - _02
+      - ZZ_21
+      - ZZ_20
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
+      - RO_08
+      - GB_07
+      - ZZ_141
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 156
-      - 🇺🇸 16|JCBB_ 美国02_1【vip1】
-      - 🇺🇸 美国 142
-      - 🇺🇸 美国_0913649
-      - 🇺🇸 _US_美国_欢迎订阅yui科技_81
-      - 🇺🇸 美国 091
-      - "🇺🇸 0,18|🇺🇸 _US_美国->🇨🇳_CN_中国 #4"
-      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 6|🇺🇸_US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2 2
-      - 🇺🇸 1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - "🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国 #1"
-      - 🇺🇸 6,7,8|🇺🇸_US_美国->🇬🇧_GB_英国
-      - "🇺🇸 0,15,18|🇺🇸 _CN_中国->🇺🇸_US_美国 #1"
-      - 🇺🇸 美国 180
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - "🇺🇸 0,1,2,3,4|🇺🇸 _US_美国->🇨🇳_CN_中国 #2"
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 美国(玉豆免费节点 yudou66.com) 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 10
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - 🇺🇸 _US_美国 7 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇺🇸 美国_09141393
+      - 🇺🇸 美国 174
+      - 🇺🇸 _US_美国_欢迎订阅yui科技_128
+      - 🇺🇸 6|🇺🇸_US_美国->🇬🇧_GB_英国
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 28
+      - 🇺🇸 美国_0914024
+      - 🇺🇸 18|🇺🇸_US_美国->🇨🇳_CN_中国_3_由快嘴科技提供：k...
+      - 🇺🇸 美国_0914303
       - 🇺🇸 美国 177
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 176
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 45 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
-      - 🇭🇰 Hong Kong 05 TG@SSRSUB
-      - 🇭🇰 Hong Kong 01 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 06 TG@SSRSUB
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡_2
-      - 🇸🇬 Singapore 48 TG@SSRSUB
-      - 🇸🇬 Singapore 06 TG@SSRSUB
-      - 🇸🇬 TG@mfbpn-🇸🇬 新加坡A 流媒体
-      - 🇸🇬 新加坡_0913008
-      - 🇸🇬 新加坡_0913009
-      - 🇸🇬 新加坡_0913071
-      - 🇸🇬 新加坡_0913010
-      - 🇸🇬 新加坡_0913054
-      - 🇸🇬 新加坡_0913040
-      - 🇸🇬 新加坡_0913041
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 6|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 新加坡_0914007
+      - 🇸🇬 _SG_新加坡 4
+      - 🇸🇬 _SG_新加坡 5
+      - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
+      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
+      - 🇸🇬 _SG_新加坡_5 2
+      - 🇸🇬 0|🇸🇬 _SG_新加坡->🇺🇸_US_美国 2
+      - 🇸🇬 0,10,11|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 4
+      - 🇸🇬 8|🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 8|🇸🇬 Singapore 09 @nodpai
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 _JP_日本
-      - 🇯🇵 CA_分享日记 3
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai
-      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 12 TG@SSRSUB
-      - 🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913033 2
-      - 🇯🇵 12|🇯🇵 日本_0913033
-      - 🇯🇵 日本_0913034
-      - 🇯🇵 日本_0913106
-      - 🇯🇵 日本 350
-      - 🇯🇵 日本_0913035
-      - 🇯🇵 日本_0913105
-      - 🇯🇵 JP(AzadNet.t.me)_023
-      - 🇯🇵 日本_0913249
-      - 🇯🇵 8|中转 🇯🇵 Japan 04 @nodpai 2
-      - 🇯🇵 8|中转 🇯🇵 Japan 02 @nodpai
+      - 🇯🇵 CA_分享日记 2
+      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai
+      - 🇯🇵 14|🇯🇵 日本|tg频道@ripaojiedian
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 3
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 4
+      - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan 35 TG@SSRSUB
+      - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 04 TG@SSRSUB
+      - 🇯🇵 8|中转 🇯🇵 Japan 05 @nodpai 2
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TG@mfbpn-🇹🇼 台湾B 流媒体
-      - 🇨🇳 台湾_0913004
-      - 🇨🇳 台湾_0913038
-      - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_141
-      - 🇨🇳 台湾_0913006
-      - 🇨🇳 台湾_0913037
-      - 🇨🇳 台湾_0913016
-      - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
-      - 🇨🇳 Taiwan(ChatGPT) 09 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 24 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 27 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 04 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 11 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
+      - 🇨🇳 Taiwan(ChatGPT) 15 TG@SSRSUB
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
 rules:
  - GEOIP,CN,🧱 国内网站
  - MATCH,🐟 漏网之鱼
