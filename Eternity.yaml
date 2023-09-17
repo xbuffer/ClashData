@@ -5,15 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
   - {name: 🇭🇰 _HK_香港, server: 45.11.104.94, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: false}
-  - {name: HK_speednode_0052, server: 45.11.104.94, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true}
   - {name: 🇸🇬 _SG_新加坡, server: 5.44.249.53, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 6, server: 5.44.249.53, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 2 2, server: 5.44.249.53, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1", server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: HK_speednode_0052, server: 45.11.104.94, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true}
+  - {name: 🇭🇰 _HK_香港 2, server: 45.11.104.94, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 2, server: 5.44.249.43, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 7, server: 5.44.249.43, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 5 2, server: 5.44.249.43, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true}
@@ -27,7 +26,7 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡 10, server: 5.44.249.52, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: 🇸🇬 _SG_新加坡 3 2, server: 5.44.249.52, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true}
   - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_香港 2, server: 45.11.104.94, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: rpete-1096-tr-3.r-kcd-e.iote.bond, port: 29989, type: trojan, password: LYaOvuNXdQGTZNonhlRUKqOJcKVihzKY, sni: cdn.cjhh.lol, skip-cert-verify: false}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB, server: sz.cny.page, port: 11536, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB, server: sz.cny.page, port: 25984, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
   - {name: 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB, server: sz.cny.page, port: 20957, type: ss, cipher: aes-128-gcm, password: 2cfc4c58-88cb-4e00-9977-ef0a37559a22}
@@ -49,33 +48,34 @@ proxies:
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB, server: 03.xn--8fr22cd4k1m9c.cn, port: 44521, type: ss, cipher: aes-128-gcm, password: de467768-8540-43de-88a4-7299a2bbeaec}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB, server: api-wx-1.rancho.gay, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: b6bf8f12-72d8-470e-9bea-95457fd24949}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB, server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: bb0f1568-4cb3-490d-82c4-f654455cd07c}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB, server: gzdx.jcnode.top, port: 22000, type: ss, cipher: aes-256-gcm, password: 89a2662f-1030-412f-bc31-7022d6aec338}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: "🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3", server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇨🇦 加拿大 149, server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国 2, server: v157.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /frfrfffvmn01N, headers: {Host: v157.runba.gq}}}
-  - {name: 🇺🇸 _IR_伊朗->🇺🇸_US_美国, server: 78.39.56.7, port: 13227, type: vmess, uuid: ab3608a2-f43b-456f-83e2-dc7e8d683068, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 3, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
-  - {name: 🇺🇸 _US_美国 17, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2, server: 172.67.6.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2, server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 2, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 6, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 9, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国 070, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 _US_美国 4, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 18, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_0917025, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 020, server: 172.67.120.174, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 14, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 10, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 9, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 5, server: 172.67.10.151, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 _US_美国, server: 134.195.101.33, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国_0917025, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 18, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 4, server: 156.225.67.101, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇺🇸 美国 079, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
   - {name: 🇺🇸 _US_美国 5, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇺🇸 _US_美国 19, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
   - {name: 🇨🇦 加拿大 012, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2", server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 3, server: 172.64.90.186, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国 11, server: 172.64.90.186, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
+  - {name: 🇺🇸 美国 070, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇺🇸 _US_美国 17, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 35, server: 104.25.131.135, port: 443, type: vmess, uuid: 662f4e74-b075-4d85-d68d-61c51882429f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /qwer00, headers: {Host: yok01.vtcss.top}}}
   - {name: 🇮🇷 伊朗_0917001, server: 78.39.56.7, port: 13227, type: vmess, uuid: ab3608a2-f43b-456f-83e2-dc7e8d683068, alterId: 0, cipher: auto, tls: false}
   - {name: 🇬🇧 _GB_英国, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b44579e1-f803-4981-86bc-aa8c783daa04, skip-cert-verify: false}
   - {name: 🇬🇧 _GB_英国 2, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b44579e1-f803-4981-86bc-aa8c783daa04, skip-cert-verify: false}
-  - {name: 🇬🇧 _GB_英国 2 2, server: uk1.trojanvh.xyz, port: 80, type: trojan, password: b44579e1-f803-4981-86bc-aa8c783daa04, skip-cert-verify: true}
   - {name: 🇩🇪 _DE_德国, server: 78.46.162.14, port: 43739, type: vmess, uuid: 576d2043-7a12-4903-9d38-e5580052a97e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 _DE_德国 2, server: 78.46.162.14, port: 43739, type: vmess, uuid: 576d2043-7a12-4903-9d38-e5580052a97e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 0|🇩🇪 _DE_德国, server: 78.46.162.14, port: 43739, type: vmess, uuid: 576d2043-7a12-4903-9d38-e5580052a97e, alterId: 0, cipher: auto, tls: false}
@@ -96,6 +96,7 @@ proxies:
   - {name: "@SSRSUB-V12-付费推荐dlj.tf/ssrsub", server: cdn.twitter.now.cc, port: 443, type: vmess, uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ikun, headers: {Host: us2.twittei.me}}}
   - {name: 🇦🇷 Relay 🇦🇷 Argentina 01 TG@SSRSUB, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 41804, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
   - {name: 🇧🇷 Relay 🇧🇷 Brazil 01 TG@SSRSUB, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 41801, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇬🇧 Relay 🇬🇧 United Kingdom 05 TG@SSRSUB, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 33907, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,15 +112,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
       - 🇭🇰 _HK_香港
-      - HK_speednode_0052
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 6
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
+      - HK_speednode_0052
+      - 🇭🇰 _HK_香港 2
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 7
       - 🇸🇬 _SG_新加坡 5 2
@@ -133,7 +133,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡 10
       - 🇸🇬 _SG_新加坡 3 2
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
@@ -155,33 +155,34 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
       - 🇨🇦 加拿大 149
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 6
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
-      - 🇺🇸 美国 070
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 18
-      - 🇺🇸 美国_0917025
-      - 🇨🇦 加拿大 020
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 14
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 10
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 美国 079
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 19
       - 🇨🇦 加拿大 012
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 11
+      - 🇺🇸 美国 070
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 美国(油管破解资源君) 35
       - 🇮🇷 伊朗_0917001
       - 🇬🇧 _GB_英国
       - 🇬🇧 _GB_英国 2
-      - 🇬🇧 _GB_英国 2 2
       - 🇩🇪 _DE_德国
       - 🇩🇪 _DE_德国 2
       - 🇩🇪 0|🇩🇪 _DE_德国
@@ -202,6 +203,7 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐dlj.tf/ssrsub"
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG@SSRSUB
       - 🇧🇷 Relay 🇧🇷 Brazil 01 TG@SSRSUB
+      - 🇬🇧 Relay 🇬🇧 United Kingdom 05 TG@SSRSUB
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,15 +254,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
       - 🇭🇰 _HK_香港
-      - HK_speednode_0052
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 6
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
+      - HK_speednode_0052
+      - 🇭🇰 _HK_香港 2
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 7
       - 🇸🇬 _SG_新加坡 5 2
@@ -274,7 +275,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡 10
       - 🇸🇬 _SG_新加坡 3 2
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
@@ -296,33 +297,34 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
       - 🇨🇦 加拿大 149
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 6
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
-      - 🇺🇸 美国 070
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 18
-      - 🇺🇸 美国_0917025
-      - 🇨🇦 加拿大 020
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 14
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 10
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 美国 079
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 19
       - 🇨🇦 加拿大 012
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 11
+      - 🇺🇸 美国 070
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 美国(油管破解资源君) 35
       - 🇮🇷 伊朗_0917001
       - 🇬🇧 _GB_英国
       - 🇬🇧 _GB_英国 2
-      - 🇬🇧 _GB_英国 2 2
       - 🇩🇪 _DE_德国
       - 🇩🇪 _DE_德国 2
       - 🇩🇪 0|🇩🇪 _DE_德国
@@ -343,21 +345,21 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐dlj.tf/ssrsub"
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG@SSRSUB
       - 🇧🇷 Relay 🇧🇷 Brazil 01 TG@SSRSUB
+      - 🇬🇧 Relay 🇬🇧 United Kingdom 05 TG@SSRSUB
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
       - 🇭🇰 _HK_香港
-      - HK_speednode_0052
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 6
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
+      - HK_speednode_0052
+      - 🇭🇰 _HK_香港 2
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 7
       - 🇸🇬 _SG_新加坡 5 2
@@ -371,7 +373,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡 10
       - 🇸🇬 _SG_新加坡 3 2
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
@@ -393,33 +395,34 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
       - 🇨🇦 加拿大 149
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 6
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
-      - 🇺🇸 美国 070
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 18
-      - 🇺🇸 美国_0917025
-      - 🇨🇦 加拿大 020
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 14
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 10
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 美国 079
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 19
       - 🇨🇦 加拿大 012
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 11
+      - 🇺🇸 美国 070
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 美国(油管破解资源君) 35
       - 🇮🇷 伊朗_0917001
       - 🇬🇧 _GB_英国
       - 🇬🇧 _GB_英国 2
-      - 🇬🇧 _GB_英国 2 2
       - 🇩🇪 _DE_德国
       - 🇩🇪 _DE_德国 2
       - 🇩🇪 0|🇩🇪 _DE_德国
@@ -440,6 +443,7 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐dlj.tf/ssrsub"
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG@SSRSUB
       - 🇧🇷 Relay 🇧🇷 Brazil 01 TG@SSRSUB
+      - 🇬🇧 Relay 🇬🇧 United Kingdom 05 TG@SSRSUB
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -448,45 +452,44 @@ proxy-groups:
     proxies:
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
       - 🇨🇦 加拿大 149
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 6
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
-      - 🇺🇸 美国 070
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 18
-      - 🇺🇸 美国_0917025
-      - 🇨🇦 加拿大 020
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 14
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 10
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 美国 079
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 19
       - 🇨🇦 加拿大 012
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 11
+      - 🇺🇸 美国 070
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 美国(油管破解资源君) 35
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
       - 🇭🇰 _HK_香港
-      - HK_speednode_0052
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 6
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
+      - HK_speednode_0052
+      - 🇭🇰 _HK_香港 2
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 7
       - 🇸🇬 _SG_新加坡 5 2
@@ -500,7 +503,7 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡 10
       - 🇸🇬 _SG_新加坡 3 2
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
-      - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 03 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇯🇵 Relay 🇯🇵 Japan(ChatGPT) 05 TG@SSRSUB
@@ -522,9 +525,9 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -552,10 +555,10 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 48 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 49 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 53 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
       - 🇮🇷 伊朗_0917001
       - 🇬🇧 _GB_英国
       - 🇬🇧 _GB_英国 2
-      - 🇬🇧 _GB_英国 2 2
       - 🇩🇪 _DE_德国
       - 🇩🇪 _DE_德国 2
       - 🇩🇪 0|🇩🇪 _DE_德国
@@ -576,6 +579,7 @@ proxy-groups:
       - "@SSRSUB-V12-付费推荐dlj.tf/ssrsub"
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG@SSRSUB
       - 🇧🇷 Relay 🇧🇷 Brazil 01 TG@SSRSUB
+      - 🇬🇧 Relay 🇬🇧 United Kingdom 05 TG@SSRSUB
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -584,38 +588,39 @@ proxy-groups:
     proxies:
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
+      - 🇺🇸 1,2,3,4,18|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 2 2
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3 2
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国 2
-      - 🇺🇸 _IR_伊朗->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 3
-      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 6
       - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
-      - 🇺🇸 美国 070
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 18
-      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 14
       - 🇺🇸 _US_美国->🇨🇳_CN_中国 10
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 9
+      - 🇺🇸 _US_美国->🇨🇳_CN_中国 5
+      - 🇺🇸 _US_美国
+      - 🇺🇸 美国_0917025
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 4
       - 🇺🇸 美国 079
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 19
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 3
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国 11
+      - 🇺🇸 美国 070
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 美国(油管破解资源君) 35
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇭🇰 _HK_香港
       - HK_speednode_0052
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇭🇰 _HK_香港 2
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
       - 🇭🇰 Relay 🇭🇰 Hong Kong 02 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 04 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
@@ -631,12 +636,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
       - 🇸🇬 _SG_新加坡
       - 🇸🇬 _SG_新加坡 6
       - 🇸🇬 _SG_新加坡 2 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1"
       - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 _SG_新加坡 7
       - 🇸🇬 _SG_新加坡 5 2
@@ -649,9 +653,8 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡 5
       - 🇸🇬 _SG_新加坡 10
       - 🇸🇬 _SG_新加坡 3 2
-      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
       - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 5 2
-      - "🇸🇬 0,10,11,18|🇸🇬 _US_美国->🇸🇬_SG_新加坡 #1 2"
+      - 🇸🇬 _US_美国->🇸🇬_SG_新加坡 2 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -682,6 +685,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
+      - 🇰🇷 Relay 🇰🇷 South Korea 14 TG@SSRSUB
 rules:
  - GEOIP,CN,🧱 国内网站
  - MATCH,🐟 漏网之鱼
