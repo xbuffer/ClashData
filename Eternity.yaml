@@ -5,10 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai, server: starspeed.tbh.iosds.com, port: 26963, type: ss, cipher: chacha20-ietf-poly1305, password: 8f03a18c-31ee-4e8c-8e23-f3af0964a543}
+  - {name: "🇭🇰 11,15|香港B|@ripaojiedian", server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
   - {name: 🇰🇷 韩国_1004006, server: cc1.clare88.tk, port: 12653, type: vmess, uuid: fce96161-0c58-4ba9-8430-660d84083888, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇰🇷 _KR_韩国_欢迎订阅yui科技_20, server: cc1.clare88.tk, port: 12653, type: vmess, uuid: fce96161-0c58-4ba9-8430-660d84083888, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20, server: cc1.clare88.tk, port: 12653, type: vmess, uuid: fce96161-0c58-4ba9-8430-660d84083888, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian, server: ydyh.nanbei.info, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96}
   - {name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3, server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}}
@@ -49,54 +48,56 @@ proxies:
   - {name: 🇭🇰 香港 021, server: 118.107.245.15, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/143534141104, headers: {Host: www.33738380.xyz}}}
   - {name: 🇯🇵 日本 002, server: jp06-vm0.entry.jpojpoh.art, port: 28783, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: true}
   - {name: 🇯🇵 日本 003, server: jp05-vm0.entry.srthdw.art, port: 46482, type: vmess, uuid: 2d98a577-c108-3dfa-baeb-8d70819ec5b7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 144, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.yx.alue.link}}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇦 加拿大 175, server: 162.159.129.245, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz..., server: 162.159.129.245, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu5.vpn66.eu.org}}}
-  - {name: 🇨🇦 加拿大 237, server: main.animelover.ir, port: 443, type: vmess, uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /amstd.digires.shop/12796, headers: {Host: main.animelover.ir}}}
-  - {name: 🇨🇦 加拿大 226, server: 104.17.84.82, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDM25GBcbnQ, headers: {Host: poland.yj2022.gq}}}
-  - {name: 🇺🇸 18|🇺🇸_US_美国_2_6, server: 104.17.84.82, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDM25GBcbnQ, headers: {Host: poland.yj2022.gq}}}
-  - {name: "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1", server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 5551fb74-c6f4-49ef-b940-bb4af8d81735, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}}
-  - {name: 🇨🇦 加拿大 233, server: 104.22.1.126, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /octavi.cfd:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: 🇨🇦 加拿大 050, server: dx1.992688.xyz, port: 8080, type: vmess, uuid: 369ea2ab-8446-4142-d8b6-5a7dd9ddffdc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dx1.992688.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cf.yx.alue.link}}}
-  - {name: 🇺🇸 美国 068, server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
-  - {name: 🇺🇸 美国 110, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDM25GBcbnQ, headers: {Host: poland.yj2022.gq}}}
-  - {name: 🇨🇦 加拿大 169, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
-  - {name: 🇨🇦 加拿大 142, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: f21bf6a7-f40a-434f-b952-e4b52678fda4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}}
-  - {name: "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1", server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: 5551fb74-c6f4-49ef-b940-bb4af8d81735, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}}
-  - {name: 🇺🇸 美国_1004002, server: 66.55.64.124, port: 13337, type: vmess, uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mi-1.trollfunny.net}}}
-  - {name: 🇺🇸 美国_1004005, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
-  - {name: 🇨🇦 加拿大 181, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
-  - {name: 🇺🇸 美国CloudFlare节点 14, server: sg2.wyhkaa0.cf, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
-  - {name: 🇺🇸 美国_1004007, server: 23.94.136.9, port: 80, type: vmess, uuid: cd1a8e9e-292e-499c-8266-79d636c28de5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /acc}}
-  - {name: 🇺🇸 美国_0930133, server: 23.94.136.9, port: 80, type: vmess, uuid: cd1a8e9e-292e-499c-8266-79d636c28de5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 频道07@wxgqlfx, server: rzuee-1075-tr-0.d-hinet-02.ddll.bond, port: 889, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: false}
-  - {name: 未知_1004244, server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
-  - {name: 🇸🇦 8|中转 🇸🇦 Saudi Arabia 01 @nodpai, server: yidong.liulangdiqiu.cyou, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b}
-  - {name: 未知_1004016, server: 23.158.56.89, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 未知_1004019, server: 104.16.68.38, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 未知_1004049, server: 162.159.129.245, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu5.vpn66.eu.org}}}
-  - {name: 未知_1004097, server: main.animelover.ir, port: 443, type: vmess, uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /amstd.digires.shop/12796, headers: {Host: main.animelover.ir}}}
-  - {name: 未知_1004104, server: 104.17.84.82, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDM25GBcbnQ, headers: {Host: poland.yj2022.gq}}}
-  - {name: 未知_1004132, server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 4c089cce-8d84-4a92-9856-3eb67465dd53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}}
-  - {name: "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2", server: v2.us-c.microsoftdebug.com, port: 80, type: vmess, uuid: 5551fb74-c6f4-49ef-b940-bb4af8d81735, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f0uncvgo.ts, headers: {Host: v2.us-c.microsoftdebug.com}}}
-  - {name: 未知_1004133, server: 104.22.1.126, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /octavi.cfd:443/linkvws, headers: {Host: sub.yifenjichang.top}}}
-  - {name: 未知_1004217, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 未知_1004018, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 未知_1004254, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDM25GBcbnQ, headers: {Host: poland.yj2022.gq}}}
-  - {name: 未知_1004258, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
-  - {name: 未知_1004380, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 未知_1004390, server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: 4c089cce-8d84-4a92-9856-3eb67465dd53, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}}
-  - {name: "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2", server: v2.us1.microsoftdebug.com, port: 80, type: vmess, uuid: 5551fb74-c6f4-49ef-b940-bb4af8d81735, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v2.us1.microsoftdebug.com}}}
-  - {name: 未知_1004469, server: yd.xingsu.fun, port: 80, type: vmess, uuid: 371e55dc-0549-4d75-b7c3-6ce9e44ef989, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xingsu, headers: {Host: hkyd1.xingsu.fun}}}
-  - {name: 未知_1004017, server: v118a.ai88888.top, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-dekDP6Otf, headers: {Host: v118a.ai88888.top}}}
-  - {name: 🇫🇷 法国_1004017, server: ge1.09vpn.com, port: 80, type: vmess, uuid: 1fe0048e-9e4e-4b7b-894f-c7cafa2b962d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: ge1.09vpn.com}}}
-  - {name: 🇫🇷 法国_1004029, server: 54.38.79.75, port: 80, type: vmess, uuid: 26231b00-60a6-11ee-b938-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /5fe9v7or, headers: {Host: 54.38.79.75}}}
-  - {name: 🇫🇷 法国_1004079, server: sw-51.158.241.70.nip.io, port: 443, type: vmess, uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇫🇷 法国_1004081, server: 51.158.238.229, port: 443, type: vmess, uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港 022, server: hk01.isddns.tk, port: 443, type: vmess, uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: hk01.isddns.tk}}}
+  - {name: 🇯🇵 日本 005, server: jp02-vm0.entry.srthdw.art, port: 11775, type: vmess, uuid: 22acc467-7440-386a-927a-d84be554b37e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004015, server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6, server: 137.175.23.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.22866947.xyz}}}
+  - {name: "🇺🇸 14,15|美国2|@ripaojiedian", server: 172.67.69.247, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
+  - {name: 🇺🇸 美国_1004017, server: v138a.ai88888.top, port: 2052, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-ddxDMRvLdlt, headers: {Host: v138a.ai88888.top}}}
+  - {name: 🇺🇸 美国_1004027, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004287, server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004033, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004290, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004045, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇨🇦 加拿大 178, server: sg.wyhkaa0.cf, port: 80, type: vmess, uuid: 0ba28c05-7bd9-4cad-c329-482386a8e7a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg.wyhkaa0.cf}}}
+  - {name: 🇺🇸 美国_1004076, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004286, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004976, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004077, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004288, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_1004104, server: 172.64.229.116, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: netherlands.yj2022.gq}}}
+  - {name: 🇨🇦 加拿大 100, server: 172.64.229.116, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ}}
+  - {name: 🇺🇸 美国_1004232, server: x.xiaohui123.eu.org, port: 443, type: vmess, uuid: d0930a90-b487-4884-d270-e957f93fe1b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: x.xiaohui123.eu.org}}}
+  - {name: 🇨🇦 加拿大 232, server: x.xiaohui123.eu.org, port: 443, type: vmess, uuid: d0930a90-b487-4884-d270-e957f93fe1b0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: x.xiaohui123.eu.org}}}
+  - {name: 🇺🇸 美国_1004243, server: 198.2.202.88, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇺🇸 美国 132, server: 198.2.202.88, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695993071029, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3, server: 198.2.202.88, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251693048, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇺🇸 美国_1004245, server: 159.246.55.180, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}}
+  - {name: 🇺🇸 美国_1004247, server: 104.31.16.35, port: 443, type: vmess, uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /11201, headers: {Host: franc.digires.shop}}}
+  - {name: 🇮🇪 8|中转 🇮🇪 Ireland 01 @nodpai, server: foshan.chiguayun.cc, port: 27140, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf75408-967d-41c4-bf89-80517807e26f}
+  - {name: 🇷🇺 俄罗斯 002, server: v138a.ai88888.top, port: 2052, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-ddxDMRvLdlt, headers: {Host: v138a.ai88888.top}}}
+  - {name: "|11.25Mb", server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: Relay_ |10.44Mb, server: odelia.autos, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: odelia.autos}}}
+  - {name: 🇬🇧 英国_1004001, server: 138.68.136.50, port: 65500, type: vmess, uuid: 6b2e381c-8214-47c7-aa73-54c803ef1d22, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇬🇧 英国_1004014, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 英国_1004024, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: "|18.19Mb", server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: "|27.12Mb", server: 38.75.137.27, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_1004003, server: 45.155.249.151, port: 80, type: vmess, uuid: 9d5e69d2-46cf-4865-95fe-a2ee8c52a013, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "|16.28Mb", server: 45.155.249.151, port: 80, type: vmess, uuid: 9d5e69d2-46cf-4865-95fe-a2ee8c52a013, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇳🇱 荷兰_1004004, server: 217.197.162.28, port: 30938, type: vmess, uuid: d7063e6e-12bb-4af7-b7af-e05afb73b618, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_1004005, server: 217.197.162.28, port: 40649, type: vmess, uuid: 99ff1153-fcba-4ed8-8cd8-8a8da96f7e93, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_1004007, server: 217.197.162.28, port: 40649, type: vmess, uuid: 99ff1153-fcba-4ed8-8cd8-8a8da96f7e93, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_1004011, server: 91.223.123.188, port: 33356, type: vmess, uuid: a5f13507-2695-4ac9-b6b1-5bb6d2f55369, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 荷兰_1004013, server: 91.223.123.188, port: 33356, type: vmess, uuid: a5f13507-2695-4ac9-b6b1-5bb6d2f55369, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇭 菲律宾_1004001, server: 109.248.25.59, port: 29064, type: vmess, uuid: 8958440c-aa86-4ff1-8e88-5c7a052d5961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ss}}
+  - {name: 🇵🇭 菲律宾_1004002, server: 38.54.87.157, port: 35551, type: vmess, uuid: 5cbe40d3-a194-4bcd-9859-c394627d768a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇻🇳 越南_1004001, server: hcmgame1.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hcmgame1.4ghatde.com, headers: {Host: hcmgame1.4ghatde.com}}}
+  - {name: 🇻🇳 越南_1004002, server: 103.149.252.174, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4ghatde.com}}
+  - {name: 🇻🇳 越南_1004006, server: hcm02.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /svip2.4ghatde.com, headers: {Host: hcm02.4ghatde.com}}}
+  - {name: 🇻🇳 越南_1004008, server: hcm03.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /svip2.4ghatde.com, headers: {Host: hcm03.4ghatde.com}}}
+  - {name: 🇻🇳 越南_1004021, server: dn1.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4ghatde.com, headers: {Host: dn1.4ghatde.com}}}
+  - {name: 🇻🇳 越南_1004025, server: 103.183.121.42, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hcmgame1.4ghatde.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,10 +113,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
+      - 🇭🇰 11,15|香港B|@ripaojiedian
       - 🇰🇷 韩国_1004006
-      - 🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
@@ -156,54 +156,56 @@ proxy-groups:
       - 🇭🇰 香港 021
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
-      - 🇨🇦 加拿大 144
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2
-      - 🇨🇦 加拿大 175
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - 🇨🇦 加拿大 237
-      - 🇨🇦 加拿大 226
-      - 🇺🇸 18|🇺🇸_US_美国_2_6
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - 🇨🇦 加拿大 233
-      - 🇨🇦 加拿大 050
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 110
-      - 🇨🇦 加拿大 169
-      - 🇨🇦 加拿大 142
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 🇺🇸 美国_1004002
-      - 🇺🇸 美国_1004005
-      - 🇨🇦 加拿大 181
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇺🇸 美国_1004007
-      - 🇺🇸 美国_0930133
-      - 频道07@wxgqlfx
-      - 未知_1004244
-      - 🇸🇦 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-      - 未知_1004016
-      - 未知_1004019
-      - 未知_1004049
-      - 未知_1004097
-      - 未知_1004104
-      - 未知_1004132
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - 未知_1004133
-      - 未知_1004217
-      - 未知_1004018
-      - 未知_1004254
-      - 未知_1004258
-      - 未知_1004380
-      - 未知_1004390
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
-      - 未知_1004469
-      - 未知_1004017
-      - 🇫🇷 法国_1004017
-      - 🇫🇷 法国_1004029
-      - 🇫🇷 法国_1004079
-      - 🇫🇷 法国_1004081
+      - 🇭🇰 香港 022
+      - 🇯🇵 日本 005
+      - 🇺🇸 美国_1004015
+      - 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6
+      - 🇺🇸 14,15|美国2|@ripaojiedian
+      - 🇺🇸 美国_1004017
+      - 🇺🇸 美国_1004027
+      - 🇺🇸 美国_1004287
+      - 🇺🇸 美国_1004033
+      - 🇺🇸 美国_1004290
+      - 🇺🇸 美国_1004045
+      - 🇨🇦 加拿大 178
+      - 🇺🇸 美国_1004076
+      - 🇺🇸 美国_1004286
+      - 🇺🇸 美国_1004976
+      - 🇺🇸 美国_1004077
+      - 🇺🇸 美国_1004288
+      - 🇺🇸 美国_1004104
+      - 🇨🇦 加拿大 100
+      - 🇺🇸 美国_1004232
+      - 🇨🇦 加拿大 232
+      - 🇺🇸 美国_1004243
+      - 🇺🇸 美国 132
+      - 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3
+      - 🇺🇸 美国_1004245
+      - 🇺🇸 美国_1004247
+      - 🇮🇪 8|中转 🇮🇪 Ireland 01 @nodpai
+      - 🇷🇺 俄罗斯 002
+      - "|11.25Mb"
+      - Relay_ |10.44Mb
+      - 🇬🇧 英国_1004001
+      - 🇬🇧 英国_1004014
+      - 🇬🇧 英国_1004024
+      - "|18.19Mb"
+      - "|27.12Mb"
+      - 🇳🇱 荷兰_1004003
+      - "|16.28Mb"
+      - 🇳🇱 荷兰_1004004
+      - 🇳🇱 荷兰_1004005
+      - 🇳🇱 荷兰_1004007
+      - 🇳🇱 荷兰_1004011
+      - 🇳🇱 荷兰_1004013
+      - 🇵🇭 菲律宾_1004001
+      - 🇵🇭 菲律宾_1004002
+      - 🇻🇳 越南_1004001
+      - 🇻🇳 越南_1004002
+      - 🇻🇳 越南_1004006
+      - 🇻🇳 越南_1004008
+      - 🇻🇳 越南_1004021
+      - 🇻🇳 越南_1004025
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,10 +256,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
+      - 🇭🇰 11,15|香港B|@ripaojiedian
       - 🇰🇷 韩国_1004006
-      - 🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
@@ -298,64 +299,65 @@ proxy-groups:
       - 🇭🇰 香港 021
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
-      - 🇨🇦 加拿大 144
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2
-      - 🇨🇦 加拿大 175
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - 🇨🇦 加拿大 237
-      - 🇨🇦 加拿大 226
-      - 🇺🇸 18|🇺🇸_US_美国_2_6
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - 🇨🇦 加拿大 233
-      - 🇨🇦 加拿大 050
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 110
-      - 🇨🇦 加拿大 169
-      - 🇨🇦 加拿大 142
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 🇺🇸 美国_1004002
-      - 🇺🇸 美国_1004005
-      - 🇨🇦 加拿大 181
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇺🇸 美国_1004007
-      - 🇺🇸 美国_0930133
-      - 频道07@wxgqlfx
-      - 未知_1004244
-      - 🇸🇦 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-      - 未知_1004016
-      - 未知_1004019
-      - 未知_1004049
-      - 未知_1004097
-      - 未知_1004104
-      - 未知_1004132
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - 未知_1004133
-      - 未知_1004217
-      - 未知_1004018
-      - 未知_1004254
-      - 未知_1004258
-      - 未知_1004380
-      - 未知_1004390
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
-      - 未知_1004469
-      - 未知_1004017
-      - 🇫🇷 法国_1004017
-      - 🇫🇷 法国_1004029
-      - 🇫🇷 法国_1004079
-      - 🇫🇷 法国_1004081
+      - 🇭🇰 香港 022
+      - 🇯🇵 日本 005
+      - 🇺🇸 美国_1004015
+      - 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6
+      - 🇺🇸 14,15|美国2|@ripaojiedian
+      - 🇺🇸 美国_1004017
+      - 🇺🇸 美国_1004027
+      - 🇺🇸 美国_1004287
+      - 🇺🇸 美国_1004033
+      - 🇺🇸 美国_1004290
+      - 🇺🇸 美国_1004045
+      - 🇨🇦 加拿大 178
+      - 🇺🇸 美国_1004076
+      - 🇺🇸 美国_1004286
+      - 🇺🇸 美国_1004976
+      - 🇺🇸 美国_1004077
+      - 🇺🇸 美国_1004288
+      - 🇺🇸 美国_1004104
+      - 🇨🇦 加拿大 100
+      - 🇺🇸 美国_1004232
+      - 🇨🇦 加拿大 232
+      - 🇺🇸 美国_1004243
+      - 🇺🇸 美国 132
+      - 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3
+      - 🇺🇸 美国_1004245
+      - 🇺🇸 美国_1004247
+      - 🇮🇪 8|中转 🇮🇪 Ireland 01 @nodpai
+      - 🇷🇺 俄罗斯 002
+      - "|11.25Mb"
+      - Relay_ |10.44Mb
+      - 🇬🇧 英国_1004001
+      - 🇬🇧 英国_1004014
+      - 🇬🇧 英国_1004024
+      - "|18.19Mb"
+      - "|27.12Mb"
+      - 🇳🇱 荷兰_1004003
+      - "|16.28Mb"
+      - 🇳🇱 荷兰_1004004
+      - 🇳🇱 荷兰_1004005
+      - 🇳🇱 荷兰_1004007
+      - 🇳🇱 荷兰_1004011
+      - 🇳🇱 荷兰_1004013
+      - 🇵🇭 菲律宾_1004001
+      - 🇵🇭 菲律宾_1004002
+      - 🇻🇳 越南_1004001
+      - 🇻🇳 越南_1004002
+      - 🇻🇳 越南_1004006
+      - 🇻🇳 越南_1004008
+      - 🇻🇳 越南_1004021
+      - 🇻🇳 越南_1004025
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
+      - 🇭🇰 11,15|香港B|@ripaojiedian
       - 🇰🇷 韩国_1004006
-      - 🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
@@ -396,96 +398,95 @@ proxy-groups:
       - 🇭🇰 香港 021
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
-      - 🇨🇦 加拿大 144
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2
-      - 🇨🇦 加拿大 175
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - 🇨🇦 加拿大 237
-      - 🇨🇦 加拿大 226
-      - 🇺🇸 18|🇺🇸_US_美国_2_6
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - 🇨🇦 加拿大 233
-      - 🇨🇦 加拿大 050
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 110
-      - 🇨🇦 加拿大 169
-      - 🇨🇦 加拿大 142
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 🇺🇸 美国_1004002
-      - 🇺🇸 美国_1004005
-      - 🇨🇦 加拿大 181
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇺🇸 美国_1004007
-      - 🇺🇸 美国_0930133
-      - 频道07@wxgqlfx
-      - 未知_1004244
-      - 🇸🇦 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-      - 未知_1004016
-      - 未知_1004019
-      - 未知_1004049
-      - 未知_1004097
-      - 未知_1004104
-      - 未知_1004132
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - 未知_1004133
-      - 未知_1004217
-      - 未知_1004018
-      - 未知_1004254
-      - 未知_1004258
-      - 未知_1004380
-      - 未知_1004390
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
-      - 未知_1004469
-      - 未知_1004017
-      - 🇫🇷 法国_1004017
-      - 🇫🇷 法国_1004029
-      - 🇫🇷 法国_1004079
-      - 🇫🇷 法国_1004081
+      - 🇭🇰 香港 022
+      - 🇯🇵 日本 005
+      - 🇺🇸 美国_1004015
+      - 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6
+      - 🇺🇸 14,15|美国2|@ripaojiedian
+      - 🇺🇸 美国_1004017
+      - 🇺🇸 美国_1004027
+      - 🇺🇸 美国_1004287
+      - 🇺🇸 美国_1004033
+      - 🇺🇸 美国_1004290
+      - 🇺🇸 美国_1004045
+      - 🇨🇦 加拿大 178
+      - 🇺🇸 美国_1004076
+      - 🇺🇸 美国_1004286
+      - 🇺🇸 美国_1004976
+      - 🇺🇸 美国_1004077
+      - 🇺🇸 美国_1004288
+      - 🇺🇸 美国_1004104
+      - 🇨🇦 加拿大 100
+      - 🇺🇸 美国_1004232
+      - 🇨🇦 加拿大 232
+      - 🇺🇸 美国_1004243
+      - 🇺🇸 美国 132
+      - 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3
+      - 🇺🇸 美国_1004245
+      - 🇺🇸 美国_1004247
+      - 🇮🇪 8|中转 🇮🇪 Ireland 01 @nodpai
+      - 🇷🇺 俄罗斯 002
+      - "|11.25Mb"
+      - Relay_ |10.44Mb
+      - 🇬🇧 英国_1004001
+      - 🇬🇧 英国_1004014
+      - 🇬🇧 英国_1004024
+      - "|18.19Mb"
+      - "|27.12Mb"
+      - 🇳🇱 荷兰_1004003
+      - "|16.28Mb"
+      - 🇳🇱 荷兰_1004004
+      - 🇳🇱 荷兰_1004005
+      - 🇳🇱 荷兰_1004007
+      - 🇳🇱 荷兰_1004011
+      - 🇳🇱 荷兰_1004013
+      - 🇵🇭 菲律宾_1004001
+      - 🇵🇭 菲律宾_1004002
+      - 🇻🇳 越南_1004001
+      - 🇻🇳 越南_1004002
+      - 🇻🇳 越南_1004006
+      - 🇻🇳 越南_1004008
+      - 🇻🇳 越南_1004021
+      - 🇻🇳 越南_1004025
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大 144
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2
-      - 🇨🇦 加拿大 175
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - 🇨🇦 加拿大 237
-      - 🇨🇦 加拿大 226
-      - 🇺🇸 18|🇺🇸_US_美国_2_6
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - 🇨🇦 加拿大 233
-      - 🇨🇦 加拿大 050
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 110
-      - 🇨🇦 加拿大 169
-      - 🇨🇦 加拿大 142
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 🇺🇸 美国_1004002
-      - 🇺🇸 美国_1004005
-      - 🇨🇦 加拿大 181
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇺🇸 美国_1004007
-      - 🇺🇸 美国_0930133
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
+      - 🇺🇸 美国_1004015
+      - 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6
+      - 🇺🇸 14,15|美国2|@ripaojiedian
+      - 🇺🇸 美国_1004017
+      - 🇺🇸 美国_1004027
+      - 🇺🇸 美国_1004287
+      - 🇺🇸 美国_1004033
+      - 🇺🇸 美国_1004290
+      - 🇺🇸 美国_1004045
+      - 🇨🇦 加拿大 178
+      - 🇺🇸 美国_1004076
+      - 🇺🇸 美国_1004286
+      - 🇺🇸 美国_1004976
+      - 🇺🇸 美国_1004077
+      - 🇺🇸 美国_1004288
+      - 🇺🇸 美国_1004104
+      - 🇨🇦 加拿大 100
+      - 🇺🇸 美国_1004232
+      - 🇨🇦 加拿大 232
+      - 🇺🇸 美国_1004243
+      - 🇺🇸 美国 132
+      - 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3
+      - 🇺🇸 美国_1004245
+      - 🇺🇸 美国_1004247
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
+      - 🇭🇰 11,15|香港B|@ripaojiedian
       - 🇰🇷 韩国_1004006
-      - 🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
       - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
@@ -526,67 +527,73 @@ proxy-groups:
       - 🇭🇰 香港 021
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
+      - 🇭🇰 香港 022
+      - 🇯🇵 日本 005
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 频道07@wxgqlfx
-      - 未知_1004244
-      - 🇸🇦 8|中转 🇸🇦 Saudi Arabia 01 @nodpai
-      - 未知_1004016
-      - 未知_1004019
-      - 未知_1004049
-      - 未知_1004097
-      - 未知_1004104
-      - 未知_1004132
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - 未知_1004133
-      - 未知_1004217
-      - 未知_1004018
-      - 未知_1004254
-      - 未知_1004258
-      - 未知_1004380
-      - 未知_1004390
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
-      - 未知_1004469
-      - 未知_1004017
-      - 🇫🇷 法国_1004017
-      - 🇫🇷 法国_1004029
-      - 🇫🇷 法国_1004079
-      - 🇫🇷 法国_1004081
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
+      - 🇮🇪 8|中转 🇮🇪 Ireland 01 @nodpai
+      - 🇷🇺 俄罗斯 002
+      - "|11.25Mb"
+      - Relay_ |10.44Mb
+      - 🇬🇧 英国_1004001
+      - 🇬🇧 英国_1004014
+      - 🇬🇧 英国_1004024
+      - "|18.19Mb"
+      - "|27.12Mb"
+      - 🇳🇱 荷兰_1004003
+      - "|16.28Mb"
+      - 🇳🇱 荷兰_1004004
+      - 🇳🇱 荷兰_1004005
+      - 🇳🇱 荷兰_1004007
+      - 🇳🇱 荷兰_1004011
+      - 🇳🇱 荷兰_1004013
+      - 🇵🇭 菲律宾_1004001
+      - 🇵🇭 菲律宾_1004002
+      - 🇻🇳 越南_1004001
+      - 🇻🇳 越南_1004002
+      - 🇻🇳 越南_1004006
+      - 🇻🇳 越南_1004008
+      - 🇻🇳 越南_1004021
+      - 🇻🇳 越南_1004025
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2 2
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_1 2
-      - 🇺🇸 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-      - 🇺🇸 18|🇺🇸_US_美国_2_6
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1"
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡_2
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 110
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1"
-      - 🇺🇸 美国_1004002
-      - 🇺🇸 美国_1004005
-      - 🇺🇸 美国CloudFlare节点 14
-      - 🇺🇸 美国_1004007
-      - 🇺🇸 美国_0930133
-      - "🇺🇸 7,8|🇺🇸 United States 10 @nodpai #1 2"
-      - "🇺🇸 7,8|🇺🇸 United States 03 @nodpai #1 2"
+      - 🇺🇸 美国_1004015
+      - 🇺🇸 12|🇺🇸_US_美国_欢迎订阅yui科技_6
+      - 🇺🇸 14,15|美国2|@ripaojiedian
+      - 🇺🇸 美国_1004017
+      - 🇺🇸 美国_1004027
+      - 🇺🇸 美国_1004287
+      - 🇺🇸 美国_1004033
+      - 🇺🇸 美国_1004290
+      - 🇺🇸 美国_1004045
+      - 🇺🇸 美国_1004076
+      - 🇺🇸 美国_1004286
+      - 🇺🇸 美国_1004976
+      - 🇺🇸 美国_1004077
+      - 🇺🇸 美国_1004288
+      - 🇺🇸 美国_1004104
+      - 🇺🇸 美国_1004232
+      - 🇺🇸 美国_1004243
+      - 🇺🇸 美国 132
+      - 🇺🇸 12|🇺🇸 美国_【YouTube-由零開始】 3
+      - 🇺🇸 美国_1004245
+      - 🇺🇸 美国_1004247
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 11,15|香港B|@ripaojiedian
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
       - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
@@ -615,13 +622,14 @@ proxy-groups:
       - 🇭🇰 香港 019
       - 🇭🇰 香港 020
       - 🇭🇰 香港 021
+      - 🇭🇰 香港 022
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 14|🇸🇬 新加坡|@ripaojiedian
+      - 🇸🇬 8|中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
       - 🇸🇬 新加坡 001
   - name: 日本
@@ -635,6 +643,7 @@ proxy-groups:
       - 🇯🇵 日本 001
       - 🇯🇵 日本 002
       - 🇯🇵 日本 003
+      - 🇯🇵 日本 005
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -656,8 +665,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇰🇷 韩国_1004006
-      - 🇰🇷 _KR_韩国_欢迎订阅yui科技_20
-      - 🇰🇷 12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20
       - 🇰🇷 韩国 001
       - 🇰🇷 韩国 002
       - 🇰🇷 韩国 003
