@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 14,15|香港2|@ripaojiedian", server: n1698814075.aaigefm.cn, port: 443, type: vmess, uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1698814075.aaigefm.cn}}}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14107, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
   - {name: 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14113, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
@@ -49,33 +49,32 @@ proxies:
   - {name: 🇭🇰 Hong Kong 05 TG@SSRSUB, server: 16.162.44.241, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB, server: a017.zhuan99.men, port: 10017, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
   - {name: 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB, server: a001.zhuan99.men, port: 10001, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
-  - {name: 🇺🇸 _US_美国_4, server: a015.zhuan99.men, port: 10015, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: usa3.connecton.surf, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大 072, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}}
-  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】338, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
-  - {name: 🇺🇸 美国_110309073, server: n1697555560.aaigefm.cn, port: 443, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
-  - {name: 🇺🇸 美国 042, server: n1697685464.aaigefm.cn, port: 443, type: vmess, uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1697685464.aaigefm.cn}}}
-  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】408, server: cc3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc3.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国->🇬🇧_GB_英国_1, server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}}
+  - {name: 🇨🇦 加拿大 140, server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】381, server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
   - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB, server: assets.flareai.store, port: 15243, type: ss, cipher: chacha20-ietf-poly1305, password: d5dd371c-11db-4cfb-b458-072f0fbd0e18}
+  - {name: 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB, server: us2.linghun3.xyz, port: 40007, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB, server: us1.linghun3.xyz, port: 40006, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB, server: 00.node.vmssr.info, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: b964e07b-2a54-480c-9ea0-ad5314a09507}
+  - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB, server: a021.zhuan99.men, port: 10021, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
   - {name: 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB, server: a004.zhuan99.men, port: 10004, type: trojan, password: 2dbe179f-47b2-46e9-bf58-bd7f68c491a3, sni: zhu.99ton.men, skip-cert-verify: false}
   - {name: 🇺🇸 United States 07 TG@SSRSUB, server: 163.123.192.34, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB, server: 163.123.192.36, port: 443, type: trojan, password: be8b8f45-a290-4405-8699-ffeb07f3ee24, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: "🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian", server: 112.29.94.23, port: 49884, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 11,12,15|美国2|@ripaojiedian", server: 112.29.94.23, port: 49884, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_110309001, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_110309020, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_110309012, server: dongtaiwang3.com, port: 8080, type: vmess, uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1IKYjV0r/, headers: {Host: dongtaiwang13.dtku47.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国  19, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https//tt.vg/vip】299, server: mlscdn.ccccdn.tk, port: 80, type: vmess, uuid: 65da50e6-89c0-4d10-b7cf-16404dae0879, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wo.img, headers: {Host: riben.chisi.link}}}
-  - {name: 🇨🇦 加拿大 064, server: 162.159.134.52, port: 2086, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xtsmol, headers: {Host: x.36d.gay}}}
-  - {name: 🇨🇦 12|加拿大 064, server: 162.159.134.52, port: 2086, type: vmess, uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xtsmol, headers: {Host: x.36d.gay}}}
-  - {name: 🇺🇸 美国 011, server: 104.21.36.26, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇺🇸 12|美国 011, server: 104.21.36.26, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇨🇦 加拿大 087, server: 104.16.67.38, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: alvvin.click}}}
-  - {name: 🇨🇦 加拿大 162, server: 104.21.53.12, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 12|🇺🇸 _US_美国_wmt_19, server: 104.21.53.12, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10011, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
-  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5, server: 38.114.114.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18, server: 38.143.66.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21, server: 38.143.66.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17, server: 38.68.134.85, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26, server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 github.com/freefq - 北美地区  22, server: 134.195.196.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 github.com/freefq - 加拿大  42, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2, server: node01.gde52px1vwf5q6301fxn.catapi.management, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
+  - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2, server: tw2.linghun3.xyz, port: 40005, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2, server: tw1.linghun3.xyz, port: 40004, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2, server: cdn.alibaba-kunlun.com, port: 14107, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
   - {name: 🇫🇷 Relay 🇫🇷 France 03 TG@SSRSUB, server: cdn.alibaba-kunlun.com, port: 14111, type: ss, cipher: aes-128-gcm, password: ed53251d-83eb-43fa-9439-b1bc45bf7ca3}
@@ -113,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 14,15|香港2|@ripaojiedian
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
@@ -157,33 +156,32 @@ proxy-groups:
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇺🇸 _US_美国_4
-      - 🇨🇦 加拿大 072
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】338
-      - 🇺🇸 美国_110309073
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】408
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇨🇦 加拿大 140
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】381
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 11,12,15|美国2|@ripaojiedian
-      - 🇨🇦 加拿大_110309001
-      - 🇨🇦 加拿大_110309020
-      - 🇨🇦 加拿大_110309012
-      - 🇺🇸 github.com/freefq - 美国  19
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】299
-      - 🇨🇦 加拿大 064
-      - 🇨🇦 12|加拿大 064
-      - 🇺🇸 美国 011
-      - 🇺🇸 12|美国 011
-      - 🇨🇦 加拿大 087
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 12|🇺🇸 _US_美国_wmt_19
-      - 🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26
+      - 🇺🇸 github.com/freefq - 北美地区  22
+      - 🇨🇦 github.com/freefq - 加拿大  42
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇫🇷 Relay 🇫🇷 France 03 TG@SSRSUB
@@ -256,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 14,15|香港2|@ripaojiedian
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
@@ -300,33 +298,32 @@ proxy-groups:
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇺🇸 _US_美国_4
-      - 🇨🇦 加拿大 072
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】338
-      - 🇺🇸 美国_110309073
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】408
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇨🇦 加拿大 140
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】381
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 11,12,15|美国2|@ripaojiedian
-      - 🇨🇦 加拿大_110309001
-      - 🇨🇦 加拿大_110309020
-      - 🇨🇦 加拿大_110309012
-      - 🇺🇸 github.com/freefq - 美国  19
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】299
-      - 🇨🇦 加拿大 064
-      - 🇨🇦 12|加拿大 064
-      - 🇺🇸 美国 011
-      - 🇺🇸 12|美国 011
-      - 🇨🇦 加拿大 087
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 12|🇺🇸 _US_美国_wmt_19
-      - 🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26
+      - 🇺🇸 github.com/freefq - 北美地区  22
+      - 🇨🇦 github.com/freefq - 加拿大  42
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇫🇷 Relay 🇫🇷 France 03 TG@SSRSUB
@@ -355,8 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 14,15|香港2|@ripaojiedian
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
@@ -399,33 +396,32 @@ proxy-groups:
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇺🇸 _US_美国_4
-      - 🇨🇦 加拿大 072
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】338
-      - 🇺🇸 美国_110309073
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】408
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇨🇦 加拿大 140
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】381
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 11,12,15|美国2|@ripaojiedian
-      - 🇨🇦 加拿大_110309001
-      - 🇨🇦 加拿大_110309020
-      - 🇨🇦 加拿大_110309012
-      - 🇺🇸 github.com/freefq - 美国  19
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】299
-      - 🇨🇦 加拿大 064
-      - 🇨🇦 12|加拿大 064
-      - 🇺🇸 美国 011
-      - 🇺🇸 12|美国 011
-      - 🇨🇦 加拿大 087
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 12|🇺🇸 _US_美国_wmt_19
-      - 🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26
+      - 🇺🇸 github.com/freefq - 北美地区  22
+      - 🇨🇦 github.com/freefq - 加拿大  42
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇫🇷 Relay 🇫🇷 France 03 TG@SSRSUB
@@ -454,31 +450,30 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_4
-      - 🇨🇦 加拿大 072
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】338
-      - 🇺🇸 美国_110309073
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】408
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇨🇦 加拿大 140
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】381
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 11,12,15|美国2|@ripaojiedian
-      - 🇨🇦 加拿大_110309001
-      - 🇨🇦 加拿大_110309020
-      - 🇨🇦 加拿大_110309012
-      - 🇺🇸 github.com/freefq - 美国  19
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】299
-      - 🇨🇦 加拿大 064
-      - 🇨🇦 12|加拿大 064
-      - 🇺🇸 美国 011
-      - 🇺🇸 12|美国 011
-      - 🇨🇦 加拿大 087
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 12|🇺🇸 _US_美国_wmt_19
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26
+      - 🇺🇸 github.com/freefq - 北美地区  22
+      - 🇨🇦 github.com/freefq - 加拿大  42
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB 2
   - name: 🌏 东亚地区
     type: url-test
@@ -486,8 +481,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 14,15|香港2|@ripaojiedian
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
@@ -530,7 +525,8 @@ proxy-groups:
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB 2
@@ -554,6 +550,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇰🇷 Relay 🇰🇷 South Korea 05 TG@SSRSUB
@@ -597,11 +594,15 @@ proxy-groups:
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇫🇷 Relay 🇫🇷 France 03 TG@SSRSUB
@@ -630,23 +631,28 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国_4
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】338
-      - 🇺🇸 美国_110309073
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】408
-      - 🇺🇸 _US_美国->🇬🇧_GB_英国_1
+      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】381
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 22 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States 23 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 12 TG@SSRSUB
+      - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 17 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 31 TG@SSRSUB
       - 🇺🇸 United States 07 TG@SSRSUB
       - 🇺🇸 United States(ChatGPT) 06 TG@SSRSUB
-      - 🇺🇸 8,14|🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 11,12,15|美国2|@ripaojiedian
-      - 🇺🇸 github.com/freefq - 美国  19
-      - 🇺🇸 美国【付费推荐：https//tt.vg/vip】299
-      - 🇺🇸 美国 011
-      - 🇺🇸 12|美国 011
-      - 🇺🇸 12|🇺🇸 _US_美国_wmt_19
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 8
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 20
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 11
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 62
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 15
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 18
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 21
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 9
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 17
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 26
+      - 🇺🇸 github.com/freefq - 北美地区  22
+      - 🇺🇸 github.com/freefq - 美国华盛顿Cogent通信公司 28ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MjgyMjliOS0xNjRlLTQ1Y2ItYmZiMy04OTZiM2EwNTZhMTg@node01.gde52px1vwf5q6301fxn.catapi.management10011#🇬🇧 Relay 🇬🇧 United Kingdom 03 TG@SSRSUB
       - 🇺🇸 Relay 🇺🇸 United States(ChatGPT) 05 TG@SSRSUB 2
   - name: 香港
     type: url-test
@@ -654,7 +660,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 14,15|香港2|@ripaojiedian
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB
@@ -671,6 +676,7 @@ proxy-groups:
       - 🇭🇰 Hong Kong 05 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 29 TG@SSRSUB
       - 🇭🇰 Relay 🇭🇰 Hong Kong 32 TG@SSRSUB
+      - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 12 TG@SSRSUB 2
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 51 TG@SSRSUB 2
       - 🇭🇰 Relay 🇭🇰 Hong Kong(ChatGPT) 52 TG@SSRSUB 2
       - 🇭🇰 Relay 🇭🇰 Hong Kong 03 TG@SSRSUB 2
@@ -710,6 +716,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB
@@ -723,7 +730,7 @@ proxy-groups:
       - 🇨🇳 Taiwan(ChatGPT) 10 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 22 TG@SSRSUB
       - 🇨🇳 Taiwan(ChatGPT) 29 TG@SSRSUB
-      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB
+      - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 16 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 17 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 33 TG@SSRSUB 2
       - 🇨🇳 Relay 🇹🇼 Taiwan(ChatGPT) 35 TG@SSRSUB 2
