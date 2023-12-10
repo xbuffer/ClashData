@@ -5,43 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28", server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b21, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: "🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...", server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /b22, headers: {Host: b22.ntbq.dynu.net}}}
-  - {name: 晨阳2-日@SSRSUB, server: 64.176.37.216, port: 45930, type: vmess, uuid: b2930b0d-02b4-45dc-8025-a3c19879d4ab, alterId: 0, cipher: auto, tls: false}
-  - {name: 冲亚1-日@SSRSUB, server: 64.176.58.7, port: 14431, type: vmess, uuid: ff681ba6-55f5-4e79-8f40-ad6bbdf14044, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 14|🇭🇰 香港5|@ripaojiedian, server: 183.240.232.93, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡|频道 t.me/SSRSUB, server: 43.153.210.169, port: 666, type: vmess, uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 github.com/freefq - 日本  4, server: 43.153.210.169, port: 666, type: vmess, uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港ARM|频道 t.me/SSRSUB, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港_120920008, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 10|日本  4, server: 43.153.210.169, port: 666, type: vmess, uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾9@SSRSUB, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾 001, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 台湾省中华电信 7, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b22.ntbq.dynu.net}}}
-  - {name: 🇯🇵 github.com/freefq - 日本  24, server: 43.156.237.238, port: 10000, type: ss, cipher: aes-256-gcm, password: "!<str>"}
-  - {name: 🇸🇬 新加坡_120920006, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡直播@SSRSUB, server: 172.252.59.67, port: 42572, type: ss, cipher: chacha20-poly1305, password: SEZuYXdGWjBDYmxyNFh5THhZNW5JOVpDUkFJQXJIUTZ4R1BnSW04RXdQMklTU3h0alFjMXB1azNpdW1NWXB3Mw==}
-  - {name: 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com, server: 91.229.132.214, port: 52210, type: ss, cipher: aes-128-gcm, password: kveALYbe1TZ5GAlAsf3XnjLNxoUmrr3Inbzumbt7BDAp}
-  - {name: 🇨🇳 台湾@SSRSUB, server: 37.128.253.52, port: 51282, type: ss, cipher: chacha20-poly1305, password: aTlCeFYzS3JSMGZlMmN3aEF1VVZKWFY5Tm53VzQxUHdHSVo3SDdhT3BRVHMxcmRHZnJXWU5BZkhJcmJKYTd5RQ==}
-  - {name: 🇭🇰 github.com/freefq - 香港腾讯云 6, server: 43.132.164.99, port: 8002, type: vmess, uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5, server: b23.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b23.ntbq.dynu.net}}}
-  - {name: 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27, server: 210.61.206.229, port: 21433, type: vmess, uuid: 39d39017-f955-4b10-b269-d166ec6b17c9, alterId: 0, cipher: auto, tls: false}
+  - {name: "🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...", server: cover.mac2win.top, port: 8080, type: vmess, uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: icu.mac2win.top}}}
+  - {name: 🇯🇵 github.com/freefq - 日本  37, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇸🇬 新加坡_120920031, server: 146.190.97.8, port: 46506, type: vmess, uuid: 26c97571-2573-44fe-e62a-22999435d217, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.linkedin.com}}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36, server: 210.61.206.229, port: 21433, type: vmess, uuid: 39d39017-f955-4b10-b269-d166ec6b17c9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾13@SSRSUB, server: 210.61.206.229, port: 21433, type: vmess, uuid: 39d39017-f955-4b10-b269-d166ec6b17c9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_120920001, server: 210.61.206.229, port: 21433, type: vmess, uuid: 39d39017-f955-4b10-b269-d166ec6b17c9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29, server: 210.61.206.225, port: 44473, type: vmess, uuid: 083aee22-f7ae-4305-ef9a-532482d5a709, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2, server: b21.ntbq.dynu.net, port: 443, type: vmess, uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b21.ntbq.dynu.net}}}
-  - {name: 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31, server: nbq12.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: nbq12.ntbq.dynu.net}}}
+  - {name: JP_86 |12.72Mb, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41, server: 210.61.206.196, port: 18206, type: vmess, uuid: 32c29370-cff3-49be-a565-b3f16dfbb85d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 LB台湾高雄9@SSRSUB, server: 210.61.206.196, port: 18206, type: vmess, uuid: 32c29370-cff3-49be-a565-b3f16dfbb85d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_120920007, server: 210.61.206.196, port: 18206, type: vmess, uuid: 32c29370-cff3-49be-a565-b3f16dfbb85d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44, server: b24.ntbq.dynu.net, port: 443, type: vmess, uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b24.ntbq.dynu.net}}}
+  - {name: 🇸🇬 新加坡_120920006, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com, server: 91.229.132.214, port: 52210, type: ss, cipher: aes-128-gcm, password: kveALYbe1TZ5GAlAsf3XnjLNxoUmrr3Inbzumbt7BDAp}
+  - {name: 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB, server: 47.236.2.149, port: 6666, type: vmess, uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 github.com/freefq - 日本  60, server: 43.156.237.238, port: 10000, type: ss, cipher: aes-256-gcm, password: "!<str>"}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62, server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
+  - {name: 🇸🇬 11|github.com/freefq - 新加坡Amazon数..., server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
   - {name: 🇭🇰 香港02, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
   - {name: 🇭🇰 香港03, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}}
+  - {name: 🇨🇳 github.com/freefq - 台湾省  65, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾9@SSRSUB, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾 001, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
   - {name: 🇸🇬 新加坡-0-0-ss-54.251.168.143443, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_120920010, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_120920033, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_120920009, server: 61.111.251.85, port: 49679, type: vmess, uuid: 71d13959-80e6-4791-9728-fbb7291f23df, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国_120920033, server: 61.111.251.85, port: 49679, type: vmess, uuid: 71d13959-80e6-4791-9728-fbb7291f23df, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_120920009, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_120920034, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_120920001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_120920005, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_120920024, server: 47.243.254.169, port: 44127, type: vmess, uuid: 828e30d3-fbe6-4607-bbd6-ba6eaba89d70, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_120920044, server: 47.243.254.169, port: 44127, type: vmess, uuid: 828e30d3-fbe6-4607-bbd6-ba6eaba89d70, alterId: 0, cipher: auto, tls: false}
   - {name: 冰消1-日@SSRSUB, server: 139.162.125.97, port: 49499, type: vmess, uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6, alterId: 0, cipher: auto, tls: false}
@@ -50,53 +45,57 @@ proxies:
   - {name: 冰消2-日@SSRSUB, server: 139.180.202.213, port: 42434, type: vmess, uuid: d9a7c529-f98b-429b-eb26-c90979c910a3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_120920028, server: 139.180.202.213, port: 42434, type: vmess, uuid: d9a7c529-f98b-429b-eb26-c90979c910a3, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_120920055, server: 139.180.202.213, port: 42434, type: vmess, uuid: d9a7c529-f98b-429b-eb26-c90979c910a3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 117, server: 64.176.37.216, port: 45930, type: vmess, uuid: b2930b0d-02b4-45dc-8025-a3c19879d4ab, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】203, server: 104.17.193.145, port: 8080, type: vmess, uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu5.openxai.link}}}
-  - {name: 🇺🇸 _US_美国 14, server: 38.54.104.184, port: 18808, type: ss, cipher: aes-256-gcm, password: wwq6Xo5gJ8}
-  - {name: 🇺🇸 github.com/freefq - 美国阿里云 18, server: 47.236.111.83, port: 31091, type: vmess, uuid: f0eafd6b-ad39-4875-9b29-722237d155f3, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_120920006, server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇦 github.com/freefq - 加拿大TELUS 17, server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ca4.tehme2.fun}}}
-  - {name: 🇺🇸 美国 009, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: "🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56", server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}}
-  - {name: 🇺🇸 github.com/freefq - 美国  54, server: 172.252.59.67, port: 42572, type: ss, cipher: chacha20-poly1305, password: SEZuYXdGWjBDYmxyNFh5THhZNW5JOVpDUkFJQXJIUTZ4R1BnSW04RXdQMklTU3h0alFjMXB1azNpdW1NWXB3Mw==}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 57, server: singapore.com, port: 8880, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v001.ssrsub.com}}}
-  - {name: 🇺🇸 _US_美国_13, server: c.mac2win.top, port: 8080, type: vmess, uuid: ba1aa9ae-3cad-46a5-8dfa-b0973c35abeb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: c.mac2win.top}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 60, server: cloudflare-cmi1.shaniugpt.top, port: 8080, type: vmess, uuid: 12108a85-b442-4197-bec0-9bed9b7345e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yyjc-hk.shaniugpt.top}}}
-  - {name: 🇺🇸 _US_美国_18, server: cloudflare-cmi1.shaniugpt.top, port: 8080, type: vmess, uuid: 12108a85-b442-4197-bec0-9bed9b7345e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cloudflare-cmi1.shaniugpt.top}}}
-  - {name: 🇨🇦 加拿大 427, server: cloudflare-cmi1.shaniugpt.top, port: 8080, type: vmess, uuid: 12108a85-b442-4197-bec0-9bed9b7345e2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yyjc-uk1.shaniugpt.top}}}
-  - {name: 🇨🇦 加拿大_120920007, server: 74.48.130.248, port: 20426, type: vmess, uuid: 67234df6-8d1d-409e-c263-f17742a6151c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 github.com/freefq - 加拿大TELUS 3, server: 74.48.130.248, port: 20426, type: vmess, uuid: 67234df6-8d1d-409e-c263-f17742a6151c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管破解资源君) 95, server: 137.175.15.198, port: 43487, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国(油管破解资源君) 92, server: 170.114.45.122, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db698b16-d216-11ed-8e14-5ad705867cff, headers: {Host: db698b16-d216-11ed-8e14-5ad705867cff.asmandll.com}}}
+  - {name: 冲亚1-日@SSRSUB, server: 64.176.58.7, port: 14431, type: vmess, uuid: ff681ba6-55f5-4e79-8f40-ad6bbdf14044, alterId: 0, cipher: auto, tls: false}
+  - {name: 刘敏1-日@SSRSUB, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_120920029, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_120920056, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国_12, server: 43.159.145.188, port: 8002, type: vmess, uuid: 4c09daf4-a60d-4858-973e-bc200cbbb7a2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_120920120, server: 43.159.145.188, port: 8002, type: vmess, uuid: 4c09daf4-a60d-4858-973e-bc200cbbb7a2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国  29, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国(油管破解资源君) 94, server: tempest-us.aikun.online, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, skip-cert-verify: true}
   - {name: 🇺🇸 美国(油管破解资源君) 89, server: tempest-us.aikun.online, port: 443, type: trojan, password: 11e247e5-136d-45f1-844a-a7f054d36bab, sni: tempest-us.aikun.online, skip-cert-verify: true}
   - {name: 🇺🇸 美国(油管破解资源君) 86, server: 104.22.59.195, port: 443, type: vmess, uuid: a1560b52-b580-4aad-b8cd-9cd2ec5264b4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: 1.239000.xyz}}}
   - {name: 🇺🇸 美国(油管破解资源君) 85, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}}
-  - {name: "| 3.94Mb", server: 43.159.145.188, port: 8002, type: vmess, uuid: 4c09daf4-a60d-4858-973e-bc200cbbb7a2, alterId: 0, cipher: auto, tls: false}
-  - {name: 未知_120920679, server: us-01.jikuai.xyz, port: 2082, type: vmess, uuid: 5d3e67f9-b611-4076-9136-cc64fd234806, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-01.jikuai.xyz}}}
-  - {name: 🇨🇳 中国_120920175, server: 183.240.232.93, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇮🇳 10,11|github.com/freefq - 印度  33", server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 防失效github SubCrawler中国_120920008, server: 183.240.232.93, port: 34001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 64, server: service.ouluyun9803.com, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: "|70.08Mb", server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 69, server: service.ouluyun9803.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 65, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
-  - {name: 🇩🇪 github.com/freefq - 德国  45, server: 79.132.128.60, port: 21524, type: vmess, uuid: 839102ad-842f-43e5-e589-ac10a3c78571, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
-  - {name: 🇺🇸 us-104.184@SSRSUB, server: 38.54.104.184, port: 18808, type: ss, cipher: aes-256-gcm, password: wwq6Xo5gJ8}
-  - {name: 43.156.237.238@SSRSUB, server: 43.156.237.238, port: 10000, type: ss, cipher: aes-256-gcm, password: "!<str>"}
-  - {name: 🇮🇷 github.com/freefq - 伊朗  38, server: 37.128.253.52, port: 51282, type: ss, cipher: chacha20-poly1305, password: aTlCeFYzS3JSMGZlMmN3aEF1VVZKWFY5Tm53VzQxUHdHSVo3SDdhT3BRVHMxcmRHZnJXWU5BZkhJcmJKYTd5RQ==}
-  - {name: github.com/freefq - 亚太地区  39, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
-  - {name: 103.180.161.47|频道 t.me/SSRSUB, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
-  - {name: github.com/freefq - 乌克兰  40, server: 89.185.30.233, port: 48385, type: ss, cipher: aes-256-gcm, password: tU6ttSGodg}
+  - {name: 🇺🇸 美国(油管破解资源君) 83, server: uk.stablize.top, port: 443, type: trojan, password: 9478e27c-6bdd-4f0e-ba46-90d9739e1e34, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(油管破解资源君) 82, server: www.udemy.com, port: 443, type: vmess, uuid: 92869d41-a98a-40ba-b79d-2eeb7ffe2433, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg1b.obfs.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 80, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /root/, headers: {Host: scaleway.696960.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 79, server: cf.noaries.de, port: 2082, type: vmess, uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ir2.nmsl.ninja}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 78, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管破解资源君) 77, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 38, server: 162.159.142.204, port: 80, type: vmess, uuid: 5c36dba4-de68-42be-a07f-937d9f920357, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: 🇨🇦 加拿大 322, server: 162.159.142.204, port: 80, type: vmess, uuid: 3091067b-9bce-4e1f-9f77-a41daff54268, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 40, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: wicked-delaware-hotels-hit.trycloudflare.com}}}
+  - {name: 🇺🇸 美国_120920278, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: wicked-delaware-hotels-hit.trycloudflare.com}}}
+  - {name: 🇨🇦 加拿大 378, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: wicked-delaware-hotels-hit.trycloudflare.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43, server: singapore.com, port: 8880, type: vmess, uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v001.ssrsub.com}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 75, server: 198.2.204.251, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(油管破解资源君) 74, server: 23.227.38.99, port: 443, type: vmess, uuid: 86d37526-5758-4cec-862f-df404b313086, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /3G6WPDL7, headers: {Host: 1.freek1.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 72, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 45, server: us-02.jikuai.xyz, port: 2082, type: vmess, uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-02.jikuai.xyz}}}
+  - {name: 🇬🇧 _GB_英国_2 2, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
+  - {name: 2321421412, server: 146.190.97.8, port: 20552, type: vmess, uuid: 48cbd108-fd2a-4fb7-b46d-9982b9de9c6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.linkedin.com}}}
+  - {name: 183.181.36.194|频道 t.me/SSRSUB, server: 183.181.36.194, port: 41597, type: vmess, uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 未知_120920106, server: 162.159.142.204, port: 80, type: vmess, uuid: 5c36dba4-de68-42be-a07f-937d9f920357, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: er3.889611.com}}}
+  - {name: github.com/freefq - 乌克兰  42, server: 89.185.30.233, port: 48385, type: ss, cipher: aes-256-gcm, password: tU6ttSGodg}
   - {name: 89.185.30.233|频道, server: 89.185.30.233, port: 48385, type: ss, cipher: aes-256-gcm, password: tU6ttSGodg}
-  - {name: github.com/freefq - 亚太地区  41, server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 英国短视频1-12.21@SSRSUB, server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 _GB_英国 2, server: 103.179.143.40, port: 58108, type: vmess, uuid: 372015b8-1cb7-4131-e8f9-6155209d19ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 175.178.55.243@SSRSUB, server: 175.178.55.243, port: 33963, type: ss, cipher: chacha20-poly1305, password: MxZuOpppbY}
-  - {name: github.com/freefq - 福建省厦门市金桥网络通信有限公司 20, server: 175.178.55.243, port: 33963, type: ss, cipher: chacha20-poly1305, password: MxZuOpppbY}
-  - {name: 拉克纳德@SSRSUB, server: 74.48.183.246, port: 40310, type: vmess, uuid: 6371ee48-8b19-4a4c-a399-88f692228ac3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇮🇹 github.com/freefq - 意大利  46, server: 185.151.146.169, port: 38935, type: ss, cipher: aes-256-gcm, password: chG0C20Pab}
+  - {name: 185.151.146.169@SSRSUB, server: 185.151.146.169, port: 38935, type: ss, cipher: aes-256-gcm, password: chG0C20Pab}
+  - {name: 🇮🇷 github.com/freefq - 伊朗  48, server: 193.151.151.227, port: 18904, type: vmess, uuid: 270ce474-6850-4102-85af-5a77fc660350, alterId: 0, cipher: auto, tls: false}
+  - {name: u5@SSRSUB, server: 193.151.151.227, port: 18904, type: vmess, uuid: 270ce474-6850-4102-85af-5a77fc660350, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 _IR_伊朗->🇩🇪_DE_德国, server: 193.151.151.227, port: 18904, type: vmess, uuid: 270ce474-6850-4102-85af-5a77fc660350, alterId: 0, cipher: auto, tls: false}
+  - {name: github.com/freefq - 亚太地区  50, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
+  - {name: 103.180.161.47|频道 t.me/SSRSUB, server: 103.180.161.47, port: 23898, type: vmess, uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, alterId: 0, cipher: auto, tls: false}
+  - {name: 中转@SSRSUB, server: 91.229.132.214, port: 52210, type: ss, cipher: aes-128-gcm, password: kveALYbe1TZ5GAlAsf3XnjLNxoUmrr3Inbzumbt7BDAp}
+  - {name: 🇨🇳 github.com/freefq - 广东省广州市移动 53, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4}
+  - {name: 未知_120920009, server: 104.21.75.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
+  - {name: 未知_120920639, server: 104.21.75.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
+  - {name: 43.156.237.238@SSRSUB, server: 43.156.237.238, port: 10000, type: ss, cipher: aes-256-gcm, password: "!<str>"}
+  - {name: 23123243244, server: hytron.io, port: 8080, type: vmess, uuid: 010c265f-5455-4141-ca23-4d69357ded0d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: aktw.daozhang.love}}}
+  - {name: github.com/freefq - 亚太地区  66, server: 103.179.142.117, port: 24640, type: vmess, uuid: 119a25bf-e35e-44c2-8b81-287ea8b2cac0, alterId: 0, cipher: auto, tls: false}
+  - {name: 郭晓雪16-私@SSRSUB, server: 103.179.142.117, port: 24640, type: vmess, uuid: 119a25bf-e35e-44c2-8b81-287ea8b2cac0, alterId: 0, cipher: auto, tls: false}
+  - {name: 亚太地区 001, server: 103.179.142.117, port: 24640, type: vmess, uuid: 119a25bf-e35e-44c2-8b81-287ea8b2cac0, alterId: 0, cipher: auto, tls: false}
+  - {name: 223242, server: moon.chanell.mci.v-x4ssd.space, port: 8080, type: vmess, uuid: 97bba5ca-185c-4e6a-ac64-96e920d4eeda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: moon.chanell.mci.v-x4ssd.space}}}
+  - {name: 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818, server: wqfuinwqffq.dfcloud.xyz, port: 30818, type: ss, cipher: chacha20-ietf-poly1305, password: 8e949d75-3510-4678-8593-3c5032dd931a}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,43 +111,38 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28
-      - 🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 晨阳2-日@SSRSUB
-      - 冲亚1-日@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 新加坡|频道 t.me/SSRSUB
-      - 🇯🇵 github.com/freefq - 日本  4
-      - 🇭🇰 香港ARM|频道 t.me/SSRSUB
-      - 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52
-      - 🇭🇰 香港_120920008
-      - 🇯🇵 10|日本  4
-      - 🇨🇳 台湾9@SSRSUB
-      - 🇨🇳 台湾 001
-      - 🇨🇳 github.com/freefq - 台湾省中华电信 7
-      - 🇯🇵 github.com/freefq - 日本  24
-      - 🇸🇬 新加坡_120920006
-      - 🇸🇬 新加坡直播@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
-      - 🇨🇳 台湾@SSRSUB
-      - 🇭🇰 github.com/freefq - 香港腾讯云 6
-      - 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27
+      - 🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 🇯🇵 github.com/freefq - 日本  37
+      - 🇸🇬 新加坡_120920031
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36
       - 🇨🇳 台湾13@SSRSUB
       - 🇨🇳 台湾_120920001
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29
-      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31
+      - JP_86 |12.72Mb
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41
+      - 🇨🇳 LB台湾高雄9@SSRSUB
+      - 🇨🇳 台湾_120920007
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44
+      - 🇸🇬 新加坡_120920006
+      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB
+      - 🇯🇵 github.com/freefq - 日本  60
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62
+      - 🇸🇬 11|github.com/freefq - 新加坡Amazon数...
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64
       - 🇭🇰 香港02
       - 🇭🇰 香港03
+      - 🇨🇳 github.com/freefq - 台湾省  65
+      - 🇨🇳 台湾9@SSRSUB
+      - 🇨🇳 台湾 001
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
       - 🇸🇬 新加坡_120920010
       - 🇸🇬 新加坡_120920033
-      - 🇰🇷 韩国_120920009
-      - 🇰🇷 韩国_120920033
       - 🇸🇬 新加坡_120920009
       - 🇸🇬 新加坡_120920034
+      - 🇸🇬 新加坡_120920001
+      - 🇸🇬 新加坡_120920005
       - 🇭🇰 香港_120920024
       - 🇭🇰 香港_120920044
       - 冰消1-日@SSRSUB
@@ -157,53 +151,57 @@ proxy-groups:
       - 冰消2-日@SSRSUB
       - 🇯🇵 日本_120920028
       - 🇯🇵 日本_120920055
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】203
-      - 🇺🇸 _US_美国 14
-      - 🇺🇸 github.com/freefq - 美国阿里云 18
-      - 🇨🇦 加拿大_120920006
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇺🇸 美国 009
-      - 🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56
-      - 🇺🇸 github.com/freefq - 美国  54
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 57
-      - 🇺🇸 _US_美国_13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 60
-      - 🇺🇸 _US_美国_18
-      - 🇨🇦 加拿大 427
-      - 🇨🇦 加拿大_120920007
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 3
-      - 🇺🇸 美国(油管破解资源君) 95
-      - 🇺🇸 美国(油管破解资源君) 92
+      - 冲亚1-日@SSRSUB
+      - 刘敏1-日@SSRSUB
+      - 🇯🇵 日本_120920029
+      - 🇯🇵 日本_120920056
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 美国_120920120
+      - 🇺🇸 github.com/freefq - 美国  29
       - 🇺🇸 美国(油管破解资源君) 94
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 86
       - 🇺🇸 美国(油管破解资源君) 85
-      - "| 3.94Mb"
-      - 未知_120920679
-      - 🇨🇳 中国_120920175
-      - 🇮🇳 10,11|github.com/freefq - 印度  33
-      - 🇨🇳 防失效github SubCrawler中国_120920008
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 64
-      - "|70.08Mb"
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 69
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 65
-      - 🇩🇪 github.com/freefq - 德国  45
-      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
-      - 🇺🇸 us-104.184@SSRSUB
-      - 43.156.237.238@SSRSUB
-      - 🇮🇷 github.com/freefq - 伊朗  38
-      - github.com/freefq - 亚太地区  39
-      - 103.180.161.47|频道 t.me/SSRSUB
-      - github.com/freefq - 乌克兰  40
+      - 🇺🇸 美国(油管破解资源君) 83
+      - 🇺🇸 美国(油管破解资源君) 82
+      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 79
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
+      - 🇨🇦 加拿大 322
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
+      - 🇺🇸 美国_120920278
+      - 🇨🇦 加拿大 378
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国(油管破解资源君) 74
+      - 🇺🇸 美国(油管破解资源君) 72
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 45
+      - 🇬🇧 _GB_英国_2 2
+      - 2321421412
+      - 183.181.36.194|频道 t.me/SSRSUB
+      - 未知_120920106
+      - github.com/freefq - 乌克兰  42
       - 89.185.30.233|频道
-      - github.com/freefq - 亚太地区  41
-      - 🇬🇧 英国短视频1-12.21@SSRSUB
-      - 🇬🇧 _GB_英国 2
-      - 175.178.55.243@SSRSUB
-      - github.com/freefq - 福建省厦门市金桥网络通信有限公司 20
-      - 拉克纳德@SSRSUB
+      - 🇮🇹 github.com/freefq - 意大利  46
+      - 185.151.146.169@SSRSUB
+      - 🇮🇷 github.com/freefq - 伊朗  48
+      - u5@SSRSUB
+      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+      - github.com/freefq - 亚太地区  50
+      - 103.180.161.47|频道 t.me/SSRSUB
+      - 中转@SSRSUB
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 53
+      - 未知_120920009
+      - 未知_120920639
+      - 43.156.237.238@SSRSUB
+      - 23123243244
+      - github.com/freefq - 亚太地区  66
+      - 郭晓雪16-私@SSRSUB
+      - 亚太地区 001
+      - 223242
+      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,43 +252,38 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28
-      - 🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 晨阳2-日@SSRSUB
-      - 冲亚1-日@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 新加坡|频道 t.me/SSRSUB
-      - 🇯🇵 github.com/freefq - 日本  4
-      - 🇭🇰 香港ARM|频道 t.me/SSRSUB
-      - 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52
-      - 🇭🇰 香港_120920008
-      - 🇯🇵 10|日本  4
-      - 🇨🇳 台湾9@SSRSUB
-      - 🇨🇳 台湾 001
-      - 🇨🇳 github.com/freefq - 台湾省中华电信 7
-      - 🇯🇵 github.com/freefq - 日本  24
-      - 🇸🇬 新加坡_120920006
-      - 🇸🇬 新加坡直播@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
-      - 🇨🇳 台湾@SSRSUB
-      - 🇭🇰 github.com/freefq - 香港腾讯云 6
-      - 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27
+      - 🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 🇯🇵 github.com/freefq - 日本  37
+      - 🇸🇬 新加坡_120920031
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36
       - 🇨🇳 台湾13@SSRSUB
       - 🇨🇳 台湾_120920001
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29
-      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31
+      - JP_86 |12.72Mb
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41
+      - 🇨🇳 LB台湾高雄9@SSRSUB
+      - 🇨🇳 台湾_120920007
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44
+      - 🇸🇬 新加坡_120920006
+      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB
+      - 🇯🇵 github.com/freefq - 日本  60
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62
+      - 🇸🇬 11|github.com/freefq - 新加坡Amazon数...
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64
       - 🇭🇰 香港02
       - 🇭🇰 香港03
+      - 🇨🇳 github.com/freefq - 台湾省  65
+      - 🇨🇳 台湾9@SSRSUB
+      - 🇨🇳 台湾 001
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
       - 🇸🇬 新加坡_120920010
       - 🇸🇬 新加坡_120920033
-      - 🇰🇷 韩国_120920009
-      - 🇰🇷 韩国_120920033
       - 🇸🇬 新加坡_120920009
       - 🇸🇬 新加坡_120920034
+      - 🇸🇬 新加坡_120920001
+      - 🇸🇬 新加坡_120920005
       - 🇭🇰 香港_120920024
       - 🇭🇰 香港_120920044
       - 冰消1-日@SSRSUB
@@ -299,96 +292,95 @@ proxy-groups:
       - 冰消2-日@SSRSUB
       - 🇯🇵 日本_120920028
       - 🇯🇵 日本_120920055
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】203
-      - 🇺🇸 _US_美国 14
-      - 🇺🇸 github.com/freefq - 美国阿里云 18
-      - 🇨🇦 加拿大_120920006
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇺🇸 美国 009
-      - 🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56
-      - 🇺🇸 github.com/freefq - 美国  54
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 57
-      - 🇺🇸 _US_美国_13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 60
-      - 🇺🇸 _US_美国_18
-      - 🇨🇦 加拿大 427
-      - 🇨🇦 加拿大_120920007
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 3
-      - 🇺🇸 美国(油管破解资源君) 95
-      - 🇺🇸 美国(油管破解资源君) 92
+      - 冲亚1-日@SSRSUB
+      - 刘敏1-日@SSRSUB
+      - 🇯🇵 日本_120920029
+      - 🇯🇵 日本_120920056
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 美国_120920120
+      - 🇺🇸 github.com/freefq - 美国  29
       - 🇺🇸 美国(油管破解资源君) 94
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 86
       - 🇺🇸 美国(油管破解资源君) 85
-      - "| 3.94Mb"
-      - 未知_120920679
-      - 🇨🇳 中国_120920175
-      - 🇮🇳 10,11|github.com/freefq - 印度  33
-      - 🇨🇳 防失效github SubCrawler中国_120920008
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 64
-      - "|70.08Mb"
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 69
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 65
-      - 🇩🇪 github.com/freefq - 德国  45
-      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
-      - 🇺🇸 us-104.184@SSRSUB
-      - 43.156.237.238@SSRSUB
-      - 🇮🇷 github.com/freefq - 伊朗  38
-      - github.com/freefq - 亚太地区  39
-      - 103.180.161.47|频道 t.me/SSRSUB
-      - github.com/freefq - 乌克兰  40
+      - 🇺🇸 美国(油管破解资源君) 83
+      - 🇺🇸 美国(油管破解资源君) 82
+      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 79
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
+      - 🇨🇦 加拿大 322
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
+      - 🇺🇸 美国_120920278
+      - 🇨🇦 加拿大 378
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国(油管破解资源君) 74
+      - 🇺🇸 美国(油管破解资源君) 72
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 45
+      - 🇬🇧 _GB_英国_2 2
+      - 2321421412
+      - 183.181.36.194|频道 t.me/SSRSUB
+      - 未知_120920106
+      - github.com/freefq - 乌克兰  42
       - 89.185.30.233|频道
-      - github.com/freefq - 亚太地区  41
-      - 🇬🇧 英国短视频1-12.21@SSRSUB
-      - 🇬🇧 _GB_英国 2
-      - 175.178.55.243@SSRSUB
-      - github.com/freefq - 福建省厦门市金桥网络通信有限公司 20
-      - 拉克纳德@SSRSUB
+      - 🇮🇹 github.com/freefq - 意大利  46
+      - 185.151.146.169@SSRSUB
+      - 🇮🇷 github.com/freefq - 伊朗  48
+      - u5@SSRSUB
+      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+      - github.com/freefq - 亚太地区  50
+      - 103.180.161.47|频道 t.me/SSRSUB
+      - 中转@SSRSUB
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 53
+      - 未知_120920009
+      - 未知_120920639
+      - 43.156.237.238@SSRSUB
+      - 23123243244
+      - github.com/freefq - 亚太地区  66
+      - 郭晓雪16-私@SSRSUB
+      - 亚太地区 001
+      - 223242
+      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28
-      - 🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 晨阳2-日@SSRSUB
-      - 冲亚1-日@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 新加坡|频道 t.me/SSRSUB
-      - 🇯🇵 github.com/freefq - 日本  4
-      - 🇭🇰 香港ARM|频道 t.me/SSRSUB
-      - 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52
-      - 🇭🇰 香港_120920008
-      - 🇯🇵 10|日本  4
-      - 🇨🇳 台湾9@SSRSUB
-      - 🇨🇳 台湾 001
-      - 🇨🇳 github.com/freefq - 台湾省中华电信 7
-      - 🇯🇵 github.com/freefq - 日本  24
-      - 🇸🇬 新加坡_120920006
-      - 🇸🇬 新加坡直播@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
-      - 🇨🇳 台湾@SSRSUB
-      - 🇭🇰 github.com/freefq - 香港腾讯云 6
-      - 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27
+      - 🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 🇯🇵 github.com/freefq - 日本  37
+      - 🇸🇬 新加坡_120920031
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36
       - 🇨🇳 台湾13@SSRSUB
       - 🇨🇳 台湾_120920001
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29
-      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31
+      - JP_86 |12.72Mb
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41
+      - 🇨🇳 LB台湾高雄9@SSRSUB
+      - 🇨🇳 台湾_120920007
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44
+      - 🇸🇬 新加坡_120920006
+      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB
+      - 🇯🇵 github.com/freefq - 日本  60
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62
+      - 🇸🇬 11|github.com/freefq - 新加坡Amazon数...
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64
       - 🇭🇰 香港02
       - 🇭🇰 香港03
+      - 🇨🇳 github.com/freefq - 台湾省  65
+      - 🇨🇳 台湾9@SSRSUB
+      - 🇨🇳 台湾 001
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
       - 🇸🇬 新加坡_120920010
       - 🇸🇬 新加坡_120920033
-      - 🇰🇷 韩国_120920009
-      - 🇰🇷 韩国_120920033
       - 🇸🇬 新加坡_120920009
       - 🇸🇬 新加坡_120920034
+      - 🇸🇬 新加坡_120920001
+      - 🇸🇬 新加坡_120920005
       - 🇭🇰 香港_120920024
       - 🇭🇰 香港_120920044
       - 冰消1-日@SSRSUB
@@ -397,125 +389,124 @@ proxy-groups:
       - 冰消2-日@SSRSUB
       - 🇯🇵 日本_120920028
       - 🇯🇵 日本_120920055
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】203
-      - 🇺🇸 _US_美国 14
-      - 🇺🇸 github.com/freefq - 美国阿里云 18
-      - 🇨🇦 加拿大_120920006
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇺🇸 美国 009
-      - 🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56
-      - 🇺🇸 github.com/freefq - 美国  54
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 57
-      - 🇺🇸 _US_美国_13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 60
-      - 🇺🇸 _US_美国_18
-      - 🇨🇦 加拿大 427
-      - 🇨🇦 加拿大_120920007
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 3
-      - 🇺🇸 美国(油管破解资源君) 95
-      - 🇺🇸 美国(油管破解资源君) 92
+      - 冲亚1-日@SSRSUB
+      - 刘敏1-日@SSRSUB
+      - 🇯🇵 日本_120920029
+      - 🇯🇵 日本_120920056
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 美国_120920120
+      - 🇺🇸 github.com/freefq - 美国  29
       - 🇺🇸 美国(油管破解资源君) 94
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 86
       - 🇺🇸 美国(油管破解资源君) 85
-      - "| 3.94Mb"
-      - 未知_120920679
-      - 🇨🇳 中国_120920175
-      - 🇮🇳 10,11|github.com/freefq - 印度  33
-      - 🇨🇳 防失效github SubCrawler中国_120920008
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 64
-      - "|70.08Mb"
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 69
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 65
-      - 🇩🇪 github.com/freefq - 德国  45
-      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
-      - 🇺🇸 us-104.184@SSRSUB
-      - 43.156.237.238@SSRSUB
-      - 🇮🇷 github.com/freefq - 伊朗  38
-      - github.com/freefq - 亚太地区  39
-      - 103.180.161.47|频道 t.me/SSRSUB
-      - github.com/freefq - 乌克兰  40
+      - 🇺🇸 美国(油管破解资源君) 83
+      - 🇺🇸 美国(油管破解资源君) 82
+      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 79
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
+      - 🇨🇦 加拿大 322
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
+      - 🇺🇸 美国_120920278
+      - 🇨🇦 加拿大 378
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国(油管破解资源君) 74
+      - 🇺🇸 美国(油管破解资源君) 72
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 45
+      - 🇬🇧 _GB_英国_2 2
+      - 2321421412
+      - 183.181.36.194|频道 t.me/SSRSUB
+      - 未知_120920106
+      - github.com/freefq - 乌克兰  42
       - 89.185.30.233|频道
-      - github.com/freefq - 亚太地区  41
-      - 🇬🇧 英国短视频1-12.21@SSRSUB
-      - 🇬🇧 _GB_英国 2
-      - 175.178.55.243@SSRSUB
-      - github.com/freefq - 福建省厦门市金桥网络通信有限公司 20
-      - 拉克纳德@SSRSUB
+      - 🇮🇹 github.com/freefq - 意大利  46
+      - 185.151.146.169@SSRSUB
+      - 🇮🇷 github.com/freefq - 伊朗  48
+      - u5@SSRSUB
+      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+      - github.com/freefq - 亚太地区  50
+      - 103.180.161.47|频道 t.me/SSRSUB
+      - 中转@SSRSUB
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 53
+      - 未知_120920009
+      - 未知_120920639
+      - 43.156.237.238@SSRSUB
+      - 23123243244
+      - github.com/freefq - 亚太地区  66
+      - 郭晓雪16-私@SSRSUB
+      - 亚太地区 001
+      - 223242
+      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】203
-      - 🇺🇸 _US_美国 14
-      - 🇺🇸 github.com/freefq - 美国阿里云 18
-      - 🇨🇦 加拿大_120920006
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇺🇸 美国 009
-      - 🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56
-      - 🇺🇸 github.com/freefq - 美国  54
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 57
-      - 🇺🇸 _US_美国_13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 60
-      - 🇺🇸 _US_美国_18
-      - 🇨🇦 加拿大 427
-      - 🇨🇦 加拿大_120920007
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 3
-      - 🇺🇸 美国(油管破解资源君) 95
-      - 🇺🇸 美国(油管破解资源君) 92
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 美国_120920120
+      - 🇺🇸 github.com/freefq - 美国  29
       - 🇺🇸 美国(油管破解资源君) 94
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 86
       - 🇺🇸 美国(油管破解资源君) 85
+      - 🇺🇸 美国(油管破解资源君) 83
+      - 🇺🇸 美国(油管破解资源君) 82
+      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 79
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
+      - 🇨🇦 加拿大 322
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
+      - 🇺🇸 美国_120920278
+      - 🇨🇦 加拿大 378
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国(油管破解资源君) 74
+      - 🇺🇸 美国(油管破解资源君) 72
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 45
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28
-      - 🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 晨阳2-日@SSRSUB
-      - 冲亚1-日@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港5|@ripaojiedian
-      - 🇸🇬 新加坡|频道 t.me/SSRSUB
-      - 🇯🇵 github.com/freefq - 日本  4
-      - 🇭🇰 香港ARM|频道 t.me/SSRSUB
-      - 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52
-      - 🇭🇰 香港_120920008
-      - 🇯🇵 10|日本  4
-      - 🇨🇳 台湾9@SSRSUB
-      - 🇨🇳 台湾 001
-      - 🇨🇳 github.com/freefq - 台湾省中华电信 7
-      - 🇯🇵 github.com/freefq - 日本  24
-      - 🇸🇬 新加坡_120920006
-      - 🇸🇬 新加坡直播@SSRSUB
-      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
-      - 🇨🇳 台湾@SSRSUB
-      - 🇭🇰 github.com/freefq - 香港腾讯云 6
-      - 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27
+      - 🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
+      - 🇯🇵 github.com/freefq - 日本  37
+      - 🇸🇬 新加坡_120920031
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36
       - 🇨🇳 台湾13@SSRSUB
       - 🇨🇳 台湾_120920001
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29
-      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31
+      - JP_86 |12.72Mb
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41
+      - 🇨🇳 LB台湾高雄9@SSRSUB
+      - 🇨🇳 台湾_120920007
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44
+      - 🇸🇬 新加坡_120920006
+      - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
+      - 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB
+      - 🇯🇵 github.com/freefq - 日本  60
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62
+      - 🇸🇬 11|github.com/freefq - 新加坡Amazon数...
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64
       - 🇭🇰 香港02
       - 🇭🇰 香港03
+      - 🇨🇳 github.com/freefq - 台湾省  65
+      - 🇨🇳 台湾9@SSRSUB
+      - 🇨🇳 台湾 001
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
       - 🇸🇬 新加坡_120920010
       - 🇸🇬 新加坡_120920033
-      - 🇰🇷 韩国_120920009
-      - 🇰🇷 韩国_120920033
       - 🇸🇬 新加坡_120920009
       - 🇸🇬 新加坡_120920034
+      - 🇸🇬 新加坡_120920001
+      - 🇸🇬 新加坡_120920005
       - 🇭🇰 香港_120920024
       - 🇭🇰 香港_120920044
       - 冰消1-日@SSRSUB
@@ -524,74 +515,74 @@ proxy-groups:
       - 冰消2-日@SSRSUB
       - 🇯🇵 日本_120920028
       - 🇯🇵 日本_120920055
+      - 冲亚1-日@SSRSUB
+      - 刘敏1-日@SSRSUB
+      - 🇯🇵 日本_120920029
+      - 🇯🇵 日本_120920056
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 10,12|⚡️@DeamNet_🔻 🇨🇦Canada 56
-      - "| 3.94Mb"
-      - 未知_120920679
-      - 🇨🇳 中国_120920175
-      - 🇮🇳 10,11|github.com/freefq - 印度  33
-      - 🇨🇳 防失效github SubCrawler中国_120920008
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 64
-      - "|70.08Mb"
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 69
-      - 🇨🇳 github.com/freefq - 广东省广州市移动 65
-      - 🇩🇪 github.com/freefq - 德国  45
-      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
-      - 🇺🇸 us-104.184@SSRSUB
-      - 43.156.237.238@SSRSUB
-      - 🇮🇷 github.com/freefq - 伊朗  38
-      - github.com/freefq - 亚太地区  39
-      - 103.180.161.47|频道 t.me/SSRSUB
-      - github.com/freefq - 乌克兰  40
+      - 🇬🇧 _GB_英国_2 2
+      - 2321421412
+      - 183.181.36.194|频道 t.me/SSRSUB
+      - 未知_120920106
+      - github.com/freefq - 乌克兰  42
       - 89.185.30.233|频道
-      - github.com/freefq - 亚太地区  41
-      - 🇬🇧 英国短视频1-12.21@SSRSUB
-      - 🇬🇧 _GB_英国 2
-      - 175.178.55.243@SSRSUB
-      - github.com/freefq - 福建省厦门市金桥网络通信有限公司 20
-      - 拉克纳德@SSRSUB
+      - 🇮🇹 github.com/freefq - 意大利  46
+      - 185.151.146.169@SSRSUB
+      - 🇮🇷 github.com/freefq - 伊朗  48
+      - u5@SSRSUB
+      - 🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+      - github.com/freefq - 亚太地区  50
+      - 103.180.161.47|频道 t.me/SSRSUB
+      - 中转@SSRSUB
+      - 🇨🇳 github.com/freefq - 广东省广州市移动 53
+      - 未知_120920009
+      - 未知_120920639
+      - 43.156.237.238@SSRSUB
+      - 23123243244
+      - github.com/freefq - 亚太地区  66
+      - 郭晓雪16-私@SSRSUB
+      - 亚太地区 001
+      - 223242
+      - 0-0-内网IP-ss-wqfuinwqffq.dfcloud.xyz30818
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 117
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】203
-      - 🇺🇸 _US_美国 14
-      - 🇺🇸 github.com/freefq - 美国阿里云 18
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 47
-      - 🇺🇸 美国 009
-      - 🇺🇸 github.com/freefq - 美国  54
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 57
-      - 🇺🇸 _US_美国_13
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 60
-      - 🇺🇸 _US_美国_18
-      - 🇨🇦 github.com/freefq - 加拿大TELUS 3
-      - 🇺🇸 美国(油管破解资源君) 95
-      - 🇺🇸 美国(油管破解资源君) 92
+      - 🇺🇸 _US_美国_12
+      - 🇺🇸 美国_120920120
+      - 🇺🇸 github.com/freefq - 美国  29
       - 🇺🇸 美国(油管破解资源君) 94
       - 🇺🇸 美国(油管破解资源君) 89
       - 🇺🇸 美国(油管破解资源君) 86
       - 🇺🇸 美国(油管破解资源君) 85
+      - 🇺🇸 美国(油管破解资源君) 83
+      - 🇺🇸 美国(油管破解资源君) 82
+      - 🇺🇸 美国(油管破解资源君) 80
+      - 🇺🇸 美国(油管破解资源君) 79
+      - 🇺🇸 美国(油管破解资源君) 78
+      - 🇺🇸 美国(油管破解资源君) 77
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
+      - 🇺🇸 美国_120920278
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 43
+      - 🇺🇸 美国(油管破解资源君) 75
+      - 🇺🇸 美国(油管破解资源君) 74
+      - 🇺🇸 美国(油管破解资源君) 72
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 45
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 14|🇭🇰 香港5|@ripaojiedian
-      - 🇭🇰 香港ARM|频道 t.me/SSRSUB
-      - 🇭🇰 github.com/freefq - 香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二座8层C室) 52
-      - 🇭🇰 香港_120920008
       - 🇭🇰 14|🇭🇰 香港1|浏览器输入 翻墙.com
-      - 🇭🇰 github.com/freefq - 香港腾讯云 6
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港_120920024
@@ -602,26 +593,28 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡|频道 t.me/SSRSUB
+      - 🇸🇬 新加坡_120920031
       - 🇸🇬 新加坡_120920006
-      - 🇸🇬 新加坡直播@SSRSUB
+      - 🇸🇬 阿里云新加坡|频道 t.me/SSRSUB
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 62
+      - 🇸🇬 11|github.com/freefq - 新加坡Amazon数...
+      - 🇸🇬 github.com/freefq - 新加坡Amazon数据中心 64
       - 🇸🇬 新加坡-0-0-ss-54.251.168.143443
       - 🇸🇬 新加坡_120920010
       - 🇸🇬 新加坡_120920033
       - 🇸🇬 新加坡_120920009
       - 🇸🇬 新加坡_120920034
+      - 🇸🇬 新加坡_120920001
+      - 🇸🇬 新加坡_120920005
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 晨阳2-日@SSRSUB
-      - 冲亚1-日@SSRSUB
-      - 🇯🇵 github.com/freefq - 日本  4
-      - 🇯🇵 10|日本  4
-      - 🇯🇵 github.com/freefq - 日本  24
-      - 🇯🇵 github.com/freefq - 日本东京都Amazon数据中心 70
+      - 🇯🇵 github.com/freefq - 日本  37
+      - JP_86 |12.72Mb
+      - 🇯🇵 github.com/freefq - 日本  60
       - 🇯🇵 日本-东京都-东京-ss-54.199.83.2392333
       - 冰消1-日@SSRSUB
       - 🇯🇵 日本_120920026
@@ -629,32 +622,34 @@ proxy-groups:
       - 冰消2-日@SSRSUB
       - 🇯🇵 日本_120920028
       - 🇯🇵 日本_120920055
+      - 冲亚1-日@SSRSUB
+      - 刘敏1-日@SSRSUB
+      - 🇯🇵 日本_120920029
+      - 🇯🇵 日本_120920056
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 10,11,12|🇹🇼|TW|台湾|@wxgqlfx|28
-      - 🇨🇳 10,11,12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
-      - 🇨🇳 台湾9@SSRSUB
-      - 🇨🇳 台湾 001
-      - 🇨🇳 github.com/freefq - 台湾省中华电信 7
-      - 🇨🇳 台湾@SSRSUB
-      - 🇨🇳 github.com/freefq - 台湾省新竹市中华电信 5
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 27
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 36
       - 🇨🇳 台湾13@SSRSUB
       - 🇨🇳 台湾_120920001
-      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 29
-      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 2
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 31
+      - 🇨🇳 github.com/freefq - 台湾省高雄市中华电信 41
+      - 🇨🇳 LB台湾高雄9@SSRSUB
+      - 🇨🇳 台湾_120920007
+      - 🇨🇳 github.com/freefq - 台湾省台北市中华电信 44
+      - 🇨🇳 github.com/freefq - 台湾省  65
+      - 🇨🇳 台湾9@SSRSUB
+      - 🇨🇳 台湾 001
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_120920009
-      - 🇰🇷 韩国_120920033
+      - 🇰🇷 10,11,12|KR🇰🇷 | icu.mac2win.top-8080 | ...
 rules:
  - DOMAIN,asusrouter.com,DIRECT
  - DOMAIN,cp.cloudflare.com,DIRECT
