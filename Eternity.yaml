@@ -5,9 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 17|香港1|@ripaojiedian, server: 112.28.208.10, port: 46602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
-  - {name: 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3..., server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320008, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: TW_115 |21.20Mb, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -50,7 +49,8 @@ proxies:
   - {name: 🇯🇵 日本_121320055, server: 172.105.226.166, port: 36173, type: vmess, uuid: 5de808d1-b707-462c-83f3-68739504ad70, alterId: 0, cipher: auto, tls: false}
   - {name: JP_96 |69.95Mb, server: 172.105.226.166, port: 36173, type: vmess, uuid: 5de808d1-b707-462c-83f3-68739504ad70, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320028, server: 202.182.107.52, port: 12626, type: vmess, uuid: 4b01e517-f98a-4dbd-802b-023302afc2f7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本_121320049, server: 202.182.107.52, port: 12626, type: vmess, uuid: 4b01e517-f98a-4dbd-802b-023302afc2f7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大_121320028, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
   - {name: US_154 |54.08Mb, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 Relay_🇺🇸US-🏁ZZ_172 | 9.48Mb, server: 104.21.31.183, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
@@ -73,15 +73,14 @@ proxies:
   - {name: 🇨🇦 加拿大 277, server: dl1x.doushimeng.com, port: 80, type: vmess, uuid: b1811e2a-fbaf-458c-aba3-ed194b8191ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /uziiii, headers: {Host: cf-bx2s.nicehand.top}}}
   - {name: US_179 |30.54Mb, server: 38.54.82.54, port: 41604, type: vmess, uuid: 54de50e5-5e4b-443f-d9b8-9e9e0eee865c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
+  - {name: 🇮🇷 伊朗 005, server: 79.143.84.117, port: 11541, type: vmess, uuid: 46465bbe-628a-4988-ae3c-0c164237a039, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 俄罗斯联邦_121320008, server: 46.29.166.237, port: 47555, type: vmess, uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860, alterId: 0, cipher: auto, tls: false}
   - {name: "@ZDYZ2_135", server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇱🇺 卢森堡_121320001, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇱🇺 卢森堡_121320002, server: 107.189.29.193, port: 21280, type: vmess, uuid: 2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320001, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320011, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
-  - {name: 14|@ZDYZ2_152, server: 103.114.201.143, port: 59487, type: vmess, uuid: 51fb562e-0a9b-4c27-e4d8-6f4883bb5165, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320002, server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.114.201.44}}}
-  - {name: 14|🔒 VM-WS-NA 🇹🇭 TH-103.114.201.4..., server: 103.114.201.44, port: 45233, type: vmess, uuid: 8e87821e-c22a-44c6-c741-43ab791f47b6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320003, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320004, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
@@ -97,6 +96,7 @@ proxies:
   - {name: 🇩🇪 德国_121320001, server: 157.230.28.129, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320004, server: v2.vipstore.cfd, port: 14542, type: vmess, uuid: 9997530c-7841-4746-ac88-935039f0a3ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: v2.vipstore.cfd}}}
   - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,9 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇭🇰 17|香港1|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - TW_115 |21.20Mb
       - 🇨🇳 台湾_121320006
@@ -157,7 +156,8 @@ proxy-groups:
       - 🇯🇵 日本_121320055
       - JP_96 |69.95Mb
       - 🇯🇵 日本_121320028
-      - 🇨🇦 加拿大_121320003
+      - 🇯🇵 日本_121320049
+      - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
       - US_154 |54.08Mb
       - 🇺🇸 Relay_🇺🇸US-🏁ZZ_172 | 9.48Mb
@@ -180,15 +180,14 @@ proxy-groups:
       - 🇨🇦 加拿大 277
       - US_179 |30.54Mb
       - 🇺🇸 美国_121320003
+      - 🇮🇷 伊朗 005
       - 🇷🇺 俄罗斯联邦_121320008
       - "@ZDYZ2_135"
       - 🇱🇺 卢森堡_121320001
       - 🇱🇺 卢森堡_121320002
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320011
-      - 14|@ZDYZ2_152
       - 🇮🇳 印度_121320002
-      - 14|🔒 VM-WS-NA 🇹🇭 TH-103.114.201.4...
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
@@ -204,6 +203,7 @@ proxy-groups:
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,9 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 17|香港1|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - TW_115 |21.20Mb
       - 🇨🇳 台湾_121320006
@@ -299,7 +298,8 @@ proxy-groups:
       - 🇯🇵 日本_121320055
       - JP_96 |69.95Mb
       - 🇯🇵 日本_121320028
-      - 🇨🇦 加拿大_121320003
+      - 🇯🇵 日本_121320049
+      - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
       - US_154 |54.08Mb
       - 🇺🇸 Relay_🇺🇸US-🏁ZZ_172 | 9.48Mb
@@ -322,15 +322,14 @@ proxy-groups:
       - 🇨🇦 加拿大 277
       - US_179 |30.54Mb
       - 🇺🇸 美国_121320003
+      - 🇮🇷 伊朗 005
       - 🇷🇺 俄罗斯联邦_121320008
       - "@ZDYZ2_135"
       - 🇱🇺 卢森堡_121320001
       - 🇱🇺 卢森堡_121320002
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320011
-      - 14|@ZDYZ2_152
       - 🇮🇳 印度_121320002
-      - 14|🔒 VM-WS-NA 🇹🇭 TH-103.114.201.4...
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
@@ -346,15 +345,15 @@ proxy-groups:
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 17|香港1|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - TW_115 |21.20Mb
       - 🇨🇳 台湾_121320006
@@ -397,7 +396,8 @@ proxy-groups:
       - 🇯🇵 日本_121320055
       - JP_96 |69.95Mb
       - 🇯🇵 日本_121320028
-      - 🇨🇦 加拿大_121320003
+      - 🇯🇵 日本_121320049
+      - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
       - US_154 |54.08Mb
       - 🇺🇸 Relay_🇺🇸US-🏁ZZ_172 | 9.48Mb
@@ -420,15 +420,14 @@ proxy-groups:
       - 🇨🇦 加拿大 277
       - US_179 |30.54Mb
       - 🇺🇸 美国_121320003
+      - 🇮🇷 伊朗 005
       - 🇷🇺 俄罗斯联邦_121320008
       - "@ZDYZ2_135"
       - 🇱🇺 卢森堡_121320001
       - 🇱🇺 卢森堡_121320002
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320011
-      - 14|@ZDYZ2_152
       - 🇮🇳 印度_121320002
-      - 14|🔒 VM-WS-NA 🇹🇭 TH-103.114.201.4...
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
@@ -444,13 +443,14 @@ proxy-groups:
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大_121320003
+      - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
       - US_154 |54.08Mb
       - 🇺🇸 Relay_🇺🇸US-🏁ZZ_172 | 9.48Mb
@@ -479,9 +479,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 17|香港1|@ripaojiedian
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - TW_115 |21.20Mb
       - 🇨🇳 台湾_121320006
@@ -524,21 +523,21 @@ proxy-groups:
       - 🇯🇵 日本_121320055
       - JP_96 |69.95Mb
       - 🇯🇵 日本_121320028
+      - 🇯🇵 日本_121320049
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇮🇷 伊朗 005
       - 🇷🇺 俄罗斯联邦_121320008
       - "@ZDYZ2_135"
       - 🇱🇺 卢森堡_121320001
       - 🇱🇺 卢森堡_121320002
       - 🇮🇳 印度_121320001
       - 🇮🇳 印度_121320011
-      - 14|@ZDYZ2_152
       - 🇮🇳 印度_121320002
-      - 14|🔒 VM-WS-NA 🇹🇭 TH-103.114.201.4...
       - 🇮🇳 印度_121320003
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
@@ -554,6 +553,7 @@ proxy-groups:
       - 🇩🇪 德国_121320001
       - 🇩🇪 德国_121320004
       - 🇩🇪 德国_121320005
+      - 🇩🇪 德国_121320007
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -572,6 +572,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇭🇰 17|香港1|@ripaojiedian
       - HK_81 | 1.30Mb
       - HK_80 |10.79Mb
   - name: 狮城
@@ -621,6 +622,7 @@ proxy-groups:
       - 🇯🇵 日本_121320055
       - JP_96 |69.95Mb
       - 🇯🇵 日本_121320028
+      - 🇯🇵 日本_121320049
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -628,8 +630,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - TW_115 |21.20Mb
       - 🇨🇳 台湾_121320006
