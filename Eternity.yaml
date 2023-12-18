@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本6-NTT, server: cu.awslcn.info, port: 25279, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 🇭🇰 香港-Trojan④, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk04.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国 2, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: us01.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-Trojan③, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk03.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 节点日期：12-18 1425, server: zjxc.pmxu.link, port: 42862, type: vmess, uuid: 9a918adc-ad85-3a5e-8d9f-1db32da01c01, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港-Trojan①, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡-Trojan②, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: sg01.trojanyyds.xyz, skip-cert-verify: false}
   - {name: 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1..., server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾_121320011, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320039, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: SG.linkedin.com}}}
   - {name: 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21..., server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: SG.linkedin.com}}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
@@ -62,8 +62,6 @@ proxies:
   - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320028, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
-  - {name: US_133 |35.94Mb, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb, server: 104.21.31.183, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 🇺🇸 _US_美国_12, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇦 加拿大 378, server: cf-jpc.handboy.top, port: 2086, type: vmess, uuid: 22425357-dc2f-4001-afe2-7f56a7210fca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-jp.handboy.site}}}
   - {name: 🇨🇦 加拿大 135, server: 104.18.202.232, port: 2087, type: vmess, uuid: 11e3ea8d-e196-4792-96ae-859848d3d3cb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /2v2rayTEAM, headers: {Host: docs2.obneh247.ir}}}
@@ -73,10 +71,12 @@ proxies:
   - {name: 🇨🇦 加拿大 337, server: polouk.yj2022.gq, port: 8080, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: {Host: polouk.yj2022.gq}}}
   - {name: 🇨🇦 加拿大 379, server: pla.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL, headers: {Host: pla.yj2022.gq}}}
   - {name: 🇨🇦 加拿大 380, server: free2.1alphaomega.org, port: 8880, type: vmess, uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free.1alphaomega.org}}}
-  - {name: 中转节点-3.19MB/s, server: zjxc.pmxu.link, port: 44361, type: vmess, uuid: f4f025a5-84d9-3d1d-b064-42301c12d708, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯-Trojan, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: ru01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 🇨🇭 瑞士【付费推荐：https//jdyvip.link/】22, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
-  - {name: _05, server: 139.59.244.143, port: 38941, type: vmess, uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大 352, server: 104.17.193.145, port: 8080, type: vmess, uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu5.openxai.link}}}
+  - {name: 🇨🇦 加拿大 155, server: cdnikuan3.ikuan.dev, port: 8880, type: vmess, uuid: 534b3e51-b245-48e9-93f2-19a71bc84b06, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft?ed=1024", headers: {Host: losangeles.freenode.pro}}}
+  - {name: 🇨🇦 加拿大 200, server: dl6.doushimeng.com, port: 2086, type: vmess, uuid: 03e7297c-c657-4e2a-abf9-4f95bed444a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-kr2.112592.xyz}}}
+  - {name: 防失效github SubCrawler乌克兰_121320002, server: ua1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ua1-vmess.sshmax.xyz}}}
+  - {name: 乌克兰_121320004, server: 185.250.150.220, port: 8080, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
+  - {name: 乌克兰_121320005, server: 185.250.150.220, port: 2086, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 乌克兰_121320006, server: 185.250.150.220, port: 2082, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇷 伊朗 004, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
@@ -97,6 +97,7 @@ proxies:
   - {name: 🇮🇳 印度_121320004, server: 205.164.28.103, port: 13487, type: vmess, uuid: f5502283-53ba-442b-bdb1-a25745fd5c17, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇳 印度_121320005, server: 103.106.230.153, port: 32732, type: vmess, uuid: eb931108-646b-4ceb-a741-d32490cb00f4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: internet.life.com.by}}}
   - {name: 🇮🇳 印度_121320008, server: 103.113.68.233, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 103.113.68.233}}}
+  - {name: 🇮🇳 印度_121320009, server: ru1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 61cf7313-1503-4bab-beeb-ba69fd5843ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ru1-vmess.sshmax.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,14 +113,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 日本6-NTT
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
-      - 🇭🇰 香港-Trojan③
-      - 🇯🇵 节点日期：12-18 1425
-      - 🇭🇰 香港-Trojan①
-      - 🇸🇬 新加坡-Trojan②
       - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1...
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾_121320011
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS
       - 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
       - 🇸🇬 新加坡_121320008
@@ -169,8 +170,6 @@ proxy-groups:
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
-      - US_133 |35.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb
       - 🇺🇸 _US_美国_12
       - 🇨🇦 加拿大 378
       - 🇨🇦 加拿大 135
@@ -180,10 +179,12 @@ proxy-groups:
       - 🇨🇦 加拿大 337
       - 🇨🇦 加拿大 379
       - 🇨🇦 加拿大 380
-      - 中转节点-3.19MB/s
-      - 🇷🇺 俄罗斯-Trojan
-      - 🇨🇭 瑞士【付费推荐：https//jdyvip.link/】22
-      - _05
+      - 🇨🇦 加拿大 352
+      - 🇨🇦 加拿大 155
+      - 🇨🇦 加拿大 200
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗 004
@@ -204,6 +205,7 @@ proxy-groups:
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,14 +256,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本6-NTT
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
-      - 🇭🇰 香港-Trojan③
-      - 🇯🇵 节点日期：12-18 1425
-      - 🇭🇰 香港-Trojan①
-      - 🇸🇬 新加坡-Trojan②
       - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1...
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾_121320011
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS
       - 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
       - 🇸🇬 新加坡_121320008
@@ -311,8 +313,6 @@ proxy-groups:
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
-      - US_133 |35.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb
       - 🇺🇸 _US_美国_12
       - 🇨🇦 加拿大 378
       - 🇨🇦 加拿大 135
@@ -322,10 +322,12 @@ proxy-groups:
       - 🇨🇦 加拿大 337
       - 🇨🇦 加拿大 379
       - 🇨🇦 加拿大 380
-      - 中转节点-3.19MB/s
-      - 🇷🇺 俄罗斯-Trojan
-      - 🇨🇭 瑞士【付费推荐：https//jdyvip.link/】22
-      - _05
+      - 🇨🇦 加拿大 352
+      - 🇨🇦 加拿大 155
+      - 🇨🇦 加拿大 200
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗 004
@@ -346,20 +348,21 @@ proxy-groups:
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本6-NTT
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
-      - 🇭🇰 香港-Trojan③
-      - 🇯🇵 节点日期：12-18 1425
-      - 🇭🇰 香港-Trojan①
-      - 🇸🇬 新加坡-Trojan②
       - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1...
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾_121320011
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS
       - 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
       - 🇸🇬 新加坡_121320008
@@ -409,8 +412,6 @@ proxy-groups:
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
-      - US_133 |35.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb
       - 🇺🇸 _US_美国_12
       - 🇨🇦 加拿大 378
       - 🇨🇦 加拿大 135
@@ -420,10 +421,12 @@ proxy-groups:
       - 🇨🇦 加拿大 337
       - 🇨🇦 加拿大 379
       - 🇨🇦 加拿大 380
-      - 中转节点-3.19MB/s
-      - 🇷🇺 俄罗斯-Trojan
-      - 🇨🇭 瑞士【付费推荐：https//jdyvip.link/】22
-      - _05
+      - 🇨🇦 加拿大 352
+      - 🇨🇦 加拿大 155
+      - 🇨🇦 加拿大 200
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗 004
@@ -444,13 +447,13 @@ proxy-groups:
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
       - US_11
       - Pool_🇺🇸US_12
       - US_13
@@ -463,8 +466,6 @@ proxy-groups:
       - 🇨🇦 加拿大_121320003
       - 🇨🇦 加拿大_121320028
       - 🇨🇦 加拿大_121320032
-      - US_133 |35.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb
       - 🇺🇸 _US_美国_12
       - 🇨🇦 加拿大 378
       - 🇨🇦 加拿大 135
@@ -474,20 +475,23 @@ proxy-groups:
       - 🇨🇦 加拿大 337
       - 🇨🇦 加拿大 379
       - 🇨🇦 加拿大 380
+      - 🇨🇦 加拿大 352
+      - 🇨🇦 加拿大 155
+      - 🇨🇦 加拿大 200
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本6-NTT
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
-      - 🇭🇰 香港-Trojan③
-      - 🇯🇵 节点日期：12-18 1425
-      - 🇭🇰 香港-Trojan①
-      - 🇸🇬 新加坡-Trojan②
       - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1...
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾_121320011
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS
       - 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
       - 🇸🇬 新加坡_121320008
@@ -531,10 +535,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 中转节点-3.19MB/s
-      - 🇷🇺 俄罗斯-Trojan
-      - 🇨🇭 瑞士【付费推荐：https//jdyvip.link/】22
-      - _05
+      - 防失效github SubCrawler乌克兰_121320002
+      - 乌克兰_121320004
+      - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
       - 🇮🇷 伊朗 004
@@ -555,13 +558,13 @@ proxy-groups:
       - 🇮🇳 印度_121320004
       - 🇮🇳 印度_121320005
       - 🇮🇳 印度_121320008
+      - 🇮🇳 印度_121320009
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
       - US_11
       - Pool_🇺🇸US_12
       - US_13
@@ -571,8 +574,6 @@ proxy-groups:
       - US_17
       - US_18
       - US_19
-      - US_133 |35.94Mb
-      - 🇺🇸 Relay_🇺🇸US-🏁ZZ_129 | 8.97Mb
       - 🇺🇸 _US_美国_12
   - name: 香港
     type: url-test
@@ -580,17 +581,16 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国 2
-      - 🇭🇰 香港-Trojan③
-      - 🇭🇰 香港-Trojan①
+      - DIRECT
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡-Trojan②
+      - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 VM-WS-NA 🇸🇬 SG-207.148.77.2152 📡 PING-219.31-MS
       - 🇸🇬 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
       - 🇸🇬 新加坡_121320008
@@ -609,8 +609,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 节点日期：12-18 1425
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
@@ -643,6 +641,10 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.106.230.1...
+      - 🇨🇳 台湾_121320001
+      - 🇨🇳 台湾_121320006
+      - 🇨🇳 台湾_121320007
+      - 🇨🇳 台湾_121320011
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
