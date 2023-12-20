@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
-  - {name: "🇸🇬 10,14,15|新加坡2|@ripaojiedian", server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
+  - {name: 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3..., server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320008, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -112,9 +112,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 韩国_121320001
-      - 🇸🇬 10,14,15|新加坡2|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -254,9 +254,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国_121320001
-      - 🇸🇬 10,14,15|新加坡2|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -352,9 +352,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 韩国_121320001
-      - 🇸🇬 10,14,15|新加坡2|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -480,9 +480,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_121320001
-      - 🇸🇬 10,14,15|新加坡2|@ripaojiedian
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -581,7 +581,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 10,14,15|新加坡2|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
@@ -632,6 +631,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 台湾_121320001
+      - 🇨🇳 12|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -642,7 +643,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_121320001
+      - DIRECT
 rules:
  - DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv,📺 国外媒体
  - DOMAIN,api.okzy.tv,📺 国外媒体
