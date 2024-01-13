@@ -5,27 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian, server: 13.124.126.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46, server: hinet.lxjc.app, port: 443, type: trojan, password: 2e0cb061-2d9c-412e-aa8b-f35aa3aa00c3, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
+  - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_121320022, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: SG_ 9020 @WangCai_1, server: 103.172.116.103, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 🇰🇷 韩国-883.7KB/s, server: 43.201.103.12, port: 29930, type: vmess, uuid: f46b2e2a-e02c-437a-833c-023410840a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 43.201.103.12}}}
-  - {name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3, server: V104.bgpnet.top, port: 26104, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /admin, headers: {Host: V104.bgpnet.top}}}
-  - {name: 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7, server: v2-2.godlight.xyz, port: 30526, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /54f634fs, headers: {Host: v2-2.godlight.xyz}}}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17, server: shcu.forgebukkit.com, port: 47389, type: vmess, uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19, server: 426hk.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 426hk.fans8.xyz}}}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20, server: V309.bgpnet.top, port: 26309, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23, server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30, server: V203.bgpnet.top, port: 26203, type: vmess, uuid: ef361c83-8b89-3950-9c9b-6ccc177e6285, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾省台中市 中华电信, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111...., server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: SG_ 9053 @WangCai_1, server: 103.172.116.103, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C}
+  - {name: SG_ 9038 @WangCai_1, server: 103.172.116.103, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb, server: home-hkt-2.strongpipe.live, port: 29444, type: trojan, password: 7f831d7a-4890-4443-9db6-d3ae18d782a1, skip-cert-verify: false}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 0c188781-2971-4bd9-ad72-73eb860d115f, skip-cert-verify: false}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: ae4da236-bfec-4673-9e1e-bbbd942162a8, skip-cert-verify: false}
@@ -34,68 +22,65 @@ proxies:
   - {name: 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, skip-cert-verify: false}
   - {name: 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb, server: sg.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
   - {name: 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb, server: hkjs.liangyuandiancloud.com, port: 443, type: trojan, password: 272cd64a-9f71-4e08-8fbd-0988d7fa99c8, skip-cert-verify: false}
-  - {name: "🇯🇵 11,13,15,16|日本2|@ripaojiedian", server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1", server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 |JP|日本|@wxgqlfx|11, server: jp1.lxjc.app, port: 443, type: trojan, password: 7fb404f3-9aa0-4734-8783-34ce1c24f9e0, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本【付费推荐：https//jdyvip.link/】27, server: jp1.lxjc.app, port: 443, type: trojan, password: 7fb404f3-9aa0-4734-8783-34ce1c24f9e0, sni: 16-163-218-240.nhost.00cdn.com, skip-cert-verify: false}
   - {name: "🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92", server: cfmmc.nic.1241241241.com, port: 2052, type: vmess, uuid: b349ae13-02d2-44ba-d2e0-ac7970458ce3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg001.realv2ray.tech}}}
-  - {name: "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1", server: cfmmc.nic.1241241241.com, port: 2052, type: vmess, uuid: b349ae13-02d2-44ba-d2e0-ac7970458ce3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /123123, headers: {Host: sg001.realv2ray.tech}}}
+  - {name: 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2, server: frontend.yijianlian.app, port: 54420, type: trojan, password: a6f5fbce-f2d7-400a-9043-3d3f4c2f6194, skip-cert-verify: true}
   - {name: 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: e532931d-9c1d-4bec-a1c8-98263bb57dbb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkt.littleqqq.co}}}
   - {name: 🇭🇰 香港【付费推荐：https//jdyvip.link/】54, server: hkt.littleqqq.co, port: 20759, type: vmess, uuid: e532931d-9c1d-4bec-a1c8-98263bb57dbb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: hkt.littleqqq.co}}}
-  - {name: "🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2", server: 61.228.156.175, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49, server: 61.228.156.175, port: 2024, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本(油管破解资源君) 7, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: b2a2c706-12e0-3335-8a62-31925219a712, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本(油管破解资源君) 6, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}}
+  - {name: 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4, server: jp2.djjsvip.cfd, port: 443, type: trojan, password: 94fe4445-fc3f-4dd4-9bac-438b54f994c9, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true}
   - {name: 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS, server: 34.92.50.99, port: 26389, type: vmess, uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99..., server: 34.92.50.99, port: 26389, type: vmess, uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c, alterId: 0, cipher: auto, tls: false}
-  - {name: US_13, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false}
-  - {name: US_15, server: 159.223.32.230, port: 8080, type: vmess, uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 159.223.32.230}}}
-  - {name: US_16, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: US_17, server: 68.183.129.197, port: 8080, type: vmess, uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: US_18, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: US_19, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
-  - {name: 🇺🇸 美国-3.21MB/s, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: 🇺🇸 _US_美国_1, server: 104.21.32.215, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国 11, server: 104.21.32.215, port: 8880, type: vmess, uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: a3.bcbot.in}}}
-  - {name: 🇺🇸 美国-6.08MB/s, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 _US_美国 8, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AY920UMR, headers: {Host: us1.lolvps.xyz}}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1tGK82lU/}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15, server: 45.76.71.233, port: 46983, type: vmess, uuid: 69099258-1476-46dd-a51b-84e915e941be, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /1tGK82lU/}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fastssh/3102637493qqcom/626cf7d8bd49b/, headers: {Host: us3.31vpn.com}}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nmsl, headers: {Host: 1.ezydfdd.com}}}
-  - {name: 🇺🇸 _US_美国_4, server: 95.164.84.131, port: 80, type: vmess, uuid: c62693b0-547f-4028-8f46-544cc8d46a01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇬🇧 英国-2.92MB/s, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
-  - {name: "| 8.31Mb", server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
-  - {name: Relay_ | 5.66Mb, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: wtywwcrzjp5.yofnhkfc.xyz}}}
-  - {name: 🇬🇧 _GB_英国, server: 172.99.190.109, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws}}
-  - {name: 未知国家-440.0KB/s, server: go.wumaojichang.com, port: 2086, type: vmess, uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk.wumaojichang.com}}}
-  - {name: "| 7.76Mb", server: 43.201.103.12, port: 29930, type: vmess, uuid: f46b2e2a-e02c-437a-833c-023410840a80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /f46b2e2a-e02c-437a-833c-023410840a80, headers: {Host: 43.201.103.12}}}
-  - {name: 未知国家-445.2KB/s, server: xt.ylks01.eu.org, port: 2095, type: vmess, uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue, headers: {Host: xt.ylks01.eu.org}}}
-  - {name: 🇨🇭 瑞士-198.8KB/s, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇭 _CH_瑞士, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇭 7|🇨🇭_CH_瑞士, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false}
-  - {name: Relay_ | 8.22Mb, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: us6gzxQRrE4.fzbqfrse.xyz}}}
-  - {name: 🇦🇺 _AU_澳大利亚, server: 202.139.228.198, port: 8080, type: vmess, uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vm-tls1-tls1?ed=2048"}}
-  - {name: "🇦🇺 6,7,17|🇦🇺 _AU_澳大利亚", server: 202.139.228.198, port: 8080, type: vmess, uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/vm-tls1-tls1?ed=2048", headers: {Host: xn.changding.tech}}}
-  - {name: 湖北省 移动(全省通用), server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: c2c76420-257f-492a-b20f-6560f3bfa78d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com}}}
-  - {name: 湖南省 联通, server: cu.awslcn.info, port: 25277, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 🇨🇳 广东省广州市 移动, server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
-  - {name: 🇨🇳 广东省广州市 移动 2, server: sg1.awslcn.info, port: 25243, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
-  - {name: 🇨🇳 广东省广州市 移动 6, server: sg1.awslcn.info, port: 25246, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}}
-  - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 35.181.192.220, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
-  - {name: 广东省 移动, server: nc.cm.go002.xyz, port: 19584, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce}
-  - {name: 🇪🇺 欧洲(油管破解资源君) 11, server: 168.119.58.112, port: 80, type: vmess, uuid: e42d68db-4297-4c17-b5cf-44d421aef400, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇪🇺 欧洲(油管破解资源君) 16, server: 51.195.35.150, port: 30812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 广东省广州市 移动 3, server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}}
-  - {name: 🇻🇳 越南 V2CROSS.COM, server: 58.187.206.121, port: 80, type: vmess, uuid: a2893b4e-e6f8-40cb-bae5-8b3cb8937dae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}}
+  - {name: 🇨🇳 |TW|台湾|@wxgqlfx|2, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86, server: nb24.ntbq.dynu.net, port: 4443, type: vmess, uuid: a36db716-c6d0-4bc2-bd76-69e278215124, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 台湾省台中市 中华电信, server: c12.twtc.dynu.net, port: 6122, type: vmess, uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320279, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
+  - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
+  - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
+  - {name: 🇺🇸 美国_121320017, server: 144.202.81.122, port: 25514, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320018, server: 172.67.206.124, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
+  - {name: 🇺🇸 美国_121320019, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
+  - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
+  - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
+  - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320035, server: 64.176.42.137, port: 20886, type: vmess, uuid: f574b237-3ebf-405c-d540-541530fe5ed7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇻🇳 越南【付费推荐：https//jdyvip.link/】88, server: bs2.loadingip.com, port: 80, type: vmess, uuid: 5278f5d3-f001-4459-94b6-7e0915238998, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs, headers: {Host: bs2.loadingip.com}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  5, server: bs2.loadingip.com, port: 80, type: vmess, uuid: 5278f5d3-f001-4459-94b6-7e0915238998, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs, headers: {Host: bs2.loadingip.com}}}
+  - {name: 未知_121320552, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}}
+  - {name: 未知_121320122, server: polouk.yj2022.gq, port: 8080, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, headers: {Host: polouk.yj2022.gq}}}
+  - {name: 未知_121320149, server: pla.yj2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL, headers: {Host: pla.yj2022.gq}}}
+  - {name: 未知_121320154, server: free2.1alphaomega.org, port: 8880, type: vmess, uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free.1alphaomega.org}}}
+  - {name: 未知_121320404, server: 104.17.193.145, port: 8080, type: vmess, uuid: e2695bd0-945f-4476-aac5-0e37bcdbd7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eu5.openxai.link}}}
+  - {name: 未知_121320704, server: cdnikuan3.ikuan.dev, port: 8880, type: vmess, uuid: 432c16ac-4ac8-48b4-bc97-97831fe5127b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoft?ed=1024", headers: {Host: losangeles.freenode.pro}}}
+  - {name: 未知_121320706, server: dl6.doushimeng.com, port: 80, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-kr.doushimeng.free.hr}}}
+  - {name: 未知_121320709, server: dl6.doushimeng.com, port: 2095, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-usss.doushimeng.com}}}
+  - {name: 未知_121320707, server: dl4.doushimeng.com, port: 2086, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-kr2s.doushimeng.com}}}
+  - {name: 未知_121320708, server: dl1.doushimeng.com, port: 80, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-tww.doushimeng.com}}}
+  - {name: 未知_121320711, server: dl1.doushimeng.com, port: 2086, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de66s.doushimeng.com}}}
+  - {name: 未知_121320712, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-nlss.nicehand.top}}}
+  - {name: 未知_121320710, server: dl3.doushimeng.com, port: 2082, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de2ss.doushimeng.com}}}
+  - {name: 未知_121320714, server: dl3.doushimeng.com, port: 2086, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /uziiii, headers: {Host: cf-bx3ss.doushimeng.com}}}
+  - {name: 未知_121320713, server: dl1x.doushimeng.com, port: 80, type: vmess, uuid: c0ff2f90-9f83-451a-a7d3-0994845d9208, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /uziiii, headers: {Host: cf-bx2ss.nicehand.top}}}
+  - {name: 🇧🇪 比利时_121320001, server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/143013092425, headers: {Host: www.42088326.xyz}}}
+  - {name: 🇫🇷 法国_121320069, server: 146.59.147.250, port: 29776, type: vmess, uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇫🇷 法国_121320070, server: 146.59.147.250, port: 29776, type: vmess, uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇱 波兰_121320022, server: 147.135.208.178, port: 38612, type: vmess, uuid: db53bc29-0f62-4cd3-832b-85499c9278a8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇱 波兰_121320023, server: 147.135.208.178, port: 38612, type: vmess, uuid: db53bc29-0f62-4cd3-832b-85499c9278a8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇵🇱 波兰_121320026, server: 94.131.96.137, port: 2086, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 94.131.96.137}}}
+  - {name: 🇵🇱 波兰_121320029, server: 94.131.96.137, port: 8880, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,27 +96,15 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46
+      - 🇰🇷 韩国_121320001
+      - 🇭🇰 香港_121320001
+      - 🇭🇰 香港_121320022
+      - 🇭🇰 香港_121320008
+      - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
       - SG_ 9020 @WangCai_1
-      - 🇰🇷 韩国-883.7KB/s
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
-      - 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-      - 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS
+      - SG_ 9053 @WangCai_1
+      - SG_ 9038 @WangCai_1
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb
@@ -140,68 +113,65 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - 🇯🇵 11,13,15,16|日本2|@ripaojiedian
-      - "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52
       - 🇯🇵 |JP|日本|@wxgqlfx|11
       - 🇯🇵 日本【付费推荐：https//jdyvip.link/】27
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92
-      - "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1"
+      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2
       - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7
       - 🇭🇰 香港【付费推荐：https//jdyvip.link/】54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇯🇵 日本(油管破解资源君) 6
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4
       - 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS
-      - 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99...
-      - US_13
-      - US_15
-      - US_16
-      - US_17
-      - US_18
-      - US_19
-      - 🇺🇸 美国-3.21MB/s
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国 11
-      - 🇺🇸 美国-6.08MB/s
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34
-      - 🇺🇸 _US_美国_4
-      - 🇬🇧 英国-2.92MB/s
-      - "| 8.31Mb"
-      - Relay_ | 5.66Mb
-      - 🇬🇧 _GB_英国
-      - 未知国家-440.0KB/s
-      - "| 7.76Mb"
-      - 未知国家-445.2KB/s
-      - 🇨🇭 瑞士-198.8KB/s
-      - 🇨🇭 _CH_瑞士
-      - 🇨🇭 7|🇨🇭_CH_瑞士
-      - Relay_ | 8.22Mb
-      - 🇦🇺 _AU_澳大利亚
-      - 🇦🇺 6,7,17|🇦🇺 _AU_澳大利亚
-      - 湖北省 移动(全省通用)
-      - 湖南省 联通
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 6
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 广东省 移动
-      - 🇪🇺 欧洲(油管破解资源君) 11
-      - 🇪🇺 欧洲(油管破解资源君) 16
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇻🇳 越南 V2CROSS.COM
+      - 🇨🇳 |TW|台湾|@wxgqlfx|2
+      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320279
+      - 🇺🇸 美国_121320013
+      - 🇺🇸 美国_121320014
+      - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
+      - 🇺🇸 美国_121320035
+      - 🇻🇳 越南【付费推荐：https//jdyvip.link/】88
+      - 🇮🇳 github.com/freefq - 印度  5
+      - 未知_121320552
+      - 未知_121320122
+      - 未知_121320149
+      - 未知_121320154
+      - 未知_121320404
+      - 未知_121320704
+      - 未知_121320706
+      - 未知_121320709
+      - 未知_121320707
+      - 未知_121320708
+      - 未知_121320711
+      - 未知_121320712
+      - 未知_121320710
+      - 未知_121320714
+      - 未知_121320713
+      - 🇧🇪 比利时_121320001
+      - 🇫🇷 法国_121320069
+      - 🇫🇷 法国_121320070
+      - 🇵🇱 波兰_121320022
+      - 🇵🇱 波兰_121320023
+      - 🇵🇱 波兰_121320026
+      - 🇵🇱 波兰_121320029
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,27 +222,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46
+      - 🇰🇷 韩国_121320001
+      - 🇭🇰 香港_121320001
+      - 🇭🇰 香港_121320022
+      - 🇭🇰 香港_121320008
+      - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
       - SG_ 9020 @WangCai_1
-      - 🇰🇷 韩国-883.7KB/s
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
-      - 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-      - 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS
+      - SG_ 9053 @WangCai_1
+      - SG_ 9038 @WangCai_1
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb
@@ -281,95 +239,80 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - 🇯🇵 11,13,15,16|日本2|@ripaojiedian
-      - "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52
       - 🇯🇵 |JP|日本|@wxgqlfx|11
       - 🇯🇵 日本【付费推荐：https//jdyvip.link/】27
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92
-      - "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1"
+      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2
       - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7
       - 🇭🇰 香港【付费推荐：https//jdyvip.link/】54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇯🇵 日本(油管破解资源君) 6
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4
       - 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS
-      - 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99...
-      - US_13
-      - US_15
-      - US_16
-      - US_17
-      - US_18
-      - US_19
-      - 🇺🇸 美国-3.21MB/s
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国 11
-      - 🇺🇸 美国-6.08MB/s
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34
-      - 🇺🇸 _US_美国_4
-      - 🇬🇧 英国-2.92MB/s
-      - "| 8.31Mb"
-      - Relay_ | 5.66Mb
-      - 🇬🇧 _GB_英国
-      - 未知国家-440.0KB/s
-      - "| 7.76Mb"
-      - 未知国家-445.2KB/s
-      - 🇨🇭 瑞士-198.8KB/s
-      - 🇨🇭 _CH_瑞士
-      - 🇨🇭 7|🇨🇭_CH_瑞士
-      - Relay_ | 8.22Mb
-      - 🇦🇺 _AU_澳大利亚
-      - 🇦🇺 6,7,17|🇦🇺 _AU_澳大利亚
-      - 湖北省 移动(全省通用)
-      - 湖南省 联通
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 6
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 广东省 移动
-      - 🇪🇺 欧洲(油管破解资源君) 11
-      - 🇪🇺 欧洲(油管破解资源君) 16
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇻🇳 越南 V2CROSS.COM
+      - 🇨🇳 |TW|台湾|@wxgqlfx|2
+      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320279
+      - 🇺🇸 美国_121320013
+      - 🇺🇸 美国_121320014
+      - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
+      - 🇺🇸 美国_121320035
+      - 🇻🇳 越南【付费推荐：https//jdyvip.link/】88
+      - 🇮🇳 github.com/freefq - 印度  5
+      - 未知_121320552
+      - 未知_121320122
+      - 未知_121320149
+      - 未知_121320154
+      - 未知_121320404
+      - 未知_121320704
+      - 未知_121320706
+      - 未知_121320709
+      - 未知_121320707
+      - 未知_121320708
+      - 未知_121320711
+      - 未知_121320712
+      - 未知_121320710
+      - 未知_121320714
+      - 未知_121320713
+      - 🇧🇪 比利时_121320001
+      - 🇫🇷 法国_121320069
+      - 🇫🇷 法国_121320070
+      - 🇵🇱 波兰_121320022
+      - 🇵🇱 波兰_121320023
+      - 🇵🇱 波兰_121320026
+      - 🇵🇱 波兰_121320029
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46
+      - 🇰🇷 韩国_121320001
+      - 🇭🇰 香港_121320001
+      - 🇭🇰 香港_121320022
+      - 🇭🇰 香港_121320008
+      - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
       - SG_ 9020 @WangCai_1
-      - 🇰🇷 韩国-883.7KB/s
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
-      - 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-      - 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS
+      - SG_ 9053 @WangCai_1
+      - SG_ 9038 @WangCai_1
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb
@@ -378,68 +321,65 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - 🇯🇵 11,13,15,16|日本2|@ripaojiedian
-      - "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52
       - 🇯🇵 |JP|日本|@wxgqlfx|11
       - 🇯🇵 日本【付费推荐：https//jdyvip.link/】27
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92
-      - "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1"
+      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2
       - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7
       - 🇭🇰 香港【付费推荐：https//jdyvip.link/】54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇯🇵 日本(油管破解资源君) 6
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4
       - 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS
-      - 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99...
-      - US_13
-      - US_15
-      - US_16
-      - US_17
-      - US_18
-      - US_19
-      - 🇺🇸 美国-3.21MB/s
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国 11
-      - 🇺🇸 美国-6.08MB/s
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34
-      - 🇺🇸 _US_美国_4
-      - 🇬🇧 英国-2.92MB/s
-      - "| 8.31Mb"
-      - Relay_ | 5.66Mb
-      - 🇬🇧 _GB_英国
-      - 未知国家-440.0KB/s
-      - "| 7.76Mb"
-      - 未知国家-445.2KB/s
-      - 🇨🇭 瑞士-198.8KB/s
-      - 🇨🇭 _CH_瑞士
-      - 🇨🇭 7|🇨🇭_CH_瑞士
-      - Relay_ | 8.22Mb
-      - 🇦🇺 _AU_澳大利亚
-      - 🇦🇺 6,7,17|🇦🇺 _AU_澳大利亚
-      - 湖北省 移动(全省通用)
-      - 湖南省 联通
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 6
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 广东省 移动
-      - 🇪🇺 欧洲(油管破解资源君) 11
-      - 🇪🇺 欧洲(油管破解资源君) 16
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇻🇳 越南 V2CROSS.COM
+      - 🇨🇳 |TW|台湾|@wxgqlfx|2
+      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86
+      - 🇨🇳 台湾省台中市 中华电信
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320279
+      - 🇺🇸 美国_121320013
+      - 🇺🇸 美国_121320014
+      - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
+      - 🇺🇸 美国_121320035
+      - 🇻🇳 越南【付费推荐：https//jdyvip.link/】88
+      - 🇮🇳 github.com/freefq - 印度  5
+      - 未知_121320552
+      - 未知_121320122
+      - 未知_121320149
+      - 未知_121320154
+      - 未知_121320404
+      - 未知_121320704
+      - 未知_121320706
+      - 未知_121320709
+      - 未知_121320707
+      - 未知_121320708
+      - 未知_121320711
+      - 未知_121320712
+      - 未知_121320710
+      - 未知_121320714
+      - 未知_121320713
+      - 🇧🇪 比利时_121320001
+      - 🇫🇷 法国_121320069
+      - 🇫🇷 法国_121320070
+      - 🇵🇱 波兰_121320022
+      - 🇵🇱 波兰_121320023
+      - 🇵🇱 波兰_121320026
+      - 🇵🇱 波兰_121320029
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -449,56 +389,44 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - US_13
-      - US_15
-      - US_16
-      - US_17
-      - US_18
-      - US_19
-      - 🇺🇸 美国-3.21MB/s
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国 11
-      - 🇺🇸 美国-6.08MB/s
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34
-      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320279
+      - 🇺🇸 美国_121320013
+      - 🇺🇸 美国_121320014
+      - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
+      - 🇺🇸 美国_121320035
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46
+      - 🇰🇷 韩国_121320001
+      - 🇭🇰 香港_121320001
+      - 🇭🇰 香港_121320022
+      - 🇭🇰 香港_121320008
+      - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
       - SG_ 9020 @WangCai_1
-      - 🇰🇷 韩国-883.7KB/s
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
-      - 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-      - 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS
+      - SG_ 9053 @WangCai_1
+      - SG_ 9038 @WangCai_1
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb
@@ -507,52 +435,48 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - 🇯🇵 11,13,15,16|日本2|@ripaojiedian
-      - "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52
       - 🇯🇵 |JP|日本|@wxgqlfx|11
       - 🇯🇵 日本【付费推荐：https//jdyvip.link/】27
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92
-      - "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1"
+      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2
       - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7
       - 🇭🇰 香港【付费推荐：https//jdyvip.link/】54
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇯🇵 日本(油管破解资源君) 6
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4
       - 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS
-      - 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99...
+      - 🇨🇳 |TW|台湾|@wxgqlfx|2
+      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇬🇧 英国-2.92MB/s
-      - "| 8.31Mb"
-      - Relay_ | 5.66Mb
-      - 🇬🇧 _GB_英国
-      - 未知国家-440.0KB/s
-      - "| 7.76Mb"
-      - 未知国家-445.2KB/s
-      - 🇨🇭 瑞士-198.8KB/s
-      - 🇨🇭 _CH_瑞士
-      - 🇨🇭 7|🇨🇭_CH_瑞士
-      - Relay_ | 8.22Mb
-      - 🇦🇺 _AU_澳大利亚
-      - 🇦🇺 6,7,17|🇦🇺 _AU_澳大利亚
-      - 湖北省 移动(全省通用)
-      - 湖南省 联通
-      - 🇨🇳 广东省广州市 移动
-      - 🇨🇳 广东省广州市 移动 2
-      - 🇨🇳 广东省广州市 移动 6
-      - 🇫🇷 法国 巴黎Amazon数据中心
-      - 广东省 移动
-      - 🇪🇺 欧洲(油管破解资源君) 11
-      - 🇪🇺 欧洲(油管破解资源君) 16
-      - 🇨🇳 广东省广州市 移动 3
-      - 🇻🇳 越南 V2CROSS.COM
+      - 🇻🇳 越南【付费推荐：https//jdyvip.link/】88
+      - 🇮🇳 github.com/freefq - 印度  5
+      - 未知_121320552
+      - 未知_121320122
+      - 未知_121320149
+      - 未知_121320154
+      - 未知_121320404
+      - 未知_121320704
+      - 未知_121320706
+      - 未知_121320709
+      - 未知_121320707
+      - 未知_121320708
+      - 未知_121320711
+      - 未知_121320712
+      - 未知_121320710
+      - 未知_121320714
+      - 未知_121320713
+      - 🇧🇪 比利时_121320001
+      - 🇫🇷 法国_121320069
+      - 🇫🇷 法国_121320070
+      - 🇵🇱 波兰_121320022
+      - 🇵🇱 波兰_121320023
+      - 🇵🇱 波兰_121320026
+      - 🇵🇱 波兰_121320029
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -562,42 +486,40 @@ proxy-groups:
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇺🇸 Relay_🇺🇸US-🇭🇰HK_193 |119.20Mb
-      - US_13
-      - US_15
-      - US_16
-      - US_17
-      - US_18
-      - US_19
-      - 🇺🇸 美国-3.21MB/s
-      - 🇺🇸 _US_美国_1
-      - 🇺🇸 _US_美国 11
-      - 🇺🇸 美国-6.08MB/s
-      - 🇺🇸 _US_美国 8
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_6
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_11
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/LosAngeles_15
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_13
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_21
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanJose_24
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Clifton_18
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/SanFrancisco_32
-      - 🇺🇸 mattkaydiary.com|美国(US)USA/Washington_34
-      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国_121320005
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国_121320012
+      - 🇺🇸 美国_121320279
+      - 🇺🇸 美国_121320013
+      - 🇺🇸 美国_121320014
+      - 🇺🇸 美国_121320015
+      - 🇺🇸 美国_121320017
+      - 🇺🇸 美国_121320018
+      - 🇺🇸 美国_121320019
+      - 🇺🇸 美国_121320020
+      - 🇺🇸 美国_121320023
+      - 🇺🇸 美国_121320024
+      - 🇺🇸 美国_121320027
+      - 🇺🇸 美国_121320028
+      - 🇺🇸 美国_121320029
+      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
+      - 🇺🇸 美国_121320035
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
+      - 🇭🇰 香港_121320001
+      - 🇭🇰 香港_121320022
+      - 🇭🇰 香港_121320008
+      - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_81 |69.59Mb
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_83 |35.27Mb
@@ -605,66 +527,47 @@ proxy-groups:
       - 🇭🇰 中国 - 香港 - HGC Global Communications Limited - 7
       - 🇭🇰 香港【付费推荐：https//jdyvip.link/】54
       - 🇭🇰 VM-TCP-NA 🇭🇰 HK-34.92.50.9926389 📡 PING-181.49-MS
-      - 🇭🇰 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99...
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 15|🇸🇬 狮城特殊|@ripaojiedian
       - SG_ 9020 @WangCai_1
-      - 🇸🇬 mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
+      - SG_ 9053 @WangCai_1
+      - SG_ 9038 @WangCai_1
       - 🇺🇸 Relay_🇺🇸US-🇸🇬SG_190 | 7.05Mb
       - 🇸🇬 新加坡 - 新加坡 - DigitalOcean, LLC - 92
-      - "🇸🇬 13|新加坡 - 新加坡 - DigitalOcean, LLC ... #1"
+      - 🇸🇬 新加坡 - 新加坡 - Oracle Corporation - 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_29
-      - 🇯🇵 mattkaydiary.com|日本(JP)Japan/Tokyo_38
-      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
-      - 🇯🇵 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-      - 🇯🇵 11,13,15,16|日本2|@ripaojiedian
       - 🇯🇵 |JP|日本|@wxgqlfx|11
       - 🇯🇵 日本【付费推荐：https//jdyvip.link/】27
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇯🇵 日本(油管破解资源君) 6
+      - 🇯🇵 VM-TCP-NA 🇯🇵 JP-167.179.111.23714935 📡 PING-158.07-MS
+      - 🇯🇵 日本 - 东京 - Amazon Technologies Inc - 4
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】46
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
-      - 🇨🇳 mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
-      - 🇭🇰 mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
-      - 🇨🇳 台湾省台中市 中华电信
-      - 🇨🇳 VM-WS-NA 🇹🇼 TW-103.159.206.3531945 📡 PING-228.65-MS
       - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_82 |71.88Mb
       - 🇨🇳 Relay_🇹🇼TW-🇹🇼TW_118 |20.19Mb
       - 🇺🇸 Relay_🇺🇸US-🇹🇼TW_187 |64.68Mb
-      - "🇨🇳 13|中国 - 台湾 - Chunghwa Telecom Co.... #1"
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】52
-      - 🇨🇳 中国 - 台湾 - Chunghwa Telecom Co., Ltd. - 2 2
-      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】49
+      - 🇨🇳 |TW|台湾|@wxgqlfx|2
+      - 🇨🇳 台湾【付费推荐：https//jdyvip.link/】86
+      - 🇨🇳 台湾省台中市 中华电信
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国-883.7KB/s
+      - 🇰🇷 韩国_121320001
       - 🇰🇷 Relay_🇰🇷KR-🇰🇷KR_99 |10.98Mb
 rules:
  - GEOIP,CN,🧱 国内网站
