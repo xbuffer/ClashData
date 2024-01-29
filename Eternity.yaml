@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 Scloud台湾01—可下载|0.5x, server: gz.daxun.cyou, port: 26040, type: vmess, uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320001, server: 103.159.206.35, port: 31945, type: vmess, uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 103.159.206.35}}}
-  - {name: 🇨🇳 台湾_121320002, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320008, server: 45.121.48.196, port: 10001, type: vmess, uuid: 0ed35629-919a-4891-ba0f-13cd198f863b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_121320006, server: 123.58.197.70, port: 443, type: vmess, uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇨🇳 台湾_121320007, server: 152.32.167.166, port: 19588, type: vmess, uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5, alterId: 0, cipher: auto, tls: false}
@@ -49,9 +49,11 @@ proxies:
   - {name: 🇯🇵 日本_121320051, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320057, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: "🇺🇸 19,29|🇺🇸_US_美国_9_29", server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
+  - {name: 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000, server: 167.88.61.175, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376, server: 217.182.198.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118, server: 38.75.136.135, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443, server: 38.75.136.135, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600, server: 38.68.134.9, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008, server: 38.68.134.9, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500, server: 38.68.134.9, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -70,16 +72,13 @@ proxies:
   - {name: US_18, server: 68.183.129.197, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
   - {name: US_19, server: 68.183.129.197, port: 8080, type: vmess, uuid: d019484c-2181-4d4a-a0fb-302a55351156, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 68.183.129.197}}}
   - {name: 🇨🇦 加拿大_121320003, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_121320028, server: 198.57.27.212, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大_121320032, server: 193.203.203.63, port: 80, type: vmess, uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 193.203.203.63}}}
-  - {name: 🇩🇪 SS-法国德国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 21|BH_youtube@资源分享师_173, server: 151.248.104.91, port: 80, type: vmess, uuid: 75916879-adcf-45b3-98d8-54a2412470b5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@forwardv2ray, headers: {Host: sahar55.serveirc.com}}}
   - {name: 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1817307, server: 54.36.174.181, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇫🇷 SS-法国瑞典-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818118, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818000, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376, server: 217.182.198.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.1005001, server: 145.239.1.100, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇬🇧 SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79443, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
   - {name: 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2006379, server: 51.77.53.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004, server: 51.77.53.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇵🇱 SS-波兰俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004, server: 51.77.53.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇫🇷 法国 OVH, server: 51.77.53.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: _01, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: GB_07, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
@@ -96,6 +95,7 @@ proxies:
   - {name: 乌克兰_121320005, server: 185.250.150.220, port: 2086, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 乌克兰_121320006, server: 185.250.150.220, port: 2082, type: vmess, uuid: ac76fc41-96b2-4d5b-802d-695e6ac5780b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 185.250.150.220}}}
   - {name: 🇮🇷 伊朗_121320001, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗 005, server: 195.211.44.107, port: 20515, type: vmess, uuid: a56b1fb2-6a48-4d08-80e7-7cc1b2df019e, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,8 +111,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇨🇳 Scloud台湾01—可下载|0.5x
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -155,9 +155,11 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
-      - 🇺🇸 19,29|🇺🇸_US_美国_9_29
+      - 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000
+      - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
       - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003
-      - 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500
@@ -176,16 +178,13 @@ proxy-groups:
       - US_18
       - US_19
       - 🇨🇦 加拿大_121320003
-      - 🇨🇦 加拿大_121320028
-      - 🇨🇦 加拿大_121320032
-      - 🇩🇪 SS-法国德国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
+      - 21|BH_youtube@资源分享师_173
       - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1817307
-      - 🇫🇷 SS-法国瑞典-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818118
-      - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818000
+      - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
       - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.1005001
       - 🇬🇧 SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79443
       - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2006379
-      - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
+      - 🇵🇱 SS-波兰俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
       - 🇫🇷 法国 OVH
       - _01
       - GB_07
@@ -202,6 +201,7 @@ proxy-groups:
       - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗 005
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,8 +252,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 Scloud台湾01—可下载|0.5x
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -296,9 +296,11 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
-      - 🇺🇸 19,29|🇺🇸_US_美国_9_29
+      - 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000
+      - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
       - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003
-      - 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500
@@ -317,16 +319,13 @@ proxy-groups:
       - US_18
       - US_19
       - 🇨🇦 加拿大_121320003
-      - 🇨🇦 加拿大_121320028
-      - 🇨🇦 加拿大_121320032
-      - 🇩🇪 SS-法国德国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
+      - 21|BH_youtube@资源分享师_173
       - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1817307
-      - 🇫🇷 SS-法国瑞典-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818118
-      - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818000
+      - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
       - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.1005001
       - 🇬🇧 SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79443
       - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2006379
-      - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
+      - 🇵🇱 SS-波兰俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
       - 🇫🇷 法国 OVH
       - _01
       - GB_07
@@ -343,14 +342,15 @@ proxy-groups:
       - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗 005
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 Scloud台湾01—可下载|0.5x
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -393,9 +393,11 @@ proxy-groups:
       - 🇯🇵 日本_121320051
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
-      - 🇺🇸 19,29|🇺🇸_US_美国_9_29
+      - 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000
+      - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
       - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003
-      - 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500
@@ -414,16 +416,13 @@ proxy-groups:
       - US_18
       - US_19
       - 🇨🇦 加拿大_121320003
-      - 🇨🇦 加拿大_121320028
-      - 🇨🇦 加拿大_121320032
-      - 🇩🇪 SS-法国德国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
+      - 21|BH_youtube@资源分享师_173
       - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1817307
-      - 🇫🇷 SS-法国瑞典-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818118
-      - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818000
+      - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
       - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.1005001
       - 🇬🇧 SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79443
       - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2006379
-      - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
+      - 🇵🇱 SS-波兰俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
       - 🇫🇷 法国 OVH
       - _01
       - GB_07
@@ -440,15 +439,18 @@ proxy-groups:
       - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗 005
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 19,29|🇺🇸_US_美国_9_29
+      - 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000
+      - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
       - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003
-      - 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500
@@ -467,16 +469,14 @@ proxy-groups:
       - US_18
       - US_19
       - 🇨🇦 加拿大_121320003
-      - 🇨🇦 加拿大_121320028
-      - 🇨🇦 加拿大_121320032
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 Scloud台湾01—可下载|0.5x
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -525,14 +525,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 SS-法国德国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
+      - 21|BH_youtube@资源分享师_173
       - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1817307
-      - 🇫🇷 SS-法国瑞典-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818118
-      - 🇫🇷 SS-法国波兰-locked-ChatGPT-TikTok-YouTubePrem-54.36.174.1818000
+      - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
       - 🇩🇪 SS-德国-locked-ChatGPT-TikTok-YouTubePrem-145.239.1.1005001
       - 🇬🇧 SS-英国-自制NF-ChatGPT-TikTok-YouTubePrem-212.102.53.79443
       - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2006379
-      - 🇵🇱 SS-波兰-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
+      - 🇵🇱 SS-波兰俄罗斯联邦-locked-ChatGPT-TikTok-YouTubePrem-51.77.53.2005004
       - 🇫🇷 法国 OVH
       - _01
       - GB_07
@@ -549,15 +548,18 @@ proxy-groups:
       - 乌克兰_121320005
       - 乌克兰_121320006
       - 🇮🇷 伊朗_121320001
+      - 🇮🇷 伊朗 005
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 19,29|🇺🇸_US_美国_9_29
+      - 🇺🇸 SS-美国-locked-ChatGPT-TikTok-YouTubePrem-167.88.61.1755000
+      - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1728888
       - 🇺🇸 SS-法国美国-locked-ChatGPT-TikTok-YouTubePrem-149.202.82.1725003
-      - 🇺🇸 SS-德国美国-locked-ChatGPT-TikTok-YouTubePrem-217.182.198.2192376
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.1358118
+      - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.75.136.135443
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95600
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.98008
       - 🇺🇸 SS-美国-自制NF-ChatGPT-TikTok-YouTubePrem-38.68.134.95500
@@ -638,8 +640,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 Scloud台湾01—可下载|0.5x
       - 🇨🇳 台湾_121320001
-      - 🇨🇳 台湾_121320002
       - 🇨🇳 台湾_121320008
       - 🇨🇳 台湾_121320006
       - 🇨🇳 台湾_121320007
@@ -652,5 +654,152 @@ proxy-groups:
     proxies:
       - DIRECT
 rules:
+ - DOMAIN,asusrouter.com,DIRECT
+ - DOMAIN,cp.cloudflare.com,DIRECT
+ - DOMAIN,detectportal.firefox.com,DIRECT
+ - DOMAIN,instant.arubanetworks.com,DIRECT
+ - DOMAIN,router.asus.com,DIRECT
+ - DOMAIN,setmeup.arubanetworks.com,DIRECT
+ - DOMAIN,www.asusrouter.com,DIRECT
+ - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,0.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,10.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,100.51.198.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,101.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,102.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,103.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,104.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,105.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,106.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,107.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,108.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,109.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,110.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,111.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,112.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.0.203.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,113.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,114.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,115.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,116.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,117.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,118.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,119.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,120.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,121.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,122.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,123.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,124.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,125.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,126.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,127.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,16.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,168.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,17.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,18.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,19.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,2.0.192.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,20.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,21.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,22.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,23.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,24.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,25.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,254.169.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,255.255.255.255.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,26.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,27.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,28.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,29.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,30.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,31.172.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,64.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,65.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,66.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,67.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,68.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,69.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,70.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,71.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,72.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,73.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,74.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,75.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,76.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,77.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,78.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,79.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.b.d.0.1.0.0.2.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,8.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,80.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,81.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,82.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,83.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,84.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,85.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,86.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,87.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,88.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,89.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,9.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,90.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,91.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,92.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,93.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,94.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,95.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,96.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,97.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,98.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,99.100.in-addr.arpa,DIRECT
+ - DOMAIN-SUFFIX,a.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,acl4.ssr,DIRECT
+ - DOMAIN-SUFFIX,b.e.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,captive.apple.com,DIRECT
+ - DOMAIN-SUFFIX,connectivitycheck.gstatic.com,DIRECT
+ - DOMAIN-SUFFIX,d.f.ip6.arpa,DIRECT
+ - DOMAIN-SUFFIX,hiwifi.com,DIRECT
+ - DOMAIN-SUFFIX,home.arpa,DIRECT
+ - DOMAIN-SUFFIX,leike.cc,DIRECT
+ - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com,DIRECT
+ - DOMAIN-SUFFIX,localhost.sec.qq.com,DIRECT
+ - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+ - DOMAIN-SUFFIX,msftncsi.com,DIRECT
+ - DOMAIN-SUFFIX,my.router,DIRECT
+ - DOMAIN-SUFFIX,networkcheck.kde.org,DIRECT
+ - DOMAIN-SUFFIX,p.to,DIRECT
+ - DOMAIN-SUFFIX,peiluyou.com,DIRECT
+ - DOMAIN-SUFFIX,phicomm.me,DIRECT
+ - DOMAIN-SUFFIX,plex.direct,DIRECT
+ - DOMAIN-SUFFIX,router.ctc,DIRECT
+ - DOMAIN-SUFFIX,routerlogin.com,DIRECT
+ - DOMAIN-SUFFIX,tendawifi.com,DIRECT
+ - DOMAIN-SUFFIX,test.steampowered.com,DIRECT
+ - DOMAIN-SUFFIX,tplinkwifi.net,DIRECT
+ - DOMAIN-SUFFIX,tplogin.cn,DIRECT
+ - DOMAIN-SUFFIX,ts.net,DIRECT
+ - DOMAIN-SUFFIX,wifi.cmcc,DIRECT
+ - DOMAIN-SUFFIX,zte.home,DIRECT
+ - IP-CIDR,0.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,192.0.0.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.0.2.0/24,DIRECT,no-resolve
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,192.88.99.0/24,DIRECT,no-resolve
+ - IP-CIDR,198.18.0.0/15,DIRECT,no-resolve
+ - IP-CIDR,198.51.100.0/24,DIRECT,no-resolve
+ - IP-CIDR,203.0.113.0/24,DIRECT,no-resolve
+ - IP-CIDR,224.0.0.0/3,DIRECT,no-resolve
+ - IP-CIDR6,::/127,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,ff00::/8,DIRECT,no-resolve
  - GEOIP,CN,🧱 国内网站
  - MATCH,🐟 漏网之鱼
