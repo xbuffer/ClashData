@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 8|HK_speednode_0044, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 1640b579-cff8-46bc-a657-3860b5455712, sni: hk04.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: "🇭🇰 5,6|香港5|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: "🇭🇰 5,6|香港|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
-  - {name: 8|HK_speednode_0057, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 1640b579-cff8-46bc-a657-3860b5455712, sni: us01.trojanyyds.xyz, skip-cert-verify: false}
-  - {name: 8|HK_speednode_0055, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 1640b579-cff8-46bc-a657-3860b5455712, sni: my01.trojanyyds.xyz, skip-cert-verify: false}
+  - {name: "🇭🇰 HK, 3", server: 54.199.167.157, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "🇨🇳 5,6|台湾2|@ripaojiedian", server: 172.67.185.64, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 54.65.132.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320036, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
   - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇯🇵 日本_121320007, server: 64.176.39.31, port: 56262, type: vmess, uuid: 590f2744-e9d1-4f2c-a384-d35b736bca41, alterId: 0, cipher: auto, tls: false}
@@ -43,16 +43,17 @@ proxies:
   - {name: 🇯🇵 日本_121320057, server: 45.88.43.143, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320054, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320058, server: 45.88.43.163, port: 51801, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 US_分享日记_327, server: 129.146.46.181, port: 52408, type: vmess, uuid: a797ff7b-8161-40a6-d577-1b2c213b3885, alterId: 0, cipher: auto, tls: false}
   - {name: 🇰🇷 韩国_121320001, server: muran-kr.qrfly.me, port: 20254, type: vmess, uuid: 007be9ad-8db6-4164-fc49-49989bbcba96, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: muran-kr.qrfly.me}}}
   - {name: 🇭🇰 香港_121320001, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320022, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】42, server: 172.67.172.67, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】40, server: 172.67.185.79, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2, server: 104.21.8.157, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】49, server: 104.19.48.180, port: 2082, type: vmess, uuid: 753443e5-052c-4476-9cfa-3f434ff2f986, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: ying.iepl1.me}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
+  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
+  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -72,13 +73,13 @@ proxies:
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 0|-https//t.me/MrXbin-3, server: 3.112.218.182, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇻🇳 越南 001, server: 103.252.94.224, port: 80, type: vmess, uuid: 5278f5d3-f001-4459-94b6-7e0915238998, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs}}
-  - {name: 0|-https//t.me/MrXbin-1, server: 13.124.178.1, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2, server: 54.65.132.51, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 中国【付费推荐：https//jdyvip.link/】45, server: zf.lalayun.cyou, port: 10163, type: vmess, uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: hk.lalayunssl.xyz}}}
+  - {name: 0|-https//t.me/MrXbin-8, server: 43.202.41.139, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国【付费推荐：https//jdyvip.link/】4, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇫🇷 TR-TCP-TLS 🇫🇷 FR-13.36.96.4622222 📡 PING-153.11-MS, server: 13.36.96.46, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 0|-https//t.me/MrXbin-5, server: 43.201.47.36, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-7, server: 47.129.9.69, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 中国【付费推荐：https//jdyvip.link/】39, server: data-jp-v1.usabooks.com.cn, port: 20301, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-jp-v1.usabooks.com.cn}}}
   - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
   - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇩🇪 德国_121320049, server: ee1-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
@@ -111,14 +112,14 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 8|HK_speednode_0044
-      - 🇭🇰 5,6|香港5|@ripaojiedian
-      - 🇭🇰 5,6|香港|@ripaojiedian
-      - 8|HK_speednode_0057
-      - 8|HK_speednode_0055
+      - 🇭🇰 HK, 3
       - 🇨🇳 5,6|台湾2|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320038
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
+      - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -149,16 +150,17 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
+      - 🇯🇵 US_分享日记_327
       - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】42
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】40
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】49
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -178,13 +180,13 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
-      - 0|-https//t.me/MrXbin-3
-      - 🇻🇳 越南 001
-      - 0|-https//t.me/MrXbin-1
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】45
+      - 0|-https//t.me/MrXbin-8
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】4
+      - 🇫🇷 TR-TCP-TLS 🇫🇷 FR-13.36.96.4622222 📡 PING-153.11-MS
+      - 0|-https//t.me/MrXbin-5
+      - 0|-https//t.me/MrXbin-7
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】39
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -252,14 +254,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 8|HK_speednode_0044
-      - 🇭🇰 5,6|香港5|@ripaojiedian
-      - 🇭🇰 5,6|香港|@ripaojiedian
-      - 8|HK_speednode_0057
-      - 8|HK_speednode_0055
+      - 🇭🇰 HK, 3
       - 🇨🇳 5,6|台湾2|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320038
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
+      - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -290,16 +292,17 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
+      - 🇯🇵 US_分享日记_327
       - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】42
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】40
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】49
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -319,13 +322,13 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
-      - 0|-https//t.me/MrXbin-3
-      - 🇻🇳 越南 001
-      - 0|-https//t.me/MrXbin-1
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】45
+      - 0|-https//t.me/MrXbin-8
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】4
+      - 🇫🇷 TR-TCP-TLS 🇫🇷 FR-13.36.96.4622222 📡 PING-153.11-MS
+      - 0|-https//t.me/MrXbin-5
+      - 0|-https//t.me/MrXbin-7
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】39
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -349,14 +352,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 8|HK_speednode_0044
-      - 🇭🇰 5,6|香港5|@ripaojiedian
-      - 🇭🇰 5,6|香港|@ripaojiedian
-      - 8|HK_speednode_0057
-      - 8|HK_speednode_0055
+      - 🇭🇰 HK, 3
       - 🇨🇳 5,6|台湾2|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320038
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
+      - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -387,16 +390,17 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
+      - 🇯🇵 US_分享日记_327
       - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】42
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】40
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】49
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -416,13 +420,13 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
-      - 0|-https//t.me/MrXbin-3
-      - 🇻🇳 越南 001
-      - 0|-https//t.me/MrXbin-1
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】45
+      - 0|-https//t.me/MrXbin-8
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】4
+      - 🇫🇷 TR-TCP-TLS 🇫🇷 FR-13.36.96.4622222 📡 PING-153.11-MS
+      - 0|-https//t.me/MrXbin-5
+      - 0|-https//t.me/MrXbin-7
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】39
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -446,10 +450,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】42
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】40
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇯🇵 US_分享日记_327
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】49
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -475,14 +480,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 8|HK_speednode_0044
-      - 🇭🇰 5,6|香港5|@ripaojiedian
-      - 🇭🇰 5,6|香港|@ripaojiedian
-      - 8|HK_speednode_0057
-      - 8|HK_speednode_0055
+      - 🇭🇰 HK, 3
       - 🇨🇳 5,6|台湾2|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320038
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
+      - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
@@ -513,27 +518,26 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
+      - 🇯🇵 US_分享日记_327
       - 🇰🇷 韩国_121320001
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-3
-      - 🇻🇳 越南 001
-      - 0|-https//t.me/MrXbin-1
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】45
+      - 0|-https//t.me/MrXbin-8
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】4
+      - 🇫🇷 TR-TCP-TLS 🇫🇷 FR-13.36.96.4622222 📡 PING-153.11-MS
+      - 0|-https//t.me/MrXbin-5
+      - 0|-https//t.me/MrXbin-7
+      - 🇨🇳 中国【付费推荐：https//jdyvip.link/】39
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -557,10 +561,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】42
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】40
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_2
+      - 🇯🇵 US_分享日记_327
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】49
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320006
+      - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
       - 🇺🇸 美国_121320011
@@ -586,11 +591,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 8|HK_speednode_0044
-      - 🇭🇰 5,6|香港5|@ripaojiedian
-      - 🇭🇰 5,6|香港|@ripaojiedian
-      - 8|HK_speednode_0057
-      - 8|HK_speednode_0055
+      - 🇭🇰 HK, 3
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
@@ -602,10 +603,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320008
+      - 🇸🇬 新加坡_121320038
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
+      - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
@@ -641,6 +645,7 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
+      - 🇯🇵 US_分享日记_327
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
