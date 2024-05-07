@@ -5,13 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 SG 01, server: iepl2.forlive.live, port: 50105, type: ss, cipher: chacha20-ietf-poly1305, password: a4ac2592-28e7-4927-94b3-277edae0869a}
+  - {name: 🇯🇵 JP 01, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c}
   - {name: 🇸🇬 SG新加坡-联通优化, server: gtm1.ktmwan.com, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1cce1062-972c-4ac0-a511-b9168e761512}
+  - {name: 🇰🇷 韩国3 0.1x, server: kr-seoul-oracle-b0566e.ip1.shop, port: 32253, type: vmess, uuid: eedfc125-cc91-4f47-bc7b-41157c200283, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /gd3DS3432432S32cr, headers: {Host: kr-seoul-oracle-b0566e.ip1.shop}}}
   - {name: 🇸🇬 狮城F01丨直连1x, server: dosg-cdn.ztt.icu, port: 2053, type: vmess, uuid: 40884a4d-c901-48ac-810f-aff47add6d0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv5/hd.m3u8, headers: {Host: dosg-cdn.ztt.icu}}}
-  - {name: 🇭🇰 新加坡 01 深港, server: mdss-sg.04z3susick.download, port: 12017, type: ss, cipher: aes-128-gcm, password: e776be71-b347-4159-8503-5f80e21b1ff8}
-  - {name: 🇭🇰 美国 03 深港, server: mdss-us.04z3susick.download, port: 12025, type: ss, cipher: aes-128-gcm, password: e776be71-b347-4159-8503-5f80e21b1ff8}
-  - {name: 🇭🇰 香港 01, server: ununim.yangliq.com, port: 21101, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320036, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
   - {name: 🇯🇵 日本_121320001, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
@@ -49,9 +49,9 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 06, server: 23.150.152.53, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub, server: cf2.trojan.tel, port: 8880, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
+  - {name: 🇺🇸 美国 007, server: 151.101.195.10, port: 80, type: vmess, uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2560", headers: {Host: nmsl.kp}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
-  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -72,8 +72,8 @@ proxies:
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 狮城F01丨直连1x 2, server: dosg-cdn.ztt.icu, port: 2053, type: vmess, uuid: 40884a4d-c901-48ac-810f-aff47add6d0e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cctv5/hd.m3u8, headers: {Host: dosg-cdn.ztt.icu}}}
   - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320029, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
   - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
@@ -85,6 +85,7 @@ proxies:
   - {name: 🇩🇪 _DE_德国_3, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: ea85d824-2faa-4bb2-849b-a2965db4ce18, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇮🇹 意大利_121320001, server: 149.62.189.23, port: 30028, type: vmess, uuid: eb1ab395-1845-4161-e02a-fbcca0086d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 149.62.189.23}}}
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
+  - {name: 0|-https//t.me/MrXbin-117, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kkyx.yydsii.com}}}
   - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
   - {name: 未知_121320002, server: 104.21.53.12, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 未知_121320003, server: 104.21.36.26, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
@@ -95,7 +96,6 @@ proxies:
   - {name: 未知_121320007, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 未知_121320642, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 未知_121320643, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,13 +111,13 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 SG 01
+      - 🇯🇵 JP 01
       - 🇸🇬 SG新加坡-联通优化
+      - 🇰🇷 韩国3 0.1x
       - 🇸🇬 狮城F01丨直连1x
-      - 🇭🇰 新加坡 01 深港
-      - 🇭🇰 美国 03 深港
-      - 🇭🇰 香港 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
@@ -155,9 +155,9 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 US 06
+      - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国 007
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -178,8 +178,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇸🇬 狮城F01丨直连1x 2
       - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -191,6 +191,7 @@ proxy-groups:
       - 🇩🇪 _DE_德国_3
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
+      - 0|-https//t.me/MrXbin-117
       - 未知_121320001
       - 未知_121320002
       - 未知_121320003
@@ -201,7 +202,6 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,13 +252,13 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG 01
+      - 🇯🇵 JP 01
       - 🇸🇬 SG新加坡-联通优化
+      - 🇰🇷 韩国3 0.1x
       - 🇸🇬 狮城F01丨直连1x
-      - 🇭🇰 新加坡 01 深港
-      - 🇭🇰 美国 03 深港
-      - 🇭🇰 香港 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
@@ -296,9 +296,9 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 US 06
+      - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国 007
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -319,8 +319,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇸🇬 狮城F01丨直连1x 2
       - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -332,6 +332,7 @@ proxy-groups:
       - 🇩🇪 _DE_德国_3
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
+      - 0|-https//t.me/MrXbin-117
       - 未知_121320001
       - 未知_121320002
       - 未知_121320003
@@ -342,20 +343,19 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 SG 01
+      - 🇯🇵 JP 01
       - 🇸🇬 SG新加坡-联通优化
+      - 🇰🇷 韩国3 0.1x
       - 🇸🇬 狮城F01丨直连1x
-      - 🇭🇰 新加坡 01 深港
-      - 🇭🇰 美国 03 深港
-      - 🇭🇰 香港 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
@@ -393,9 +393,9 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 US 06
+      - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国 007
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -416,8 +416,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇸🇬 狮城F01丨直连1x 2
       - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -429,6 +429,7 @@ proxy-groups:
       - 🇩🇪 _DE_德国_3
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
+      - 0|-https//t.me/MrXbin-117
       - 未知_121320001
       - 未知_121320002
       - 未知_121320003
@@ -439,17 +440,15 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 美国 03 深港
-      - 🇺🇸 US 06
+      - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国 007
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -476,13 +475,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 SG 01
+      - 🇯🇵 JP 01
       - 🇸🇬 SG新加坡-联通优化
+      - 🇰🇷 韩国3 0.1x
       - 🇸🇬 狮城F01丨直连1x
-      - 🇭🇰 新加坡 01 深港
-      - 🇭🇰 美国 03 深港
-      - 🇭🇰 香港 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
       - 🇯🇵 日本_121320001
@@ -520,7 +519,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 狮城F01丨直连1x 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -528,8 +526,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 狮城F01丨直连1x
-      - 🇸🇬 狮城F01丨直连1x 2
       - 🇩🇪 德国_121320011
+      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -541,6 +539,7 @@ proxy-groups:
       - 🇩🇪 _DE_德国_3
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
+      - 0|-https//t.me/MrXbin-117
       - 未知_121320001
       - 未知_121320002
       - 未知_121320003
@@ -551,17 +550,15 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 美国 03 深港
-      - 🇺🇸 US 06
+      - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
+      - 🇺🇸 美国 007
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -588,9 +585,6 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 新加坡 01 深港
-      - 🇭🇰 美国 03 深港
-      - 🇭🇰 香港 01
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
@@ -602,20 +596,20 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 SG 01
       - 🇸🇬 SG新加坡-联通优化
       - 🇸🇬 狮城F01丨直连1x
-      - 🇭🇰 新加坡 01 深港
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
+      - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 狮城F01丨直连1x 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 JP 01
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
@@ -658,6 +652,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 韩国3 0.1x
       - 🇰🇷 韩国_121320001
 rules:
  - GEOIP,CN,🧱 国内网站
