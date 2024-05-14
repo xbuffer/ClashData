@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 JP 01, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c}
+  - {name: 🇯🇵 日本 001, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
@@ -20,7 +20,7 @@ proxies:
   - {name: 🇯🇵 日本_121320008, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320014, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320009, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
-  - {name: 🇯🇵 日本 001, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇸🇬 新加坡_121320039, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320022, server: 149.28.19.63, port: 42280, type: vmess, uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320047, server: 149.28.19.63, port: 42280, type: vmess, uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320023, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
@@ -49,9 +49,10 @@ proxies:
   - {name: 🇭🇰 香港_121320022, server: 115.126.50.111, port: 16399, type: vmess, uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 162, server: 108.162.192.100, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: do-au.alipay.ovh}}}
-  - {name: 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6, server: 172.67.204.84, port: 2082, type: vmess, uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056", headers: {Host: impr0.impr0.impr0.impr0.99-100uxprjy9vbpushl-djnbtbw28yf9ss2m.impr0sub.com}}}
-  - {name: 🇨🇦 加拿大 046, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 加拿大 201, server: kr1vm.fuckvps.top, port: 2096, type: vmess, uuid: 8cd6315a-d3c9-4377-b4f0-06455876e909, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kr1vm, headers: {Host: kr1vm.fuckvps.top}}}
+  - {name: 🇺🇸 _US_美国_4, server: 34.219.119.71, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】28, server: 162.159.3.11, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: do-au.alipay.ovh}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
   - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
   - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
@@ -72,7 +73,9 @@ proxies:
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国 -> 中国China Telecom, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320037, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320029, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
@@ -95,7 +98,6 @@ proxies:
   - {name: 未知_121320007, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 未知_121320642, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
   - {name: 未知_121320643, server: octavi.cfd, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,7 +113,7 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 JP 01
+      - 🇯🇵 日本 001
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -126,7 +128,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
-      - 🇯🇵 日本 001
+      - 🇸🇬 新加坡_121320039
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -155,9 +157,10 @@ proxy-groups:
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 🇨🇦 加拿大 046
+      - 🇭🇰 香港_121320012
+      - 🇨🇦 加拿大 201
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】28
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -178,7 +181,9 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
       - 🇩🇪 德国 -> 中国China Telecom
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
@@ -201,7 +206,6 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,7 +256,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP 01
+      - 🇯🇵 日本 001
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -267,7 +271,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
-      - 🇯🇵 日本 001
+      - 🇸🇬 新加坡_121320039
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -296,9 +300,10 @@ proxy-groups:
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 🇨🇦 加拿大 046
+      - 🇭🇰 香港_121320012
+      - 🇨🇦 加拿大 201
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】28
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -319,7 +324,9 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
       - 🇩🇪 德国 -> 中国China Telecom
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
@@ -342,14 +349,13 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 JP 01
+      - 🇯🇵 日本 001
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -364,7 +370,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
-      - 🇯🇵 日本 001
+      - 🇸🇬 新加坡_121320039
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -393,9 +399,10 @@ proxy-groups:
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 🇨🇦 加拿大 046
+      - 🇭🇰 香港_121320012
+      - 🇨🇦 加拿大 201
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】28
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -416,7 +423,9 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
       - 🇩🇪 德国 -> 中国China Telecom
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
@@ -439,16 +448,15 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大 162
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6
-      - 🇨🇦 加拿大 046
+      - 🇨🇦 加拿大 201
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】28
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -469,13 +477,14 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 01
+      - 🇯🇵 日本 001
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
@@ -490,7 +499,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
-      - 🇯🇵 日本 001
+      - 🇸🇬 新加坡_121320039
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -519,6 +528,7 @@ proxy-groups:
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -526,6 +536,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇩🇪 德国 -> 中国China Telecom
+      - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
@@ -548,14 +559,14 @@ proxy-groups:
       - 未知_121320007
       - 未知_121320642
       - 未知_121320643
-      - 未知_121320008
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 10|🇺🇸_US_美国->🇫🇷_FR_法国_6
+      - 🇺🇸 _US_美国_4
+      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】28
       - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320977
       - 🇺🇸 美国_121320010
@@ -576,6 +587,7 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
+      - 🇺🇸 美国_121320113
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -586,6 +598,7 @@ proxy-groups:
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
+      - 🇭🇰 香港_121320012
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -600,20 +613,20 @@ proxy-groups:
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
+      - 🇸🇬 新加坡_121320039
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 01
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
-      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
