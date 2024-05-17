@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TW 02, server: 2.forlive.live, port: 61006, type: ss, cipher: chacha20-ietf-poly1305, password: 7b13c412-f540-3e7d-8a5f-e94af4cb5f4b}
-  - {name: 🇯🇵 JP 02, server: 4.forlive.live, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: 491bec7d-e6cb-3799-9e9d-552493a500e0}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320039, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
@@ -20,6 +20,7 @@ proxies:
   - {name: 🇯🇵 日本_121320008, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320014, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320009, server: kkyx.yydsii.com, port: 80, type: vmess, uuid: f32fb637-67eb-48be-9f29-4523c4720de7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yxtw.651568.xyz}}}
+  - {name: 🇯🇵 日本 001, server: kkyx.yydsii.com, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
   - {name: 🇯🇵 日本_121320022, server: 149.28.19.63, port: 42280, type: vmess, uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320047, server: 149.28.19.63, port: 42280, type: vmess, uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本_121320023, server: 45.77.176.217, port: 16142, type: vmess, uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559, alterId: 0, cipher: auto, tls: false}
@@ -49,31 +50,31 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 031, server: 47.236.117.48, port: 443, type: vmess, uuid: 2ae29dc5-a3a3-4f6e-a013-4d9000b85f42, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /fdsffgfdgdfgdf, headers: {Host: sg.baijia.cfd}}}
-  - {name: 🇨🇦 加拿大 012, server: 104.19.45.7, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 005, server: 104.19.45.106, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 003, server: 104.19.45.70, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 001, server: 104.19.45.235, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 007, server: 104.19.45.17, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 008, server: 104.19.45.222, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 006, server: 104.19.45.202, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 020, server: 104.19.172.136, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 092, server: 104.19.54.176, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 073, server: 104.19.54.113, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 051, server: 104.19.54.3, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 034, server: 104.19.54.102, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇺🇸 美国 009, server: 104.19.54.201, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 064, server: 104.19.54.61, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 053, server: 104.19.54.31, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
   - {name: 🇨🇦 加拿大 085, server: 104.19.54.27, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
-  - {name: 🇨🇦 加拿大 074, server: 104.19.54.120, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
-  - {name: 🇺🇸 美国(油管破解资源君) 54, server: 192.74.243.48, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
-  - {name: 🇺🇸 美国_121320279, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
-  - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
-  - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
-  - {name: 🇺🇸 美国_121320017, server: 144.202.81.122, port: 25514, type: vmess, uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320018, server: 172.67.206.124, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
-  - {name: 🇺🇸 美国_121320019, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
-  - {name: 🇺🇸 美国_121320020, server: 172.67.131.150, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
-  - {name: 🇺🇸 美国_121320023, server: 172.252.56.69, port: 36450, type: vmess, uuid: 2f5144ae-8fb8-43e1-b6f9-52bb36f124ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320024, server: 172.67.221.114, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: amsb.carfin.tech}}}
-  - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
-  - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320007, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇨🇦 加拿大 093, server: 104.19.54.77, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 076, server: 104.19.54.193, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hk2.wish.ml}}}
+  - {name: 🇨🇦 加拿大 009, server: 104.19.45.56, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 018, server: 104.19.45.137, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 011, server: 104.19.45.48, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 010, server: 104.19.45.117, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇨🇦 加拿大 012, server: 104.19.45.7, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: onea.flha.ru}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
+  - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320005, server: 116.203.60.6, port: 18180, type: vmess, uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国 -> 中国China Telecom, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320037, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
@@ -112,9 +113,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 TW 02
-      - 🇯🇵 JP 02
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -127,6 +128,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -156,31 +158,31 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 031
-      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 007
+      - 🇨🇦 加拿大 008
+      - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 092
+      - 🇨🇦 加拿大 073
+      - 🇨🇦 加拿大 051
+      - 🇨🇦 加拿大 034
+      - 🇺🇸 美国 009
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 053
       - 🇨🇦 加拿大 085
-      - 🇨🇦 加拿大 074
-      - 🇺🇸 美国(油管破解资源君) 54
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
-      - 🇺🇸 美国_121320013
-      - 🇺🇸 美国_121320014
-      - 🇺🇸 美国_121320015
-      - 🇺🇸 美国_121320017
-      - 🇺🇸 美国_121320018
-      - 🇺🇸 美国_121320019
-      - 🇺🇸 美国_121320020
-      - 🇺🇸 美国_121320023
-      - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
-      - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国_121320032
-      - 🇩🇪 德国_121320007
+      - 🇨🇦 加拿大 093
+      - 🇨🇦 加拿大 076
+      - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 018
+      - 🇨🇦 加拿大 011
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 012
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320113
+      - 🇩🇪 德国_121320005
       - 🇩🇪 德国 -> 中国China Telecom
       - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
@@ -254,9 +256,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 02
-      - 🇯🇵 JP 02
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -269,6 +271,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -298,31 +301,31 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 031
-      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 007
+      - 🇨🇦 加拿大 008
+      - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 092
+      - 🇨🇦 加拿大 073
+      - 🇨🇦 加拿大 051
+      - 🇨🇦 加拿大 034
+      - 🇺🇸 美国 009
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 053
       - 🇨🇦 加拿大 085
-      - 🇨🇦 加拿大 074
-      - 🇺🇸 美国(油管破解资源君) 54
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
-      - 🇺🇸 美国_121320013
-      - 🇺🇸 美国_121320014
-      - 🇺🇸 美国_121320015
-      - 🇺🇸 美国_121320017
-      - 🇺🇸 美国_121320018
-      - 🇺🇸 美国_121320019
-      - 🇺🇸 美国_121320020
-      - 🇺🇸 美国_121320023
-      - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
-      - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国_121320032
-      - 🇩🇪 德国_121320007
+      - 🇨🇦 加拿大 093
+      - 🇨🇦 加拿大 076
+      - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 018
+      - 🇨🇦 加拿大 011
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 012
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320113
+      - 🇩🇪 德国_121320005
       - 🇩🇪 德国 -> 中国China Telecom
       - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
@@ -352,9 +355,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 02
-      - 🇯🇵 JP 02
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -367,6 +370,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -396,31 +400,31 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 美国 031
-      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 007
+      - 🇨🇦 加拿大 008
+      - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 092
+      - 🇨🇦 加拿大 073
+      - 🇨🇦 加拿大 051
+      - 🇨🇦 加拿大 034
+      - 🇺🇸 美国 009
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 053
       - 🇨🇦 加拿大 085
-      - 🇨🇦 加拿大 074
-      - 🇺🇸 美国(油管破解资源君) 54
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
-      - 🇺🇸 美国_121320013
-      - 🇺🇸 美国_121320014
-      - 🇺🇸 美国_121320015
-      - 🇺🇸 美国_121320017
-      - 🇺🇸 美国_121320018
-      - 🇺🇸 美国_121320019
-      - 🇺🇸 美国_121320020
-      - 🇺🇸 美国_121320023
-      - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
-      - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国_121320032
-      - 🇩🇪 德国_121320007
+      - 🇨🇦 加拿大 093
+      - 🇨🇦 加拿大 076
+      - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 018
+      - 🇨🇦 加拿大 011
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 012
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320113
+      - 🇩🇪 德国_121320005
       - 🇩🇪 德国 -> 中国China Telecom
       - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
@@ -450,39 +454,39 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 031
-      - 🇨🇦 加拿大 012
+      - 🇨🇦 加拿大 005
+      - 🇨🇦 加拿大 003
+      - 🇨🇦 加拿大 001
+      - 🇨🇦 加拿大 007
+      - 🇨🇦 加拿大 008
+      - 🇨🇦 加拿大 006
+      - 🇨🇦 加拿大 020
+      - 🇨🇦 加拿大 092
+      - 🇨🇦 加拿大 073
+      - 🇨🇦 加拿大 051
+      - 🇨🇦 加拿大 034
+      - 🇺🇸 美国 009
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 053
       - 🇨🇦 加拿大 085
-      - 🇨🇦 加拿大 074
-      - 🇺🇸 美国(油管破解资源君) 54
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
-      - 🇺🇸 美国_121320013
-      - 🇺🇸 美国_121320014
-      - 🇺🇸 美国_121320015
-      - 🇺🇸 美国_121320017
-      - 🇺🇸 美国_121320018
-      - 🇺🇸 美国_121320019
-      - 🇺🇸 美国_121320020
-      - 🇺🇸 美国_121320023
-      - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
-      - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国_121320032
+      - 🇨🇦 加拿大 093
+      - 🇨🇦 加拿大 076
+      - 🇨🇦 加拿大 009
+      - 🇨🇦 加拿大 018
+      - 🇨🇦 加拿大 011
+      - 🇨🇦 加拿大 010
+      - 🇨🇦 加拿大 012
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320113
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 02
-      - 🇯🇵 JP 02
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -495,6 +499,7 @@ proxy-groups:
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -530,7 +535,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 德国_121320007
+      - 🇩🇪 德国_121320005
       - 🇩🇪 德国 -> 中国China Telecom
       - 🇩🇪 德国_121320011
       - 🇩🇪 德国_121320037
@@ -560,27 +565,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国 031
-      - 🇺🇸 美国(油管破解资源君) 54
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
-      - 🇺🇸 美国_121320013
-      - 🇺🇸 美国_121320014
-      - 🇺🇸 美国_121320015
-      - 🇺🇸 美国_121320017
-      - 🇺🇸 美国_121320018
-      - 🇺🇸 美国_121320019
-      - 🇺🇸 美国_121320020
-      - 🇺🇸 美国_121320023
-      - 🇺🇸 美国_121320024
-      - 🇺🇸 美国_121320027
-      - 🇺🇸 美国_121320028
-      - 🇺🇸 美国_121320029
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国_121320032
+      - 🇺🇸 美国 009
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320113
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -599,6 +586,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
+      - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -611,13 +600,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 JP 02
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
       - 🇯🇵 日本_121320008
       - 🇯🇵 日本_121320014
       - 🇯🇵 日本_121320009
+      - 🇯🇵 日本 001
       - 🇯🇵 日本_121320022
       - 🇯🇵 日本_121320047
       - 🇯🇵 日本_121320023
@@ -647,7 +636,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 02
+      - DIRECT
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
