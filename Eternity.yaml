@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TW 01, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111}
   - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 13.229.54.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 _KR_韩国, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 02, server: ununim.yangliq.com, port: 21102, type: ss, cipher: aes-128-gcm, password: 030741c1-8706-41f6-93ae-f97585365627}
+  - {name: "🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian", server: 47.128.230.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian, server: 18.143.159.186, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320036, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
@@ -49,13 +49,13 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6", server: speed.cloudflare.com, port: 80, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev}}}
   - {name: 🇺🇸 _US_美国 4, server: 52.88.161.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国 5, server: 35.94.178.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇦 加拿大 009, server: 162.159.9.55, port: 80, type: vmess, uuid: 9133af1b-72e3-40b2-c811-45acaabd0ff0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: hinet.alipay.ovh}}}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】95, server: 172.67.185.64, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】62, server: 172.67.185.79, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
-  - {name: 🇺🇸 美国【付费推荐：https//jdyvip.link/】85, server: 172.67.164.78, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: in3.wish.ml}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
+  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
+  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320279, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
@@ -72,9 +72,8 @@ proxies:
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2, server: 13.229.54.243, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇩🇪 德国_121320011, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320029, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
   - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
@@ -112,10 +111,10 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 _KR_韩国
       - 🇭🇰 香港 02
+      - 🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -156,13 +155,13 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
+      - 🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6
       - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇨🇦 加拿大 009
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】95
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】62
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】85
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -179,9 +178,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -254,10 +252,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 _KR_韩国
       - 🇭🇰 香港 02
+      - 🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -298,13 +296,13 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
+      - 🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6
       - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇨🇦 加拿大 009
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】95
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】62
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】85
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -321,9 +319,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -352,10 +349,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 _KR_韩国
       - 🇭🇰 香港 02
+      - 🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -396,13 +393,13 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
+      - 🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6
       - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇨🇦 加拿大 009
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】95
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】62
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】85
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -419,9 +416,8 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -450,13 +446,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6
       - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇨🇦 加拿大 009
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】95
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】62
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】85
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -473,17 +469,16 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇰🇷 _KR_韩国
       - 🇭🇰 香港 02
+      - 🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian
+      - 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -524,6 +519,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -531,8 +527,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
       - 🇩🇪 德国_121320011
-      - 🇩🇪 德国_121320012
       - 🇩🇪 德国_121320029
       - 🇩🇪 德国_121320028
       - 🇩🇪 德国_121320030
@@ -561,12 +557,13 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 US 173.255.229.94 ◈ ws80 ◈ Akamai Technologies, Inc. / Linode ◈ ef2d6
       - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】95
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】62
-      - 🇺🇸 美国【付费推荐：https//jdyvip.link/】85
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国_121320009
+      - 🇺🇸 美国_121320977
+      - 🇺🇸 美国_121320010
+      - 🇺🇸 美国_121320011
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -583,7 +580,6 @@ proxy-groups:
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国 华盛顿Cogent通信公司
       - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -608,12 +604,14 @@ proxy-groups:
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 5|🇯🇵 日本特殊|@ripaojiedian
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
@@ -649,14 +647,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 01
+      - DIRECT
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 _KR_韩国
+      - 🇰🇷 0,5|🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 韩国_121320001
 rules:
  - GEOIP,CN,🧱 国内网站
