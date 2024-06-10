@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇨🇳 TW 01, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_121320039, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
@@ -49,9 +49,8 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 日本(油管破解资源君) 7, server: jp04-vm0.entry.srthdw.art, port: 446, type: vmess, uuid: b2a2c706-12e0-3335-8a62-31925219a712, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇦 加拿大 028, server: 104.18.202.232, port: 2052, type: vmess, uuid: 5f12b2e0-11b0-4b1e-863c-164e4606028c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
+  - {name: 🇨🇦 加拿大 200 2, server: free.qdns.live, port: 80, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-us.qdns.live}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
@@ -113,8 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
+      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -157,9 +156,8 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇨🇦 加拿大 028
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 加拿大 200 2
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -256,8 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -300,9 +298,8 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇨🇦 加拿大 028
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 加拿大 200 2
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -355,8 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -399,9 +396,8 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇯🇵 日本(油管破解资源君) 7
-      - 🇨🇦 加拿大 028
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 加拿大 200 2
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -454,8 +450,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大 028
-      - 🇺🇸 美国_121320003
+      - 🇨🇦 加拿大 200 2
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -484,8 +480,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -528,7 +524,6 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇯🇵 日本(油管破解资源君) 7
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -565,7 +560,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 美国_121320003
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
       - 🇺🇸 美国_121320009
@@ -606,7 +601,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -649,14 +643,13 @@ proxy-groups:
       - 🇯🇵 日本_121320057
       - 🇯🇵 日本_121320054
       - 🇯🇵 日本_121320058
-      - 🇯🇵 日本(油管破解资源君) 7
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - 🇨🇳 TW 01
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
