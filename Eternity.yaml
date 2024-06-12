@@ -5,10 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK 05, server: 1.forlive.live, port: 61007, type: ss, cipher: chacha20-ietf-poly1305, password: 3368714c-df00-4cc0-816a-a0f8715326b4}
+  - {name: "🇭🇰 5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇭🇰 5|🇭🇰 香港R|@ripaojiedian, server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
+  - {name: 🇸🇬 SG 02, server: iepl2.forlive.live, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: cb8bd04c-3e95-472c-bb3b-d0313def9d75}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320036, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
@@ -49,7 +49,7 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇨🇦 加拿大 017, server: 104.18.202.232, port: 2052, type: vmess, uuid: 5f12b2e0-11b0-4b1e-863c-164e4606028c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
   - {name: 🇺🇸 美国_121320003, server: e691d61a-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: e691d61a-f.3nvx.com}}}
   - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
   - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
@@ -112,10 +112,10 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 HK 05
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5|🇭🇰 香港R|@ripaojiedian
+      - 🇸🇬 SG 02
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -156,7 +156,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇨🇦 加拿大 017
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -254,10 +254,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK 05
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5|🇭🇰 香港R|@ripaojiedian
+      - 🇸🇬 SG 02
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -298,7 +298,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇨🇦 加拿大 017
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -352,10 +352,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 HK 05
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5|🇭🇰 香港R|@ripaojiedian
+      - 🇸🇬 SG 02
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -396,7 +396,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇨🇦 加拿大 017
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -450,7 +450,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇦 加拿大 017
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -480,10 +480,10 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK 05
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5|🇭🇰 香港R|@ripaojiedian
+      - 🇸🇬 SG 02
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
@@ -560,6 +560,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇺🇸 美国_121320003
       - 🇺🇸 美国_121320005
       - 🇺🇸 美国_121320006
@@ -589,7 +590,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 HK 05
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5|🇭🇰 香港R|@ripaojiedian
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
@@ -601,9 +603,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
+      - 🇸🇬 SG 02
       - 🇸🇬 新加坡_121320001
-      - 🇸🇬 新加坡_121320004
-      - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
