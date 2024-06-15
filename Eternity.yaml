@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 5|🇭🇰 香港4|@ripaojiedian, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true}
-  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian", server: 52.194.225.73, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 JP 01, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c}
+  - {name: "🇭🇰 5,6|香港5|@ripaojiedian", server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: "🇭🇰 5,6|香港7|@ripaojiedian", server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
@@ -49,16 +49,16 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3, server: 104.26.9.22, port: 8080, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: dual-nothing-prep-exit.trycloudflare.com}}}
+  - {name: 🇨🇦 加拿大 064, server: 104.19.47.126, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 063, server: 172.67.199.221, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 061, server: 104.18.189.19, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】93, server: 104.19.47.238, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】103, server: 104.19.47.186, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 057, server: 104.19.42.49, port: 8080, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
+  - {name: 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4, server: 104.19.47.34, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇨🇦 加拿大 102, server: 104.17.147.22, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
+  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
   - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
-  - {name: 🇺🇸 美国_121320005, server: 172.67.207.114, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320006, server: 172.67.183.110, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
-  - {name: 🇺🇸 美国_121320009, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
-  - {name: 🇺🇸 美国_121320279, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
   - {name: 🇺🇸 美国_121320014, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
   - {name: 🇺🇸 美国_121320015, server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top}}}
@@ -72,14 +72,11 @@ proxies:
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 0|-https//t.me/MrXbin-146, server: 3.112.219.236, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2, server: 3.112.128.40, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-153, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-154, server: 43.201.17.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-145, server: 18.183.130.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 0|-https//t.me/MrXbin-152, server: 54.180.230.217, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇬🇧 英国【付费推荐：https//a0a.xyz】124, server: 89.185.84.185, port: 52338, type: ss, cipher: chacha20-ietf-poly1305, password: aXuV8k5a4NFmkphgr5NTlL}
-  - {name: 🇩🇪 德国_121320012, server: 172.104.240.196, port: 18924, type: vmess, uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian, server: 52.42.155.81, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 0|-https//t.me/MrXbin-109, server: 45.159.249.42, port: 7843, type: ss, cipher: chacha20-ietf-poly1305, password: xvJMMc74iyYr1kmyZT6D73}
+  - {name: 🇵🇱 _PL_波兰_2, server: 51.77.53.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 0|-https//t.me/MrXbin-100, server: 52.79.247.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇮🇹 意大利_121320001, server: 149.62.189.23, port: 30028, type: vmess, uuid: eb1ab395-1845-4161-e02a-fbcca0086d94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 149.62.189.23}}}
   - {name: 🇸🇰 斯洛伐克_121320002, server: 5.252.23.133, port: 80, type: vmess, uuid: 2892f8c0-c4bc-49ad-b31f-2146b67d4f6c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.252.23.133}}}
   - {name: 未知_121320001, server: 2876be99-f.3nvx.com, port: 443, type: vmess, uuid: 74dd674d-35fa-4f75-8b05-0f276e15c091, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /assets, headers: {Host: 2876be99-f.3nvx.com}}}
@@ -96,6 +93,9 @@ proxies:
   - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
   - {name: 未知_121320011, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
+  - {name: 未知_121320014, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
+  - {name: 未知_121320012, server: xyfxhiogo.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: xyfxhiogo.site}}}
+  - {name: 未知_121320015, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zUla.eSMaIlkOrEa.sHOp}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,9 +111,9 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇭🇰 5|🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JP 01
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5,6|香港7|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -155,16 +155,16 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 063
+      - 🇨🇦 加拿大 061
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】93
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】103
+      - 🇨🇦 加拿大 057
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4
+      - 🇨🇦 加拿大 102
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
-      - 🇺🇸 美国_121320009
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
@@ -178,14 +178,11 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 0|-https//t.me/MrXbin-146
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 0|-https//t.me/MrXbin-153
-      - 0|-https//t.me/MrXbin-154
-      - 0|-https//t.me/MrXbin-145
-      - 0|-https//t.me/MrXbin-152
-      - 🇬🇧 英国【付费推荐：https//a0a.xyz】124
-      - 🇩🇪 德国_121320012
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https//t.me/MrXbin-109
+      - 🇵🇱 _PL_波兰_2
+      - 0|-https//t.me/MrXbin-100
+      - 🇩🇪 德国_121320030
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -202,6 +199,9 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
+      - 未知_121320014
+      - 未知_121320012
+      - 未知_121320015
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,9 +252,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 5|🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JP 01
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5,6|香港7|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -296,16 +296,16 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 063
+      - 🇨🇦 加拿大 061
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】93
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】103
+      - 🇨🇦 加拿大 057
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4
+      - 🇨🇦 加拿大 102
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
-      - 🇺🇸 美国_121320009
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
@@ -319,14 +319,11 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 0|-https//t.me/MrXbin-146
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 0|-https//t.me/MrXbin-153
-      - 0|-https//t.me/MrXbin-154
-      - 0|-https//t.me/MrXbin-145
-      - 0|-https//t.me/MrXbin-152
-      - 🇬🇧 英国【付费推荐：https//a0a.xyz】124
-      - 🇩🇪 德国_121320012
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https//t.me/MrXbin-109
+      - 🇵🇱 _PL_波兰_2
+      - 0|-https//t.me/MrXbin-100
+      - 🇩🇪 德国_121320030
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -343,15 +340,18 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
+      - 未知_121320014
+      - 未知_121320012
+      - 未知_121320015
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 5|🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JP 01
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5,6|香港7|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -393,16 +393,16 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 063
+      - 🇨🇦 加拿大 061
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】93
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】103
+      - 🇨🇦 加拿大 057
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4
+      - 🇨🇦 加拿大 102
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
-      - 🇺🇸 美国_121320009
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
@@ -416,14 +416,11 @@ proxy-groups:
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
       - 🇺🇸 美国_121320032
-      - 0|-https//t.me/MrXbin-146
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 0|-https//t.me/MrXbin-153
-      - 0|-https//t.me/MrXbin-154
-      - 0|-https//t.me/MrXbin-145
-      - 0|-https//t.me/MrXbin-152
-      - 🇬🇧 英国【付费推荐：https//a0a.xyz】124
-      - 🇩🇪 德国_121320012
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
+      - 0|-https//t.me/MrXbin-109
+      - 🇵🇱 _PL_波兰_2
+      - 0|-https//t.me/MrXbin-100
+      - 🇩🇪 德国_121320030
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -440,22 +437,25 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
+      - 未知_121320014
+      - 未知_121320012
+      - 未知_121320015
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇨🇦 加拿大 064
+      - 🇨🇦 加拿大 063
+      - 🇨🇦 加拿大 061
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】93
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】103
+      - 🇨🇦 加拿大 057
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4
+      - 🇨🇦 加拿大 102
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
-      - 🇺🇸 美国_121320009
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
@@ -475,9 +475,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 5|🇭🇰 香港4|@ripaojiedian
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JP 01
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5,6|香港7|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
@@ -519,7 +519,7 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -527,14 +527,10 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
-      - 0|-https//t.me/MrXbin-146
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
-      - 0|-https//t.me/MrXbin-153
-      - 0|-https//t.me/MrXbin-154
-      - 0|-https//t.me/MrXbin-145
-      - 0|-https//t.me/MrXbin-152
-      - 🇬🇧 英国【付费推荐：https//a0a.xyz】124
-      - 🇩🇪 德国_121320012
+      - 0|-https//t.me/MrXbin-109
+      - 🇵🇱 _PL_波兰_2
+      - 0|-https//t.me/MrXbin-100
+      - 🇩🇪 德国_121320030
       - 🇮🇹 意大利_121320001
       - 🇸🇰 斯洛伐克_121320002
       - 未知_121320001
@@ -551,22 +547,20 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
+      - 未知_121320014
+      - 未知_121320012
+      - 未知_121320015
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】93
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】103
+      - 🇸🇬 美国【TG：@ccbaohe】定时更新节点订阅 4
+      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
       - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320005
-      - 🇺🇸 美国_121320006
-      - 🇺🇸 美国_121320009
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
-      - 🇺🇸 美国_121320012
-      - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
       - 🇺🇸 美国_121320014
       - 🇺🇸 美国_121320015
@@ -586,7 +580,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇭🇰 5|🇭🇰 香港4|@ripaojiedian
+      - 🇭🇰 5,6|香港5|@ripaojiedian
+      - 🇭🇰 5,6|香港7|@ripaojiedian
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
@@ -598,21 +593,20 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
       - 🇸🇬 新加坡_121320001
       - 🇸🇬 新加坡_121320038
       - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian 2
+      - 🇸🇬 5|🇸🇬 狮城特殊|@ripaojiedian
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 0,5|🇯🇵 日本特殊|@ripaojiedian
+      - 🇯🇵 JP 01
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
