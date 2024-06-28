@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TW 01, server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320039, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320004, server: 207.148.77.215, port: 2, type: vmess, uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320008, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320038, server: 8.219.240.120, port: 32969, type: vmess, uuid: 95249020-fbb7-4592-efce-6ad3954c3fad, alterId: 0, cipher: auto, tls: false}
@@ -49,14 +49,15 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国_1, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇨🇦 加拿大 274, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 082, server: 172.64.175.213, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】16, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip002-2.dtku47.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: jp.king361.cf}}}
-  - {name: 🇺🇸 美国_121320977, server: 172.67.142.191, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: edeen.makeup}}}
-  - {name: 🇺🇸 美国_121320010, server: ophelia.mom, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
-  - {name: 🇺🇸 美国_121320011, server: 7.vmessprotocol.join.telegram-vmessprotocol-channel.space, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: ophelia.mom}}}
+  - {name: 🇨🇦 TR-TCP-TLS 🇨🇦 CA-35.183.195.18522222, server: 35.183.195.185, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 172.67.143.52, port: 80, type: vmess, uuid: 43ac3b21-2e9b-4a7c-aef6-2e4b8f73ce2f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 127.0.0.1.kleksacademy.克萊克斯學院.aкадемияkлекс.警笛.wonkacapitano.buzz.}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3 2, server: 172.67.171.59, port: 80, type: vmess, uuid: 5d559e0b-7859-4661-97dd-17b965b70d8c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: Fr1.vmess.site.}}}
+  - {name: 🇨🇦 加拿大 281, server: 104.19.57.4, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】30, server: 104.19.21.73, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 104.19.21.73, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇨🇦 加拿大 266, server: 104.19.42.49, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip11.freegradely.xyz}}}
+  - {name: 🇺🇸 a美国2, server: yx2.gyyun.top, port: 8880, type: vmess, uuid: 70066dcb-27f9-49fe-a4db-7a8444c61ea6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akmg1.gyyun.top}}}
+  - {name: 🇺🇸 美国(油管破解资源君2.0), server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320012, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320279, server: waynn.makeup, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: waynn.makeup}}}
   - {name: 🇺🇸 美国_121320013, server: www.wto.org, port: 443, type: vmess, uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm, headers: {Host: copies-bandwidth-harold-tops.trycloudflare.com}}}
@@ -71,11 +72,11 @@ proxies:
   - {name: 🇺🇸 美国_121320027, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}}
   - {name: 🇺🇸 美国_121320028, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇺🇸 美国_121320029, server: 38.180.98.215, port: 8080, type: vmess, uuid: 773ac60d-36d7-45b5-c99e-a0e3903e2e3a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
-  - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇩🇪 德国_121320031, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 GB | 🟢 | trojan | @DirectVPN | 5, server: 35.178.106.147, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: "@v2ray_configs_pool 2", server: 104.25.228.174, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}}
+  - {name: "@v2ray_configs_pool 3", server: 104.25.176.31, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}}
+  - {name: 🇸🇪 瑞典 V2CROSS.COM, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nmsl.kp}}}
+  - {name: 🇩🇪 德国_121320037, server: 43.131.62.103, port: 666, type: vmess, uuid: 11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
   - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
@@ -95,8 +96,6 @@ proxies:
   - {name: 未知_121320008, server: ginson.efnten.top, port: 443, type: vmess, uuid: 673ba378-840f-4928-81f2-203148d07350, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /673ba378-840f-4928-81f2-203148d07350, headers: {Host: cowochtmtrkers.turbo021.link}}}
   - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
-  - {name: 未知_121320011, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
-  - {name: 未知_121320014, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,8 +111,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -156,14 +155,15 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】16
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
+      - 🇨🇦 TR-TCP-TLS 🇨🇦 CA-35.183.195.18522222
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇨🇦 加拿大 281
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】30
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇦 加拿大 266
+      - 🇺🇸 a美国2
+      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -178,11 +178,11 @@ proxy-groups:
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
-      - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
-      - 🇩🇪 德国_121320028
-      - 🇩🇪 德国_121320030
-      - 🇩🇪 德国_121320031
+      - 🇬🇧 GB | 🟢 | trojan | @DirectVPN | 5
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
@@ -202,8 +202,6 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
-      - 未知_121320011
-      - 未知_121320014
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,8 +252,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -298,14 +296,15 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】16
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
+      - 🇨🇦 TR-TCP-TLS 🇨🇦 CA-35.183.195.18522222
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇨🇦 加拿大 281
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】30
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇦 加拿大 266
+      - 🇺🇸 a美国2
+      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -320,11 +319,11 @@ proxy-groups:
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
-      - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
-      - 🇩🇪 德国_121320028
-      - 🇩🇪 德国_121320030
-      - 🇩🇪 德国_121320031
+      - 🇬🇧 GB | 🟢 | trojan | @DirectVPN | 5
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
@@ -344,16 +343,14 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
-      - 未知_121320011
-      - 未知_121320014
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -396,14 +393,15 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】16
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
+      - 🇨🇦 TR-TCP-TLS 🇨🇦 CA-35.183.195.18522222
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇨🇦 加拿大 281
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】30
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇦 加拿大 266
+      - 🇺🇸 a美国2
+      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -418,11 +416,11 @@ proxy-groups:
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
-      - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
-      - 🇩🇪 德国_121320028
-      - 🇩🇪 德国_121320030
-      - 🇩🇪 德国_121320031
+      - 🇬🇧 GB | 🟢 | trojan | @DirectVPN | 5
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
@@ -442,22 +440,21 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
-      - 未知_121320011
-      - 未知_121320014
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇨🇦 加拿大 274
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】16
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
+      - 🇨🇦 TR-TCP-TLS 🇨🇦 CA-35.183.195.18522222
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇨🇦 加拿大 281
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】30
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇦 加拿大 266
+      - 🇺🇸 a美国2
+      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -472,16 +469,14 @@ proxy-groups:
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
-      - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 01
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -530,9 +525,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇩🇪 德国_121320028
-      - 🇩🇪 德国_121320030
-      - 🇩🇪 德国_121320031
+      - 🇬🇧 GB | 🟢 | trojan | @DirectVPN | 5
+      - "@v2ray_configs_pool 2"
+      - "@v2ray_configs_pool 3"
+      - 🇸🇪 瑞典 V2CROSS.COM
+      - 🇩🇪 德国_121320037
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
@@ -552,21 +549,18 @@ proxy-groups:
       - 未知_121320008
       - 未知_121320009
       - 未知_121320010
-      - 未知_121320011
-      - 未知_121320014
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国_1
-      - 🇺🇸 美国 082
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】16
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国_121320977
-      - 🇺🇸 美国_121320010
-      - 🇺🇸 美国_121320011
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】30
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 a美国2
+      - 🇺🇸 美国(油管破解资源君2.0)
       - 🇺🇸 美国_121320012
       - 🇺🇸 美国_121320279
       - 🇺🇸 美国_121320013
@@ -581,8 +575,6 @@ proxy-groups:
       - 🇺🇸 美国_121320027
       - 🇺🇸 美国_121320028
       - 🇺🇸 美国_121320029
-      - 🇺🇸 美国_121320032
-      - 🇺🇸 美国_121320113
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -601,6 +593,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320039
       - 🇸🇬 新加坡_121320004
       - 🇸🇬 新加坡_121320008
       - 🇸🇬 新加坡_121320038
@@ -649,7 +642,7 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 TW 01
+      - DIRECT
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
