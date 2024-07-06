@@ -73,6 +73,7 @@ proxies:
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320028, server: jp.takeshi.wiki, port: 80, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: jp.takeshi.wiki}}}
+  - {name: 🇩🇪 德国_121320030, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320031, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
@@ -95,7 +96,6 @@ proxies:
   - {name: 未知_121320009, server: 104.21.4.29, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: oliv.beauty}}}
   - {name: 未知_121320010, server: rlhrwtqusd.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: rlhrwtqusd.site}}}
   - {name: 未知_121320011, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
-  - {name: 未知_121320014, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,6 +179,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320031
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
@@ -201,7 +202,6 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
-      - 未知_121320014
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -320,6 +320,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320031
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
@@ -342,7 +343,6 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
-      - 未知_121320014
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
@@ -417,6 +417,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320031
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
@@ -439,7 +440,6 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
-      - 未知_121320014
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -526,6 +526,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇩🇪 德国_121320028
+      - 🇩🇪 德国_121320030
       - 🇩🇪 德国_121320031
       - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
@@ -548,7 +549,6 @@ proxy-groups:
       - 未知_121320009
       - 未知_121320010
       - 未知_121320011
-      - 未知_121320014
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
