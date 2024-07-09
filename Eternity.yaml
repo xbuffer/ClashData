@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇸🇬 新加坡|01|直连2\r", server: 2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz, port: 707, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡|06|直连A\r", server: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz, port: 708, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz, skip-cert-verify: false}
-  - {name: "🇭🇰 香港|07直连A\r", server: 2hkmax07.170203.xyz, port: 707, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 2hkmax07.170203.xyz, skip-cert-verify: false}
-  - {name: "🇸🇬 新加坡|06直连A\r", server: 2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz, port: 707, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 _SG_新加坡 2, server: 54.179.87.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 JP 01, server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 127e812d-4f78-4eb4-8c3c-4ae7ffe0368c}
+  - {name: "🇨🇳 台湾01奈飞ChatGPT\r", server: 5gzdx.233235.xyz, port: 706, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: 5gzdx.233235.xyz, skip-cert-verify: false}
+  - {name: "🇨🇳 台湾|06奈飞ChatGPT2\r", server: tw2.233235.xyz, port: 777, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: tw2.233235.xyz, skip-cert-verify: false}
+  - {name: "🇨🇳 台湾|02奈飞ChatGPT0\r", server: tw1.170203.xyz, port: 6678, type: trojan, password: 518a6ff8-7233-4f28-8a40-d3fa82a5875d, sni: tw1.170203.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡_121320001, server: 8.222.239.7, port: 30327, type: vmess, uuid: b313e670-bfd4-4b62-d314-0d296e363192, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡_121320009, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320036, server: 8.219.59.63, port: 12681, type: vmess, uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b, alterId: 0, cipher: auto, tls: false}
   - {name: 🇸🇬 新加坡_121320037, server: 8.219.59.222, port: 46998, type: vmess, uuid: 5c9bed1a-716b-43e7-c807-9e0758186360, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 🇸🇬 新加坡_121320090, server: 143.42.66.9, port: 40637, type: vmess, uuid: 7e30d039-1751-4fbd-aa0a-918b03003515, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /chami}}
@@ -49,54 +49,53 @@ proxies:
   - {name: 🇭🇰 香港_121320008, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320027, server: 91.149.236.70, port: 59638, type: vmess, uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff, alterId: 0, cipher: auto, tls: false}
   - {name: 🇭🇰 香港_121320012, server: 47.242.76.125, port: 45631, type: vmess, uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18", server: 18.143.144.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇦 加拿大 077, server: 104.16.53.5, port: 80, type: vmess, uuid: 5ea4a644-07e9-4ad0-860d-50bd9b6e7f94, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz.}}}
   - {name: 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub, server: cf2.trojan.tel, port: 8880, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
   - {name: 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub, server: cf2.trojan.tel, port: 8880, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
-  - {name: 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub, server: cf1.trojan.tel, port: 2095, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v2.trojan.tel}}}
   - {name: 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub, server: cf1.trojan.tel, port: 2095, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
-  - {name: 🇨🇦 加拿大 041, server: 104.19.45.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
-  - {name: 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: Youtube顺丰资源  US33, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】204, server: 104.19.21.240, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】330, server: 172.64.167.29, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】294, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
-  - {name: Youtube顺丰资源  US74, server: 104.19.45.47, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 _US_美国 5, server: 3.39.227.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】268, server: 172.64.167.44, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇨🇦 加拿大 069, server: 104.19.38.8, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇨🇦 加拿大 080, server: 104.19.47.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 20, server: 104.20.25.146, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3, server: 104.19.46.103, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】311, server: 104.19.32.226, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
   - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】299, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇨🇦 加拿大 019, server: 104.19.45.15, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】11, server: 172.64.99.32, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】229, server: 104.19.32.46, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
-  - {name: 🇨🇦 加拿大 035, server: 104.19.46.39, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】326, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 18, server: 104.19.123.11, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点, server: 172.64.198.249, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1457230.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】18, server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】266, server: 172.64.166.16, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 2@oneclickvpnkeys, server: 23.162.152.6, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 去除23条不合适线路, server: cf1.trojan.tel, port: 2095, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub-cf-v3.trojan.tel}}}
-  - {name: 注册网址：chaozhijc.xyz, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: a50ae3c1-de86-4dc7-90be-a41804586e5b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}}
-  - {name: 1|d*********g.com_59, server: 104.19.47.80, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_58, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_44, server: 104.19.46.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_28, server: 104.20.25.146, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_34, server: 104.19.45.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_31, server: 104.19.45.13, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: Relay_ |590.99Mb, server: 172.64.99.32, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
-  - {name: "3|d*********g.com_0 #2", server: 104.19.32.46, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.dtku47.xyz}}}
+  - {name: 🇨🇦 加拿大 037, server: 104.19.45.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip13.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】204, server: 104.19.21.240, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】342, server: 104.20.17.196, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点, server: 104.19.32.216, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: "🇺🇸 10,11|美国5|@ripaojiedian", server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】173, server: 172.64.233.9, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 🇺🇸 Relay_🇺🇸US |213.63Mb, server: 104.26.7.132, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2 2, server: 104.20.17.196, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: Relay_🏁ZZ-🇨🇦CA_185 |396.48Mb, server: 104.19.46.123, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 🇺🇸 美国【付费推荐：https//a0a.xyz】307, server: 104.19.38.22, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn3.freegradely.xyz}}}
+  - {name: 🇨🇦 加拿大 097, server: 104.19.58.175, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4, server: 104.19.58.175, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn1.freegradely.xyz}}}
+  - {name: 0|-https//t.me/MrXbin-106, server: 3.39.227.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 1|d*********g.com_70, server: 172.64.167.44, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
   - {name: 1|d*********g.com_56, server: 104.19.47.77, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_43, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_68, server: 172.64.167.29, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯 2, server: 163.172.64.22, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 1|d*********g.com_60, server: 104.19.47.122, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_14, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_41, server: 104.19.46.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_38, server: 104.19.45.47, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
   - {name: 1|d*********g.com_8, server: 172.64.198.249, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: 1|d*********g.com_85, server: 172.64.166.16, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 46@oneclickvpnkeys, server: 104.26.0.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
   - {name: 1|d*********g.com_53, server: 104.19.47.32, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: "3|d*********g.com_3 #2", server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.dtku47.xyz}}}
-  - {name: 1|d*********g.com_21, server: 104.17.106.151, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_90, server: 172.64.166.33, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: Relay_ |38.50Mb, server: 104.19.21.220, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: 1|d*********g.com_43, server: 104.19.46.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_42, server: 104.19.46.22, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_76, server: 172.64.233.27, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_11, server: 104.19.123.11, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_50, server: 104.19.46.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_49, server: 104.19.46.59, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: "2|d*********g.com_0 #1", server: 104.19.51.232, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 1|d*********g.com_14, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
   - {name: 1|d*********g.com_57, server: 104.19.47.79, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
-  - {name: Relay_ |260.98Mb, server: 104.19.57.24, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: cdn2.freegradely.xyz}}}
+  - {name: "2|d*********g.com_2 #1", server: 104.16.148.244, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 1|d*********g.com_48, server: 104.19.46.56, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: 1|d*********g.com_58, server: 104.19.47.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
+  - {name: "2|d*********g.com_3 #1", server: 104.19.38.62, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip006.freegradely.xyz}}}
+  - {name: 1|d*********g.com_60, server: 104.19.47.122, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,12 +111,12 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - "🇸🇬 新加坡|01|直连2\r"
-      - "🇸🇬 新加坡|06|直连A\r"
-      - "🇭🇰 香港|07直连A\r"
-      - "🇸🇬 新加坡|06直连A\r"
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 JP 01
+      - "🇨🇳 台湾01奈飞ChatGPT\r"
+      - "🇨🇳 台湾|06奈飞ChatGPT2\r"
+      - "🇨🇳 台湾|02奈飞ChatGPT0\r"
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -156,54 +155,53 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
-      - 🇨🇦 加拿大 077
       - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 041
-      - 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新
-      - Youtube顺丰资源  US33
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】330
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】294
-      - Youtube顺丰资源  US74
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】268
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 080
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】311
       - 🇺🇸 美国【付费推荐：https//a0a.xyz】299
-      - 🇨🇦 加拿大 019
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】11
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】229
-      - 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 035
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】326
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】18
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】266
-      - 2@oneclickvpnkeys
-      - 去除23条不合适线路
-      - 注册网址：chaozhijc.xyz
-      - 1|d*********g.com_59
-      - 1|d*********g.com_58
-      - 1|d*********g.com_44
-      - 1|d*********g.com_28
-      - 1|d*********g.com_34
-      - 1|d*********g.com_31
-      - Relay_ |590.99Mb
-      - "3|d*********g.com_0 #2"
+      - 🇨🇦 加拿大 037
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】342
+      - 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点
+      - 🇺🇸 10,11|美国5|@ripaojiedian
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】173
+      - 🇺🇸 Relay_🇺🇸US |213.63Mb
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - Relay_🏁ZZ-🇨🇦CA_185 |396.48Mb
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】307
+      - 🇨🇦 加拿大 097
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4
+      - 0|-https//t.me/MrXbin-106
+      - 1|d*********g.com_70
       - 1|d*********g.com_56
-      - 1|d*********g.com_43
-      - 1|d*********g.com_68
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯 2
-      - 1|d*********g.com_60
-      - 1|d*********g.com_14
+      - 1|d*********g.com_41
+      - 1|d*********g.com_38
       - 1|d*********g.com_8
-      - 1|d*********g.com_85
+      - 46@oneclickvpnkeys
       - 1|d*********g.com_53
-      - "3|d*********g.com_3 #2"
-      - 1|d*********g.com_21
+      - 1|d*********g.com_90
+      - Relay_ |38.50Mb
+      - 1|d*********g.com_43
+      - 1|d*********g.com_42
+      - 1|d*********g.com_76
+      - 1|d*********g.com_11
+      - 1|d*********g.com_50
+      - 1|d*********g.com_49
+      - "2|d*********g.com_0 #1"
+      - 1|d*********g.com_14
       - 1|d*********g.com_57
-      - Relay_ |260.98Mb
+      - "2|d*********g.com_2 #1"
+      - 1|d*********g.com_48
+      - 1|d*********g.com_58
+      - "2|d*********g.com_3 #1"
+      - 1|d*********g.com_60
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,12 +252,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "🇸🇬 新加坡|01|直连2\r"
-      - "🇸🇬 新加坡|06|直连A\r"
-      - "🇭🇰 香港|07直连A\r"
-      - "🇸🇬 新加坡|06直连A\r"
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 JP 01
+      - "🇨🇳 台湾01奈飞ChatGPT\r"
+      - "🇨🇳 台湾|06奈飞ChatGPT2\r"
+      - "🇨🇳 台湾|02奈飞ChatGPT0\r"
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -298,66 +296,65 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
-      - 🇨🇦 加拿大 077
       - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 041
-      - 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新
-      - Youtube顺丰资源  US33
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】330
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】294
-      - Youtube顺丰资源  US74
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】268
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 080
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】311
       - 🇺🇸 美国【付费推荐：https//a0a.xyz】299
-      - 🇨🇦 加拿大 019
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】11
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】229
-      - 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 035
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】326
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】18
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】266
-      - 2@oneclickvpnkeys
-      - 去除23条不合适线路
-      - 注册网址：chaozhijc.xyz
-      - 1|d*********g.com_59
-      - 1|d*********g.com_58
-      - 1|d*********g.com_44
-      - 1|d*********g.com_28
-      - 1|d*********g.com_34
-      - 1|d*********g.com_31
-      - Relay_ |590.99Mb
-      - "3|d*********g.com_0 #2"
+      - 🇨🇦 加拿大 037
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】342
+      - 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点
+      - 🇺🇸 10,11|美国5|@ripaojiedian
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】173
+      - 🇺🇸 Relay_🇺🇸US |213.63Mb
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - Relay_🏁ZZ-🇨🇦CA_185 |396.48Mb
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】307
+      - 🇨🇦 加拿大 097
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4
+      - 0|-https//t.me/MrXbin-106
+      - 1|d*********g.com_70
       - 1|d*********g.com_56
-      - 1|d*********g.com_43
-      - 1|d*********g.com_68
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯 2
-      - 1|d*********g.com_60
-      - 1|d*********g.com_14
+      - 1|d*********g.com_41
+      - 1|d*********g.com_38
       - 1|d*********g.com_8
-      - 1|d*********g.com_85
+      - 46@oneclickvpnkeys
       - 1|d*********g.com_53
-      - "3|d*********g.com_3 #2"
-      - 1|d*********g.com_21
+      - 1|d*********g.com_90
+      - Relay_ |38.50Mb
+      - 1|d*********g.com_43
+      - 1|d*********g.com_42
+      - 1|d*********g.com_76
+      - 1|d*********g.com_11
+      - 1|d*********g.com_50
+      - 1|d*********g.com_49
+      - "2|d*********g.com_0 #1"
+      - 1|d*********g.com_14
       - 1|d*********g.com_57
-      - Relay_ |260.98Mb
+      - "2|d*********g.com_2 #1"
+      - 1|d*********g.com_48
+      - 1|d*********g.com_58
+      - "2|d*********g.com_3 #1"
+      - 1|d*********g.com_60
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "🇸🇬 新加坡|01|直连2\r"
-      - "🇸🇬 新加坡|06|直连A\r"
-      - "🇭🇰 香港|07直连A\r"
-      - "🇸🇬 新加坡|06直连A\r"
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 JP 01
+      - "🇨🇳 台湾01奈飞ChatGPT\r"
+      - "🇨🇳 台湾|06奈飞ChatGPT2\r"
+      - "🇨🇳 台湾|02奈飞ChatGPT0\r"
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -396,96 +393,94 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
-      - 🇨🇦 加拿大 077
       - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 041
-      - 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新
-      - Youtube顺丰资源  US33
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】330
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】294
-      - Youtube顺丰资源  US74
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】268
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 080
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】311
       - 🇺🇸 美国【付费推荐：https//a0a.xyz】299
-      - 🇨🇦 加拿大 019
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】11
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】229
-      - 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 035
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】326
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】18
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】266
-      - 2@oneclickvpnkeys
-      - 去除23条不合适线路
-      - 注册网址：chaozhijc.xyz
-      - 1|d*********g.com_59
-      - 1|d*********g.com_58
-      - 1|d*********g.com_44
-      - 1|d*********g.com_28
-      - 1|d*********g.com_34
-      - 1|d*********g.com_31
-      - Relay_ |590.99Mb
-      - "3|d*********g.com_0 #2"
+      - 🇨🇦 加拿大 037
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】342
+      - 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点
+      - 🇺🇸 10,11|美国5|@ripaojiedian
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】173
+      - 🇺🇸 Relay_🇺🇸US |213.63Mb
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - Relay_🏁ZZ-🇨🇦CA_185 |396.48Mb
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】307
+      - 🇨🇦 加拿大 097
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4
+      - 0|-https//t.me/MrXbin-106
+      - 1|d*********g.com_70
       - 1|d*********g.com_56
-      - 1|d*********g.com_43
-      - 1|d*********g.com_68
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯 2
-      - 1|d*********g.com_60
-      - 1|d*********g.com_14
+      - 1|d*********g.com_41
+      - 1|d*********g.com_38
       - 1|d*********g.com_8
-      - 1|d*********g.com_85
+      - 46@oneclickvpnkeys
       - 1|d*********g.com_53
-      - "3|d*********g.com_3 #2"
-      - 1|d*********g.com_21
+      - 1|d*********g.com_90
+      - Relay_ |38.50Mb
+      - 1|d*********g.com_43
+      - 1|d*********g.com_42
+      - 1|d*********g.com_76
+      - 1|d*********g.com_11
+      - 1|d*********g.com_50
+      - 1|d*********g.com_49
+      - "2|d*********g.com_0 #1"
+      - 1|d*********g.com_14
       - 1|d*********g.com_57
-      - Relay_ |260.98Mb
+      - "2|d*********g.com_2 #1"
+      - 1|d*********g.com_48
+      - 1|d*********g.com_58
+      - "2|d*********g.com_3 #1"
+      - 1|d*********g.com_60
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
-      - 🇨🇦 加拿大 077
       - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇨🇦 加拿大 041
-      - 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新
-      - Youtube顺丰资源  US33
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】330
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】294
-      - Youtube顺丰资源  US74
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】268
+      - 🇨🇦 加拿大 069
+      - 🇨🇦 加拿大 080
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】311
       - 🇺🇸 美国【付费推荐：https//a0a.xyz】299
-      - 🇨🇦 加拿大 019
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】11
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】229
-      - 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点
-      - 🇨🇦 加拿大 035
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】326
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】18
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】266
+      - 🇨🇦 加拿大 037
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】342
+      - 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点
+      - 🇺🇸 10,11|美国5|@ripaojiedian
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】173
+      - 🇺🇸 Relay_🇺🇸US |213.63Mb
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - Relay_🏁ZZ-🇨🇦CA_185 |396.48Mb
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】307
+      - 🇨🇦 加拿大 097
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇸🇬 新加坡|01|直连2\r"
-      - "🇸🇬 新加坡|06|直连A\r"
-      - "🇭🇰 香港|07直连A\r"
-      - "🇸🇬 新加坡|06直连A\r"
-      - 🇸🇬 _SG_新加坡 2
+      - 🇯🇵 JP 01
+      - "🇨🇳 台湾01奈飞ChatGPT\r"
+      - "🇨🇳 台湾|06奈飞ChatGPT2\r"
+      - "🇨🇳 台湾|02奈飞ChatGPT0\r"
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
@@ -524,70 +519,66 @@ proxy-groups:
       - 🇭🇰 香港_121320008
       - 🇭🇰 香港_121320027
       - 🇭🇰 香港_121320012
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 2@oneclickvpnkeys
-      - 去除23条不合适线路
-      - 注册网址：chaozhijc.xyz
-      - 1|d*********g.com_59
-      - 1|d*********g.com_58
-      - 1|d*********g.com_44
-      - 1|d*********g.com_28
-      - 1|d*********g.com_34
-      - 1|d*********g.com_31
-      - Relay_ |590.99Mb
-      - "3|d*********g.com_0 #2"
+      - 0|-https//t.me/MrXbin-106
+      - 1|d*********g.com_70
       - 1|d*********g.com_56
-      - 1|d*********g.com_43
-      - 1|d*********g.com_68
-      - 🇫🇷 _FR_法国->🇷🇺_RU_俄罗斯 2
-      - 1|d*********g.com_60
-      - 1|d*********g.com_14
+      - 1|d*********g.com_41
+      - 1|d*********g.com_38
       - 1|d*********g.com_8
-      - 1|d*********g.com_85
+      - 46@oneclickvpnkeys
       - 1|d*********g.com_53
-      - "3|d*********g.com_3 #2"
-      - 1|d*********g.com_21
+      - 1|d*********g.com_90
+      - Relay_ |38.50Mb
+      - 1|d*********g.com_43
+      - 1|d*********g.com_42
+      - 1|d*********g.com_76
+      - 1|d*********g.com_11
+      - 1|d*********g.com_50
+      - 1|d*********g.com_49
+      - "2|d*********g.com_0 #1"
+      - 1|d*********g.com_14
       - 1|d*********g.com_57
-      - Relay_ |260.98Mb
+      - "2|d*********g.com_2 #1"
+      - 1|d*********g.com_48
+      - 1|d*********g.com_58
+      - "2|d*********g.com_3 #1"
+      - 1|d*********g.com_60
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
       - 🇺🇸 V002-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V004-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇺🇸 V003-0.5x-US-付费推荐dlj.tf/ssrsub
       - 🇺🇸 V001-0.5x-US-付费推荐dlj.tf/ssrsub
-      - 🇸🇬 美国  25〖电报：@ccbaohe】免费节点定时更新
-      - Youtube顺丰资源  US33
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】330
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】294
-      - Youtube顺丰资源  US74
+      - 🇺🇸 _US_美国 5
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】268
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 3
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】311
       - 🇺🇸 美国【付费推荐：https//a0a.xyz】299
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】11
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】229
-      - 🇺🇸 美国 CloudFlare节点 17（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】326
-      - 🇺🇸 美国 CloudFlare节点 18
-      - 🇺🇸 美国 CloudFlare节点 8（ccbaohe.com）免费机场节点
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】18
-      - 🇺🇸 美国【付费推荐：https//a0a.xyz】266
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】204
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】342
+      - 🇺🇸 美国 CloudFlare节点 32（ccbaohe.com）免费机场节点
+      - 🇺🇸 10,11|美国5|@ripaojiedian
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】173
+      - 🇺🇸 Relay_🇺🇸US |213.63Mb
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - 🇺🇸 美国【付费推荐：https//a0a.xyz】307
+      - 🇺🇸 【电报：@ccbaohe|免费机场节点 美国 - 洛杉矶 - Psychz Networks - 4
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - "🇭🇰 香港|07直连A\r"
       - 🇭🇰 香港_121320001
       - 🇭🇰 香港_121320022
       - 🇭🇰 香港_121320008
@@ -599,21 +590,18 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "🇸🇬 新加坡|01|直连2\r"
-      - "🇸🇬 新加坡|06|直连A\r"
-      - "🇸🇬 新加坡|06直连A\r"
-      - 🇸🇬 _SG_新加坡 2
       - 🇸🇬 新加坡_121320001
+      - 🇸🇬 新加坡_121320009
       - 🇸🇬 新加坡_121320036
       - 🇸🇬 新加坡_121320037
       - 🇸🇬 新加坡_121320090
-      - 🇸🇬 _SG_新加坡->🏳️_unKnow_未知trojan//518a6ff8-7233-4f28-8a40-d3fa82a5875d@2hkmax01.170203.xyz707?allowInsecure=1&sni=2hkmax01.170203.xyz#🇺🇸 YouTube面具人哈乐_美国_18
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇯🇵 JP 01
       - 🇯🇵 日本_121320001
       - 🇯🇵 日本_121320007
       - 🇯🇵 日本_121320048
@@ -649,7 +637,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - DIRECT
+      - "🇨🇳 台湾01奈飞ChatGPT\r"
+      - "🇨🇳 台湾|06奈飞ChatGPT2\r"
+      - "🇨🇳 台湾|02奈飞ChatGPT0\r"
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
