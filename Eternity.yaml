@@ -145,6 +145,7 @@ proxies:
   - {name: 🇺🇸 美国_121320032, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 美国_121320113, server: 64.176.58.15, port: 46154, type: vmess, uuid: adcbe160-3010-483d-b438-d6057f465b1d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇩🇪 德国_121320031, server: 82.115.25.173, port: 20091, type: vmess, uuid: 5f75f0dc-8991-4723-de35-af81c9b2fe96, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 德国_121320040, server: 185.135.9.247, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: ldkpsvvhhe.site}}}
   - {name: 🇩🇪 德国_121320047, server: 5.181.23.67, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: 5.181.23.67}}}
   - {name: 🇩🇪 德国_121320048, server: ee1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
   - {name: 🇩🇪 德国_121320049, server: ee1-vmess.sshmax.xyz, port: 8080, type: vmess, uuid: e1b896aa-bb87-4804-b5ba-c34493e9296b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
@@ -167,7 +168,6 @@ proxies:
   - {name: 未知_121320014, server: v2ray.ibgfw.top, port: 2053, type: vmess, uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vVNUJOgb/, headers: {Host: v2ray.ibgfw.top}}}
   - {name: 未知_121320012, server: xyfxhiogo.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: xyfxhiogo.site}}}
   - {name: 未知_121320015, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zUla.eSMaIlkOrEa.sHOp}}}
-  - {name: 未知_121320016, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/argo-vmess?ed=2048", headers: {Host: arthur-experienced-hate-maiden.trycloudflare.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -242,6 +242,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -264,7 +265,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -339,6 +339,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -361,7 +362,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -436,6 +436,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -458,7 +459,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: 📲 电报信息
     type: select
     proxies:
@@ -532,6 +532,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -554,7 +555,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -628,6 +628,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -650,7 +651,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -724,6 +724,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -746,7 +747,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -837,6 +837,7 @@ proxy-groups:
       - 🇺🇸 美国_121320032
       - 🇺🇸 美国_121320113
       - 🇩🇪 德国_121320031
+      - 🇩🇪 德国_121320040
       - 🇩🇪 德国_121320047
       - 🇩🇪 德国_121320048
       - 🇩🇪 德国_121320049
@@ -859,7 +860,6 @@ proxy-groups:
       - 未知_121320014
       - 未知_121320012
       - 未知_121320015
-      - 未知_121320016
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
